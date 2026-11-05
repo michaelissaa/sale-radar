@@ -134,3 +134,113 @@ EXTRA["hoka"] = {
                    ev="you can return any unwanted products, including sale items ... purchases made between November 5 and December 31 come with an extended 60-day return window."),
                  S("CONDITIONAL", 200, src="https://au.hoka.com/", ev="Free Shipping on all orders $200+")),
 }
+
+VERIFIED |= {"foot-locker", "rebel", "general-pants", "country-road", "glue-store"}
+
+EXTRA["rebel"] = {
+    "sale": SALE2("EARLY_ACCESS", "https://www.rebelsport.com.au/help-centre/promotions", "Black Friday Early Deal - 30% Off Selected Nike Running Shoes",
+                  name="Black Friday Early Deal", discount_text="30% off selected Nike running shoes", discount_max_pct=30, discount_kind="flat",
+                  scope="SELECTED", confidence="medium", conditions="Listed on Rebel's promotions page; end date not shown. Other Christmas deals run 29 Oct to 26 Nov."),
+    "policy": P2("sourced", "30-day change-of-mind returns; free returns on online orders under 10kg (conditions apply). Free delivery over $150 on tagged items.",
+                 R("YES", "CONDITIONAL", "CONDITIONAL", days=30, src="https://www.rebelsport.com.au/help-centre/refunds-and-returns",
+                   ev="30 day change of mind returns", cond="Free returns for online orders under 10kg via ParcelPoint and Australia Post (details not fully verified)."),
+                 S("CONDITIONAL", 150, restr="Only items tagged 'Free Delivery over $150'; bulky/boxed items excluded.",
+                   src="https://www.rebelsport.com.au/help-centre/shipping-and-delivery", ev="Free Delivery over $150'. This offer excludes bulky items")),
+}
+EXTRA["jd-sports"] = {
+    "sale": SALE2("UPCOMING", "https://www.jd-sports.com.au/collections/offers-the-north-face", "Black Friday 2026 Coming Soon", confidence="medium"),
+    "policy": P2("sourced", "30-day refunds; you pay postage for change-of-mind returns by post. In-store returns accepted. Free delivery over $150.",
+                 R("YES", "CONDITIONAL", "NO", instore="YES", label="CONDITIONAL", days=30, sale_ex="CONDITIONAL", refund="Original payment method",
+                   cond="Swimwear, underwear and jewellery excluded. Free label only for faulty items.",
+                   src="https://www.jd-sports.com.au/pages/terms-and-conditions",
+                   ev="Unless the Goods are faulty or incorrectly supplied, You are responsible for the risk and cost of returning the Goods to Us"),
+                 S("CONDITIONAL", 150, src="https://www.jd-sports.com.au/", ev="FREE DELIVERY ON ALL ORDERS OVER $150")),
+}
+EXTRA["foot-locker"] = {
+    "sale": SALE2("UPCOMING", "https://www.footlocker.com.au/en/blackfriday.html",
+                  "Black Friday Sale YOU'RE IN Keep an eye on your inbox for first access and exclusive FLX Rewards offers. Black Friday alerts first with SMS or the app",
+                  name="Black Friday Sale 2026", early_access="FLX Rewards members get first access"),
+    "policy": P2("sourced", "Returns in any Foot Locker store or by mail; window and fees not verified. Free standard delivery over $150.",
+                 R("YES", "CONDITIONAL", "UNKNOWN", instore="YES", src="https://help.footlocker.com.au/hc/en-gb/articles/34438200648219-Returns-Exchanges",
+                   ev="Take the item(s) you wish to return to any Foot Locker store ... along with the original card used for the purchase"),
+                 S("CONDITIONAL", 150, src="https://www.footlocker.com.au/en/terms/terms.html", ev="Free standard delivery is eligable on all orders over $150 AUD within Australia.")),
+}
+EXTRA["platypus"] = {
+    "sale": SALE2("UPCOMING", "https://www.platypusshoes.com.au/post/the-platypus-guide-to-black-friday-and-cyber-monday.html",
+                  "Platypus has published a 2026 Black Friday and Cyber Monday guide (per research pass).", confidence="low",
+                  expected_note="The guide quotes the industry dates (27 to 30 Nov); Platypus hasn't confirmed its own sale dates",
+                  conditions="Could not be re-checked directly (page needs JavaScript)."),
+    "policy": P2("sourced", "60-day change-of-mind returns including sale items. Postal label costs $10; free in store. Free express shipping over $150.",
+                 R("YES", "CONDITIONAL", "NO", instore="YES", label="NO", days=60, sale_ex="NO", cost="$10 return label", refund="Original payment method",
+                   src="https://help.platypusshoes.com.au/hc/en-us/articles/360045681613-WHAT-IS-YOUR-CHANGE-OF-MIND-RETURNS-POLICY",
+                   ev="you can return any unwanted products, including sale items ... purchase and print your $10 return shipping label."),
+                 S("CONDITIONAL", 150, src="https://www.platypusshoes.com.au/", ev="Free Express Shipping On All Orders Over $150")),
+}
+EXTRA["the-north-face"] = {
+    "sale": SALE2("UPCOMING", "https://thenorthface.com.au/black-friday-sale.html", "Black Friday and Cyber Monday 2026 will feature some of our lowest prices of the year.",
+                  confidence="low", conditions="Evergreen information page; no dates or discounts published."),
+    "policy": P2("sourced", "30-day returns including sale items. Free standard shipping Australia-wide.",
+                 R("YES", "UNKNOWN", "UNKNOWN", days=30, sale_ex="NO", refund="Exchange or refund", src="https://thenorthface.com.au/black-friday-sale.html",
+                   ev="sale items can be returned. Simply return any unused item within 30 days for an exchange or refund."),
+                 S("YES", None, 0, restr="Express $15 flat.", src="https://thenorthface.com.au/",
+                   ev="We offer free standard shipping on all orders Australia-wide.")),
+}
+EXTRA["represent"] = {
+    "sale": SALE2("UPCOMING", "https://row.representclo.com/pages/black-friday-faqs", "The Vault is opening. BLACK FRIDAY 2026 is imminent.", confidence="medium"),
+    "policy": P2("sourced", "14 days to send items back for a refund. Shipping to AU $20, free over $420.",
+                 R("YES", "UNKNOWN", "UNKNOWN", instore="NA", days=14, refund="Full refund", cond="Unused, unaltered condition.",
+                   src="https://row.representclo.com/pages/shipping-returns-product-page", ev="you've got 14 days to send back your items for a full refund"),
+                 S("CONDITIONAL", 420, 20, restr="Ships from the UK.", src="https://row.representclo.com/pages/shipping-returns-product-page",
+                   ev="Australia $20 AUD (FREE on orders over $420 AUD)")),
+}
+EXTRA["stussy"] = {
+    "sale": SALE2("NOT_ANNOUNCED", "https://stussy.com.au/", "No Black Friday announcement; Stussy says it does not offer codes online.", confidence="medium"),
+    "policy": P2("sourced", "Return requests must be emailed within 3 days of delivery. Standard shipping $12, no free-shipping threshold found.",
+                 R("CONDITIONAL", "UNKNOWN", "UNKNOWN", instore="NA", days=3, cond="Email online@stussy.com.au within 3 days. Some items final sale.",
+                   src="https://stussy.com.au/pages/shipping-returns", ev="To request a return / exchange please email online@stussy.com.au within 3 days of receiving your order."),
+                 S("NO", None, 12, src="https://stussy.com.au/pages/shipping-returns", ev="Standard - $12")),
+}
+EXTRA["glue-store"] = {
+    "sale": SALE2("NOT_ANNOUNCED", "https://www.gluestore.com.au/",
+                  "Glue Store single media Launching November. Sign up and receive 15% off your first order when we launch",
+                  confidence="high", conditions="Online store is closed (password page) and relaunching in November. 15% off first order for sign-ups at launch."),
+    "policy": P2("unverified", "Online store closed for relaunch; current returns and delivery terms not available.",
+                 R("UNKNOWN", "UNKNOWN", "UNKNOWN"), S("UNKNOWN", au="UNKNOWN")),
+}
+EXTRA["general-pants"] = {
+    "sale": SALE2("LIVE", "https://www.generalpants.com/", "EXTRA 50% OFF SALE*",
+                  name="Extra 50% off sale (not labelled Black Friday)", discount_text="Extra 50% off sale items", discount_max_pct=50, discount_kind="flat",
+                  scope="SELECTED", conditions="Applies to items already on sale. Research pass saw it marked 'EXTENDED'; no end date."),
+    "policy": P2("sourced", "Full-price items: 30-day returns by Refundid portal or in store. Final Sale not returnable. Free shipping over $145.",
+                 R("CONDITIONAL", "CONDITIONAL", "UNKNOWN", instore="CONDITIONAL", days=30, sale_ex="CONDITIONAL", refund="Original payment method",
+                   cond="Returns only for full-price items; FINAL SALE excluded.", src="https://www.generalpants.com/pages/returns",
+                   ev="We accept returns and exchanges for full-price items purchased online within 30 days of delivery"),
+                 S("CONDITIONAL", 145, 10, restr="Express $15 flat.", src="https://www.generalpants.com/pages/delivery",
+                   ev="STANDARD | Up to 5 Business Days | FREE For Orders Over $145; $10 For Orders Under $145")),
+}
+EXTRA["universal-store"] = {
+    "sale": SALE2("NOT_ANNOUNCED", "https://www.universalstore.com/", "Regular sale section only; no Black Friday announcement seen.", confidence="medium"),
+    "policy": P2("sourced", "40-day returns and Universal Store pays return shipping. Free express over $145; standard $10.",
+                 R("YES", "YES", "YES", days=40, refund="Original payment method",
+                   cond="Unworn with tags; hygiene stickers on swimwear and underwear. Original shipping not refunded.",
+                   src="https://www.universalstore.com/pages/all-returns", ev="we'll help you with an exchange or refund within 40 days from purchase. ... we will cover the expense of your return shipment to us"),
+                 S("CONDITIONAL", 145, 10, restr="$145 threshold gives free Express; Standard is $10 on all orders.",
+                   src="https://www.universalstore.com/pages/shipping", ev="FREE For orders over $145 / $15 For orders under $145 ... $10 for all orders")),
+}
+EXTRA["levis"] = {
+    "sale": SALE2("NOT_ANNOUNCED", "https://levis.com.au/pages/promotions-terms", "Latest dated promotion was a Mid-Season Sale that ended 20 Sep 2026; no Black Friday offer yet.", confidence="medium"),
+    "policy": P2("sourced", "30 days from shipping confirmation to return. Free delivery on all orders.",
+                 R("CONDITIONAL", "UNKNOWN", "UNKNOWN", days=30, src="https://levis.com.au/policies/refund-policy",
+                   ev="You can, within 30 calendar days from shipping confirmation, subject to the terms of our Returns Policy"),
+                 S("YES", restr="Australia only (not Norfolk Island).", src="https://levis.com.au/policies/shipping-policy",
+                   ev="Delivery is currently FREE for all purchases from levis.com.au.")),
+}
+EXTRA["country-road"] = {
+    "sale": SALE2("LIVE", "https://www.countryroad.com.au/", "25% off Bags and shoes * Shop woman Shop man *Excludes Child",
+                  name="25% off bags and shoes (not labelled Black Friday)", discount_text="25% off bags and shoes", discount_max_pct=25, discount_kind="flat",
+                  scope="SELECTED", conditions="Full-priced only, excludes Child, can't combine with other offers."),
+    "policy": P2("sourced", "30-day returns: free in store, $9.95 by post. Free standard delivery over $100.",
+                 R("CONDITIONAL", "YES", "NO", instore="YES", days=30, cost="$9.95 by post", src="https://www.countryroad.com.au/pages/returns",
+                   ev="Return or exchange your online purchase at any Country Road store free of charge. ... can be returned by post for a fee of $9.95 (AUD)"),
+                 S("CONDITIONAL", 100, src="https://www.countryroad.com.au/pages/delivery", ev="Enjoy fast and free standard delivery* for all online purchases over $100.")),
+}

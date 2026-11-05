@@ -600,9 +600,11 @@
       "storefront": "AU retailer",
       "urls": {
         "home": "https://www.rebelsport.com.au/",
-        "sale": [],
-        "returns": null,
-        "shipping": null
+        "sale": [
+          "https://www.rebelsport.com.au/help-centre/promotions"
+        ],
+        "returns": "https://www.rebelsport.com.au/help-centre/refunds-and-returns",
+        "shipping": "https://www.rebelsport.com.au/help-centre/shipping-and-delivery"
       }
     },
     {
@@ -615,7 +617,7 @@
       "urls": {
         "home": "https://www.jd-sports.com.au/",
         "sale": [],
-        "returns": null,
+        "returns": "https://www.jd-sports.com.au/pages/terms-and-conditions",
         "shipping": null
       }
     },
@@ -628,9 +630,11 @@
       "storefront": "AU retailer",
       "urls": {
         "home": "https://www.footlocker.com.au/",
-        "sale": [],
-        "returns": null,
-        "shipping": null
+        "sale": [
+          "https://www.footlocker.com.au/en/blackfriday.html"
+        ],
+        "returns": "https://help.footlocker.com.au/hc/en-gb/articles/34438200648219-Returns-Exchanges",
+        "shipping": "https://www.footlocker.com.au/en/terms/terms.html"
       }
     },
     {
@@ -642,8 +646,10 @@
       "storefront": "AU retailer",
       "urls": {
         "home": "https://www.platypusshoes.com.au/",
-        "sale": [],
-        "returns": null,
+        "sale": [
+          "https://www.platypusshoes.com.au/post/the-platypus-guide-to-black-friday-and-cyber-monday.html"
+        ],
+        "returns": "https://help.platypusshoes.com.au/hc/en-us/articles/360045681613-WHAT-IS-YOUR-CHANGE-OF-MIND-RETURNS-POLICY",
         "shipping": null
       }
     },
@@ -655,8 +661,10 @@
       "enabled": true,
       "storefront": "AU site",
       "urls": {
-        "home": "https://www.thenorthface.com.au/",
-        "sale": [],
+        "home": "https://thenorthface.com.au/",
+        "sale": [
+          "https://thenorthface.com.au/black-friday-sale.html"
+        ],
         "returns": null,
         "shipping": null
       }
@@ -669,10 +677,12 @@
       "enabled": true,
       "storefront": "UK brand, ships to AU",
       "urls": {
-        "home": "https://representclo.com/",
-        "sale": [],
-        "returns": null,
-        "shipping": null
+        "home": "https://au.representclo.com/",
+        "sale": [
+          "https://row.representclo.com/pages/black-friday-faqs"
+        ],
+        "returns": "https://row.representclo.com/pages/shipping-returns-product-page",
+        "shipping": "https://row.representclo.com/pages/shipping-returns-product-page"
       }
     },
     {
@@ -685,8 +695,8 @@
       "urls": {
         "home": "https://stussy.com.au/",
         "sale": [],
-        "returns": null,
-        "shipping": null
+        "returns": "https://stussy.com.au/pages/shipping-returns",
+        "shipping": "https://stussy.com.au/pages/shipping-returns"
       }
     },
     {
@@ -701,7 +711,8 @@
         "sale": [],
         "returns": null,
         "shipping": null
-      }
+      },
+      "notes": "Online store closed for relaunch (Nov 2026)"
     },
     {
       "id": "general-pants",
@@ -713,8 +724,8 @@
       "urls": {
         "home": "https://www.generalpants.com/",
         "sale": [],
-        "returns": null,
-        "shipping": null
+        "returns": "https://www.generalpants.com/pages/returns",
+        "shipping": "https://www.generalpants.com/pages/delivery"
       }
     },
     {
@@ -727,8 +738,8 @@
       "urls": {
         "home": "https://www.universalstore.com/",
         "sale": [],
-        "returns": null,
-        "shipping": null
+        "returns": "https://www.universalstore.com/pages/all-returns",
+        "shipping": "https://www.universalstore.com/pages/shipping"
       }
     },
     {
@@ -741,8 +752,8 @@
       "urls": {
         "home": "https://levis.com.au/",
         "sale": [],
-        "returns": null,
-        "shipping": null
+        "returns": "https://levis.com.au/policies/refund-policy",
+        "shipping": "https://levis.com.au/policies/shipping-policy"
       }
     },
     {
@@ -755,8 +766,8 @@
       "urls": {
         "home": "https://www.countryroad.com.au/",
         "sale": [],
-        "returns": null,
-        "shipping": null
+        "returns": "https://www.countryroad.com.au/pages/returns",
+        "shipping": "https://www.countryroad.com.au/pages/delivery"
       }
     }
   ]
