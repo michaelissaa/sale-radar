@@ -41,4 +41,6 @@ test('emails escape content, drop unsafe links, include unsubscribe', () => {
   assert.ok(m.html.includes('https://script/unsub?token=abc') && m.text.includes('Unsubscribe: https://script/unsub?token=abc'))
   assert.equal(renderAlertEmail([alerts[0]], 'https://site/', 'u').subject, 'Gymshark: Black Friday dates confirmed')
   assert.match(renderConfirmEmail('https://c', { brands: ['*'] }).html, /all brands/)
+  const same = [alerts[0], { ...alerts[0], kind: 'bf_live' }]
+  assert.equal(renderAlertEmail(same, 'https://site/', 'u').subject, 'Sale Radar: 2 updates (Gymshark)', 'brand names de-duplicated')
 })

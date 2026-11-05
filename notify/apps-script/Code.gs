@@ -57,8 +57,9 @@ function safeUrl(u) {
 }
 
 function renderAlertEmail(alerts, siteUrl, unsubUrl) {
+  var names = alerts.map(function (a) { return a.brand_name; }).filter(function (n, i, all) { return all.indexOf(n) === i; });
   var subject = alerts.length === 1 ? alerts[0].title : 'Sale Radar: ' + alerts.length + ' updates (' +
-    alerts.slice(0, 3).map(function (a) { return a.brand_name; }).join(', ') + (alerts.length > 3 ? ', ...' : '') + ')';
+    names.slice(0, 3).join(', ') + (names.length > 3 ? ', ...' : '') + ')';
   var items = alerts.map(function (a) {
     var link = safeUrl(a.url);
     return '<tr><td style="padding:12px 0;border-bottom:1px solid #e6e6e8">' +
@@ -163,28 +164,50 @@ function subscribe_(body) {
   return { ok: true };
 }
 
+var TOKEN_RE = /^[0-9a-f-]{36}$/i;
+var ACTION_TEXT = {
+  confirm: { title: 'Confirm your alerts', button: 'Confirm alerts', done: 'Alerts confirmed',
+             msg: 'You will get an email when your chosen brands announce or change a Black Friday sale. Every email has an unsubscribe link.' },
+  unsubscribe: { title: 'Unsubscribe', button: 'Unsubscribe me', done: 'Unsubscribed', msg: 'You will not get any more Sale Radar emails.' },
+};
+
+// Email links only show a page with a button. Mail security scanners open links but don't press
+// buttons, so they can no longer confirm or unsubscribe someone by accident.
 function doGet(e) {
   var p = (e && e.parameter) || {};
   var token = String(p.token || '');
-  if (!token) return page_('Sale Radar alerts', 'Nothing to do here.');
+  var t = ACTION_TEXT[p.action];
+  if (!t || !TOKEN_RE.test(token)) return page_('Sale Radar alerts', 'Nothing to do here.');
+  var html = '<div style="font-family:system-ui,sans-serif;max-width:480px;margin:48px auto;padding:0 16px" id="box">' +
+    '<h2>' + escapeHtml(t.title) + '</h2>' +
+    '<button id="go" style="background:#18181b;color:#fff;border:0;padding:10px 16px;border-radius:8px;font-size:15px;cursor:pointer">' + escapeHtml(t.button) + '</button>' +
+    '<p id="msg" style="color:#52525b"></p></div>' +
+    '<script>document.getElementById("go").onclick=function(){var b=this;b.disabled=true;b.textContent="Working...";' +
+    'google.script.run.withSuccessHandler(function(r){document.getElementById("box").innerHTML="<h2>"+r.title+"</h2><p>"+r.msg+"</p>";})' +
+    '.withFailureHandler(function(){b.disabled=false;b.textContent=' + JSON.stringify(t.button) + ';document.getElementById("msg").textContent="Something went wrong, please try again.";})' +
+    '.apiAction(' + JSON.stringify(p.action) + ',' + JSON.stringify(token) + ');};</script>';
+  return HtmlService.createHtmlOutput(html).setTitle(t.title);
+}
+
+// Called from the button above via google.script.run (public name, no trailing underscore).
+function apiAction(action, token) {
+  var t = ACTION_TEXT[action];
+  token = String(token || '');
+  if (!t || !TOKEN_RE.test(token)) return { title: 'Link expired', msg: 'This link is no longer valid.' };
   var lock = LockService.getScriptLock(); lock.waitLock(20000);
   try {
-    var r = rows_().filter(function (x) { return p.action === 'unsubscribe' ? x.unsub === token : x.token === token; })[0];
-    if (!r) return page_('Link expired', 'This link is no longer valid. Sign up again from the dashboard.');
-    if (p.action === 'confirm') {
+    var r = rows_().filter(function (x) { return action === 'unsubscribe' ? x.unsub === token : x.token === token; })[0];
+    if (!r) return { title: 'Link expired', msg: 'This link is no longer valid. Sign up again from the dashboard.' };
+    if (action === 'confirm') {
       var pend = r.pending ? JSON.parse(r.pending) : null;
       if (pend) { r.brands = JSON.stringify(pend.brands); r.prefs = JSON.stringify(pend.prefs); r.pending = ''; }
       r.status = 'active'; r.confirmed = new Date().toISOString();
-      write_(r);
-      return page_('Alerts confirmed', 'You will get an email when your chosen brands announce or change a sale. Every email has an unsubscribe link.');
-    }
-    if (p.action === 'unsubscribe') {
+    } else {
       r.status = 'unsubscribed'; r.pending = '';
-      write_(r);
-      return page_('Unsubscribed', 'You will not get any more Sale Radar emails.');
     }
+    write_(r);
   } finally { lock.releaseLock(); }
-  return page_('Sale Radar alerts', 'Unknown action.');
+  return { title: escapeHtml(t.done), msg: escapeHtml(t.msg) };
 }
 
 function notify_(body) {

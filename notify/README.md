@@ -61,7 +61,10 @@ flickering status can't spam anyone. Values the scanner couldn't re-check (stale
 
 ## Privacy and the Spam Act
 
-* Double opt-in: nothing is sent until the subscriber clicks the confirmation link.
+* Double opt-in: nothing is sent until the subscriber confirms.
+* Confirm and unsubscribe links open a page with a button; the change only happens when the button is
+  pressed. Email security scanners open every link in a message, and without this they silently
+  confirmed (or would unsubscribe) people. Found in end-to-end testing on 5 Nov 2026.
 * Every alert email identifies Sale Radar and has a working one-click unsubscribe link.
 * To delete someone completely, delete their row in the Sheet.
 * Changing code later: paste the new `Code.gs`, then **Deploy > Manage deployments > Edit > Version: New version**
