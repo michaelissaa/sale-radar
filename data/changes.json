@@ -1,6 +1,466 @@
 {
   "events": [
     {
+      "id": "d70e304e5266",
+      "brand": "culture-kings",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "CONDITIONAL",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "3e88e90c1c4d",
+      "brand": "culture-kings",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "d14f4ee4f0ef",
+      "brand": "culture-kings",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "18d33fdcd4cd",
+      "brand": "culture-kings",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 75,
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "3dba00d42d30",
+      "brand": "evdnce",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "EVDNCE",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "12faef7afe31",
+      "brand": "alphalete",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "NO",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "1771d53dcbd5",
+      "brand": "alphalete",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "d616983bbec8",
+      "brand": "alphalete",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "05cedc9de203",
+      "brand": "aybl",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "AYBL",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "211b988c7513",
+      "brand": "glue-store",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Glue Store",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "a9d87333e39d",
+      "brand": "hallensteins",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "NO",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "2e944a374f1d",
+      "brand": "hallensteins",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "aeaf61c55be6",
+      "brand": "hallensteins",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "92f34956b4d2",
+      "brand": "hallensteins",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 110,
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "ea68ea7f22e5",
+      "brand": "hoka",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "HOKA",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "653cf447024b",
+      "brand": "jd-sports",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "JD Sports",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "ab599f2a3efe",
+      "brand": "maniere-de-voir",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "NO",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "b359bc849b21",
+      "brand": "maniere-de-voir",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "dd106106df6d",
+      "brand": "maniere-de-voir",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 14,
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "594d536d4a9b",
+      "brand": "maniere-de-voir",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 400,
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "a346735cd35d",
+      "brand": "on-running",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "On",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "84d3223faf7a",
+      "brand": "platypus",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Platypus",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "08e93861b5d1",
+      "brand": "rebel",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Rebel Sport",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "5ab9f2fbfc5e",
+      "brand": "represent",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Represent",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "2647d2389e59",
+      "brand": "stax",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "STAX",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "fe579561d9ab",
+      "brand": "stussy",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Stussy",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "e6e822c29b35",
+      "brand": "universal-store",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Universal Store",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "46cabecc6192",
+      "brand": "youngla",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "CONDITIONAL",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "e106c61fbcd1",
+      "brand": "youngla",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "bc3a2edf3123",
+      "brand": "youngla",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 60,
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "46e4df79eb72",
+      "brand": "youngla",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 100,
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "532f7585b388",
+      "brand": "2xu",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "2XU",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "003817c5a0e7",
+      "brand": "bo-tee",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Bo+Tee",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "09b7da92bb11",
+      "brand": "country-road",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Country Road",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "dd8c8c5bd0df",
+      "brand": "foot-locker",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Foot Locker",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "2bca500af98b",
+      "brand": "general-pants",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "General Pants Co.",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "e5658b5ae523",
+      "brand": "levis",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Levi's",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "0ae1ae0deb7d",
+      "brand": "lorna-jane",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Lorna Jane",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "62d9d40931b0",
+      "brand": "nimble",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Nimble Activewear",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "15d0fad8ab86",
+      "brand": "oner-active",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "980586d675e4",
+      "brand": "oner-active",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "9de2c451160e",
+      "brand": "oner-active",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "31c6d7f6cd06",
+      "brand": "oner-active",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 150,
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "b8cd5c4abfe9",
+      "brand": "pe-nation",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "P.E Nation",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "ee67e18c9073",
+      "brand": "the-north-face",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "The North Face",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
+      "id": "bac0d3de0397",
+      "brand": "vuori",
+      "field": "brand",
+      "label": "Now tracking",
+      "old": null,
+      "new": "Vuori",
+      "at": "2026-11-05T09:31:13+00:00",
+      "run": "20261105T093113Z"
+    },
+    {
       "id": "108a3ebe4213",
       "brand": "the-iconic",
       "field": "scan.ok",
