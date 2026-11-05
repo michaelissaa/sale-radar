@@ -1,0 +1,427 @@
+{
+  "_help": "Add/remove brands here. id: unique slug. category: gymwear | sportswear | fashion. priority: 1 (top) to 3. enabled: false hides a brand without deleting it. urls.sale: optional known campaign pages; the scanner also auto-discovers Black Friday links on the home page. No code changes needed.",
+  "brands": [
+    {
+      "id": "gymshark",
+      "name": "Gymshark",
+      "category": "gymwear",
+      "priority": 1,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://au.gymshark.com/",
+        "sale": [
+          "https://au.gymshark.com/pages/black-friday"
+        ],
+        "returns": "https://support.gymshark.com/en-US/article/returns-policy",
+        "shipping": "https://support.gymshark.com/en-US/article/delivery-information"
+      }
+    },
+    {
+      "id": "salomon",
+      "name": "Salomon",
+      "category": "gymwear",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://salomon.com.au/",
+        "sale": [
+          "https://salomon.com.au/collections/womens-black-friday"
+        ],
+        "returns": "https://salomon.com.au/pages/returns-2",
+        "shipping": "https://salomon.com.au/pages/shipping"
+      }
+    },
+    {
+      "id": "lskd",
+      "name": "LSKD",
+      "category": "gymwear",
+      "priority": 1,
+      "enabled": true,
+      "storefront": "AU (Brisbane brand)",
+      "urls": {
+        "home": "https://www.lskd.co/",
+        "sale": [],
+        "returns": "https://lskd-au.gorgias.help/en-US/returns-policy-info-92275",
+        "shipping": "https://www.lskd.co/pages/shipping"
+      }
+    },
+    {
+      "id": "myprotein",
+      "name": "Myprotein",
+      "category": "gymwear",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://au.myprotein.com/",
+        "sale": [
+          "https://au.myprotein.com/c/black-friday/"
+        ],
+        "returns": "https://au.myprotein.com/c/customer-services/returns-policy/",
+        "shipping": "https://au.myprotein.com/c/customer-services/delivery-information/"
+      }
+    },
+    {
+      "id": "ryderwear",
+      "name": "Ryderwear",
+      "category": "gymwear",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU (Adelaide brand)",
+      "urls": {
+        "home": "https://au.ryderwear.com/",
+        "sale": [
+          "https://au.ryderwear.com/pages/black-friday"
+        ],
+        "returns": "https://www.ryderwear.com/pages/returns",
+        "shipping": "https://www.ryderwear.com/pages/returns"
+      }
+    },
+    {
+      "id": "echt",
+      "name": "ECHT",
+      "category": "gymwear",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU (Melbourne brand)",
+      "urls": {
+        "home": "https://echt.com.au/",
+        "sale": [
+          "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items"
+        ],
+        "returns": "https://echt.gorgias.help/en-US/how-do-i-return--exchange-an-item-430440",
+        "shipping": "https://echt.com.au/pages/shipping-info"
+      }
+    },
+    {
+      "id": "muscle-nation",
+      "name": "Muscle Nation",
+      "category": "gymwear",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU (Melbourne brand)",
+      "urls": {
+        "home": "https://musclenation.org/",
+        "sale": [
+          "https://musclenation.org/pages/black-friday-browse"
+        ],
+        "returns": "https://musclenation.org/pages/returns-policy",
+        "shipping": "https://musclenation.org/policies/shipping-policy"
+      }
+    },
+    {
+      "id": "youngla",
+      "name": "YoungLA",
+      "category": "gymwear",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU storefront (US brand)",
+      "urls": {
+        "home": "https://au.youngla.com/",
+        "sale": [],
+        "returns": "https://au.youngla.com/pages/returns-and-exchanges",
+        "shipping": "https://au.youngla.com/"
+      }
+    },
+    {
+      "id": "alphalete",
+      "name": "Alphalete",
+      "category": "gymwear",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "US store, ships to AU",
+      "urls": {
+        "home": "https://alphaleteathletics.com/",
+        "sale": [],
+        "returns": "https://alphaleteathletics.com/pages/faq",
+        "shipping": "https://alphaleteathletics.com/pages/faq"
+      }
+    },
+    {
+      "id": "oner-active",
+      "name": "Oner Active",
+      "category": "gymwear",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "UK brand, AU storefront",
+      "urls": {
+        "home": "https://au.oneractive.com/",
+        "sale": [],
+        "returns": "https://au.oneractive.com/pages/help-center/returns",
+        "shipping": "https://au.oneractive.com/pages/shipping-policy"
+      }
+    },
+    {
+      "id": "nike",
+      "name": "Nike",
+      "category": "sportswear",
+      "priority": 1,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.nike.com/au/",
+        "sale": [],
+        "returns": "https://www.nike.com/au/help/a/returns-policy",
+        "shipping": "https://www.nike.com/au/help/a/shipping-delivery"
+      }
+    },
+    {
+      "id": "adidas",
+      "name": "Adidas",
+      "category": "sportswear",
+      "priority": 1,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.adidas.com.au/",
+        "sale": [],
+        "returns": "https://www.adidas.com.au/help/returns-refunds",
+        "shipping": "https://www.adidas.com.au/help/shipping-delivery"
+      }
+    },
+    {
+      "id": "under-armour",
+      "name": "Under Armour",
+      "category": "sportswear",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.underarmour.com.au/",
+        "sale": [],
+        "returns": "https://www.underarmour.com.au/en-au/returns",
+        "shipping": "https://www.underarmour.com.au/en-au/shipping"
+      }
+    },
+    {
+      "id": "puma",
+      "name": "Puma",
+      "category": "sportswear",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://au.puma.com/au/en",
+        "sale": [],
+        "returns": "https://au.puma.com/au/en/help/returns",
+        "shipping": "https://au.puma.com/au/en/help/shipping"
+      }
+    },
+    {
+      "id": "new-balance",
+      "name": "New Balance",
+      "category": "sportswear",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.newbalance.com.au/",
+        "sale": [],
+        "returns": "https://www.newbalance.com.au/returns",
+        "shipping": "https://www.newbalance.com.au/shipping"
+      }
+    },
+    {
+      "id": "asics",
+      "name": "ASICS",
+      "category": "sportswear",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.asics.com/au/en-au/",
+        "sale": [],
+        "returns": "https://www.asics.com/au/en-au/returns",
+        "shipping": "https://www.asics.com/au/en-au/shipping"
+      }
+    },
+    {
+      "id": "lululemon",
+      "name": "Lululemon",
+      "category": "sportswear",
+      "priority": 1,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.lululemon.com.au/en-au/",
+        "sale": [],
+        "returns": "https://www.lululemon.com.au/en-au/help/returns",
+        "shipping": "https://www.lululemon.com.au/en-au/help/shipping"
+      }
+    },
+    {
+      "id": "reebok",
+      "name": "Reebok",
+      "category": "sportswear",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.reebok.com.au/",
+        "sale": [],
+        "returns": "https://www.reebok.com.au/pages/returns",
+        "shipping": "https://www.reebok.com.au/pages/shipping"
+      }
+    },
+    {
+      "id": "hallensteins",
+      "name": "Hallensteins",
+      "category": "fashion",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.hallensteins.com/au/",
+        "sale": [],
+        "returns": "https://www.hallensteins.com/au/faqs/shipping",
+        "shipping": "https://www.hallensteins.com/au/faqs/shipping"
+      }
+    },
+    {
+      "id": "zara",
+      "name": "Zara",
+      "category": "fashion",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.zara.com/au/",
+        "sale": [],
+        "returns": "https://www.zara.com/au/en/help-center/ReturnsAndRefunds",
+        "shipping": "https://www.zara.com/au/en/help-center/Shipping"
+      }
+    },
+    {
+      "id": "cos",
+      "name": "COS",
+      "category": "fashion",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.cos.com/en-au/",
+        "sale": [],
+        "returns": "https://www.cos.com/en-au/customer-service/returns",
+        "shipping": "https://www.cos.com/en-au/customer-service/shipping"
+      }
+    },
+    {
+      "id": "maniere-de-voir",
+      "name": "Manière De Voir",
+      "category": "fashion",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "UK brand, AU storefront",
+      "urls": {
+        "home": "https://au.manieredevoir.com/",
+        "sale": [],
+        "returns": "https://au.manieredevoir.com/pages/delivery-returns",
+        "shipping": "https://au.manieredevoir.com/pages/delivery-returns"
+      }
+    },
+    {
+      "id": "uniqlo",
+      "name": "Uniqlo",
+      "category": "fashion",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.uniqlo.com/au/en/",
+        "sale": [],
+        "returns": "https://faq-au.uniqlo.com/",
+        "shipping": "https://faq-au.uniqlo.com/"
+      }
+    },
+    {
+      "id": "hm",
+      "name": "H&M",
+      "category": "fashion",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www2.hm.com/en_au/index.html",
+        "sale": [],
+        "returns": "https://www2.hm.com/en_au/customer-service/returns.html",
+        "shipping": "https://www2.hm.com/en_au/customer-service/shipping-and-delivery.html"
+      }
+    },
+    {
+      "id": "asos",
+      "name": "ASOS",
+      "category": "fashion",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU site (ships from UK)",
+      "urls": {
+        "home": "https://www.asos.com/au/",
+        "sale": [],
+        "returns": "https://www.asos.com/au/customer-care/returns-refunds/",
+        "shipping": "https://www.asos.com/au/customer-care/delivery/"
+      }
+    },
+    {
+      "id": "the-iconic",
+      "name": "The Iconic",
+      "category": "fashion",
+      "priority": 1,
+      "enabled": true,
+      "storefront": "AU retailer",
+      "urls": {
+        "home": "https://www.theiconic.com.au/",
+        "sale": [],
+        "returns": "https://www.theiconic.com.au/returns-policy/",
+        "shipping": "https://www.theiconic.com.au/delivery/"
+      }
+    },
+    {
+      "id": "culture-kings",
+      "name": "Culture Kings",
+      "category": "fashion",
+      "priority": 1,
+      "enabled": true,
+      "storefront": "AU retailer",
+      "urls": {
+        "home": "https://www.culturekings.com.au/",
+        "sale": [],
+        "returns": "https://www.culturekings.com.au/pages/shipping-returns",
+        "shipping": "https://www.culturekings.com.au/pages/shipping-returns"
+      }
+    },
+    {
+      "id": "cotton-on",
+      "name": "Cotton On",
+      "category": "fashion",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU retailer",
+      "urls": {
+        "home": "https://cottonon.com/AU/",
+        "sale": [
+          "https://cottonon.com/AU/black-friday-cyber-monday/"
+        ],
+        "returns": "https://cottonon.com/AU/information-about-returns.html",
+        "shipping": "https://cottonon.com/AU/delivery-methods.html"
+      }
+    },
+    {
+      "id": "abercrombie",
+      "name": "Abercrombie & Fitch",
+      "category": "fashion",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU site (ships internationally)",
+      "urls": {
+        "home": "https://www.abercrombie.com/shop/au",
+        "sale": [
+          "https://www.abercrombie.com/shop/wd/black-friday"
+        ],
+        "returns": "https://www.abercrombie.com/shop/wd/help/online-return-exchange-policy",
+        "shipping": "https://www.abercrombie.com/shop/wd/help/shipping-handling"
+      }
+    }
+  ]
+}

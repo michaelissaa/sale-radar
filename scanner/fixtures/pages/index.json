@@ -1,0 +1,8 @@
+{
+  "https://live.example/": {"file": "home_live.html"},
+  "https://live.example/black-friday": {"file": "bf_live.html"},
+  "https://live.example/returns": {"file": "policy.html"},
+  "https://live.example/shipping": {"file": "policy.html"},
+  "https://soon.example/": {"file": "home_soon.html"},
+  "https://blocked.example/": {"error": "HTTP 403 (likely bot protection)", "status": 403}
+}

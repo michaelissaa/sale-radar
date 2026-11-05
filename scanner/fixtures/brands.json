@@ -1,0 +1,5 @@
+{"brands": [
+  {"id": "livebrand", "name": "Live Brand", "category": "gymwear", "priority": 1, "urls": {"home": "https://live.example/", "sale": ["https://live.example/black-friday"], "returns": "https://live.example/returns", "shipping": "https://live.example/shipping"}},
+  {"id": "soonbrand", "name": "Soon Brand", "category": "fashion", "priority": 2, "urls": {"home": "https://soon.example/", "sale": []}},
+  {"id": "blocked", "name": "Blocked Brand", "category": "sportswear", "priority": 3, "urls": {"home": "https://blocked.example/", "sale": []}}
+]}

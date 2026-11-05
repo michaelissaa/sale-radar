@@ -1,0 +1,966 @@
+{
+  "generated": "2026-11-05T09:00:00+00:00",
+  "brands": {
+    "gymshark": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://au.gymshark.com/pages/black-friday",
+        "evidence": "The sale isn't live just yet (we know, brutal timing)... You didn't think we'd reveal the start date and time that easily did you?",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "high",
+        "name": "Gymshark Black Friday & Cyber Monday Sale 2026",
+        "expected_note": "Gymshark says it offered up to 50% off last Black Friday",
+        "early_access": "App users and loyalty members get first notice; no 2026 member discount disclosed",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "verified",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "Free returns in Australia via the returns portal, 30 days. Free standard shipping over $100.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "NO",
+          "refund_type": "Original payment method",
+          "conditions": "Register returns through the Gymshark portal. Items unworn with tags. Last year's Black Friday purchases got an extended window to 31 Jan; a 2026 extension is not yet stated.",
+          "source_url": "https://au.gymshark.com/pages/black-friday",
+          "evidence": "Returns for Gymshark products are free in most regions, including: the UK, US, Canada, Australia, New Zealand..."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 100,
+          "ships_to_au": "YES",
+          "source_url": "https://au.gymshark.com/pages/black-friday",
+          "evidence": "Free standard shipping on orders over $100"
+        }
+      }
+    },
+    "salomon": {
+      "sale": {
+        "status": "LIVE",
+        "source_url": "https://salomon.com.au/collections/womens-black-friday",
+        "evidence": "Women's Black Friday. Black Friday sale now live! Gear up for tomorrow. Save today.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "high",
+        "name": "Black Friday sale",
+        "scope": "SELECTED",
+        "early_access": "S/PLUS members must log in to see member pricing",
+        "conditions": "Salomon has not published a headline discount figure; savings vary by product.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "30-day change-of-mind returns. Free returns only for S/PLUS members, and not on sale items. Free standard delivery for S/PLUS members.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method, no online exchanges",
+          "conditions": "S/PLUS (free membership) members get free returns except Sale/Outlet items and winter hardgoods. Outlet items excluded from change-of-mind returns.",
+          "source_url": "https://salomon.com.au/pages/returns-2",
+          "evidence": "All S/PLUS members get free returns on their orders excluding Sale Items & Winter Hardgoods."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 99.95,
+          "ships_to_au": "YES",
+          "restrictions": "Free shipping is for S/PLUS members (over $99.95). Express 1-2 days $10.",
+          "source_url": "https://salomon.com.au/pages/shipping",
+          "evidence": "Free shipping over $99.95 for S/PLUS members."
+        }
+      }
+    },
+    "lskd": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.lskd.co/",
+        "evidence": "lskd.co/pages/black-friday redirects to the home page; no Black Friday 2026 sale wording found on 5 Nov.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "30 days for a refund, 60 days for exchange or store credit. Return postage free only in some cases.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "window_note": "30 days refund, 60 days exchange/credit",
+          "sale_items_excluded": "NO",
+          "refund_type": "Refund within 30 days; exchange or store credit within 60 days",
+          "conditions": "Unworn, unwashed, tags on. Hygiene items (underwear, socks, towels, bottles) excluded.",
+          "source_url": "https://lskd-au.gorgias.help/en-US/returns-policy-info-92275",
+          "evidence": "You have up to 30 days to return your gear for a refund and 60 days for an exchange or store credit!"
+        },
+        "shipping": {
+          "free_shipping": "YES",
+          "ships_to_au": "YES",
+          "restrictions": "Site banner advertises free shipping on all orders.",
+          "source_url": "https://www.lskd.co/",
+          "evidence": "FREE SHIPPING ON ALL ORDERS"
+        }
+      }
+    },
+    "myprotein": {
+      "sale": {
+        "status": "LIVE",
+        "source_url": "https://au.myprotein.com/c/black-friday/",
+        "evidence": "HOW DO YOU BLACK FRIDAY? 40% OFF EVERYTHING | DISCOUNT APPLIED. APP EXCLUSIVE | EXTRA 5% OFF | AUTO APPLIES",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "high",
+        "name": "Black Friday 2026 (early)",
+        "discount_text": "40% off everything",
+        "discount_max_pct": 40,
+        "discount_kind": "flat",
+        "scope": "SITEWIDE",
+        "code_required": "NO",
+        "early_access": "Extra 5% off in the app (auto-applies)",
+        "expected_note": "Myprotein says its Black Friday sale runs through to Cyber Monday (30 Nov); no end date given for the current 40% offer",
+        "conditions": "Product tiles say the discount is applied automatically. One banner also mentions code 'blackfriday'; check at checkout.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "verified",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "30-day returns for a refund (no exchanges). Free delivery over $150, otherwise from $9.95.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "NO",
+          "refund_type": "Refund only; no exchanges",
+          "conditions": "Clothing unworn and unwashed with tags; hygiene items and opened nutrition excluded. Purchases 1 Nov to 31 Dec can be returned until 30 Jan.",
+          "source_url": "https://au.myprotein.com/c/customer-services/returns-policy/",
+          "evidence": "You have 30 days from the date of receiving your item to start a return."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 150,
+          "standard_aud": 9.95,
+          "ships_to_au": "YES",
+          "restrictions": "Express is a flat $14.99. Regional areas take longer.",
+          "source_url": "https://au.myprotein.com/c/customer-services/delivery-information/",
+          "evidence": "Free shipping over $150"
+        }
+      }
+    },
+    "ryderwear": {
+      "sale": {
+        "status": "NEEDS_CHECKING",
+        "source_url": "https://au.ryderwear.com/pages/black-friday",
+        "evidence": "Black Friday Sale. 50% off everything for 4 hours only! Sale coming soon... For the first 4 hours only: Monday 2 November 2026, 4pm to 8pm your time.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "name": "Black Friday Sale 2026",
+        "conditions": "Conflicting: the page still says 'Sale coming soon', but the only date it gives (50% off everything for 4 hours on Mon 2 Nov; page metadata says 5am AWST Tue 3 Nov) has passed. Check the site for what is running now.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "Black Friday orders: 60 days for store credit or exchange, not refunds. Outlet not returnable. Free shipping over $120.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "NO",
+          "window_days": 60,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Store credit or exchange for Black Friday orders",
+          "conditions": "Unworn with tags. Outlet items cannot be returned unless faulty. No underwear, socks, towels or gift cards.",
+          "source_url": "https://www.ryderwear.com/pages/returns",
+          "evidence": "Black Friday orders can be returned within 60 days of delivery, for store credit or an exchange. Outlet items can't be returned unless faulty."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 120,
+          "ships_to_au": "YES",
+          "restrictions": "Ships from an Australian fulfilment centre.",
+          "source_url": "https://www.ryderwear.com/pages/returns",
+          "evidence": "FREE STANDARD SHIPPING OVER $120"
+        }
+      }
+    },
+    "echt": {
+      "sale": {
+        "status": "LIVE",
+        "source_url": "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items",
+        "evidence": "Black Friday 2026 - Up to 70% Off Selected Items",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "high",
+        "name": "Black Friday 2026",
+        "discount_text": "Up to 70% off selected items",
+        "discount_max_pct": 70,
+        "discount_kind": "up_to",
+        "scope": "SELECTED",
+        "conditions": "Collection is live. Extra promotions seen (extra 15% off $135+, free gift over $100) were on ECHT's US storefront and may not apply in Australia.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "40 days for exchange or credit, refunds only within 14 days. You pay return postage unless you bought the free-returns option. Standard AU shipping free.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "CONDITIONAL",
+          "window_days": 40,
+          "window_note": "Refund within 14 days; exchange/credit within 40",
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Refund within 14 days, otherwise store credit",
+          "conditions": "Change-of-mind return postage is the customer's cost; a label is supplied only if free returns were purchased at checkout. Clearance/final sale excluded.",
+          "source_url": "https://echt.gorgias.help/en-US/how-do-i-return--exchange-an-item-430440",
+          "evidence": "Return postage for change of mind/incorrect fit is non-refundable and customer's responsibility."
+        },
+        "shipping": {
+          "free_shipping": "YES",
+          "standard_aud": 0,
+          "ships_to_au": "YES",
+          "restrictions": "Express $7, free over $100.",
+          "source_url": "https://echt.com.au/pages/shipping-info",
+          "evidence": "Australia ... Standard ... Free ... Express ... $7 AUD ... Free on orders over $100 AUD"
+        }
+      }
+    },
+    "muscle-nation": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://musclenation.org/pages/black-friday-browse",
+        "evidence": "Black Friday 50% off everything, 4 hrs only. LAUNCHING TUE 10 NOV, 8AM AEST",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "high",
+        "name": "Black Friday",
+        "discount_text": "50% off everything",
+        "discount_max_pct": 50,
+        "discount_kind": "flat",
+        "scope": "SITEWIDE",
+        "start": "2026-11-10T09:00:00+11:00",
+        "end": "2026-11-10T13:00:00+11:00",
+        "dates_confirmed": true,
+        "conditions": "4 hours only from 8am AEST / 9am AEDT (Sydney). End time is 4 hours after the stated launch.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "15 days to lodge a return. Return postage free only if you chose Checkout Plus. Free AU shipping over $130.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "CONDITIONAL",
+          "window_days": 15,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method or store credit",
+          "conditions": "Lodge via the returns portal within 15 days; unworn and resaleable. Peak sale periods may have a 30-day window. Undergarments, socks and opened supplements excluded.",
+          "source_url": "https://musclenation.org/pages/returns-policy",
+          "evidence": "For Australian orders: If you selected Checkout Plus, your return shipping is covered; if you did not select Checkout Plus, you will pay the applicable return shipping fee"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 130,
+          "standard_aud": 9.99,
+          "ships_to_au": "YES",
+          "restrictions": "Same-day delivery unavailable during sale events.",
+          "source_url": "https://musclenation.org/policies/shipping-policy",
+          "evidence": "Australian Standard | 2-5 Business Days | A$9.99 for orders under A$130"
+        }
+      }
+    },
+    "youngla": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://au.youngla.com/",
+        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      }
+    },
+    "alphalete": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://alphaleteathletics.com/",
+        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      }
+    },
+    "oner-active": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://au.oneractive.com/",
+        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      }
+    },
+    "hallensteins": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.hallensteins.com/au",
+        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      }
+    },
+    "maniere-de-voir": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://au.manieredevoir.com/",
+        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      }
+    },
+    "culture-kings": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.culturekings.com.au/",
+        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      }
+    },
+    "cotton-on": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://cottonon.com/AU/black-friday-cyber-monday/",
+        "evidence": "Black Friday and Cyber Monday are almost here... The sale you've been waiting for all year is about to kick off. ... What time do the events start online? Telling you now would be cheating.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "high",
+        "name": "Black Friday & Cyber Monday",
+        "early_access": "Cotton On & Co Perks members and app users get a VIP head start",
+        "expected_note": "Cotton On's page cites the industry Black Friday date (Fri 27 Nov) but has not published its own start time",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "verified",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "Change-of-mind returns any time with proof of purchase. Free online returns within Australia, or return in store.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "YES",
+          "prepaid_label": "UNKNOWN",
+          "window_note": "No time limit",
+          "sale_items_excluded": "NO",
+          "refund_type": "Original payment method; exchanges in store only",
+          "conditions": "Unworn with tags. Excludes underwear, earrings, cosmetics, third-party brands, gift cards. Original delivery fee not refunded.",
+          "source_url": "https://cottonon.com/AU/information-about-returns.html",
+          "evidence": "Products purchased from any Cotton On Group retail or online store can be returned at any time by the customer with proof of purchase"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 75,
+          "standard_aud": 7.95,
+          "ships_to_au": "YES",
+          "restrictions": "Perks members: free delivery on first order over $30.",
+          "source_url": "https://cottonon.com/AU/delivery-methods.html",
+          "evidence": "Standard - $7.95 or FREE on $75+"
+        }
+      }
+    },
+    "abercrombie": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.abercrombie.com/shop/wd/black-friday",
+        "evidence": "Sign up for myAbercrombie and be first to find out about the sale you've been waiting for.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "low",
+        "conditions": "Seen on the global Black Friday page; Australian dates and discount not stated.",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "Australian return and delivery terms could not be verified; the pages served were US-region content.",
+        "returns": {
+          "change_of_mind": "UNKNOWN",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "sale_items_excluded": "UNKNOWN",
+          "conditions": "Official pages fetched were US-store policies.",
+          "source_url": "https://www.abercrombie.com/shop/wd/help/online-return-exchange-policy"
+        },
+        "shipping": {
+          "free_shipping": "UNKNOWN",
+          "ships_to_au": "UNKNOWN",
+          "restrictions": "Rates vary by destination; select Australia on the site.",
+          "source_url": "https://www.abercrombie.com/shop/wd/help/shipping-handling"
+        }
+      }
+    },
+    "the-iconic": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.theiconic.com.au/black-friday/",
+        "evidence": "When does THE ICONIC's Black Friday sale start and end? Check back for updates to be the first to know when THE ICONIC Black Friday 2026 starts.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "name": "THE ICONIC Black Friday 2026",
+        "early_access": "THE ICONIC Front Row (free loyalty program) members get early access",
+        "expected_note": "Page cites the industry dates (Fri 27 Nov to Cyber Monday 30 Nov); THE ICONIC has not published its own start",
+        "conditions": "Page mentions deals of up to 50% off ICONIC Exclusives but does not say when they start.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "Free change-of-mind returns within 30 days. Sale items returnable unless marked Final Sale.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Refund or FAST store credit",
+          "conditions": "Unworn, original packaging, lodged through your account. Final Sale and hygiene items excluded. Some pickup drop-off options may charge a fee.",
+          "source_url": "https://theiconicsupport.zendesk.com/hc/en-us/articles/4418133900697-What-is-THE-ICONIC-s-returns-policy",
+          "evidence": "We offer free change of mind returns within 30 days of purchase"
+        },
+        "shipping": {
+          "free_shipping": "UNKNOWN",
+          "ships_to_au": "YES",
+          "restrictions": "Delivery price depends on postcode; $1 express to parcel lockers with minimum spend.",
+          "source_url": "https://www.theiconic.com.au/shipping-policy/",
+          "evidence": "$1 Express delivery to 24/7 Parcel Lockers. ... Minimum spend and T&Cs apply."
+        }
+      }
+    },
+    "hm": {
+      "sale": {
+        "status": "NEEDS_CHECKING",
+        "source_url": "https://www2.hm.com/en_au/seasonal/black-friday.html",
+        "evidence": "An automated research pass reported the page heading 'Black Friday sale 2026 is on!', but on re-check the page redirected to a generic seasonal page.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "low",
+        "conditions": "Unconfirmed. H&M's robots.txt blocks the automatic scanner, so check the site directly.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "30-day returns by post with a prepaid label; non-members pay $10.95. Online orders can't be returned in store. Free shipping over $75 for members.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "NO",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "refund_type": "Original payment method",
+          "postage_cost": "$10.95 deducted for non-members",
+          "conditions": "Membership is free. Delivery fee refunded only if the whole order is returned.",
+          "source_url": "https://www2.hm.com/en_au/customer-service/returns.html",
+          "evidence": "H&M will deduct $10.95 from your refund for the use of our returns label if you are not an H&M member. ... Purchases made online cannot be returned or exchanged in stores."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 75,
+          "standard_aud": 8.95,
+          "ships_to_au": "YES",
+          "restrictions": "Free over $75 for (free) members; Plus members free on all orders.",
+          "source_url": "https://www2.hm.com/en_au/customer-service/shippinganddelivery.html",
+          "evidence": "Standard Delivery (1-10 Business days /$8.95) ... Free for members on orders over $75"
+        }
+      }
+    },
+    "uniqlo": {
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "30-day returns. Posting a return costs $8; exchanges can be done free in an Australian store. Sale items covered. Free shipping over $75.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "NO",
+          "free_instore_returns": "CONDITIONAL",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "NO",
+          "refund_type": "Original payment method",
+          "postage_cost": "$8.00 via the Australia Post return portal",
+          "conditions": "In-store option is for exchanges; refunds of online orders are by post.",
+          "source_url": "https://faq-au.uniqlo.com/pkb_Home?id=kA0Ie000000TOR7",
+          "evidence": "An $8.00 return postage fee applies for online order change of mind returns via post where the Australia Post return portal is used."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 75,
+          "standard_aud": 7.95,
+          "ships_to_au": "YES",
+          "source_url": "https://www.uniqlo.com/au/en/",
+          "evidence": "Standard delivery is $7.95, or free if you spend over $75."
+        }
+      },
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.uniqlo.com/au/en/",
+        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      }
+    },
+    "asos": {
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "28-day returns for a refund, $8.99 return fee deducted. No exchanges. Free shipping over $120 or with Premier.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "NO",
+          "free_return_postage": "NO",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 28,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method",
+          "postage_cost": "$8.99 deducted from refund",
+          "source_url": "https://www.asos.com/au/customer-care/returns-refunds/what-is-your-returns-policy/",
+          "evidence": "we accept returns for a change of mind ... Returns cost $8.99 (AUD) ... You have 28 days"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 120,
+          "standard_aud": 22.99,
+          "ships_to_au": "YES",
+          "restrictions": "Ships from the UK; rural areas up to 14 business days.",
+          "source_url": "https://www.asos.com/au/customer-care/delivery/how-does-your-delivery-service-to-australia-work/",
+          "evidence": "Standard Shipping - Cost: $22.99; FREE on orders over $120 or with ASOS Premier."
+        }
+      },
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.asos.com/au/",
+        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      }
+    },
+    "new-balance": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.newbalance.com.au/promo/blackfriday/",
+        "evidence": "The New Balance Black Friday Sale starts on Friday 13 November 2026 and runs until Sunday 29 November 2026. There will be offers running upto 50% off on eligible styles.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "high",
+        "name": "New Balance Black Friday Sale 2026",
+        "discount_text": "Up to 50% off eligible styles",
+        "discount_max_pct": 50,
+        "discount_kind": "up_to",
+        "scope": "SELECTED",
+        "start": "2026-11-13",
+        "end": "2026-11-29",
+        "dates_confirmed": true,
+        "code_required": "NO",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "Free 60-day returns by post or in store. Final sale excluded. Free shipping over $150, or free for logged-in members.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "YES",
+          "prepaid_label": "YES",
+          "window_days": 60,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method",
+          "conditions": "Most full-price and reduced items. Final-sale items not returnable unless faulty.",
+          "source_url": "https://www.newbalance.com.au/returns/",
+          "evidence": "Return postage is free if within an Australian location."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 150,
+          "ships_to_au": "YES",
+          "restrictions": "Free with no minimum when you join or log in. Express $15.",
+          "source_url": "https://www.newbalance.com.au/customer-service-shipping.html",
+          "evidence": "Australia Post Standard: Free on all orders over $150*; Free with no minimum spend when you join or login"
+        }
+      }
+    },
+    "reebok": {
+      "sale": {
+        "status": "LIVE",
+        "source_url": "https://reebok.com.au/collections/black-friday",
+        "evidence": "Black Friday is here. Take 30% off almost everything across Reebok footwear, apparel and training gear.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "high",
+        "name": "Black Friday",
+        "discount_text": "30% off almost everything",
+        "discount_max_pct": 30,
+        "discount_kind": "flat",
+        "scope": "SELECTED",
+        "conditions": "'Almost everything' means some exclusions apply, so this is not sitewide.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "Free 30-day returns with a prepaid slip, or in store. Final sale excluded. Free shipping over $99.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "YES",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "sale_items_excluded": "YES",
+          "refund_type": "Original payment method, less shipping paid",
+          "conditions": "Final-sale products not eligible for change-of-mind returns.",
+          "source_url": "https://reebok.com.au/pages/returns-1",
+          "evidence": "Australian orders made through reebok.com.au may be returned within 30 days free of charge"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 99,
+          "standard_aud": 12.95,
+          "ships_to_au": "YES",
+          "source_url": "https://reebok.com.au/pages/delivery-and-returns",
+          "evidence": "Free shipping on all Australian orders $99 and above."
+        }
+      }
+    },
+    "under-armour": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.underarmour.com.au/en-au/c/black-friday/",
+        "evidence": "While we can't share our deals just yet, we're warming up for the long-awaited Under Armour 2026 Black Friday event.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "name": "Under Armour Black Friday Event 2026",
+        "conditions": "An earlier 30% off sitewide promotion ended 2 Nov 2026 (per the research pass). Black Friday deals not yet published.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "Free 30-day returns with a prepaid label. Free shipping over $129.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "CONDITIONAL",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "refund_type": "Original payment method",
+          "conditions": "Online orders can be returned in store only if paid by card (not PayPal/Klarna). Undergarments excluded.",
+          "source_url": "https://www.underarmour.com.au/en-au/t/returns-and-exchanges.html",
+          "evidence": "you can return it for FREE using our pre-paid return label. All returns are accepted 30 days from date of purchase."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 129,
+          "standard_aud": 9.99,
+          "ships_to_au": "YES",
+          "source_url": "https://www.underarmour.com.au/en-au/t/shipping-information.html",
+          "evidence": "Get free standard delivery on all orders over $129AUD, or $9.99 for orders under $129AUD."
+        }
+      }
+    },
+    "nike": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.nike.com/au/w/black-friday-2phlm",
+        "evidence": "Something is coming... Sign up for early access to our biggest sale of the year",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "name": "Black Friday Sale",
+        "early_access": "Sign-up for early access offered",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "30-day returns (60 days for 1 Nov to 25 Dec purchases). Free return postage for Nike Members; guests pay $9.95.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "NA",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "window_note": "30 days; 60 days for 1 Nov-25 Dec 2026 purchases",
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method",
+          "postage_cost": "$9.95 deducted for guests (free for members)",
+          "conditions": "Membership is free. Final-sale items excluded.",
+          "source_url": "https://www.nike.com/au/help/a/returns-policy",
+          "evidence": "Return delivery is free for Nike Members. Guests will have a $9.95 return delivery fee deducted from their refund."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 80,
+          "standard_aud": 9.95,
+          "ships_to_au": "YES",
+          "restrictions": "$80 threshold is for Nike Members; guests $150.",
+          "source_url": "https://www.nike.com/au/help/a/shipping-delivery",
+          "evidence": "Nike Members: free for orders of $80 or more, $9.95 for orders less than $80; Guests: free for orders of $150 or more"
+        }
+      }
+    },
+    "adidas": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.adidas.com.au/black_friday",
+        "evidence": "2026 BLACK FRIDAY SALE COMING SOON. Become an adiClub Member for Black Friday sale updates.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "name": "2026 Black Friday Sale",
+        "early_access": "adiClub members get sale updates",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "30-day returns by post only. Free delivery for adiClub members; guests free over $120.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "NO",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method",
+          "conditions": "Online orders return by post only. Hype items, swimwear, socks, undergarments and more excluded. Shipping fees not refunded.",
+          "source_url": "https://www.adidas.com.au/help/pac-returns-and-refunds/what-is-adidas-returns-policy",
+          "evidence": "Items eligible for return or exchange must be returned or exchanged within 30 days of purchase."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 120,
+          "standard_aud": 10,
+          "ships_to_au": "YES",
+          "restrictions": "Free for adiClub members (free to join) on any order.",
+          "source_url": "https://www.adidas.com.au/help/pac-delivery/how-long-does-delivery-take",
+          "evidence": "Delivery fee for Guest Order Under $120: $10.00; ... adiclub Members Orders Under $120: FREE"
+        }
+      }
+    },
+    "cos": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.cos.com/en-au/black-friday",
+        "evidence": "The COS Black Friday offer begins in November.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "30-day returns with $7.95 deducted. Online orders can't be returned in store. Free shipping over $125.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "NO",
+          "free_return_postage": "NO",
+          "free_instore_returns": "NO",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "sale_items_excluded": "YES",
+          "refund_type": "Original payment, less $7.95",
+          "postage_cost": "$7.95",
+          "conditions": "FINAL SALE items not returnable for change of mind.",
+          "source_url": "https://www.cos.com/en-au/customer-service/returns",
+          "evidence": "with the cost of the return taken out of the original payment ($7.95)"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 125,
+          "standard_aud": 7.95,
+          "ships_to_au": "YES",
+          "source_url": "https://www.cos.com/en-au/customer-service/delivery/delivery-methods",
+          "evidence": "Standard Home Delivery ($7.95 AUD / Free over $125 AUD)"
+        }
+      }
+    },
+    "puma": {
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "Free 30-day returns (one free return per order). Free shipping over $150, otherwise $10.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "refund_type": "Original payment method",
+          "conditions": "1 free return per order. No exchanges for online orders.",
+          "source_url": "https://au.puma.com/au/en/help/returns",
+          "evidence": "You can return your order free of charge within 30 days of purchase. We offer 1 free return per order."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 150,
+          "standard_aud": 10,
+          "ships_to_au": "YES",
+          "restrictions": "Express $15.95.",
+          "source_url": "https://au.puma.com/au/en/help/delivery",
+          "evidence": "We offer free standard shipping across Australia for all orders over $150. For all orders under $150, the regular shipping cost is $10."
+        }
+      },
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://au.puma.com/au/en/",
+        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      }
+    },
+    "asics": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.asics.com/au/en-au/asics-black-friday-cyber-monday/c/au80154000/",
+        "evidence": "ASICS Black Friday & Cyber Weekend Sale has ended. (Left over from last year; no 2026 announcement.)",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "45-day returns (60 for OneASICS members). Free returns for members, $9.99 for guests. Final Sale excluded. Free shipping over $199.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "YES",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 45,
+          "window_note": "45 days guests, 60 days OneASICS members",
+          "sale_items_excluded": "YES",
+          "refund_type": "Refund",
+          "postage_cost": "$9.99 flat for guests",
+          "conditions": "Online purchases can be returned at ASICS brand stores. Final Sale not returnable unless faulty.",
+          "source_url": "https://www.asics.com/au/en-au/customer-service/returns/",
+          "evidence": "Free returns for OneASICS Members. Or $9.99 flat postage fee for Guest orders."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 199,
+          "standard_aud": 8.99,
+          "ships_to_au": "YES",
+          "restrictions": "Mainland Australia and Tasmania.",
+          "source_url": "https://www.asics.com/au/en-au/customer-service/shipping/",
+          "evidence": "FREE* shipping on orders over $199"
+        }
+      }
+    },
+    "lululemon": {
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "Free 30-day returns by post or in store, but sale and We Made Too Much items are excluded. Free shipping when signed in.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "YES",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "sale_items_excluded": "YES",
+          "refund_type": "Refund, credit or exchange",
+          "conditions": "Sale and marked-down items (incl. We Made Too Much) excluded from change-of-mind returns. Outlets don't accept online returns.",
+          "source_url": "https://www.lululemon.com.au/en-au/help/returns-and-refunds",
+          "evidence": "You can return an online purchase to one of our stores or for free via Australia Post."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "ships_to_au": "YES",
+          "restrictions": "Free on all orders when signed in to a (free) lululemon account.",
+          "source_url": "https://www.lululemon.com.au/en-au/help/shipping-and-delivery",
+          "evidence": "We offer free shipping on all orders for guests who are signed in to their lululemon account!"
+        }
+      },
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.lululemon.com.au/en-au/",
+        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      }
+    },
+    "zara": {
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "summary": "30-day returns, free in store; drop-point returns cost $3.95. Free shipping over $75 only on full-price items.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "NO",
+          "free_instore_returns": "YES",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "postage_cost": "$3.95 for drop-point returns",
+          "conditions": "Return within the same market. 30 days from shipping date.",
+          "source_url": "https://www.zara.com/au/en/help-center/HowToReturn",
+          "evidence": "You can return your items for free at any of our Zara stores."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 75,
+          "standard_aud": 7.95,
+          "ships_to_au": "YES",
+          "restrictions": "Free-shipping threshold excludes discounted items, so sale orders may pay delivery.",
+          "source_url": "https://www.zara.com/au/en/help-center/DeliveryMethods",
+          "evidence": "Shipping will be free for orders over $ 75 only for non-discounted items."
+        }
+      },
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.zara.com/au/en/",
+        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "verified_at": "2026-11-05T09:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      }
+    }
+  }
+}

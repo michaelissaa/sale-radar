@@ -1,0 +1,1537 @@
+{
+  "brands": {
+    "adidas": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": null,
+      "ok": false,
+      "pages_ok": 0,
+      "pages_tried": 1,
+      "errors": [
+        {
+          "url": "https://www.adidas.com.au/",
+          "error": "disallowed by robots.txt"
+        }
+      ],
+      "consecutive_failures": 1,
+      "discovered": [],
+      "signals_by_url": {},
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://www.adidas.com.au/help/returns-refunds",
+            "error": "disallowed by robots.txt"
+          },
+          {
+            "url": "https://www.adidas.com.au/help/shipping-delivery",
+            "error": "disallowed by robots.txt"
+          }
+        ],
+        "ok": false
+      }
+    },
+    "culture-kings": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 1,
+      "pages_tried": 1,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://www.culturekings.com.au/": {
+          "bf_mentioned": false,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": null,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://www.culturekings.com.au/",
+          "title": "Culture Kings - Streetwear Clothing & Sneakers OnlineAmerican ExpressApple PayGoogle PayMastercardPayPalShop PayUnion Pa"
+        }
+      },
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "0f1af4a4538eb3c2",
+          "shipping": "0f1af4a4538eb3c2"
+        },
+        "baseline_fingerprints": {
+          "returns": "0f1af4a4538eb3c2",
+          "shipping": "0f1af4a4538eb3c2"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "gymshark": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 2,
+      "pages_tried": 2,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://au.gymshark.com/": {
+          "bf_mentioned": false,
+          "discount_text": "15% off",
+          "discount_max_pct": 15,
+          "discount_kind": "flat",
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": 100,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://au.gymshark.com/",
+          "title": "Gymshark Official Store - Gym Clothes & Workout Clothes - Gymshark"
+        },
+        "https://au.gymshark.com/pages/black-friday": {
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": true,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "audi Schweiz Sverige United Arab Emirates United Kingdom United States What are you looking for? The Gymshark Black Friday Sale 2026 Want to be the first to get updates? Subscribe to our newsletter, or download our app and sign up t",
+          "free_shipping_threshold_hint": 100,
+          "status": "UPCOMING",
+          "confidence": "low",
+          "url": "https://au.gymshark.com/pages/black-friday",
+          "title": "The Gymshark Black Friday & Cyber Monday Sale 2026"
+        }
+      },
+      "policy": {
+        "free_shipping_threshold_hint": 100,
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "b79a4efdaaefd4e7",
+          "shipping": "c5ec3ab827921ec0"
+        },
+        "baseline_fingerprints": {
+          "returns": "b79a4efdaaefd4e7",
+          "shipping": "c5ec3ab827921ec0"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "lskd": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 1,
+      "pages_tried": 1,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://www.lskd.co/": {
+          "bf_mentioned": false,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": null,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://www.lskd.co/",
+          "title": "LSKD | Official LSKD Online Store - Train / Run / All Day ApparelCustomerShopping CartAliPayAmerican ExpressApple PayGoo"
+        }
+      },
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://www.lskd.co/pages/shipping",
+            "error": "HTTP 404"
+          }
+        ],
+        "ok": false,
+        "fingerprints": {
+          "returns": "ce50dae2846feb48"
+        },
+        "baseline_fingerprints": {
+          "returns": "ce50dae2846feb48"
+        }
+      }
+    },
+    "lululemon": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": null,
+      "ok": false,
+      "pages_ok": 0,
+      "pages_tried": 1,
+      "errors": [
+        {
+          "url": "https://www.lululemon.com.au/en-au/",
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ],
+      "consecutive_failures": 1,
+      "discovered": [],
+      "signals_by_url": {},
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://www.lululemon.com.au/en-au/help/returns",
+            "error": "TimeoutError: The read operation timed out"
+          },
+          {
+            "url": "https://www.lululemon.com.au/en-au/help/shipping",
+            "error": "TimeoutError: The read operation timed out"
+          }
+        ],
+        "ok": false
+      }
+    },
+    "nike": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 1,
+      "pages_tried": 1,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://www.nike.com/au/": {
+          "bf_mentioned": false,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": null,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://www.nike.com/au/",
+          "title": "Nike. Just Do It. Nike AU"
+        }
+      },
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "172eae9db4a633e6",
+          "shipping": "172eae9db4a633e6"
+        },
+        "baseline_fingerprints": {
+          "returns": "172eae9db4a633e6",
+          "shipping": "172eae9db4a633e6"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "the-iconic": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 1,
+      "pages_tried": 1,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [
+        "https://www.theiconic.com.au/black-friday/"
+      ],
+      "signals_by_url": {
+        "https://www.theiconic.com.au/": {
+          "bf_mentioned": false,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": null,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://www.theiconic.com.au/",
+          "title": "Got You Looking 👀 | Fashion | THE ICONIC"
+        }
+      },
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "35e77ad15f19ab55",
+          "shipping": "da39a3ee5e6b4b0d"
+        },
+        "baseline_fingerprints": {
+          "returns": "35e77ad15f19ab55",
+          "shipping": "da39a3ee5e6b4b0d"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "abercrombie": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 2,
+      "pages_tried": 2,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://www.abercrombie.com/shop/au": {
+          "bf_mentioned": false,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": null,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://www.abercrombie.com/shop/au",
+          "title": "Client Challenge"
+        },
+        "https://www.abercrombie.com/shop/wd/black-friday": {
+          "bf_mentioned": false,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": null,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://www.abercrombie.com/shop/wd/black-friday",
+          "title": "Client Challenge"
+        }
+      },
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "da39a3ee5e6b4b0d",
+          "shipping": "da39a3ee5e6b4b0d"
+        },
+        "baseline_fingerprints": {
+          "returns": "da39a3ee5e6b4b0d",
+          "shipping": "da39a3ee5e6b4b0d"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "alphalete": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 1,
+      "pages_tried": 1,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://alphaleteathletics.com/": {
+          "bf_mentioned": false,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": null,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://alphaleteathletics.com/",
+          "title": "Premium Workout Clothes & Athleisure | Alphalete Athletics\nAmerican ExpressApple PayDiners ClubDiscoverGoogle PayMasterc"
+        }
+      },
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "489b20c19ec4db5d",
+          "shipping": "489b20c19ec4db5d"
+        },
+        "baseline_fingerprints": {
+          "returns": "489b20c19ec4db5d",
+          "shipping": "489b20c19ec4db5d"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "asics": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": null,
+      "ok": false,
+      "pages_ok": 0,
+      "pages_tried": 1,
+      "errors": [
+        {
+          "url": "https://www.asics.com/au/en-au/",
+          "error": "HTTP 403 (likely bot protection)"
+        }
+      ],
+      "consecutive_failures": 1,
+      "discovered": [],
+      "signals_by_url": {},
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://www.asics.com/au/en-au/returns",
+            "error": "HTTP 404"
+          },
+          {
+            "url": "https://www.asics.com/au/en-au/shipping",
+            "error": "HTTP 404"
+          }
+        ],
+        "ok": false
+      }
+    },
+    "asos": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": null,
+      "ok": false,
+      "pages_ok": 0,
+      "pages_tried": 1,
+      "errors": [
+        {
+          "url": "https://www.asos.com/au/",
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ],
+      "consecutive_failures": 1,
+      "discovered": [],
+      "signals_by_url": {},
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://www.asos.com/au/customer-care/returns-refunds/",
+            "error": "TimeoutError: The read operation timed out"
+          },
+          {
+            "url": "https://www.asos.com/au/customer-care/delivery/",
+            "error": "TimeoutError: The read operation timed out"
+          }
+        ],
+        "ok": false
+      }
+    },
+    "hallensteins": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 1,
+      "pages_tried": 1,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://www.hallensteins.com/au/": {
+          "bf_mentioned": false,
+          "discount_text": "15% off",
+          "discount_max_pct": 15,
+          "discount_kind": "flat",
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": null,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://www.hallensteins.com/au",
+          "title": "Home | Hallensteins AU"
+        }
+      },
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "352ae3f00c729f67",
+          "shipping": "352ae3f00c729f67"
+        },
+        "baseline_fingerprints": {
+          "returns": "352ae3f00c729f67",
+          "shipping": "352ae3f00c729f67"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "maniere-de-voir": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 1,
+      "pages_tried": 1,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://au.manieredevoir.com/": {
+          "bf_mentioned": false,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": 400,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://au.manieredevoir.com/",
+          "title": "MDV | Manière De Voir — For The Tastemakers."
+        }
+      },
+      "policy": {
+        "free_shipping_threshold_hint": 400,
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "08ae1373a54e9c89",
+          "shipping": "08ae1373a54e9c89"
+        },
+        "baseline_fingerprints": {
+          "returns": "08ae1373a54e9c89",
+          "shipping": "08ae1373a54e9c89"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "myprotein": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 2,
+      "pages_tried": 2,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [
+        "https://au.myprotein.com/c/nutrition/au-best-sellers/"
+      ],
+      "signals_by_url": {
+        "https://au.myprotein.com/": {
+          "bf_mentioned": true,
+          "discount_text": "40% OFF",
+          "discount_max_pct": 40,
+          "discount_kind": "flat",
+          "sitewide_hint": true,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "No.1 Online Sports Nutrition Brand Extra 10% off + FREE shaker for new customers Earn $10 Credit? HOW DO YOU BLACK FRIDAY? 40% OFF EVERYTHING | DISCOUNT APPLIED APP EXCLUSIVE | EXTRA 5% OFF | AUTO APPLIES SHOP NOW Fuel Your Ambitio",
+          "free_shipping_threshold_hint": 150,
+          "status": "LIVE",
+          "confidence": "medium",
+          "url": "https://au.myprotein.com/",
+          "title": "Fuel Your Ambition with the No.1 Online Sports Nutrition Brand | Myprotein AU"
+        },
+        "https://au.myprotein.com/c/black-friday/": {
+          "bf_mentioned": true,
+          "discount_text": "40% OFF",
+          "discount_max_pct": 40,
+          "discount_kind": "flat",
+          "sitewide_hint": true,
+          "code": null,
+          "future_language": true,
+          "early_access": false,
+          "dates_seen": [
+            "27 November"
+          ],
+          "evidence": "No.1 Online Sports Nutrition Brand Extra 10% off + FREE shaker for new customers Earn $10 Credit? HOW DO YOU BLACK FRIDAY? 40% OFF EVERYTHING | DISCOUNT APPLIED APP EXCLUSIVE | EXTRA 5% OFF | AUTO APPLIES SHOP NOW Sign Up for Black",
+          "free_shipping_threshold_hint": 150,
+          "status": "UPCOMING",
+          "confidence": "low",
+          "url": "https://au.myprotein.com/c/black-friday/",
+          "title": "Black Friday 2026 Sign Up  |  Myprotein AU"
+        }
+      },
+      "policy": {
+        "free_shipping_threshold_hint": 150,
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "4584e27db9e3da1e",
+          "shipping": "50bf04068568a744"
+        },
+        "baseline_fingerprints": {
+          "returns": "4584e27db9e3da1e",
+          "shipping": "50bf04068568a744"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "new-balance": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": null,
+      "ok": false,
+      "pages_ok": 0,
+      "pages_tried": 1,
+      "errors": [
+        {
+          "url": "https://www.newbalance.com.au/",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>"
+        }
+      ],
+      "consecutive_failures": 1,
+      "discovered": [],
+      "signals_by_url": {},
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://www.newbalance.com.au/returns",
+            "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>"
+          },
+          {
+            "url": "https://www.newbalance.com.au/shipping",
+            "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>"
+          }
+        ],
+        "ok": false
+      }
+    },
+    "ryderwear": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 2,
+      "pages_tried": 2,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [
+        "https://au.ryderwear.com/pages/black-friday"
+      ],
+      "signals_by_url": {
+        "https://au.ryderwear.com/": {
+          "bf_mentioned": false,
+          "discount_text": "50% off",
+          "discount_max_pct": 50,
+          "discount_kind": "flat",
+          "sitewide_hint": true,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": 120,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://au.ryderwear.com/",
+          "title": "Gym Wear, Activewear & Gym Clothes - RyderwearMenuSearchSearchSearchWishlistWishlistCartCartGift CardGift CardContactCon"
+        },
+        "https://au.ryderwear.com/pages/black-friday": {
+          "bf_mentioned": true,
+          "discount_text": "50% off",
+          "discount_max_pct": 50,
+          "discount_kind": "flat",
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": true,
+          "early_access": false,
+          "dates_seen": [
+            "3 November"
+          ],
+          "evidence": "cart reminders) from Ryderwear at the number provided. You're IN! You'll get a message from us the SECOND our Black Friday Sale is live. 1 Step 1 2 Step 2 3 You're done Sale starts in: 00 Days 00 Hours 00 Minutes 00 Seconds Tuesday",
+          "free_shipping_threshold_hint": 120,
+          "status": "UPCOMING",
+          "confidence": "low",
+          "url": "https://au.ryderwear.com/pages/black-friday",
+          "title": "Black Friday Sale 2026 | 50% Off Everything | RyderwearMenuSearchSearchSearchWishlistWishlistCartCartGift CardGift CardC"
+        }
+      },
+      "policy": {
+        "free_shipping_threshold_hint": 120,
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "c580c20e89eb2da3",
+          "shipping": "c580c20e89eb2da3"
+        },
+        "baseline_fingerprints": {
+          "returns": "c580c20e89eb2da3",
+          "shipping": "c580c20e89eb2da3"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "salomon": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 2,
+      "pages_tried": 2,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://salomon.com.au/": {
+          "bf_mentioned": false,
+          "discount_text": "10% off",
+          "discount_max_pct": 10,
+          "discount_kind": "flat",
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": null,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://salomon.com.au/",
+          "title": "SALOMON® Australia: Shoes and clothing for running and hiking\n– Salomon Australia"
+        },
+        "https://salomon.com.au/collections/womens-black-friday": {
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "dress? If you have an ongoing order using this address, it will not be affected. Delete Cancel Home / Women's Black Friday Women's Black Friday Black Friday sale now live! Gear up for tomorrow. Save today. View more Skip to results",
+          "free_shipping_threshold_hint": null,
+          "status": "NEEDS_CHECKING",
+          "confidence": "low",
+          "url": "https://salomon.com.au/collections/womens-black-friday",
+          "title": "Women's Black Friday\n– Salomon Australia"
+        }
+      },
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "3898219f57ec95d1",
+          "shipping": "d66e7ff101aa0ac5"
+        },
+        "baseline_fingerprints": {
+          "returns": "3898219f57ec95d1",
+          "shipping": "d66e7ff101aa0ac5"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "uniqlo": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": null,
+      "ok": false,
+      "pages_ok": 0,
+      "pages_tried": 1,
+      "errors": [
+        {
+          "url": "https://www.uniqlo.com/au/en/",
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ],
+      "consecutive_failures": 1,
+      "discovered": [],
+      "signals_by_url": {},
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://faq-au.uniqlo.com/",
+            "error": "HTTP 403 (likely bot protection)"
+          },
+          {
+            "url": "https://faq-au.uniqlo.com/",
+            "error": "HTTP 403 (likely bot protection)"
+          }
+        ],
+        "ok": false
+      }
+    },
+    "youngla": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 1,
+      "pages_tried": 1,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://au.youngla.com/": {
+          "bf_mentioned": false,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": 100,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://au.youngla.com/",
+          "title": "Lifestyle Clothing Brand: Youngla.comAmerican ExpressApple PayDiners ClubDiscoverGoogle PayMastercardPayPalShop PayVisa"
+        }
+      },
+      "policy": {
+        "free_shipping_threshold_hint": 100,
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "8db57e7f48a44e33",
+          "shipping": "8d0b41cc0d7ee041"
+        },
+        "baseline_fingerprints": {
+          "returns": "8db57e7f48a44e33",
+          "shipping": "8d0b41cc0d7ee041"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "zara": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": null,
+      "ok": false,
+      "pages_ok": 0,
+      "pages_tried": 1,
+      "errors": [
+        {
+          "url": "https://www.zara.com/au/",
+          "error": "disallowed by robots.txt"
+        }
+      ],
+      "consecutive_failures": 1,
+      "discovered": [],
+      "signals_by_url": {},
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://www.zara.com/au/en/help-center/ReturnsAndRefunds",
+            "error": "disallowed by robots.txt"
+          },
+          {
+            "url": "https://www.zara.com/au/en/help-center/Shipping",
+            "error": "disallowed by robots.txt"
+          }
+        ],
+        "ok": false
+      }
+    },
+    "cos": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": null,
+      "ok": false,
+      "pages_ok": 0,
+      "pages_tried": 1,
+      "errors": [
+        {
+          "url": "https://www.cos.com/en-au/",
+          "error": "HTTP 403 (likely bot protection)"
+        }
+      ],
+      "consecutive_failures": 1,
+      "discovered": [],
+      "signals_by_url": {},
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://www.cos.com/en-au/customer-service/shipping",
+            "error": "HTTP 404"
+          }
+        ],
+        "ok": false,
+        "fingerprints": {
+          "returns": "dfff3c4684c768d4"
+        },
+        "baseline_fingerprints": {
+          "returns": "dfff3c4684c768d4"
+        }
+      }
+    },
+    "cotton-on": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 2,
+      "pages_tried": 2,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://cottonon.com/AU/": {
+          "bf_mentioned": false,
+          "discount_text": "40% Off",
+          "discount_max_pct": 40,
+          "discount_kind": "flat",
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": 30,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://cottonon.com/AU/",
+          "title": "Cotton On Australia | Women's, Men's & Kids Clothing & Accessoriesicon/flag/ukUAE Flag biggericon/flag/ukUAE Flag bigger"
+        },
+        "https://cottonon.com/AU/black-friday-cyber-monday/": {
+          "bf_mentioned": true,
+          "discount_text": "50% off",
+          "discount_max_pct": 50,
+          "discount_kind": "flat",
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": true,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "for $30 Swim separates 2 for $50 Graphic tees buy one, get one 50% off Online first: Cassie Halter Maxi Dress BLACK FRIDAY & CYBER MONDAY After living rent-free in our heads all year. Black Friday and Cyber Monday are almost here. T",
+          "free_shipping_threshold_hint": 30,
+          "status": "UPCOMING",
+          "confidence": "low",
+          "url": "https://cottonon.com/AU/black-friday-cyber-monday/",
+          "title": "That Black Friday Energy & Cyber Monday at Cotton On! Sale Coming soon!icon/flag/ukUAE Flag biggericon/flag/ukUAE Flag b"
+        }
+      },
+      "policy": {
+        "free_shipping_threshold_hint": 30,
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "36bedc67e6f3b3c6",
+          "shipping": "0fc3b479ab3a6731"
+        },
+        "baseline_fingerprints": {
+          "returns": "36bedc67e6f3b3c6",
+          "shipping": "0fc3b479ab3a6731"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "echt": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 2,
+      "pages_tried": 2,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [
+        "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items",
+        "https://echt.com.au/collections/men-black-friday-2026-up-to-70-off-selected-items",
+        "https://echt.com.au/collections/black-friday-2026-nothing-over-20",
+        "https://echt.com.au/pages/black-friday-run"
+      ],
+      "signals_by_url": {
+        "https://echt.com.au/": {
+          "bf_mentioned": true,
+          "discount_text": "30% Off",
+          "discount_max_pct": 30,
+          "discount_kind": "flat",
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "s Stringers & Tanks Others Others › Accessories Gift Cards Activity Activity › Weight Training Running Lounge Black Friday › Women’s Sale Men’s Sale Nothing Over $20 3 For 30% Off › Supplements › Rewards › › Account Sign in Wishlist",
+          "free_shipping_threshold_hint": 99,
+          "status": "LIVE",
+          "confidence": "medium",
+          "url": "https://echt.com.au/",
+          "title": "Shop ECHT Gym Wear Online | Gym Clothes & Accessories\n – Echt ApparelAmerican ExpressApple PayBizumGoogle PayMastercardP"
+        },
+        "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items": {
+          "bf_mentioned": true,
+          "discount_text": "30% Off",
+          "discount_max_pct": 30,
+          "discount_kind": "flat",
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "s Stringers & Tanks Others Others › Accessories Gift Cards Activity Activity › Weight Training Running Lounge Black Friday › Women’s Sale Men’s Sale Nothing Over $20 3 For 30% Off › Supplements › Rewards › › Account Sign in Wishlist",
+          "free_shipping_threshold_hint": 99,
+          "status": "LIVE",
+          "confidence": "medium",
+          "url": "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items",
+          "title": "Black Friday 2026 - Up to 70% Off Selected Items\n – Echt ApparelAmerican ExpressApple PayBizumGoogle PayMastercardPayPal"
+        }
+      },
+      "policy": {
+        "free_shipping_threshold_hint": 99,
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "86c409bcfec01d1f",
+          "shipping": "c6e3217042dca6af"
+        },
+        "baseline_fingerprints": {
+          "returns": "86c409bcfec01d1f",
+          "shipping": "c6e3217042dca6af"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "hm": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": null,
+      "ok": false,
+      "pages_ok": 0,
+      "pages_tried": 1,
+      "errors": [
+        {
+          "url": "https://www2.hm.com/en_au/index.html",
+          "error": "disallowed by robots.txt"
+        }
+      ],
+      "consecutive_failures": 1,
+      "discovered": [],
+      "signals_by_url": {},
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://www2.hm.com/en_au/customer-service/returns.html",
+            "error": "disallowed by robots.txt"
+          },
+          {
+            "url": "https://www2.hm.com/en_au/customer-service/shipping-and-delivery.html",
+            "error": "disallowed by robots.txt"
+          }
+        ],
+        "ok": false
+      }
+    },
+    "muscle-nation": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 2,
+      "pages_tried": 2,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [
+        "https://musclenation.org/pages/black-friday-browse",
+        "https://musclenation.org/collections/black-friday-womens/products/womens-neon-lily-oversized-tee-washed-black",
+        "https://musclenation.org/collections/black-friday-womens/products/doberman-division-oversized-tee-washed-black",
+        "https://musclenation.org/collections/black-friday-womens/products/womens-bones-oversized-tee-washed-black",
+        "https://musclenation.org/collections/black-friday-womens/products/cherry-club-oversized-tee-guava"
+      ],
+      "signals_by_url": {
+        "https://musclenation.org/": {
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "HIPPING ON ORDERS OVER $130* FREE AU SHIPPING ON ORDERS OVER $130* WOMENS MENS SUPPLEMENTS ACCESSORIES Browse Black Friday New Arrivals Best Sellers Matching Sets Comp Sets Sports Bras Maximum Support Bras Medium Support Bras Everyd",
+          "free_shipping_threshold_hint": null,
+          "status": "NEEDS_CHECKING",
+          "confidence": "low",
+          "url": "https://musclenation.org/",
+          "title": "Gym Clothes & Supplements - Shop Online | Muscle Nation\nAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPayPalSa"
+        },
+        "https://musclenation.org/pages/black-friday-browse": {
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "HIPPING ON ORDERS OVER $130* FREE AU SHIPPING ON ORDERS OVER $130* WOMENS MENS SUPPLEMENTS ACCESSORIES Browse Black Friday New Arrivals Best Sellers Matching Sets Comp Sets Sports Bras Maximum Support Bras Medium Support Bras Everyd",
+          "free_shipping_threshold_hint": null,
+          "status": "NEEDS_CHECKING",
+          "confidence": "low",
+          "url": "https://musclenation.org/pages/black-friday-browse",
+          "title": "Black Friday Browse\n – Muscle NationAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPayPalSatispayShop PayUnion "
+        }
+      },
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "0c336820c37ed85c",
+          "shipping": "7ba8d21c26fb66f4"
+        },
+        "baseline_fingerprints": {
+          "returns": "0c336820c37ed85c",
+          "shipping": "7ba8d21c26fb66f4"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "oner-active": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 1,
+      "pages_tried": 1,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [
+        "https://au.oneractive.com/collections/shop"
+      ],
+      "signals_by_url": {
+        "https://au.oneractive.com/": {
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "items. In the main menu, Tab opens each menu and the down arrow key moves into it. Skip to main content Menu Black Friday Shop About Us Log In / Sign Up Loyalty Club Contact us Track your order Help center Australia & New Zealand C",
+          "free_shipping_threshold_hint": 150,
+          "status": "NEEDS_CHECKING",
+          "confidence": "low",
+          "url": "https://au.oneractive.com/",
+          "title": "Activewear for Women by Krissy Cela | Oner Active AU"
+        }
+      },
+      "policy": {
+        "free_shipping_threshold_hint": 150,
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [],
+        "ok": true,
+        "fingerprints": {
+          "returns": "a116618799cdbceb",
+          "shipping": "be1038dae6d90e0a"
+        },
+        "baseline_fingerprints": {
+          "returns": "a116618799cdbceb",
+          "shipping": "be1038dae6d90e0a"
+        },
+        "last_success": "2026-11-05T09:05:28+00:00"
+      }
+    },
+    "puma": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 1,
+      "pages_tried": 1,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://au.puma.com/au/en": {
+          "bf_mentioned": false,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": 150,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://au.puma.com/au/en",
+          "title": "PUMA Australia Online Store | Forever Faster. | PUMA AU"
+        }
+      },
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://au.puma.com/au/en/help/shipping",
+            "error": "HTTP 404"
+          }
+        ],
+        "ok": false,
+        "fingerprints": {
+          "returns": "500ecbf966535d5e"
+        },
+        "baseline_fingerprints": {
+          "returns": "500ecbf966535d5e"
+        }
+      }
+    },
+    "reebok": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 1,
+      "pages_tried": 1,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://www.reebok.com.au/": {
+          "bf_mentioned": false,
+          "discount_text": "15% off",
+          "discount_max_pct": 15,
+          "discount_kind": "flat",
+          "sitewide_hint": true,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": 99,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://reebok.com.au/",
+          "title": "Reebok Australia - Iconic Sneakers & Sportwear"
+        }
+      },
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://www.reebok.com.au/pages/returns",
+            "error": "HTTP 404"
+          },
+          {
+            "url": "https://www.reebok.com.au/pages/shipping",
+            "error": "HTTP 404"
+          }
+        ],
+        "ok": false
+      }
+    },
+    "under-armour": {
+      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_success": "2026-11-05T09:05:28+00:00",
+      "ok": true,
+      "pages_ok": 1,
+      "pages_tried": 1,
+      "errors": [],
+      "consecutive_failures": 0,
+      "discovered": [],
+      "signals_by_url": {
+        "https://www.underarmour.com.au/": {
+          "bf_mentioned": false,
+          "discount_text": "15% off",
+          "discount_max_pct": 15,
+          "discount_kind": "flat",
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": null,
+          "free_shipping_threshold_hint": null,
+          "status": "NOT_ANNOUNCED",
+          "confidence": "low",
+          "url": "https://www.underarmour.com.au/en-au/",
+          "title": "Under Armour® Australia Official Store"
+        }
+      },
+      "policy": {
+        "checked_at": "2026-11-05T09:05:28+00:00",
+        "errors": [
+          {
+            "url": "https://www.underarmour.com.au/en-au/returns",
+            "error": "HTTP 410"
+          },
+          {
+            "url": "https://www.underarmour.com.au/en-au/shipping",
+            "error": "HTTP 410"
+          }
+        ],
+        "ok": false
+      }
+    }
+  },
+  "http_cache": {
+    "https://www.culturekings.com.au/": {
+      "etag": "W/\"page_cache:10233455:IndexController:fb2851cf6d7c1f1104a8f5d54627d945:03c1ef90cffe5cf8e8ea22c331304450\"",
+      "last_modified": null
+    },
+    "https://www.culturekings.com.au/pages/shipping-returns": {
+      "etag": "W/\"page_cache:10233455:PageDetailsController:58466ccb50f194dcc2363aef883ad5af:d127af0b4ef5cd9da4e620146673cf2f\"",
+      "last_modified": null
+    },
+    "https://au.gymshark.com/": {
+      "etag": "W/\"16zpsysx7s1va91\"",
+      "last_modified": null
+    },
+    "https://au.gymshark.com/pages/black-friday": {
+      "etag": "W/\"pul9m71pt0xl6j\"",
+      "last_modified": null
+    },
+    "https://support.gymshark.com/en-US/article/returns-policy": {
+      "etag": "W/\"a161dc78d12313285c89fd256880f85f\"",
+      "last_modified": null
+    },
+    "https://support.gymshark.com/en-US/article/delivery-information": {
+      "etag": "W/\"35a8672df932d68a19ff18c15ea2afbd\"",
+      "last_modified": null
+    },
+    "https://www.lskd.co/": {
+      "etag": "W/\"page_cache:9932004:IndexController:9d79a1523d346e49e75a0681d37ed03a:e5c3e425ea882ac99b1de37f2861ada3\"",
+      "last_modified": null
+    },
+    "https://lskd-au.gorgias.help/en-US/returns-policy-info-92275": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://www.nike.com/au/": {
+      "etag": "\"9hp4stpt1d84go\"",
+      "last_modified": null
+    },
+    "https://www.nike.com/au/help/a/returns-policy": {
+      "etag": "\"9y4exddbr02miz\"",
+      "last_modified": null
+    },
+    "https://www.nike.com/au/help/a/shipping-delivery": {
+      "etag": "\"1ldzjw8zgf2jop\"",
+      "last_modified": null
+    },
+    "https://www.theiconic.com.au/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://www.theiconic.com.au/returns-policy/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://www.theiconic.com.au/delivery/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://www.abercrombie.com/shop/au": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://www.abercrombie.com/shop/wd/black-friday": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://www.abercrombie.com/shop/wd/help/online-return-exchange-policy": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://www.abercrombie.com/shop/wd/help/shipping-handling": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://alphaleteathletics.com/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://alphaleteathletics.com/pages/faq": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://www.hallensteins.com/au/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://www.hallensteins.com/au/faqs/shipping": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://au.manieredevoir.com/": {
+      "etag": "W/\"sfr:computation:v2:2f2c4611b83201b1f2813946032f6eaf294663ef1b3b25c13a664234e313ccba:2189f757fd0b64eb7b75c7bd421ea7e5\"",
+      "last_modified": null
+    },
+    "https://au.manieredevoir.com/pages/delivery-returns": {
+      "etag": "W/\"sfr:computation:v2:81d7ec3818016241f04d87c7f5874c8383aea2860ffbfc66af0863f1918529f1:6761bbd24074b0a9215efd310945bda1\"",
+      "last_modified": null
+    },
+    "https://au.myprotein.com/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://au.myprotein.com/c/black-friday/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://au.myprotein.com/c/customer-services/returns-policy/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://au.myprotein.com/c/customer-services/delivery-information/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://au.ryderwear.com/": {
+      "etag": "W/\"page_cache:26782664:IndexController:7a56ab515a7c5a2fa5f5b556a19789a0:a89dac8e2292512f480f7825be81d271\"",
+      "last_modified": null
+    },
+    "https://au.ryderwear.com/pages/black-friday": {
+      "etag": "W/\"sfr:computation:v2:2a027aabe4a6e239777bc4a0dc3ef9063271ea1c6c44e3511c23f663e3d56920:06610501fc0ce981fa6c00faff97a15d\"",
+      "last_modified": null
+    },
+    "https://www.ryderwear.com/pages/returns": {
+      "etag": "W/\"sfr:computation:v2:c0c99f86ecee2b1a76bb7f9fcab439ae35f46fe0133ca10dedcd9db95bcc401b:53341816bf80d02b8e674ea5a107f9d9\"",
+      "last_modified": null
+    },
+    "https://salomon.com.au/": {
+      "etag": "W/\"sfr:computation:v2:c838e1f8e7bccf747a44965d8f58813a64e9053cf9c2c3e5db0b9d955f8022a1:008535f5830d034d0d5da29556303028\"",
+      "last_modified": null
+    },
+    "https://salomon.com.au/collections/womens-black-friday": {
+      "etag": "W/\"sfr:computation:v2:d4c57f7689f8ef7a76b9df7f3535e3fc50e5d8ea04e1244abc9c8711359a11c6:c53ef0e67c99d288233bf26c0940d298\"",
+      "last_modified": null
+    },
+    "https://salomon.com.au/pages/returns-2": {
+      "etag": "W/\"sfr:computation:v2:6c161d0f0bd7e7778ea8280e21240952e3b4ce90716a5d8cfddf9564969e0ec4:f92817ce10e2305c09e398c0c6e3959f\"",
+      "last_modified": null
+    },
+    "https://salomon.com.au/pages/shipping": {
+      "etag": "W/\"sfr:computation:v2:10081f989614b84f3db0c8dfcf3220b9926c2c49eec7e149e5d291c4c844a0f1:6f25eda14c47f4b3e97a4ba8348013ba\"",
+      "last_modified": null
+    },
+    "https://au.youngla.com/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://au.youngla.com/pages/returns-and-exchanges": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://www.cos.com/en-au/customer-service/returns": {
+      "etag": "\"z13lqawxiobx2s\"",
+      "last_modified": null
+    },
+    "https://cottonon.com/AU/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://cottonon.com/AU/black-friday-cyber-monday/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://cottonon.com/AU/information-about-returns.html": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://cottonon.com/AU/delivery-methods.html": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://echt.com.au/": {
+      "etag": "W/\"sfr:computation:v2:48fd7a1235c4a08cf804471ff786ce53bd75695b9c83f6549c9a3887be94bc1e:056ffceccb721f8b8f4ecf00dc4ce73a\"",
+      "last_modified": null
+    },
+    "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items": {
+      "etag": "W/\"sfr:computation:v2:573292a0a3abd6550d728fd42b7359a1a9cc54b2287bf11f3e04de747b20679c:f9ae572c7d07e2de93263c3164e3b262\"",
+      "last_modified": null
+    },
+    "https://echt.gorgias.help/en-US/how-do-i-return--exchange-an-item-430440": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://echt.com.au/pages/shipping-info": {
+      "etag": "W/\"sfr:computation:v2:561c05223f95092f1c6106fc6ae0e4c430593620d94e521c3322d29a71c56e68:e77aac56425b4e92bc2f8c9f62151484\"",
+      "last_modified": null
+    },
+    "https://musclenation.org/": {
+      "etag": "W/\"sfr:computation:v2:47faed55f2a9f804beb9b6419f372fe6cfeca074886dd658ae13c595001d8e62:9a8beb211549c00c8d5533af01e8d5bf\"",
+      "last_modified": null
+    },
+    "https://musclenation.org/pages/black-friday-browse": {
+      "etag": "W/\"sfr:computation:v2:a31d50ccae34e668ed40985e2b87318c73ef92cb00bc2b70ccab49e6fa5d1313:c3205f938f7992aaf2040af2aede1164\"",
+      "last_modified": null
+    },
+    "https://musclenation.org/pages/returns-policy": {
+      "etag": "W/\"sfr:computation:v2:d3650e1f0c473d74e952fb2ef7fa4ff5f42a1c644fea01e3e59c238a1a309c36:ec0d60d1a671ed86c691b494b6b5744a\"",
+      "last_modified": null
+    },
+    "https://musclenation.org/policies/shipping-policy": {
+      "etag": "W/\"sfr:computation:v2:ff901d174356d73fcec366df1bdedd4899f0b924ce32cc9fdcf816242c0c4678:c1feca71aded15417a566da9b164e2e7\"",
+      "last_modified": null
+    },
+    "https://au.oneractive.com/": {
+      "etag": "W/\"sfr:computation:v2:6ee4a20f70bd5f0be74eda7a59ee3791ad20590743236708afa69c284fa3a119:a2af9c5f7fd7729baec95e7b2f41d5c2\"",
+      "last_modified": null
+    },
+    "https://au.oneractive.com/pages/help-center/returns": {
+      "etag": "W/\"sfr:computation:v2:2e26a99f33c2da52652a398c283677db4368b7092dc1a051c9bd0cedbfacac6e:4ce7fc6bbfa902fa3624dd4dcb6e302a\"",
+      "last_modified": null
+    },
+    "https://au.oneractive.com/pages/shipping-policy": {
+      "etag": "W/\"sfr:computation:v2:3ae799d9cfa472489c24b0292c5509c68e354deb664853512684aa28c339bc08:8c77f233104e2f96b78b99813cfedc65\"",
+      "last_modified": null
+    },
+    "https://au.puma.com/au/en": {
+      "etag": "\"4x14821st5hpq8\"",
+      "last_modified": null
+    },
+    "https://au.puma.com/au/en/help/returns": {
+      "etag": "\"ct8l577o4mfgoe\"",
+      "last_modified": null
+    },
+    "https://www.reebok.com.au/": {
+      "etag": "W/\"sfr:computation:v2:4f7b5e0edf8f23191b92496f13fb6a9136745b0613d4d846140b40b099719069:044871e627a0a06ece9025daa5dc271f\"",
+      "last_modified": null
+    },
+    "https://www.underarmour.com.au/": {
+      "etag": null,
+      "last_modified": null
+    }
+  }
+}
