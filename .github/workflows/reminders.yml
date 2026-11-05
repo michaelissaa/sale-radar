@@ -1,0 +1,38 @@
+name: Black Friday launch reminders
+
+# Hourly, no retailer requests: emails "goes live in under 24h" and "live now" for retailer-confirmed
+# launch times, so a 4-hour sale isn't missed between the 6-hourly scans.
+on:
+  schedule:
+    - cron: "5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scan-and-deploy   # shares the lock with the scan so commits never collide
+  cancel-in-progress: false
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send launch reminders
+        env:
+          NOTIFY_URL: ${{ secrets.NOTIFY_URL }}
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
+        run: python scanner/notify.py --reminders
+      - name: Record sent reminders
+        run: |
+          git config user.name "sale-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/notified.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -m "data: launch reminders sent $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main && git push

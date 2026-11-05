@@ -29,6 +29,15 @@ web/                    React + Vite dashboard (reads data/*.json)
 | ENDED | Previously active, confirmed end date passed or wording gone |
 | NEEDS CHECKING | Site unreachable/blocked with no prior data, or wording is ambiguous |
 
+Each active or announced sale also has a **sale type**: *Black Friday* (Black Friday / Cyber Monday branded)
+or *Regular sale* (a normal promotion). The dashboard has filters for each.
+
+**Store price check:** for Shopify stores (most gymwear brands) the scanner reads the public `/products.json`
+once a day and counts products priced below their "compare at" price. This is the store's own price data, so:
+a "sale live" banner with under 10% of products discounted becomes NEEDS CHECKING with an explanation;
+a "sitewide" claim with under half the products discounted is downgraded to "selected items"; and a store
+with at least 40% of products marked down but no Black Friday wording shows as a *Regular sale*.
+
 Dates are only shown when the retailer published them (`dates_confirmed: true` in research.json).
 The scanner never derives dates. Past-year patterns go in `expected_note` and display as "Not confirmed".
 "Up to 50% off" and "50% off" are stored separately (`discount_kind: up_to | flat`).
@@ -65,6 +74,15 @@ Edit `config/brands.json` (in GitHub's web editor is fine):
   Values must be `YES | NO | CONDITIONAL | UNKNOWN`, with `source_url` and `evidence`. `python -m unittest discover -s scanner` checks this.
 
 Committing to `main` rebuilds the site. The next scheduled scan picks up the brand.
+
+## Email alerts
+
+People sign up on the dashboard (**Email alerts** button, or **Alert me** on a brand) with their email, the
+brands they care about and the alert types: Black Friday news (announced, dates confirmed, live), regular
+sales starting or ending, and discount changes. After each scan, `scanner/notify.py` turns that run's changes
+into alerts and posts them to a Google Apps Script backend, which emails matching subscribers.
+Setup and privacy details: [notify/README.md](notify/README.md). Until it's connected, the sign-up form says
+alerts aren't switched on, and the scan log lists the alerts it *would* have sent.
 
 ## Run a scan manually
 

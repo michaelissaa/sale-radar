@@ -769,6 +769,386 @@
         "returns": "https://www.countryroad.com.au/pages/returns",
         "shipping": "https://www.countryroad.com.au/pages/delivery"
       }
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon Australia",
+      "category": "department",
+      "priority": 1,
+      "enabled": true,
+      "storefront": "AU marketplace",
+      "urls": {
+        "home": "https://www.amazon.com.au/",
+        "sale": [
+          "https://www.amazon.com.au/blackfriday"
+        ],
+        "returns": "https://www.amazon.com.au/b?ie=UTF8&node=10347105051",
+        "shipping": "https://www.amazon.com.au/gp/help/customer/display.html?nodeId=GZXW7X6AKTHNUP6H"
+      }
+    },
+    {
+      "id": "myer",
+      "name": "Myer",
+      "category": "department",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU department store",
+      "urls": {
+        "home": "https://www.myer.com.au/",
+        "sale": [
+          "https://www.myer.com.au/content/black-Friday"
+        ],
+        "returns": "https://www.myer.com.au/content/returns-policy",
+        "shipping": "https://www.myer.com.au/content/payment-and-delivery"
+      }
+    },
+    {
+      "id": "david-jones",
+      "name": "David Jones",
+      "category": "department",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU department store",
+      "urls": {
+        "home": "https://www.davidjones.com/",
+        "sale": [],
+        "returns": "https://www.davidjones.com/return-options",
+        "shipping": "https://www.davidjones.com/delivery-choices"
+      }
+    },
+    {
+      "id": "hype-dc",
+      "name": "Hype DC",
+      "category": "sportswear",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU sneaker retailer",
+      "urls": {
+        "home": "https://www.hypedc.com/au/",
+        "sale": [],
+        "returns": "https://www.hypedc.com/au/articles/faq/returns-faq",
+        "shipping": "https://www.hypedc.com/au/articles/faq/shipping"
+      }
+    },
+    {
+      "id": "vans",
+      "name": "Vans",
+      "category": "sportswear",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.vans.com.au/",
+        "sale": [],
+        "returns": "https://www.vans.com.au/create-returns-info",
+        "shipping": null
+      }
+    },
+    {
+      "id": "converse",
+      "name": "Converse",
+      "category": "sportswear",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU site",
+      "urls": {
+        "home": "https://www.converse.com.au/",
+        "sale": [
+          "https://www.converse.com.au/black-friday-cyber-monday"
+        ],
+        "returns": "https://www.converse.com.au/help/returns-policy",
+        "shipping": "https://www.converse.com.au/help/shipping-delivery/cost"
+      }
+    },
+    {
+      "id": "alo-yoga",
+      "name": "Alo Yoga",
+      "category": "gymwear",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU storefront (US brand)",
+      "urls": {
+        "home": "https://www.aloyoga.com/en-au",
+        "sale": [],
+        "returns": "https://www.aloyoga.com/pages/returns-exchanges",
+        "shipping": "https://www.aloyoga.com/pages/shipping-info"
+      }
+    },
+    {
+      "id": "adanola",
+      "name": "Adanola",
+      "category": "gymwear",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "UK brand, ships to AU",
+      "urls": {
+        "home": "https://adanola.com/en-au",
+        "sale": [],
+        "returns": "https://adanola.com/en-au/pages/returns",
+        "shipping": "https://adanola.com/pages/worldwide-shipping"
+      }
+    },
+    {
+      "id": "bonds",
+      "name": "Bonds",
+      "category": "fashion",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU brand",
+      "urls": {
+        "home": "https://www.bonds.com.au/",
+        "sale": [],
+        "returns": "https://www.bonds.com.au/returns-exchanges",
+        "shipping": "https://www.bonds.com.au/shipping-options"
+      }
+    },
+    {
+      "id": "elite-eleven",
+      "name": "Elite Eleven",
+      "category": "gymwear",
+      "priority": 1,
+      "enabled": true,
+      "storefront": "AU brand",
+      "urls": {
+        "home": "https://eliteelevensporting.com/",
+        "sale": [],
+        "returns": "https://eliteelevensporting.com/pages/faqs",
+        "shipping": "https://eliteelevensporting.com/pages/faqs"
+      }
+    },
+    {
+      "id": "jb-hifi",
+      "name": "JB Hi-Fi",
+      "category": "tech",
+      "priority": 1,
+      "enabled": true,
+      "storefront": "AU retailer",
+      "urls": {
+        "home": "https://www.jbhifi.com.au/",
+        "sale": [
+          "https://www.jbhifi.com.au/pages/black-friday-sale"
+        ],
+        "returns": "https://www.jbhifi.com.au/pages/help-and-support/refunds-and-warranties-guide",
+        "shipping": "https://www.jbhifi.com.au/pages/help-and-support/delivery-and-collection"
+      }
+    },
+    {
+      "id": "harvey-norman",
+      "name": "Harvey Norman",
+      "category": "tech",
+      "priority": 1,
+      "enabled": true,
+      "storefront": "AU retailer",
+      "urls": {
+        "home": "https://www.harveynorman.com.au/",
+        "sale": [
+          "https://www.harveynorman.com.au/black-friday"
+        ],
+        "returns": "https://www.harveynorman.com.au/customer-service/refund-policy",
+        "shipping": null
+      }
+    },
+    {
+      "id": "the-good-guys",
+      "name": "The Good Guys",
+      "category": "tech",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU retailer",
+      "urls": {
+        "home": "https://www.thegoodguys.com.au/",
+        "sale": [
+          "https://www.thegoodguys.com.au/deals/black-friday-freezers"
+        ],
+        "returns": "https://www.thegoodguys.com.au/terms-and-conditions",
+        "shipping": null
+      }
+    },
+    {
+      "id": "officeworks",
+      "name": "Officeworks",
+      "category": "tech",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU retailer",
+      "urls": {
+        "home": "https://www.officeworks.com.au/",
+        "sale": [
+          "https://www.officeworks.com.au/campaigns/black-friday"
+        ],
+        "returns": "https://www.officeworks.com.au/information/policies/return-policy",
+        "shipping": "https://www.officeworks.com.au/information/policies/delivery-offer"
+      }
+    },
+    {
+      "id": "bing-lee",
+      "name": "Bing Lee",
+      "category": "tech",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU retailer",
+      "urls": {
+        "home": "https://www.binglee.com.au/",
+        "sale": [
+          "https://www.binglee.com.au/categories/promotions/black-friday-sale"
+        ],
+        "returns": "https://www.binglee.com.au/articles/help/returns-refunds-warranties-and-repairs/returns-policy",
+        "shipping": "https://www.binglee.com.au/articles/help/delivery-services"
+      }
+    },
+    {
+      "id": "dell",
+      "name": "Dell",
+      "category": "tech",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU online store",
+      "urls": {
+        "home": "https://www.dell.com/en-au",
+        "sale": [
+          "https://www.dell.com/en-au/shop/lp/black-friday-deals"
+        ],
+        "returns": "https://www.dell.com/en-au/shop/lp/return-policy",
+        "shipping": "https://www.dell.com/en-au/shop/dell-experience/lp/shipping-and-delivery"
+      }
+    },
+    {
+      "id": "hp",
+      "name": "HP",
+      "category": "tech",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU online store",
+      "urls": {
+        "home": "https://www.hp.com/au-en/shop/",
+        "sale": [
+          "https://www.hp.com/au-en/shop/sale-offers.html"
+        ],
+        "returns": "https://www.hp.com/au-en/shop/faqs-content",
+        "shipping": "https://www.hp.com/au-en/shop/faqs-content"
+      }
+    },
+    {
+      "id": "lenovo",
+      "name": "Lenovo",
+      "category": "tech",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU online store",
+      "urls": {
+        "home": "https://www.lenovo.com/au/en/",
+        "sale": [
+          "https://www.lenovo.com/au/en/deals/black-friday-sale/"
+        ],
+        "returns": "https://www.lenovo.com/au/en/shopping-faqs/",
+        "shipping": "https://www.lenovo.com/au/en/shopping-faqs/"
+      }
+    },
+    {
+      "id": "asus",
+      "name": "ASUS",
+      "category": "tech",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU eShop",
+      "urls": {
+        "home": "https://www.asus.com/au/",
+        "sale": [
+          "https://www.asus.com/au/deals/black-friday/"
+        ],
+        "returns": "https://au.store.asus.com/rog/shopping-faqs",
+        "shipping": "https://au.store.asus.com/terms-conditions"
+      }
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "category": "tech",
+      "priority": 1,
+      "enabled": true,
+      "storefront": "AU online store",
+      "urls": {
+        "home": "https://www.samsung.com/au/",
+        "sale": [
+          "https://www.samsung.com/au/offer/black-friday-sale/"
+        ],
+        "returns": "https://www.samsung.com/au/shop-faq/returns-and-cancellations/",
+        "shipping": "https://www.samsung.com/au/shop-faq/delivery-and-installations/delivery-costs/"
+      }
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "category": "tech",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU online store",
+      "urls": {
+        "home": "https://www.apple.com/au/",
+        "sale": [],
+        "returns": "https://www.apple.com/au/shop/help/returns_refund",
+        "shipping": "https://www.apple.com/au/shop/help/shipping_delivery"
+      }
+    },
+    {
+      "id": "sony",
+      "name": "Sony",
+      "category": "tech",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU online store",
+      "urls": {
+        "home": "https://store.sony.com.au/",
+        "sale": [],
+        "returns": "https://store.sony.com.au/30day-faq.html",
+        "shipping": "https://store.sony.com.au/delivery-returns.html"
+      }
+    },
+    {
+      "id": "dyson",
+      "name": "Dyson",
+      "category": "tech",
+      "priority": 2,
+      "enabled": true,
+      "storefront": "AU online store",
+      "urls": {
+        "home": "https://www.dyson.com.au/",
+        "sale": [],
+        "returns": "https://www.dyson.com.au/footer-primary-links/delivery-details",
+        "shipping": "https://www.dyson.com.au/footer-primary-links/delivery-details"
+      }
+    },
+    {
+      "id": "logitech",
+      "name": "Logitech",
+      "category": "tech",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU online store",
+      "urls": {
+        "home": "https://www.logitech.com/en-au",
+        "sale": [
+          "https://www.logitech.com/en-au/shop/deals"
+        ],
+        "returns": null,
+        "shipping": null
+      }
+    },
+    {
+      "id": "garmin",
+      "name": "Garmin",
+      "category": "tech",
+      "priority": 3,
+      "enabled": true,
+      "storefront": "AU online store",
+      "urls": {
+        "home": "https://www.garmin.com/en-AU/",
+        "sale": [
+          "https://www.garmin.com/en-AU/c/promotions/"
+        ],
+        "returns": "https://www.garmin.com/en-AU/shop/shipping/",
+        "shipping": null
+      }
     }
   ]
 }

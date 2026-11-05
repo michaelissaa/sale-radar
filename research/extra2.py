@@ -14,10 +14,10 @@ def P2(*a):
 
 
 EXTRA["evdnce"] = {
-    "sale": SALE2("LIVE", "https://evdnce.com/", "UP TO 50% OFF SITEWIDE LIVE NOW",
-                  name="Sitewide sale (not labelled Black Friday)", discount_text="Up to 50% off sitewide", discount_max_pct=50,
-                  discount_kind="up_to", scope="SITEWIDE", code_required="NO",
-                  conditions="'Up to' 50%: discounts vary by item. The banner doesn't say Black Friday or give an end date."),
+    "sale": SALE2("NOT_ANNOUNCED", "https://evdnce.com/products.json",
+                  "Home page banner reads 'UP TO 50% OFF SITEWIDE LIVE NOW', but the store's own product prices show only 12 of 387 products discounted (3%), the Seamless Sculpt range at 50%.",
+                  confidence="high",
+                  conditions="Corrected 5 Nov: no real sale. The banner contradicts the store's prices. A handful of items are marked down."),
     "policy": P2("sourced", "14-day returns via the Loop portal; $9.95 handling and return postage deducted from refunds. Free shipping over AU$250.",
                  R("YES", "CONDITIONAL", "CONDITIONAL", instore="NA", label="YES", days=14, sale_ex="CONDITIONAL", refund="Refund, exchange or store credit",
                    cost="$9.95 deducted from refunds", cond="Final sale, underwear, socks and headwear excluded. Unworn with tags.",
@@ -49,7 +49,7 @@ EXTRA["stax"] = {
 }
 EXTRA["bo-tee"] = {
     "sale": SALE2("EARLY_ACCESS", "https://boandtee.com/pages/30-off", "early access is now live sign up below to be emailed the exclusive link",
-                  name="30% off event (not labelled Black Friday)", discount_text="30% off", discount_max_pct=30, discount_kind="flat",
+                  name="30% off event (not labelled Black Friday)", sale_type="regular", discount_text="30% off", discount_max_pct=30, discount_kind="flat",
                   early_access="Email sign-up gives an exclusive early-access link",
                   conditions="Page is titled '30% Off'; scope and end date not stated."),
     "policy": P2("sourced", "14 days for refund or exchange (28 for store credit). First return free in some cases; customs may apply from the UK.",
@@ -209,7 +209,7 @@ EXTRA["glue-store"] = {
 }
 EXTRA["general-pants"] = {
     "sale": SALE2("LIVE", "https://www.generalpants.com/", "EXTRA 50% OFF SALE*",
-                  name="Extra 50% off sale (not labelled Black Friday)", discount_text="Extra 50% off sale items", discount_max_pct=50, discount_kind="flat",
+                  name="Extra 50% off sale (not labelled Black Friday)", sale_type="regular", discount_text="Extra 50% off sale items", discount_max_pct=50, discount_kind="flat",
                   scope="SELECTED", conditions="Applies to items already on sale. Research pass saw it marked 'EXTENDED'; no end date."),
     "policy": P2("sourced", "Full-price items: 30-day returns by Refundid portal or in store. Final Sale not returnable. Free shipping over $145.",
                  R("CONDITIONAL", "CONDITIONAL", "UNKNOWN", instore="CONDITIONAL", days=30, sale_ex="CONDITIONAL", refund="Original payment method",
@@ -237,7 +237,7 @@ EXTRA["levis"] = {
 }
 EXTRA["country-road"] = {
     "sale": SALE2("LIVE", "https://www.countryroad.com.au/", "25% off Bags and shoes * Shop woman Shop man *Excludes Child",
-                  name="25% off bags and shoes (not labelled Black Friday)", discount_text="25% off bags and shoes", discount_max_pct=25, discount_kind="flat",
+                  name="25% off bags and shoes (not labelled Black Friday)", sale_type="regular", discount_text="25% off bags and shoes", discount_max_pct=25, discount_kind="flat",
                   scope="SELECTED", conditions="Full-priced only, excludes Child, can't combine with other offers."),
     "policy": P2("sourced", "30-day returns: free in store, $9.95 by post. Free standard delivery over $100.",
                  R("CONDITIONAL", "YES", "NO", instore="YES", days=30, cost="$9.95 by post", src="https://www.countryroad.com.au/pages/returns",

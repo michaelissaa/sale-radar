@@ -36,6 +36,12 @@ STALE_AFTER = timedelta(hours=18)  # ~3 missed 6-hourly scans
 VERIFIED_SALE_TTL = timedelta(days=3)  # verified sale status trusted this long without re-verification
 MAX_CHANGES = 1000
 ACTIVE = {"LIVE", "EARLY_ACCESS"}
+FEED_RECHECK = timedelta(hours=24)       # Shopify product-feed price check, once a day
+FEED_RETRY_MISSING = timedelta(days=7)   # sites without a public feed: try again weekly
+FEED_MAX_PAGES = 8                       # 8 x 250 products; shortcut: very large catalogs are sampled, not counted fully
+FEED_FRESH = timedelta(hours=48)
+REGULAR_SALE_SHARE = 0.40                # >= 40% of products marked down counts as a store-wide sale
+SALE_CLAIM_MIN_SHARE = 0.10              # a "live sale" with < 10% of products discounted contradicts itself
 
 
 def now_utc() -> datetime:
@@ -169,6 +175,7 @@ def resolve_sale(verified: dict | None, auto: dict | None, prev: dict | None, sc
         "early_access": v.get("early_access"), "conditions": v.get("conditions"),
         "evidence": v.get("evidence"), "source_url": v.get("source_url"), "verified_at": v.get("verified_at"),
         "verification": v.get("verification"),
+        "sale_type": v.get("sale_type"),  # "black_friday" | "regular" | None
         "auto": auto,
     }
     verified_at = parse_iso(v.get("verified_at"))
@@ -194,7 +201,8 @@ def resolve_sale(verified: dict | None, auto: dict | None, prev: dict | None, sc
         status, conf = auto["status"], auto["confidence"]
         if status == "NOT_ANNOUNCED" and prev and prev.get("status") in ACTIVE:
             status, conf = "ENDED", "low"  # was active, wording now gone
-        merged = {**out, "status": status, "basis": "auto", "confidence": conf}
+        merged = {**out, "status": status, "basis": "auto", "confidence": conf,
+                  "sale_type": "black_friday" if status in ACTIVE | {"UPCOMING"} and auto.get("bf_mentioned") else None}
         # Discounts on "coming soon" pages are often last year's ("Last time we offered up to 50%"),
         # so only attach a detected discount when the sale is active.
         if status in ACTIVE and auto.get("discount_text"):
@@ -222,6 +230,87 @@ def resolve_sale(verified: dict | None, auto: dict | None, prev: dict | None, sc
 def policy_fingerprint(text: str) -> str:
     keep = [s for s in text.split(". ") if any(k in s.lower() for k in ("return", "refund", "deliver", "shipping", "days", "$"))]
     return hashlib.sha1(" ".join(keep).encode()).hexdigest()[:16]
+
+
+# ---------------------------------------------------------------- price feed
+def markdown_check(brand: dict, fetcher: "Fetcher", prev: dict, now: datetime) -> dict:
+    """Count products whose price is below their compare-at ('was') price using Shopify's public
+    /products.json. This is the store's own price data, so it confirms or contradicts sale banners."""
+    if brand.get("feed") is False:
+        return {"ok": False, "reason": "disabled"}
+    last = parse_iso(prev.get("checked_at"))
+    wait = FEED_RETRY_MISSING if prev and not prev.get("ok") else FEED_RECHECK
+    if last and now - last < wait:
+        return prev
+    u = urlparse(brand["urls"]["home"])
+    base = f"{u.scheme}://{u.netloc}/products.json?limit=250"
+    products = discounted = 0
+    max_pct = 0
+    for page in range(1, FEED_MAX_PAGES + 1):
+        r = fetcher.get(f"{base}&page={page}")
+        if not r["ok"]:
+            if page == 1:
+                return {"ok": False, "checked_at": iso(now), "reason": r.get("error", "no public product feed")}
+            break
+        try:
+            items = json.loads(r.get("html") or "")["products"]
+        except (ValueError, KeyError, TypeError):
+            return {"ok": False, "checked_at": iso(now), "reason": "no public product feed"}
+        for prod in items:
+            offs = []
+            for v in prod.get("variants", []):
+                try:
+                    price, was = float(v.get("price") or 0), float(v.get("compare_at_price") or 0)
+                except (TypeError, ValueError):
+                    continue
+                if was > price > 0:
+                    offs.append(1 - price / was)
+            products += 1
+            if offs:
+                discounted += 1
+                max_pct = max(max_pct, round(max(offs) * 100))
+        if len(items) < 250:
+            break
+    if not products:
+        return {"ok": False, "checked_at": iso(now), "reason": "empty product feed"}
+    return {"ok": True, "checked_at": iso(now), "products": products, "discounted": discounted,
+            "share": round(discounted / products, 3), "max_pct": max_pct, "capped": products >= FEED_MAX_PAGES * 250}
+
+
+def apply_feed_check(sale: dict, md: dict | None, now: datetime) -> dict:
+    """Cross-check the sale status against real prices. Never invents dates."""
+    if not md or not md.get("ok") or now - (parse_iso(md.get("checked_at")) or now) > FEED_FRESH:
+        return sale
+    s = dict(sale)
+    pct = round(md["share"] * 100)
+    # Only a live, store-wide claim can be checked against prices: selected-item or checkout/code
+    # discounts don't show as "was" prices, and upcoming sales haven't changed prices yet.
+    claims_sitewide = s.get("scope") == "SITEWIDE" or any(w in (s.get("discount_text") or "").lower() for w in ("sitewide", "everything", "storewide"))
+    if s["status"] in ACTIVE and claims_sitewide and md["share"] < SALE_CLAIM_MIN_SHARE:
+        s["conflict"] = (f"Advertised as a store-wide sale, but the store's own prices show only {md['discounted']} of "
+                         f"{md['products']} products ({pct}%) discounted.")
+        s["status"], s["confidence"] = "NEEDS_CHECKING", "low"
+    elif s["status"] in ACTIVE and s.get("scope") == "SITEWIDE" and md["share"] < 0.5:
+        s["scope"] = "SELECTED"
+        s["conflict"] = f"Advertised as sitewide, but only {pct}% of products are discounted."
+    if s["status"] not in ACTIVE and md["share"] >= REGULAR_SALE_SHARE and not s.get("regular"):
+        s["regular"] = {"name": "Store-wide markdowns", "discount_text": f"Up to {md['max_pct']}% off ({pct}% of products)",
+                        "discount_max_pct": md["max_pct"], "basis": "feed"}
+    return s
+
+
+def split_regular(sale: dict) -> dict:
+    """Black Friday is the priority: the main status only ever describes the Black Friday sale.
+    A live regular (non Black Friday) promotion is kept alongside it in sale.regular."""
+    s = dict(sale)
+    if s.get("sale_type") == "regular" and s["status"] in ACTIVE:
+        s["regular"] = {k: s.get(k) for k in ("name", "discount_text", "discount_max_pct", "evidence", "source_url", "conditions", "basis")}
+        s.update(status="NOT_ANNOUNCED", sale_type=None, name=None, discount_text=None, discount_max_pct=None,
+                 discount_kind=None, scope="UNKNOWN", evidence=None, conditions=None, code=None, code_required="UNKNOWN")
+    if s["status"] in ACTIVE | {"UPCOMING"}:
+        s["sale_type"] = "black_friday"
+    s["regular_active"] = bool(s.get("regular"))
+    return s
 
 
 # ---------------------------------------------------------------- per brand
@@ -293,6 +382,7 @@ def scan_brand(brand: dict, fetcher: Fetcher, prev_scan: dict, now: datetime) ->
         "discovered": discovered or prev_scan.get("discovered", []),
         "signals_by_url": signals_by_url or prev_signals,
         "policy": policy,
+        "markdown": markdown_check(brand, fetcher, prev_scan.get("markdown", {}), now),
     }
     return rec, best
 
@@ -316,7 +406,7 @@ def build_policy(verified: dict | None, scan_policy: dict) -> dict:
 
 # ---------------------------------------------------------------- diffing
 WATCH = [
-    ("sale.status", "Sale status"), ("sale.discount_text", "Discount"), ("sale.start", "Start date"),
+    ("sale.status", "Black Friday status"), ("sale.regular_active", "Regular sale"), ("sale.discount_text", "Discount"), ("sale.start", "Start date"),
     ("sale.end", "End date"), ("sale.code", "Code"), ("policy.returns.free_return_postage", "Free return postage"),
     ("policy.returns.change_of_mind", "Change-of-mind returns"), ("policy.returns.window_days", "Returns window"),
     ("policy.shipping.free_threshold_aud", "Free shipping threshold"), ("scan.ok", "Scan health"),
@@ -381,6 +471,7 @@ def run(only: set[str] | None = None, offline: Path | None = None, data_dir: Pat
         last_ok = parse_iso(scan_rec.get("last_success"))
         stale = not last_ok or now - last_ok > STALE_AFTER
         sale = resolve_sale(r.get("sale"), auto, (prev or {}).get("sale"), scan_rec["ok"], now)
+        sale = split_regular(apply_feed_check(sale, scan_rec.get("markdown"), now))
         if stale and sale["basis"] not in ("verified",):
             sale["status"] = "NEEDS_CHECKING" if sale["status"] in ("NOT_ANNOUNCED",) else sale["status"]
         rec = {
@@ -390,6 +481,7 @@ def run(only: set[str] | None = None, offline: Path | None = None, data_dir: Pat
                       "returns": brand["urls"].get("returns"), "shipping": brand["urls"].get("shipping")},
             "sale": sale,
             "policy": build_policy(r.get("policy"), scan_rec.get("policy", {})),
+            "markdown": scan_rec.get("markdown"),
             "scan": {k: scan_rec.get(k) for k in ("last_attempt", "last_success", "ok", "pages_ok", "pages_tried", "errors", "consecutive_failures", "discovered")}
                     | {"stale": stale, "policy_errors": scan_rec.get("policy", {}).get("errors", [])},
         }
@@ -414,6 +506,8 @@ def run(only: set[str] | None = None, offline: Path | None = None, data_dir: Pat
         "black_friday": "2026-11-27", "cyber_monday": "2026-11-30",
         "brands_total": len(brands_out), "scan_ok": ok_count, "scan_failed": len(brands_out) - ok_count,
         "last_successful_scan": iso(now) if ok_count else prev_dash.get("meta", {}).get("last_successful_scan"),
+        "live_black_friday": sum(1 for b in brands_out if b["sale"]["status"] in ACTIVE and b["sale"].get("sale_type") == "black_friday"),
+        "live_regular": sum(1 for b in brands_out if b["sale"].get("regular_active")),
         "counts": {s: sum(1 for b in brands_out if b["sale"]["status"] == s)
                    for s in ("LIVE", "UPCOMING", "EARLY_ACCESS", "NOT_ANNOUNCED", "ENDED", "NEEDS_CHECKING")},
         "new_events": len(new_events),

@@ -10,6 +10,7 @@ const syncData = () => ({
     for (const f of ['dashboard.json', 'changes.json']) {
       if (existsSync(`../data/${f}`)) cpSync(`../data/${f}`, `public/data/${f}`)
     }
+    if (existsSync('../config/site.json')) cpSync('../config/site.json', 'public/data/site.json') // notify_url for sign-ups
   },
 })
 

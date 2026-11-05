@@ -10,7 +10,7 @@ export const STATUS = {
   ENDED: { label: 'Ended', tone: 'muted', order: 5 },
 }
 
-export const CATEGORIES = { gymwear: 'Gym & fitness', sportswear: 'Sportswear', fashion: 'Fashion & streetwear' }
+export const CATEGORIES = { gymwear: 'Gym & fitness', sportswear: 'Sportswear', fashion: 'Fashion & streetwear', department: 'Department & marketplaces', tech: 'Tech & electronics' }
 
 // Offset (minutes) of a time zone at a given instant, via Intl (handles AEDT/AEST switch).
 export function tzOffsetMinutes(date, tz = TZ) {
@@ -62,15 +62,41 @@ export function countdown(targetYmd, now = new Date()) {
 
 export const isYes = (v) => v === 'YES'
 
-export function filterBrands(brands, { q = '', category = 'all', view = 'all', favs = new Set() } = {}) {
+const toDate = (v) => (v.includes('T') ? new Date(v) : sydneyMidnight(v))
+
+// The Black Friday status as of right now. A retailer-confirmed launch time flips to LIVE on the
+// client the moment it passes, without waiting for the next 6-hourly scan.
+export function effectiveStatus(sale, now = new Date()) {
+  if (sale.date_basis !== 'confirmed') return sale.status
+  const endMs = sale.end ? (sale.end.includes('T') ? new Date(sale.end) : sydneyMidnight(sale.end)).getTime() + (sale.end.includes('T') ? 0 : 86400000 - 1) : null
+  if (endMs != null && now.getTime() > endMs && ['LIVE', 'EARLY_ACCESS', 'UPCOMING'].includes(sale.status)) return 'ENDED'
+  if (sale.start && sale.status === 'UPCOMING' && toDate(sale.start) <= now) return 'LIVE'
+  return sale.status
+}
+
+// When the Black Friday sale goes live, only if the retailer confirmed it.
+export function goesLive(sale, now = new Date()) {
+  if (sale.date_basis !== 'confirmed' || !sale.start) return null
+  const at = toDate(sale.start)
+  const ms = at - now
+  if (ms <= 0) return { at, live: true }
+  const d = Math.floor(ms / 86400000), h = Math.floor((ms % 86400000) / 3600000), m = Math.floor((ms % 3600000) / 60000)
+  return { at, live: false, ms, label: d ? `in ${d}d ${h}h` : h ? `in ${h}h ${m}m` : `in ${m}m` }
+}
+
+export function filterBrands(brands, { q = '', category = 'all', view = 'all', favs = new Set(), now = new Date() } = {}) {
   const needle = q.trim().toLowerCase()
   return brands.filter((b) => {
     if (needle && !b.name.toLowerCase().includes(needle)) return false
     if (category !== 'all' && b.category !== category) return false
     const r = b.policy?.returns || {}
+    const st = effectiveStatus(b.sale, now)
     switch (view) {
-      case 'live': return b.sale.status === 'LIVE' || b.sale.status === 'EARLY_ACCESS'
-      case 'upcoming': return b.sale.status === 'UPCOMING' && b.sale.date_basis === 'confirmed'
+      case 'live': return st === 'LIVE' || st === 'EARLY_ACCESS'
+      case 'soon': return st === 'UPCOMING' && b.sale.date_basis === 'confirmed'
+      case 'announced': return st === 'UPCOMING'
+      case 'regular': return !!b.sale.regular_active
+      case 'upcoming': return st === 'UPCOMING' && b.sale.date_basis === 'confirmed'
       case 'free_returns': return isYes(r.free_returns)
       case 'free_return_shipping': return isYes(r.free_return_postage)
       case 'favourites': return favs.has(b.id)
@@ -83,13 +109,16 @@ export function filterBrands(brands, { q = '', category = 'all', view = 'all', f
 const startMs = (v) => (v.includes('T') ? new Date(v) : sydneyMidnight(v)).getTime()
 const nullsLast = (a, b, cmp) => (a == null && b == null ? 0 : a == null ? 1 : b == null ? -1 : cmp(a, b))
 
-export function sortBrands(list, key = 'status', dir = 'asc', favs = new Set()) {
+export function sortBrands(list, key = 'status', dir = 'asc', favs = new Set(), now = new Date()) {
   const sign = dir === 'desc' ? -1 : 1
   const by = {
     brand: (a, b) => sign * a.name.localeCompare(b.name),
     discount: (a, b) => nullsLast(a.sale.discount_max_pct, b.sale.discount_max_pct, (x, y) => sign * (x - y)),
     start: (a, b) => nullsLast(a.sale.start, b.sale.start, (x, y) => sign * (startMs(x) - startMs(y))),
-    status: (a, b) => sign * (STATUS[a.sale.status].order - STATUS[b.sale.status].order) || a.priority - b.priority || a.name.localeCompare(b.name),
+    // Black Friday first: live, then soonest confirmed launch, then announced, then the rest
+    status: (a, b) => sign * (STATUS[effectiveStatus(a.sale, now)].order - STATUS[effectiveStatus(b.sale, now)].order)
+      || nullsLast(a.sale.date_basis === 'confirmed' ? a.sale.start : null, b.sale.date_basis === 'confirmed' ? b.sale.start : null, (x, y) => startMs(x) - startMs(y))
+      || a.priority - b.priority || a.name.localeCompare(b.name),
   }[key]
   // favourites always float to the top, then the chosen sort
   return [...list].sort((a, b) => (favs.has(b.id) - favs.has(a.id)) || by(a, b) || a.name.localeCompare(b.name))

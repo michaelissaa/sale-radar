@@ -27,6 +27,8 @@ def P(verif, summary, returns, shipping):
 
 
 def SALE(status, src, ev, **kw):
+    # sale_type: "black_friday" (default for announced/live promos) or "regular" (a normal sale, not Black Friday branded)
+    kw.setdefault("sale_type", "black_friday" if status in ("LIVE", "EARLY_ACCESS", "UPCOMING") else None)
     return {"status": status, "source_url": src, "evidence": ev, "verified_at": T, "confidence": kw.pop("confidence", "high"), **kw}
 
 
@@ -46,10 +48,10 @@ B["gymshark"] = {
                 S("CONDITIONAL", 100, src="https://au.gymshark.com/pages/black-friday", ev="Free standard shipping on orders over $100")),
 }
 B["salomon"] = {
-    "sale": SALE("LIVE", "https://salomon.com.au/collections/womens-black-friday",
-                 "Women's Black Friday. Black Friday sale now live! Gear up for tomorrow. Save today.",
-                 name="Black Friday sale", scope="SELECTED", early_access="S/PLUS members must log in to see member pricing",
-                 conditions="Salomon has not published a headline discount figure; savings vary by product."),
+    "sale": SALE("NOT_ANNOUNCED", "https://salomon.com.au/collections/womens-black-friday",
+                 "Women's and Men's Black Friday collections show 'Black Friday sale now live!' but contain 'No products'. Home page has no sale.",
+                 confidence="high",
+                 conditions="Corrected 5 Nov: the Black Friday pages are empty placeholders. Salomon's standing outlet has about a third of products marked down; that is not a sale event."),
     "policy": P("sourced", "30-day change-of-mind returns. Free returns only for S/PLUS members, and not on sale items. Free standard delivery for S/PLUS members.",
                 R("YES", "CONDITIONAL", "CONDITIONAL", days=30, sale_ex="CONDITIONAL", refund="Original payment method, no online exchanges",
                   cond="S/PLUS (free membership) members get free returns except Sale/Outlet items and winter hardgoods. Outlet items excluded from change-of-mind returns.",
@@ -85,10 +87,13 @@ B["myprotein"] = {
                   src="https://au.myprotein.com/c/customer-services/delivery-information/", ev="Free shipping over $150")),
 }
 B["ryderwear"] = {
-    "sale": SALE("NEEDS_CHECKING", "https://au.ryderwear.com/pages/black-friday",
-                 "Black Friday Sale. 50% off everything for 4 hours only! Sale coming soon... For the first 4 hours only: Monday 2 November 2026, 4pm to 8pm your time.",
-                 name="Black Friday Sale 2026", confidence="medium",
-                 conditions="Conflicting: the page still says 'Sale coming soon', but the only date it gives (50% off everything for 4 hours on Mon 2 Nov; page metadata says 5am AWST Tue 3 Nov) has passed. Check the site for what is running now."),
+    "sale": {**SALE("LIVE", "https://au.ryderwear.com/pages/black-friday",
+                    "Black Friday Sale is live. Sale starts in: 00 Days 00 Hours 00 Minutes 00 Seconds. Tuesday 3 November 2026 Perth 5am ... 50% off for the first 4 hours",
+                    name="Ryderwear Black Friday Sale 2026", discount_text="50% off everything (first 4 hours); sale continuing",
+                    discount_max_pct=50, discount_kind="flat", scope="SITEWIDE", code_required="NO",
+                    start="2026-11-03T08:00:00+11:00", dates_confirmed=True,
+                    conditions="Went live 8am Sydney time, Tue 3 Nov (5am Perth). The store's own prices show every product discounted, up to 80%. End date not stated."),
+             "verified_at": "2026-11-05T11:45:00+00:00"},
     "policy": P("sourced", "Black Friday orders: 60 days for store credit or exchange, not refunds. Outlet not returnable. Free shipping over $120.",
                 R("YES", "UNKNOWN", "CONDITIONAL", label="NO", days=60, sale_ex="CONDITIONAL", refund="Store credit or exchange for Black Friday orders",
                   cond="Unworn with tags. Outlet items cannot be returned unless faulty. No underwear, socks, towels or gift cards.",

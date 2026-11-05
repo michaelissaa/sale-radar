@@ -102,6 +102,63 @@ class ResolveTests(unittest.TestCase):
         self.assertEqual((r["status"], r["basis"], r["discount_text"]), ("LIVE", "stale", "30% off"))
 
 
+class FeedTests(unittest.TestCase):
+    NOW = datetime(2026, 11, 6, tzinfo=timezone.utc)
+
+    def md(self, discounted, products, max_pct=50):
+        return {"ok": True, "checked_at": scan.iso(self.NOW), "products": products, "discounted": discounted,
+                "share": round(discounted / products, 3), "max_pct": max_pct}
+
+    def test_markdown_counts_fixture(self):
+        f = scan.Fetcher({}, FIX / "pages")
+        md = scan.markdown_check({"urls": {"home": "https://live.example/"}}, f, {}, self.NOW)
+        self.assertEqual((md["products"], md["discounted"], md["max_pct"]), (4, 3, 50))
+
+    def test_banner_contradicted_by_prices(self):
+        # EVDNCE 2026-11-05: "UP TO 50% OFF SITEWIDE LIVE NOW" but 12 of 387 products discounted
+        sale = {"status": "LIVE", "scope": "SITEWIDE", "sale_type": "regular"}
+        out = scan.apply_feed_check(sale, self.md(12, 387), self.NOW)
+        self.assertEqual(out["status"], "NEEDS_CHECKING")
+        self.assertIn("12 of 387", out["conflict"])
+
+    def test_sitewide_claim_downgraded(self):
+        out = scan.apply_feed_check({"status": "LIVE", "scope": "SITEWIDE"}, self.md(30, 100), self.NOW)
+        self.assertEqual((out["status"], out["scope"]), ("LIVE", "SELECTED"))
+
+    def test_outlet_markdowns_are_not_a_sale(self):
+        # Salomon 2026-11-05: empty BF collections, 34% of products in its standing outlet
+        out = scan.apply_feed_check({"status": "NOT_ANNOUNCED"}, self.md(570, 1697), self.NOW)
+        self.assertEqual(out["status"], "NOT_ANNOUNCED")
+
+    def test_big_markdowns_are_a_regular_sale_not_black_friday(self):
+        out = scan.split_regular(scan.apply_feed_check({"status": "NOT_ANNOUNCED", "start": None}, self.md(60, 100, 70), self.NOW))
+        self.assertEqual(out["status"], "NOT_ANNOUNCED")  # Black Friday status untouched
+        self.assertTrue(out["regular_active"])
+        self.assertIn("70%", out["regular"]["discount_text"])
+
+    def test_split_regular(self):
+        out = scan.split_regular({"status": "LIVE", "sale_type": "regular", "name": "Extra 50% off", "discount_text": "Extra 50% off sale items"})
+        self.assertEqual((out["status"], out["discount_text"], out["regular"]["discount_text"]), ("NOT_ANNOUNCED", None, "Extra 50% off sale items"))
+        bf = scan.split_regular({"status": "UPCOMING", "sale_type": None})
+        self.assertEqual((bf["sale_type"], bf["regular_active"]), ("black_friday", False))
+
+    def test_rules_skip_upcoming_and_selected_claims(self):
+        # Muscle Nation: "50% off everything" announced for 10 Nov; prices not discounted yet
+        up = scan.apply_feed_check({"status": "UPCOMING", "scope": "SITEWIDE", "discount_text": "50% off everything"}, self.md(5, 100), self.NOW)
+        self.assertEqual((up["status"], up["scope"], up.get("conflict")), ("UPCOMING", "SITEWIDE", None))
+        # Country Road: "25% off bags and shoes" applied at checkout, so few "was" prices
+        sel = scan.apply_feed_check({"status": "LIVE", "scope": "SELECTED", "discount_text": "25% off bags and shoes"}, self.md(84, 2000), self.NOW)
+        self.assertEqual(sel["status"], "LIVE")
+
+    def test_upcoming_black_friday_not_overridden(self):
+        out = scan.apply_feed_check({"status": "UPCOMING", "sale_type": "black_friday"}, self.md(80, 100), self.NOW)
+        self.assertEqual(out["status"], "UPCOMING")
+
+    def test_stale_feed_ignored(self):
+        old = {**self.md(1, 100), "checked_at": "2026-11-01T00:00:00+00:00"}
+        self.assertEqual(scan.apply_feed_check({"status": "LIVE"}, old, self.NOW)["status"], "LIVE")
+
+
 class RunTests(unittest.TestCase):
     """End-to-end offline run with fixtures: one live sale, one upcoming, one blocked (403)."""
 
@@ -123,6 +180,8 @@ class RunTests(unittest.TestCase):
         by = {b["id"]: b for b in d["brands"]}
         self.assertEqual(by["livebrand"]["sale"]["status"], "LIVE")
         self.assertEqual(by["livebrand"]["sale"]["discount_kind"], "up_to")
+        self.assertEqual(by["livebrand"]["sale"]["sale_type"], "black_friday")
+        self.assertEqual(by["livebrand"]["markdown"]["discounted"], 3)
         self.assertEqual(by["soonbrand"]["sale"]["status"], "UPCOMING")
         self.assertIsNone(by["soonbrand"]["sale"]["start"], "auto scan must never invent dates")
         self.assertIsNone(by["soonbrand"]["sale"]["discount_text"], "upcoming pages often quote last year's discount")
@@ -165,7 +224,7 @@ class DataQualityTests(unittest.TestCase):
         ids = [b["id"] for b in self.cfg["brands"]]
         self.assertEqual(len(ids), len(set(ids)))
         for b in self.cfg["brands"]:
-            self.assertIn(b["category"], {"gymwear", "sportswear", "fashion"})
+            self.assertIn(b["category"], {"gymwear", "sportswear", "fashion", "department", "tech"})
             self.assertTrue(b["urls"]["home"].startswith("https://"))
 
     def test_no_unconfirmed_dates_and_sourced_claims(self):

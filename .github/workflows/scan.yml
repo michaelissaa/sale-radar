@@ -11,7 +11,7 @@ on:
         default: ""
   push:
     branches: [main]
-    paths: ["web/**", "config/**", "data/research.json", "scanner/**", ".github/workflows/scan.yml"]
+    paths: ["web/**", "config/**", "data/research.json", "scanner/**", "notify/**", ".github/workflows/scan.yml"]
 
 permissions:
   contents: write # commit refreshed data back to the repo
@@ -25,7 +25,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -39,6 +39,12 @@ jobs:
         env:
           ONLY: ${{ inputs.only }}
         run: python scanner/scan.py ${ONLY:+--only "$ONLY"}
+      - name: Send email alerts
+        if: github.event_name != 'push'
+        env:
+          NOTIFY_URL: ${{ secrets.NOTIFY_URL }}
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
+        run: python scanner/notify.py
       - name: Commit refreshed data
         if: github.event_name != 'push'
         run: |
@@ -59,6 +65,7 @@ jobs:
         run: |
           npm ci
           npm test
+          node --test ../notify/apps-script/code.test.mjs
           npm run build
           test -s dist/data/dashboard.json
       - uses: actions/upload-pages-artifact@v3

@@ -11,6 +11,7 @@
         "name": "Gymshark Black Friday & Cyber Monday Sale 2026",
         "expected_note": "Gymshark says it offered up to 50% off last Black Friday",
         "early_access": "App users and loyalty members get first notice; no 2026 member discount disclosed",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -41,15 +42,13 @@
     },
     "salomon": {
       "sale": {
-        "status": "LIVE",
+        "status": "NOT_ANNOUNCED",
         "source_url": "https://salomon.com.au/collections/womens-black-friday",
-        "evidence": "Women's Black Friday. Black Friday sale now live! Gear up for tomorrow. Save today.",
+        "evidence": "Women's and Men's Black Friday collections show 'Black Friday sale now live!' but contain 'No products'. Home page has no sale.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "high",
-        "name": "Black Friday sale",
-        "scope": "SELECTED",
-        "early_access": "S/PLUS members must log in to see member pricing",
-        "conditions": "Salomon has not published a headline discount figure; savings vary by product.",
+        "conditions": "Corrected 5 Nov: the Black Friday pages are empty placeholders. Salomon's standing outlet has about a third of products marked down; that is not a sale event.",
+        "sale_type": null,
         "verification": "verified"
       },
       "policy": {
@@ -86,6 +85,7 @@
         "evidence": "lskd.co/pages/black-friday redirects to the home page; no Black Friday 2026 sale wording found on 5 Nov.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "verified"
       },
       "policy": {
@@ -131,6 +131,7 @@
         "early_access": "Extra 5% off in the app (auto-applies)",
         "expected_note": "Myprotein says its Black Friday sale runs through to Cyber Monday (30 Nov); no end date given for the current 40% offer",
         "conditions": "Product tiles say the discount is applied automatically. One banner also mentions code 'blackfriday'; check at checkout.",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -163,13 +164,21 @@
     },
     "ryderwear": {
       "sale": {
-        "status": "NEEDS_CHECKING",
+        "status": "LIVE",
         "source_url": "https://au.ryderwear.com/pages/black-friday",
-        "evidence": "Black Friday Sale. 50% off everything for 4 hours only! Sale coming soon... For the first 4 hours only: Monday 2 November 2026, 4pm to 8pm your time.",
-        "verified_at": "2026-11-05T09:00:00+00:00",
-        "confidence": "medium",
-        "name": "Black Friday Sale 2026",
-        "conditions": "Conflicting: the page still says 'Sale coming soon', but the only date it gives (50% off everything for 4 hours on Mon 2 Nov; page metadata says 5am AWST Tue 3 Nov) has passed. Check the site for what is running now.",
+        "evidence": "Black Friday Sale is live. Sale starts in: 00 Days 00 Hours 00 Minutes 00 Seconds. Tuesday 3 November 2026 Perth 5am ... 50% off for the first 4 hours",
+        "verified_at": "2026-11-05T11:45:00+00:00",
+        "confidence": "high",
+        "name": "Ryderwear Black Friday Sale 2026",
+        "discount_text": "50% off everything (first 4 hours); sale continuing",
+        "discount_max_pct": 50,
+        "discount_kind": "flat",
+        "scope": "SITEWIDE",
+        "code_required": "NO",
+        "start": "2026-11-03T08:00:00+11:00",
+        "dates_confirmed": true,
+        "conditions": "Went live 8am Sydney time, Tue 3 Nov (5am Perth). The store's own prices show every product discounted, up to 80%. End date not stated.",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -212,6 +221,7 @@
         "discount_kind": "up_to",
         "scope": "SELECTED",
         "conditions": "Collection is live. Extra promotions seen (extra 15% off $135+, free gift over $100) were on ECHT's US storefront and may not apply in Australia.",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -258,6 +268,7 @@
         "end": "2026-11-10T13:00:00+11:00",
         "dates_confirmed": true,
         "conditions": "4 hours only from 8am AEST / 9am AEDT (Sydney). End time is 4 hours after the stated launch.",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -320,6 +331,7 @@
         "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       }
     },
@@ -355,6 +367,7 @@
         "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       }
     },
@@ -391,6 +404,7 @@
         "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       }
     },
@@ -428,6 +442,7 @@
         "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       }
     },
@@ -465,6 +480,7 @@
         "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       }
     },
@@ -502,6 +518,7 @@
         "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       }
     },
@@ -515,6 +532,7 @@
         "name": "Black Friday & Cyber Monday",
         "early_access": "Cotton On & Co Perks members and app users get a VIP head start",
         "expected_note": "Cotton On's page cites the industry Black Friday date (Fri 27 Nov) but has not published its own start time",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -553,6 +571,7 @@
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "low",
         "conditions": "Seen on the global Black Friday page; Australian dates and discount not stated.",
+        "sale_type": "black_friday",
         "verification": "sourced"
       },
       "policy": {
@@ -588,6 +607,7 @@
         "early_access": "THE ICONIC Front Row (free loyalty program) members get early access",
         "expected_note": "Page cites the industry dates (Fri 27 Nov to Cyber Monday 30 Nov); THE ICONIC has not published its own start",
         "conditions": "Page mentions deals of up to 50% off ICONIC Exclusives but does not say when they start.",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -624,6 +644,7 @@
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "low",
         "conditions": "Unconfirmed. H&M's robots.txt blocks the automatic scanner, so check the site directly.",
+        "sale_type": null,
         "verification": "verified"
       },
       "policy": {
@@ -689,6 +710,7 @@
         "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       }
     },
@@ -726,6 +748,7 @@
         "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       }
     },
@@ -745,6 +768,7 @@
         "end": "2026-11-29",
         "dates_confirmed": true,
         "code_required": "NO",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -787,6 +811,7 @@
         "discount_kind": "flat",
         "scope": "SELECTED",
         "conditions": "'Almost everything' means some exclusions apply, so this is not sitewide.",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -825,6 +850,7 @@
         "confidence": "medium",
         "name": "Under Armour Black Friday Event 2026",
         "conditions": "An earlier 30% off sitewide promotion ended 2 Nov 2026 (per the research pass). Black Friday deals not yet published.",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -863,6 +889,7 @@
         "confidence": "medium",
         "name": "Black Friday Sale",
         "early_access": "Sign-up for early access offered",
+        "sale_type": "black_friday",
         "verification": "sourced"
       },
       "policy": {
@@ -904,6 +931,7 @@
         "confidence": "medium",
         "name": "2026 Black Friday Sale",
         "early_access": "adiClub members get sale updates",
+        "sale_type": "black_friday",
         "verification": "sourced"
       },
       "policy": {
@@ -941,6 +969,7 @@
         "evidence": "The COS Black Friday offer begins in November.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": "black_friday",
         "verification": "sourced"
       },
       "policy": {
@@ -1005,6 +1034,7 @@
         "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       }
     },
@@ -1015,6 +1045,7 @@
         "evidence": "ASICS Black Friday & Cyber Weekend Sale has ended. (Left over from last year; no 2026 announcement.)",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       },
       "policy": {
@@ -1079,6 +1110,7 @@
         "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       }
     },
@@ -1116,23 +1148,19 @@
         "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       }
     },
     "evdnce": {
       "sale": {
-        "status": "LIVE",
-        "source_url": "https://evdnce.com/",
-        "evidence": "UP TO 50% OFF SITEWIDE LIVE NOW",
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://evdnce.com/products.json",
+        "evidence": "Home page banner reads 'UP TO 50% OFF SITEWIDE LIVE NOW', but the store's own product prices show only 12 of 387 products discounted (3%), the Seamless Sculpt range at 50%.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "high",
-        "name": "Sitewide sale (not labelled Black Friday)",
-        "discount_text": "Up to 50% off sitewide",
-        "discount_max_pct": 50,
-        "discount_kind": "up_to",
-        "scope": "SITEWIDE",
-        "code_required": "NO",
-        "conditions": "'Up to' 50%: discounts vary by item. The banner doesn't say Black Friday or give an end date.",
+        "conditions": "Corrected 5 Nov: no real sale. The banner contradicts the store's prices. A handful of items are marked down.",
+        "sale_type": null,
         "verification": "verified"
       },
       "policy": {
@@ -1176,6 +1204,7 @@
         "scope": "SITEWIDE",
         "early_access": "Sign up to shop 1 hour before everyone else",
         "conditions": "Announced, no start date yet. AYBL serves one global store (UK-based).",
+        "sale_type": "black_friday",
         "verification": "sourced"
       },
       "policy": {
@@ -1213,6 +1242,7 @@
         "evidence": "Store is behind a password page for a new collection launch (public access opens 6 Nov, 9am AEDT). No Black Friday announcement seen.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       },
       "policy": {
@@ -1244,6 +1274,7 @@
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "high",
         "name": "30% off event (not labelled Black Friday)",
+        "sale_type": "regular",
         "discount_text": "30% off",
         "discount_max_pct": 30,
         "discount_kind": "flat",
@@ -1294,6 +1325,7 @@
         "dates_confirmed": true,
         "code_required": "NO",
         "early_access": "Mailing list early access; SMS list gets VIP perks",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -1339,6 +1371,7 @@
         "dates_confirmed": true,
         "code_required": "NO",
         "conditions": "Asterisk: conditions apply. Launch time not yet published; sign up to be told.",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -1382,6 +1415,7 @@
         "discount_kind": "up_to",
         "scope": "SELECTED",
         "conditions": "Collection headline says 20% off; T&Cs say up to 40% off selected styles.",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -1421,6 +1455,7 @@
         "confidence": "high",
         "name": "Black Friday",
         "early_access": "Sign up for early access",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -1458,6 +1493,7 @@
         "evidence": "Regular sale sections only; no Black Friday announcement seen.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       },
       "policy": {
@@ -1491,6 +1527,7 @@
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "low",
         "conditions": "Only an email sign-up for Black Friday news; no sale details.",
+        "sale_type": "black_friday",
         "verification": "sourced"
       },
       "policy": {
@@ -1526,6 +1563,7 @@
         "evidence": "Regular promotions only; no Black Friday announcement seen.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       },
       "policy": {
@@ -1568,6 +1606,7 @@
         "discount_kind": "flat",
         "scope": "SELECTED",
         "conditions": "Listed on Rebel's promotions page; end date not shown. Other Christmas deals run 29 Oct to 26 Nov.",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -1603,6 +1642,7 @@
         "evidence": "Black Friday 2026 Coming Soon",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "medium",
+        "sale_type": "black_friday",
         "verification": "sourced"
       },
       "policy": {
@@ -1640,6 +1680,7 @@
         "confidence": "high",
         "name": "Black Friday Sale 2026",
         "early_access": "FLX Rewards members get first access",
+        "sale_type": "black_friday",
         "verification": "verified"
       },
       "policy": {
@@ -1674,6 +1715,7 @@
         "confidence": "low",
         "expected_note": "The guide quotes the industry dates (27 to 30 Nov); Platypus hasn't confirmed its own sale dates",
         "conditions": "Could not be re-checked directly (page needs JavaScript).",
+        "sale_type": "black_friday",
         "verification": "sourced"
       },
       "policy": {
@@ -1710,6 +1752,7 @@
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "low",
         "conditions": "Evergreen information page; no dates or discounts published.",
+        "sale_type": "black_friday",
         "verification": "sourced"
       },
       "policy": {
@@ -1745,6 +1788,7 @@
         "evidence": "The Vault is opening. BLACK FRIDAY 2026 is imminent.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "medium",
+        "sale_type": "black_friday",
         "verification": "sourced"
       },
       "policy": {
@@ -1782,6 +1826,7 @@
         "evidence": "No Black Friday announcement; Stussy says it does not offer codes online.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       },
       "policy": {
@@ -1817,6 +1862,7 @@
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "high",
         "conditions": "Online store is closed (password page) and relaunching in November. 15% off first order for sign-ups at launch.",
+        "sale_type": null,
         "verification": "verified"
       },
       "policy": {
@@ -1845,6 +1891,7 @@
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "high",
         "name": "Extra 50% off sale (not labelled Black Friday)",
+        "sale_type": "regular",
         "discount_text": "Extra 50% off sale items",
         "discount_max_pct": 50,
         "discount_kind": "flat",
@@ -1887,6 +1934,7 @@
         "evidence": "Regular sale section only; no Black Friday announcement seen.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       },
       "policy": {
@@ -1924,6 +1972,7 @@
         "evidence": "Latest dated promotion was a Mid-Season Sale that ended 20 Sep 2026; no Black Friday offer yet.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "medium",
+        "sale_type": null,
         "verification": "sourced"
       },
       "policy": {
@@ -1958,6 +2007,7 @@
         "verified_at": "2026-11-05T10:00:00+00:00",
         "confidence": "high",
         "name": "25% off bags and shoes (not labelled Black Friday)",
+        "sale_type": "regular",
         "discount_text": "25% off bags and shoes",
         "discount_max_pct": 25,
         "discount_kind": "flat",
@@ -1987,6 +2037,939 @@
           "ships_to_au": "YES",
           "source_url": "https://www.countryroad.com.au/pages/delivery",
           "evidence": "Enjoy fast and free standard delivery* for all online purchases over $100."
+        }
+      }
+    },
+    "amazon": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.amazon.com.au/blackfriday",
+        "evidence": "Black Friday Sale 2026 - 17 Nov - 30 Nov",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "confidence": "high",
+        "name": "Amazon Black Friday Sale 2026",
+        "start": "2026-11-17",
+        "end": "2026-11-30",
+        "dates_confirmed": true,
+        "early_access": "Prime members usually get some deals first; no 2026 Prime early-access date published",
+        "conditions": "Deals vary by product and seller. Launch time of day not stated (treated as midnight Sydney).",
+        "sale_type": "black_friday",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "summary": "Free returns within 30 days on eligible Amazon-fulfilled fashion (look for 'FREE Returns'). Free delivery on eligible orders over $59.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "NA",
+          "prepaid_label": "CONDITIONAL",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "refund_type": "Full refund of item price",
+          "conditions": "Free return shipping on eligible clothing, shoes and accessories fulfilled by Amazon AU; third-party sellers vary.",
+          "source_url": "https://www.amazon.com.au/b?ie=UTF8&node=10347105051",
+          "evidence": "Amazon AU offers free return shipping on eligible Fashion items (clothing, shoes and accessories)."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 59,
+          "ships_to_au": "YES",
+          "restrictions": "Eligible items only; Prime gives free delivery on eligible items.",
+          "source_url": "https://www.amazon.com.au/gp/help/customer/display.html?nodeId=GZXW7X6AKTHNUP6H",
+          "evidence": "Orders of eligible items with a combined value of AUD $59 or more are eligible for free delivery"
+        }
+      }
+    },
+    "myer": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.myer.com.au/content/black-Friday",
+        "evidence": "Our 2026 Black Friday sale is returning soon with exciting deals and offers across a wide range of products at Myer.",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "confidence": "medium",
+        "name": "Myer Black Friday 2026",
+        "sale_type": "black_friday",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "summary": "30-day change-of-mind refunds (online orders: refund, not exchange). Clearance excluded. Free delivery over $99.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "YES",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Refund (online orders)",
+          "conditions": "Reduced-to-clear items not accepted for change of mind.",
+          "source_url": "https://www.myer.com.au/content/returns-policy",
+          "evidence": "we offer refunds or exchanges on most items within 30 days of purchase"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 99,
+          "standard_aud": 9.95,
+          "ships_to_au": "YES",
+          "source_url": "https://www.myer.com.au/content/payment-and-delivery",
+          "evidence": "We offer free standard delivery on all orders over $99."
+        }
+      }
+    },
+    "david-jones": {
+      "sale": {
+        "status": "LIVE",
+        "source_url": "https://www.davidjones.com/sale",
+        "evidence": "Selected full-priced women's international designer fashion. 40% OFF",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "confidence": "medium",
+        "name": "Designer sale (not Black Friday)",
+        "sale_type": "regular",
+        "discount_text": "40% off selected designer fashion",
+        "discount_max_pct": 40,
+        "discount_kind": "flat",
+        "scope": "SELECTED",
+        "conditions": "Black Friday not announced yet.",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "summary": "30-day refunds or exchanges; sale items returnable. Free delivery over $100.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "YES",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "NO",
+          "refund_type": "Refund or exchange (post returns: refund only)",
+          "source_url": "https://www.davidjones.com/return-options",
+          "evidence": "you can exchange or refund your purchase within 30 days from the date of purchase"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 100,
+          "standard_aud": 9.95,
+          "ships_to_au": "YES",
+          "source_url": "https://www.davidjones.com/delivery-choices",
+          "evidence": "Free for orders over $100. $9.95 fee for orders under $100."
+        }
+      }
+    },
+    "hype-dc": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.hypedc.com/au/blog/hype-dc-black-friday",
+        "evidence": "Hype DC has published a Black Friday and Cyber Monday 2026 guide.",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "confidence": "low",
+        "expected_note": "The guide quotes the industry dates (27 to 30 Nov); Hype DC hasn't confirmed its own sale dates",
+        "early_access": "Mailing list gets early access",
+        "sale_type": "black_friday",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "summary": "30-day returns; you pay change-of-mind postage. Sale items: in-store exchange or gift card only. Free express over $160.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "NO",
+          "free_instore_returns": "CONDITIONAL",
+          "prepaid_label": "NO",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Full price: refund. Sale: exchange or gift card",
+          "source_url": "https://www.hypedc.com/au/articles/faq/returns-faq",
+          "evidence": "We will not cover the cost of return orders due to change of mind."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 160,
+          "standard_aud": 10,
+          "ships_to_au": "YES",
+          "source_url": "https://www.hypedc.com/au/articles/faq/shipping",
+          "evidence": "Free express shipping is applicable for orders over AU$160.00"
+        }
+      }
+    },
+    "alo-yoga": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.aloyoga.com/en-au",
+        "evidence": "No Black Friday 2026 announcement found.",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "confidence": "medium",
+        "sale_type": null,
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "summary": "30-day returns with return shipping covered. Free worldwide shipping over US$75.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "refund_type": "Refund, exchange or store credit",
+          "source_url": "https://www.aloyoga.com/pages/returns-exchanges",
+          "evidence": "Alo will gladly accept returns on unworn and unused items within 30 days of purchase for a full refund and will cover the return shipping"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "ships_to_au": "YES",
+          "restrictions": "Free over US$75; duties may apply.",
+          "source_url": "https://www.aloyoga.com/pages/shipping-info",
+          "evidence": "FREE worldwide shipping with orders over $75 USD"
+        }
+      }
+    },
+    "adanola": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://adanola.com/en-au",
+        "evidence": "No Black Friday 2026 announcement found.",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "confidence": "medium",
+        "sale_type": null,
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "summary": "30-day returns at your cost. Shipping $15, free over A$230, duties included.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "NO",
+          "free_return_postage": "NO",
+          "free_instore_returns": "NA",
+          "prepaid_label": "NO",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "refund_type": "Original payment method",
+          "source_url": "https://adanola.com/en-au/pages/returns",
+          "evidence": "Return shipping costs are the customer's responsibility"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 230,
+          "standard_aud": 15,
+          "ships_to_au": "YES",
+          "restrictions": "Ships from the UK, duties included.",
+          "source_url": "https://adanola.com/pages/worldwide-shipping",
+          "evidence": "Australia | $15 AUD | 5 - 10 Days | $230 AUD"
+        }
+      }
+    },
+    "vans": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.vans.com.au/",
+        "evidence": "Only the regular sale section; no Black Friday announcement.",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "confidence": "medium",
+        "sale_type": null,
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "summary": "60-day returns for 5 Nov to 31 Dec purchases; free in store. Free express over $150.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "NO",
+          "free_instore_returns": "YES",
+          "prepaid_label": "YES",
+          "window_days": 60,
+          "window_note": "60 days for 5 Nov-31 Dec 2026 purchases",
+          "sale_items_excluded": "UNKNOWN",
+          "source_url": "https://www.vans.com.au/create-returns-info",
+          "evidence": "purchases made between 5 November and 31 December 2026 are eligible for an extended 60-day returns policy"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 150,
+          "ships_to_au": "YES",
+          "source_url": "https://www.vans.com.au/",
+          "evidence": "FREE EXPRESS DELIVERY ON ORDERS OVER $150"
+        }
+      }
+    },
+    "converse": {
+      "sale": {
+        "status": "NEEDS_CHECKING",
+        "source_url": "https://www.converse.com.au/black-friday-cyber-monday",
+        "evidence": "Converse has a Black Friday & Cyber Monday page, but its content loads by script and a live sale couldn't be confirmed.",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "confidence": "low",
+        "early_access": "Email sign-up promoted for early access",
+        "sale_type": null,
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "summary": "Free 30-day returns with a prepaid label. Free shipping over $100.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "refund_type": "Refund, exchange or store credit",
+          "source_url": "https://www.converse.com.au/help/returns-policy",
+          "evidence": "we just ask that the items are returned and received within 30 days of your original order date"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 100,
+          "standard_aud": 10,
+          "ships_to_au": "YES",
+          "source_url": "https://www.converse.com.au/help/shipping-delivery/cost",
+          "evidence": "FREE for orders over $100 AUD | $10 AUD for orders under $100 AUD"
+        }
+      }
+    },
+    "bonds": {
+      "sale": {
+        "status": "LIVE",
+        "source_url": "https://www.bonds.com.au/",
+        "evidence": "40% OFF MEN'S CLOTHING WHEN YOU BUY 2 ... 40% OFF WOMEN'S CLOTHING WHEN YOU BUY 2",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "confidence": "high",
+        "name": "Multi-buy offers (not Black Friday)",
+        "sale_type": "regular",
+        "discount_text": "40% off clothing when you buy 2",
+        "discount_max_pct": 40,
+        "discount_kind": "flat",
+        "scope": "SELECTED",
+        "conditions": "Black Friday not announced. A 'Cyber Weekend has begun' banner reported by research was not on the page on re-check.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:00:00+00:00",
+        "summary": "120-day returns on purchases from 1 Oct. Free shipping for Bonds Rewards members, otherwise over $59.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "YES",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 120,
+          "window_note": "120 days for purchases from 1 Oct 2026",
+          "sale_items_excluded": "CONDITIONAL",
+          "source_url": "https://www.bonds.com.au/returns-exchanges",
+          "evidence": "Enjoy 120-days of returns on all purchases from 1st October, online and in-store."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 59,
+          "standard_aud": 8.95,
+          "ships_to_au": "YES",
+          "restrictions": "Free on all orders for (free) Bonds Rewards members.",
+          "source_url": "https://www.bonds.com.au/shipping-options",
+          "evidence": "FREE standard shipping Australia-wide on orders over $59"
+        }
+      }
+    },
+    "elite-eleven": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://eliteelevensporting.com/",
+        "evidence": "No Black Friday 2026 announcement yet; only the regular Outlet (e.g. 'Save 50%').",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "medium",
+        "conditions": "Watching for Elite Eleven's Black Friday announcement.",
+        "sale_type": null,
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "Free returns for Australian customers within 30 days (store credit, or refund less a fee). Sale-period returns: store credit only.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Store credit; refunds carry a shipping/handling fee",
+          "conditions": "During sale periods returns are store credit only. Final sale not returnable.",
+          "source_url": "https://eliteelevensporting.com/pages/faqs",
+          "evidence": "We offer free returns for store credit or refunds within 30 days of receiving your order."
+        },
+        "shipping": {
+          "free_shipping": "UNKNOWN",
+          "ships_to_au": "YES",
+          "restrictions": "Standard 2-5 business days to major cities.",
+          "source_url": "https://eliteelevensporting.com/pages/faqs"
+        }
+      }
+    },
+    "jb-hifi": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.jbhifi.com.au/pages/black-friday-sale",
+        "evidence": "Black Friday Sale is the one JB plans for all year, and the countdown is officially on",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "high",
+        "name": "JB Hi-Fi Black Friday Sale 2026",
+        "early_access": "Sign up to be first to know when it begins",
+        "expected_note": "JB's page cites the industry date (Fri 27 Nov) but hasn't announced its own start",
+        "sale_type": "black_friday",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "30-day change-of-mind refunds for unused, unopened products; category exclusions apply.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "YES",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "100% refund if unused and unopened",
+          "conditions": "Opened products, PC games/software and commercial sales excluded.",
+          "source_url": "https://www.jbhifi.com.au/pages/help-and-support/refunds-and-warranties-guide",
+          "evidence": "Unused & Unopened, packaging in good condition (product not faulty) - eg change of mind. | 100% Refund | 30 Days"
+        },
+        "shipping": {
+          "free_shipping": "UNKNOWN",
+          "ships_to_au": "YES",
+          "restrictions": "Delivery cost depends on item and postcode.",
+          "source_url": "https://www.jbhifi.com.au/pages/help-and-support/delivery-and-collection"
+        }
+      }
+    },
+    "harvey-norman": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.harveynorman.com.au/black-friday",
+        "evidence": "The countdown to Black Friday is on ... with huge deals ... coming soon!",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "medium",
+        "sale_type": "black_friday",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "No change-of-mind refunds on online orders. Statutory rights for faulty goods still apply.",
+        "returns": {
+          "change_of_mind": "NO",
+          "free_returns": "NO",
+          "free_return_postage": "NO",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "sale_items_excluded": "UNKNOWN",
+          "source_url": "https://www.harveynorman.com.au/customer-service/refund-policy",
+          "evidence": "Until further notice, Harvey Norman Online will not provide a refund where you have changed your mind"
+        },
+        "shipping": {
+          "free_shipping": "UNKNOWN",
+          "ships_to_au": "YES",
+          "restrictions": "Delivery cost shown at checkout."
+        }
+      }
+    },
+    "the-good-guys": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.thegoodguys.com.au/deals/black-friday-freezers",
+        "evidence": "The Black Friday freezer sale 2026 is on its way ...",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "medium",
+        "sale_type": "black_friday",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "Unopened change-of-mind returns only; delivery fee not refunded; opened goods may cost a 20% restocking fee.",
+        "returns": {
+          "change_of_mind": "CONDITIONAL",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "NO",
+          "free_instore_returns": "CONDITIONAL",
+          "prepaid_label": "UNKNOWN",
+          "sale_items_excluded": "UNKNOWN",
+          "conditions": "20% restocking fee may apply to unpacked goods; you pay pickup if not returned to a store.",
+          "source_url": "https://www.thegoodguys.com.au/terms-and-conditions",
+          "evidence": "we will not refund any delivery fee, and, if you cannot return the Goods to a store, you must pay for us to pick up the Goods."
+        },
+        "shipping": {
+          "free_shipping": "UNKNOWN",
+          "ships_to_au": "YES",
+          "restrictions": "Depends on goods and postcode."
+        }
+      }
+    },
+    "officeworks": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.officeworks.com.au/campaigns/black-friday",
+        "evidence": "Get ready for Black Friday 2026 with unbeatable deals at Officeworks.",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "medium",
+        "sale_type": "black_friday",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "30-day refunds or exchanges in store (365 days with OnePass). Free metro delivery over $65.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "NO",
+          "free_instore_returns": "YES",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Refund or exchange in store",
+          "source_url": "https://www.officeworks.com.au/information/policies/return-policy",
+          "evidence": "Return the item within 30 days of purchase"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 65,
+          "ships_to_au": "YES",
+          "restrictions": "Metro areas.",
+          "source_url": "https://www.officeworks.com.au/information/policies/delivery-offer",
+          "evidence": "Free metro delivery over $65"
+        }
+      }
+    },
+    "bing-lee": {
+      "sale": {
+        "status": "EARLY_ACCESS",
+        "source_url": "https://www.binglee.com.au/categories/promotions/black-friday-sale",
+        "evidence": "Early Black Friday Deals",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "medium",
+        "name": "Early Black Friday Deals",
+        "early_access": "Early deals open to everyone (no membership stated)",
+        "sale_type": "black_friday",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "14-day change-of-mind returns for unopened goods; postage deducted from online refunds.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "NO",
+          "free_return_postage": "NO",
+          "free_instore_returns": "CONDITIONAL",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 14,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method",
+          "conditions": "Opened goods may incur a 20% restocking fee. Delivery mainly Sydney, Melbourne, Brisbane metro.",
+          "source_url": "https://www.binglee.com.au/articles/help/returns-refunds-warranties-and-repairs/returns-policy",
+          "evidence": "the customer changes their mind within 14 days ... Goods are unopened, unused"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "ships_to_au": "YES",
+          "restrictions": "Priced by location and weight.",
+          "source_url": "https://www.binglee.com.au/articles/help/delivery-services"
+        }
+      }
+    },
+    "dell": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.dell.com/en-au/shop/lp/black-friday-deals",
+        "evidence": "Current offer is a Dell Rewards bonus ending 12 Nov 2026; no Black Friday sale yet.",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "medium",
+        "conditions": "Earn $75 Dell Rewards on eligible purchases of $2500+, ends 12 Nov (not a Black Friday sale).",
+        "sale_type": null,
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "Purchases 1 Nov to 29 Dec returnable until 15 Jan 2027. Free delivery, no minimum.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "window_note": "1 Nov-29 Dec purchases: until 15 Jan 2027",
+          "sale_items_excluded": "UNKNOWN",
+          "conditions": "Shipping or restocking fees may reduce refunds for change of mind.",
+          "source_url": "https://www.dell.com/en-au/shop/lp/return-policy",
+          "evidence": "Purchases made ... from 1 November to 29 December 2026 at Dell.com.au can be returned until 15 January 2027"
+        },
+        "shipping": {
+          "free_shipping": "YES",
+          "standard_aud": 0,
+          "ships_to_au": "YES",
+          "source_url": "https://www.dell.com/en-au/shop/dell-experience/lp/shipping-and-delivery",
+          "evidence": "Free delivery, no minimum purchase"
+        }
+      }
+    },
+    "hp": {
+      "sale": {
+        "status": "EARLY_ACCESS",
+        "source_url": "https://www.hp.com/au-en/shop/sale-offers.html",
+        "evidence": "We've gathered our top Early Black Friday offers in one place.",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "medium",
+        "name": "Early Black Friday offers",
+        "discount_text": "Extra 10% off with code EBF",
+        "discount_max_pct": 10,
+        "discount_kind": "flat",
+        "scope": "SELECTED",
+        "code_required": "YES",
+        "code": "EBF",
+        "conditions": "Reported by the research pass; not re-confirmed directly.",
+        "sale_type": "black_friday",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "14-day change of mind; you pay return costs. Free delivery over $50.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "NO",
+          "free_return_postage": "NO",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 14,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method",
+          "source_url": "https://www.hp.com/au-en/shop/faqs-content#returns",
+          "evidence": "You are responsible for all costs of returning a product back to HP"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 50,
+          "standard_aud": 7.95,
+          "ships_to_au": "YES",
+          "source_url": "https://www.hp.com/au-en/shop/faqs-content",
+          "evidence": "HP Online Store delivers free of charge on all orders over $50."
+        }
+      }
+    },
+    "lenovo": {
+      "sale": {
+        "status": "EARLY_ACCESS",
+        "source_url": "https://www.lenovo.com/au/en/deals/black-friday-sale/",
+        "evidence": "Black Friday Early Access Sale. SHOP AHEAD OF THE CROWDS. Your early access to the biggest savings this year.",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "high",
+        "name": "Black Friday Early Access Sale",
+        "early_access": "Open to everyone; extra member savings promoted",
+        "sale_type": "black_friday",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "7-day returns for PCs only with a 20% restocking fee; clearance and accessories excluded. Free shipping.",
+        "returns": {
+          "change_of_mind": "CONDITIONAL",
+          "free_returns": "NO",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 7,
+          "sale_items_excluded": "YES",
+          "refund_type": "Refund less 20% restocking fee",
+          "source_url": "https://www.lenovo.com/au/en/shopping-faqs/",
+          "evidence": "within 7 calendar days of delivery. A restocking fee of 20% ... will apply."
+        },
+        "shipping": {
+          "free_shipping": "YES",
+          "standard_aud": 0,
+          "ships_to_au": "YES",
+          "source_url": "https://www.lenovo.com/au/en/shopping-faqs/",
+          "evidence": "Lenovo offers free standard shipping to addresses within Australia."
+        }
+      }
+    },
+    "asus": {
+      "sale": {
+        "status": "LIVE",
+        "source_url": "https://www.asus.com/au/deals/black-friday/",
+        "evidence": "Black Friday Deals ... Savings of up to $1500 on selected ASUS devices",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "high",
+        "name": "ASUS Black Friday Deals",
+        "discount_text": "Up to $1,500 off selected devices",
+        "discount_kind": "up_to",
+        "scope": "SELECTED",
+        "sale_type": "black_friday",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "Only 3 days for change-of-mind returns; restocking fees may apply. Free delivery.",
+        "returns": {
+          "change_of_mind": "CONDITIONAL",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 3,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment, less fees",
+          "source_url": "https://au.store.asus.com/rog/shopping-faqs",
+          "evidence": "You have three (3) days from receiving your order to request a Change of Mind return"
+        },
+        "shipping": {
+          "free_shipping": "YES",
+          "standard_aud": 0,
+          "ships_to_au": "YES",
+          "source_url": "https://au.store.asus.com/terms-conditions",
+          "evidence": "Free standard delivery for all items."
+        }
+      }
+    },
+    "samsung": {
+      "sale": {
+        "status": "LIVE",
+        "source_url": "https://www.samsung.com/au/offer/black-friday-sale/",
+        "evidence": "Samsung Black Friday Sale 2026 & Deals ... Black Friday Hot Deals (TV & AV, Appliances, Audio, Wearables)",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "high",
+        "name": "Samsung Black Friday Sale 2026",
+        "discount_text": "Up to $2,500 off selected TVs",
+        "discount_kind": "up_to",
+        "scope": "SELECTED",
+        "conditions": "Research pass quoted 'Black Friday On Now! Save up to $2,500 on selected TVs'.",
+        "sale_type": "black_friday",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "Change-of-mind returns only for unopened mobile devices within 14 days. Free delivery on mobile products only.",
+        "returns": {
+          "change_of_mind": "CONDITIONAL",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 14,
+          "sale_items_excluded": "YES",
+          "conditions": "Change of mind covers phones, tablets, wearables and accessories only, sealed and unused.",
+          "source_url": "https://www.samsung.com/au/shop-faq/returns-and-cancellations/",
+          "evidence": "Eligible consumers can request an exchange or refund of their Mobile Product if they change their mind"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "ships_to_au": "YES",
+          "restrictions": "Free for mobile/tablet/wearables; big items charged by postcode.",
+          "source_url": "https://www.samsung.com/au/shop-faq/delivery-and-installations/delivery-costs/",
+          "evidence": "Free delivery in Australia is available for mobile, tablet, and wearable products only."
+        }
+      }
+    },
+    "apple": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.apple.com/au/",
+        "evidence": "No Black Friday shopping event announced yet.",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "medium",
+        "sale_type": null,
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "14-day returns, free by post or in store. Free delivery.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "YES",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 14,
+          "sale_items_excluded": "UNKNOWN",
+          "source_url": "https://www.apple.com/au/shop/help/returns_refund",
+          "evidence": "you have up to 14 calendar days from the time you receive your item(s) to initiate a return"
+        },
+        "shipping": {
+          "free_shipping": "YES",
+          "standard_aud": 0,
+          "ships_to_au": "YES",
+          "source_url": "https://www.apple.com/au/shop/help/shipping_delivery",
+          "evidence": "Standard delivery is free for all online orders."
+        }
+      }
+    },
+    "sony": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://store.sony.com.au/",
+        "evidence": "No Black Friday 2026 announcement found.",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "medium",
+        "sale_type": null,
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "30-day money-back for My Sony members on eligible products. Free shipping over $200.",
+        "returns": {
+          "change_of_mind": "CONDITIONAL",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "conditions": "My Sony members, eligible products; TVs may have a $150 restocking fee.",
+          "source_url": "https://store.sony.com.au/30day-faq.html",
+          "evidence": "You have 30 days from the invoice date to start the returns process... This is at Sony's cost"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 200,
+          "ships_to_au": "YES",
+          "source_url": "https://store.sony.com.au/delivery-returns.html",
+          "evidence": "Get free shipping on all eligible products over $200.00."
+        }
+      }
+    },
+    "dyson": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.dyson.com.au/",
+        "evidence": "Black Friday is almost here. Sign up now for exclusive access to Dyson Black Friday 2026 deals",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "high",
+        "name": "Dyson Black Friday 2026",
+        "early_access": "Sign up for exclusive access",
+        "sale_type": "black_friday",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "45-day change-of-mind returns with free return delivery; 1 Nov to 17 Dec purchases until 31 Jan 2027. Free delivery over $89.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 45,
+          "window_note": "45 days; 1 Nov-17 Dec purchases until 31 Jan 2027",
+          "sale_items_excluded": "CONDITIONAL",
+          "source_url": "https://www.dyson.com.au/footer-primary-links/delivery-details",
+          "evidence": "you can cancel within 45 days of receiving your machine(s)... [Dyson] will arrange free return delivery."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 89,
+          "standard_aud": 10,
+          "ships_to_au": "YES",
+          "source_url": "https://www.dyson.com.au/footer-primary-links/delivery-details",
+          "evidence": "Standard delivery | Over $89 Free | Under $89 $10"
+        }
+      }
+    },
+    "logitech": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://www.logitech.com/en-au/shop/deals",
+        "evidence": "Only regular deals page; no Black Friday announcement.",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "medium",
+        "sale_type": null,
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "30-day money-back guarantee. Free shipping over $80.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "source_url": "https://www.logitech.com/en-au",
+          "evidence": "Shop risk-free with our easy returns and 30-day money back guarantee."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 80,
+          "ships_to_au": "YES",
+          "source_url": "https://www.logitech.com/en-au",
+          "evidence": "Enjoy free standard shipping on all orders over $80.00"
+        }
+      }
+    },
+    "garmin": {
+      "sale": {
+        "status": "LIVE",
+        "source_url": "https://www.garmin.com/en-AU/c/promotions/",
+        "evidence": "BLACK FRIDAY SALE. Limited time savings on gifts for everyone on your list.",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "confidence": "medium",
+        "name": "Garmin Black Friday Sale",
+        "scope": "SELECTED",
+        "conditions": "Reported by the research pass; the promotions page shows a Black Friday Sale section. Discounts vary by product.",
+        "sale_type": "black_friday",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T11:30:00+00:00",
+        "summary": "30-day returns with free return shipping. Free shipping over $49.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "source_url": "https://www.garmin.com/en-AU/shop/shipping/",
+          "evidence": "Merchandise in its original condition may be returned for a refund within 30 days ... We offer free shipping on all returns."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 49,
+          "ships_to_au": "YES",
+          "source_url": "https://www.garmin.com/en-AU/",
+          "evidence": "FREE SHIPPING ON ORDERS $49 AUD"
         }
       }
     }

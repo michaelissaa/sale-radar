@@ -1,16 +1,17 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { ArrowClockwise, ArrowSquareOut, CaretDown, CaretUp, MagnifyingGlass, Star, Warning, X } from '@phosphor-icons/react'
-import { CATEGORIES, STATUS, ago, countdown, discountLabel, filterBrands, fmtDateTime, fmtDay, sortBrands } from './lib.js'
+import { ArrowClockwise, ArrowSquareOut, Bell, CaretDown, CaretUp, MagnifyingGlass, Star, Warning, X } from '@phosphor-icons/react'
+import Alerts from './Alerts.jsx'
+import { CATEGORIES, STATUS, ago, countdown, discountLabel, effectiveStatus, filterBrands, fmtDateTime, fmtDay, goesLive, sortBrands } from './lib.js'
 
 const FAV_KEY = 'saleradar:favs'
 const STALE_SITE_HOURS = 12 // scheduler runs every 6h; 12h without a run means something is wrong
 
 const VIEWS = [
-  ['all', 'All'], ['live', 'Live now'], ['upcoming', 'Confirmed upcoming'],
+  ['all', 'All'], ['live', 'Black Friday live'], ['soon', 'Going live soon'], ['announced', 'Announced'],
   ['free_returns', 'Free returns'], ['free_return_shipping', 'Free return postage'],
-  ['favourites', 'Favourites'], ['changed', 'Changed this scan'],
+  ['favourites', 'Favourites'], ['regular', 'Regular sales'], ['changed', 'Changed this scan'],
 ]
-const SORTS = [['status', 'Status'], ['discount', 'Discount'], ['start', 'Start date'], ['brand', 'Brand']]
+const SORTS = [['status', 'Black Friday'], ['start', 'Goes live'], ['discount', 'Discount'], ['brand', 'Brand']]
 
 function useFavs() {
   const [favs, setFavs] = useState(() => {
@@ -32,7 +33,8 @@ function useDashboard() {
     try {
       const res = await fetch(`./data/dashboard.json?t=${Date.now()}`, { cache: 'no-store' })
       if (!res.ok) throw new Error(`HTTP ${res.status}`)
-      setState({ data: await res.json(), error: null, loading: false })
+      const site = await fetch(`./data/site.json?t=${Date.now()}`, { cache: 'no-store' }).then((r) => (r.ok ? r.json() : {})).catch(() => ({}))
+      setState({ data: { ...(await res.json()), site }, error: null, loading: false })
     } catch (e) {
       setState((s) => ({ ...s, error: String(e.message || e), loading: false }))
     }
@@ -47,17 +49,28 @@ const Tri = ({ v, unverified }) => {
   return <span className={`tri tri-${tone}`} title={unverified ? 'From a sourced research pass; not double-checked against the retailer page' : undefined}>{label}{unverified && v && v !== 'UNKNOWN' ? '*' : ''}</span>
 }
 
-function StatusPill({ sale, stale }) {
-  const s = STATUS[sale.status] || STATUS.NEEDS_CHECKING
+function StatusPill({ sale, stale, now = new Date() }) {
+  const s = STATUS[effectiveStatus(sale, now)] || STATUS.NEEDS_CHECKING
   // research-backed values stay trustworthy for a few days even when the site blocks the scanner
   const isStale = sale.basis === 'stale' || (stale && sale.basis !== 'verified')
   const note = sale.basis === 'auto' ? 'auto-detected' : isStale ? 'stale' : null
   return (
     <span className="status-wrap">
       <span className={`pill pill-${s.tone}`}>{s.label}</span>
+      {sale.regular_active && <span className="stype" title={sale.regular?.discount_text || ''}>+ regular sale on</span>}
       {note && <span className={`basis ${note === 'stale' ? 'basis-stale' : ''}`}>{note}</span>}
     </span>
   )
+}
+
+function GoesLive({ sale, now }) {
+  const g = goesLive(sale, now)
+  const st = effectiveStatus(sale, now)
+  if (g && !g.live) return <><span className="mono strong">{fmtDay(sale.start)}</span><div className="countdown">{g.label}</div></>
+  if (st === 'LIVE' || st === 'EARLY_ACCESS') return <><span className="tone-live strong">Live now</span>{g && <div className="brand-sub">since {fmtDay(sale.start)}</div>}</>
+  if (st === 'ENDED') return <span className="muted">Ended</span>
+  if (st === 'UPCOMING') return <span className="muted" title={sale.expected_note || 'Announced, no launch date yet'}>Date TBC</span>
+  return <span className="muted">-</span>
 }
 
 function DateCell({ sale, which }) {
@@ -69,23 +82,30 @@ function DateCell({ sale, which }) {
 function Summary({ data, now }) {
   const m = data.meta
   const cd = countdown(m.black_friday, now)
-  const confirmedUpcoming = data.brands.filter((b) => b.sale.status === 'UPCOMING' && b.sale.date_basis === 'confirmed').length
-  const live = data.brands.filter((b) => b.sale.status === 'LIVE' || b.sale.status === 'EARLY_ACCESS').length
+  const st = (b) => effectiveStatus(b.sale, now)
+  const live = data.brands.filter((b) => ['LIVE', 'EARLY_ACCESS'].includes(st(b))).length
+  const soon = data.brands.filter((b) => st(b) === 'UPCOMING' && goesLive(b.sale, now)?.live === false)
+    .sort((x, y) => goesLive(x.sale, now).ms - goesLive(y.sale, now).ms)
+  const tbc = data.brands.filter((b) => st(b) === 'UPCOMING' && !goesLive(b.sale, now)).length
+  const regular = data.brands.filter((b) => b.sale.regular_active).length
   const verify = data.brands.filter((b) => b.sale.status === 'NEEDS_CHECKING' || b.sale.basis === 'stale' || (b.scan.stale && b.sale.basis !== 'verified')).length
+  const next = soon[0]
   const stats = [
-    ['Brands monitored', m.brands_total],
-    ['Live sales', live, 'live'],
-    ['Confirmed upcoming', confirmedUpcoming],
+    ['Black Friday live', live, 'live', regular ? `${regular} other brands have a regular sale` : null],
+    ['Next to go live', next ? next.name : 'None confirmed', null, next ? `${goesLive(next.sale, now).label}, ${fmtDay(next.sale.start)}` : null],
+    ['Launch dates confirmed', soon.length, null, soon.slice(1, 4).map((b) => b.name).join(', ') || null],
+    ['Announced, date TBC', tbc],
+    ['Black Friday', cd ? `${cd.days}d ${cd.hours}h` : 'Today', null, 'Fri 27 Nov 2026, Sydney time'],
+    ['Brands monitored', m.brands_total, null, `${m.scan_ok} readable this scan`],
     ['Need verification', verify, verify ? 'warn' : null],
     ['Last successful scan', m.last_successful_scan ? ago(m.last_successful_scan, now) : 'never', null, fmtDateTime(m.last_successful_scan)],
-    ['Black Friday', cd ? `${cd.days}d ${cd.hours}h` : 'Today', null, 'Fri 27 Nov 2026, Sydney time'],
   ]
   return (
     <section className="summary" aria-label="Summary">
       {stats.map(([label, value, tone, sub]) => (
         <div key={label} className="stat">
           <div className="stat-label">{label}</div>
-          <div className={`stat-value ${tone ? `tone-${tone}` : ''}`}>{value}</div>
+          <div className={`stat-value ${tone ? `tone-${tone}` : ''} ${typeof value === 'string' && value.length > 9 ? 'stat-text' : ''}`}>{value}</div>
           {sub && <div className="stat-sub">{sub}</div>}
         </div>
       ))}
@@ -120,13 +140,14 @@ function Row({ b, fav, onFav, onOpen, now }) {
       <td className="c-brand">
         <button className="brand-btn" onClick={() => onOpen(b.id)}>{b.name}</button>
         {b.changed_this_run && <span className="new-tag">Changed</span>}
-        <div className="brand-sub">{b.storefront}</div>
+        <div className="brand-sub">{CATEGORIES[b.category]} · {b.storefront}</div>
       </td>
-      <td data-label="Category" className="c-cat">{CATEGORIES[b.category]}</td>
-      <td data-label="Status"><StatusPill sale={b.sale} stale={b.scan.stale} /></td>
-      <td data-label="Discount" className="c-disc">{d ? <><span className="disc">{d.text}</span>{d.scope && <div className="brand-sub">{d.scope}</div>}</> : <span className="muted">{b.sale.status === 'LIVE' || b.sale.status === 'EARLY_ACCESS' ? 'Not stated' : '-'}</span>}</td>
-      <td data-label="Starts"><DateCell sale={b.sale} which="start" /></td>
+      <td data-label="Black Friday"><StatusPill sale={b.sale} stale={b.scan.stale} now={now} /></td>
+      <td data-label="Goes live" className="c-live"><GoesLive sale={b.sale} now={now} /></td>
       <td data-label="Ends"><DateCell sale={b.sale} which="end" /></td>
+      <td data-label="Discount" className="c-disc">{d ? <><span className="disc">{d.text}</span>{d.scope && <div className="brand-sub">{d.scope}</div>}</>
+        : b.sale.regular_active ? <span className="muted" title="Regular sale, not Black Friday">Regular: {b.sale.regular?.discount_text}</span>
+        : <span className="muted">{['LIVE', 'EARLY_ACCESS'].includes(effectiveStatus(b.sale, now)) ? 'Not stated' : '-'}</span>}</td>
       <td data-label="Free returns"><Tri v={r.free_returns} unverified={unverified} /></td>
       <td data-label="Free return postage"><Tri v={r.free_return_postage} unverified={unverified} /></td>
       <td data-label="Return window" className="mono" title={r.window_note}>{r.window_days ? `${r.window_days} days` : r.window_note || <span className="muted">-</span>}</td>
@@ -145,7 +166,7 @@ function Row({ b, fav, onFav, onOpen, now }) {
 
 const FIELD_FMT = (v) => (v === null || v === undefined || v === '' ? 'none' : typeof v === 'boolean' ? (v ? 'OK' : 'failed') : String(v).replaceAll('_', ' ').toLowerCase())
 
-function Detail({ b, onClose, now }) {
+function Detail({ b, onClose, now, onAlert }) {
   const ref = useRef(null)
   useEffect(() => { if (b) ref.current?.showModal(); else ref.current?.close() }, [b])
   if (!b) return <dialog ref={ref} className="drawer" />
@@ -160,13 +181,19 @@ function Detail({ b, onClose, now }) {
             <h2 id="d-title">{b.name}</h2>
             <div className="brand-sub">{CATEGORIES[b.category]} · {b.storefront}</div>
           </div>
-          <button className="icon-btn" onClick={onClose} aria-label="Close"><X size={18} /></button>
+          <div className="head-actions">
+            <button className="btn-ghost" onClick={() => onAlert([b.id])}><Bell size={14} /> Alert me</button>
+            <button className="icon-btn" onClick={onClose} aria-label="Close"><X size={18} /></button>
+          </div>
         </header>
 
         <section>
-          <h3>Current promotion</h3>
-          <StatusPill sale={s} stale={b.scan.stale} />
+          <h3>Black Friday</h3>
+          <StatusPill sale={s} stale={b.scan.stale} now={now} />
+          {s.conflict && <p className="tone-warn conflict"><Warning size={14} /> {s.conflict}</p>}
           <dl>{rows([
+            ['Goes live', goesLive(s, now) ? (goesLive(s, now).live ? `Live since ${fmtDay(s.start)}` : `${fmtDay(s.start)} (${goesLive(s, now).label})`) : undefined],
+            ['Regular sale', s.regular ? `${s.regular.discount_text || s.regular.name} (not Black Friday)` : undefined],
             ['Offer', s.discount_text ? `${s.discount_text}${s.scope !== 'UNKNOWN' ? ` (${s.scope.toLowerCase()})` : ''}` : 'None verified'],
             ['Sale name', s.name || undefined],
             ['Starts', s.start ? `${fmtDay(s.start)} (confirmed by retailer)` : 'No confirmed date'],
@@ -176,7 +203,8 @@ function Detail({ b, onClose, now }) {
             ['Verified code', s.code || undefined],
             ['Early access / members', s.early_access || undefined],
             ['Conditions', s.conditions || undefined],
-            ['How we know', s.basis === 'verified' ? (s.verification === 'verified' ? 'Checked directly against the retailer page' : 'From a sourced research pass (quote and link below), not double-checked') : s.basis === 'auto' ? `Detected automatically on the retailer page (confidence ${s.confidence})` : s.basis === 'stale' ? 'Last known value. The latest scan could not reach the site.' : 'No sale information found'],
+            ['Store price check', b.markdown?.ok ? `${b.markdown.discounted} of ${b.markdown.products}${b.markdown.capped ? '+' : ''} products discounted (${Math.round(b.markdown.share * 100)}%), up to ${b.markdown.max_pct}% off. Checked ${ago(b.markdown.checked_at, now)}.` : undefined],
+            ['How we know', s.basis === 'feed' ? "Worked out from the store's own product prices (compare-at vs current price)" : s.basis === 'verified' ? (s.verification === 'verified' ? 'Checked directly against the retailer page' : 'From a sourced research pass (quote and link below), not double-checked') : s.basis === 'auto' ? `Detected automatically on the retailer page (confidence ${s.confidence})` : s.basis === 'stale' ? 'Last known value. The latest scan could not reach the site.' : 'No sale information found'],
             ['Sale verified', s.verified_at ? fmtDateTime(s.verified_at) : undefined],
           ])}</dl>
           {s.evidence && <blockquote className="evidence">"{s.evidence}"</blockquote>}
@@ -258,11 +286,12 @@ export default function App() {
   const [category, setCategory] = useState('all')
   const [view, setView] = useState('all')
   const [sort, setSort] = useState({ key: 'status', dir: 'asc' })
-  const [openId, setOpenId] = useState(null)
+  const [openId, setOpenId] = useState(() => decodeURIComponent(location.hash.slice(1)) || null)
+  const [alertFor, setAlertFor] = useState(null) // null = closed, [] = pick brands
   const [now, setNow] = useState(() => new Date())
   useEffect(() => { const t = setInterval(() => setNow(new Date()), 60000); return () => clearInterval(t) }, [])
 
-  const rows = useMemo(() => data ? sortBrands(filterBrands(data.brands, { q, category, view, favs }), sort.key, sort.dir, favs) : [], [data, q, category, view, favs, sort])
+  const rows = useMemo(() => data ? sortBrands(filterBrands(data.brands, { q, category, view, favs, now }), sort.key, sort.dir, favs, now) : [], [data, q, category, view, favs, sort, now])
   const open = data?.brands.find((b) => b.id === openId) || null
   const siteStale = data && (now - new Date(data.meta.generated_at)) / 3600000 > STALE_SITE_HOURS
   const failing = data?.brands.filter((b) => !b.scan.ok) || []
@@ -273,6 +302,7 @@ export default function App() {
         <h1>Sale Radar</h1>
         <div className="top-right">
           {data && <span className="muted" title="Sydney time">Data from {fmtDateTime(data.meta.generated_at)}</span>}
+          <button className="btn-ghost btn-alerts" onClick={() => setAlertFor([...favs])}><Bell size={15} /> Email alerts</button>
           <button className="btn" onClick={() => { reload(); setNow(new Date()) }} disabled={loading} title="Reloads the latest published data. Retailer scans run automatically every 6 hours.">
             <ArrowClockwise size={15} className={loading ? 'spin' : ''} /> Reload data
           </button>
@@ -317,11 +347,10 @@ export default function App() {
               <tr>
                 <th className="c-fav"><span className="sr-only">Favourite</span></th>
                 <SortHeader id="brand" label="Brand" sort={sort} setSort={setSort} />
-                <th>Category</th>
-                <SortHeader id="status" label="Status" sort={sort} setSort={setSort} />
-                <SortHeader id="discount" label="Discount" sort={sort} setSort={setSort} />
-                <SortHeader id="start" label="Starts" sort={sort} setSort={setSort} />
+                <SortHeader id="status" label="Black Friday" sort={sort} setSort={setSort} />
+                <SortHeader id="start" label="Goes live" sort={sort} setSort={setSort} />
                 <th>Ends</th>
+                <SortHeader id="discount" label="Discount" sort={sort} setSort={setSort} />
                 <th title="Change-of-mind return with no fee via at least one method (mail or store)">Free returns</th>
                 <th title="Retailer pays postage for mailed returns">Free return postage</th>
                 <th>Return window</th>
@@ -352,7 +381,8 @@ export default function App() {
         </footer>
       </>}
 
-      <Detail b={open} onClose={() => setOpenId(null)} now={now} />
+      <Detail b={open} onClose={() => { setOpenId(null); if (location.hash) history.replaceState(null, '', location.pathname) }} now={now} onAlert={setAlertFor} />
+      {data && alertFor && <Alerts brands={data.brands} initial={alertFor} favs={favs} notifyUrl={data.site?.notify_url} onClose={() => setAlertFor(null)} />}
     </div>
   )
 }

@@ -1,7 +1,7 @@
 // Run: npm test
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { countdown, filterBrands, fmtDay, sortBrands, sydneyMidnight, tzOffsetMinutes } from './lib.js'
+import { countdown, effectiveStatus, filterBrands, fmtDay, goesLive, sortBrands, sydneyMidnight, tzOffsetMinutes } from './lib.js'
 
 test('Sydney is UTC+11 in November (AEDT) and +10 in June', () => {
   assert.equal(tzOffsetMinutes(new Date('2026-11-27T00:00:00Z')), 660)
@@ -43,6 +43,32 @@ test('filters keep free returns and free return postage separate', () => {
 
 test('confirmed-upcoming filter excludes unconfirmed dates', () => {
   assert.deepEqual(filterBrands(B, { view: 'upcoming' }).map((b) => b.id), ['c'])
+})
+
+test('regular sales are separate from Black Friday', () => {
+  const L = [mk('x', 'X', 'NOT_ANNOUNCED', null, { sale: { regular_active: true } }), mk('y', 'Y', 'UPCOMING', null), mk('z', 'Z', 'NOT_ANNOUNCED', null)]
+  assert.deepEqual(filterBrands(L, { view: 'regular' }).map((b) => b.id), ['x'])
+  assert.deepEqual(filterBrands(L, { view: 'live' }).map((b) => b.id), [])
+  assert.deepEqual(filterBrands(L, { view: 'announced' }).map((b) => b.id), ['y'])
+})
+
+test('confirmed launch flips to live at the exact Sydney time', () => {
+  const sale = { status: 'UPCOMING', start: '2026-11-10T09:00:00+11:00', end: '2026-11-10T13:00:00+11:00', date_basis: 'confirmed' }
+  assert.equal(effectiveStatus(sale, new Date('2026-11-09T21:59:00Z')), 'UPCOMING') // 8:59am Sydney
+  assert.equal(effectiveStatus(sale, new Date('2026-11-09T22:00:00Z')), 'LIVE')
+  assert.equal(effectiveStatus(sale, new Date('2026-11-10T02:01:00Z')), 'ENDED')
+  assert.equal(effectiveStatus({ ...sale, date_basis: 'unknown' }, new Date('2026-11-10T00:00:00Z')), 'UPCOMING', 'unconfirmed never auto-flips')
+  assert.equal(goesLive(sale, new Date('2026-11-05T09:00:00Z')).label, 'in 4d 13h')
+  assert.equal(goesLive({ ...sale, date_basis: 'unknown' }), null)
+  const nb = { status: 'UPCOMING', start: '2026-11-13', end: '2026-11-29', date_basis: 'confirmed' }
+  assert.equal(effectiveStatus(nb, new Date('2026-11-29T12:00:00Z')), 'LIVE', 'end date is inclusive (Sydney)')
+  assert.equal(effectiveStatus(nb, new Date('2026-11-29T13:00:01Z')), 'ENDED')
+})
+
+test('status sort puts soonest confirmed launch first', () => {
+  const L = [mk('late', 'Late', 'UPCOMING', null, { sale: { start: '2026-11-20', date_basis: 'confirmed' } }),
+    mk('tbc', 'Tbc', 'UPCOMING', null), mk('soon', 'Soon', 'UPCOMING', null, { sale: { start: '2026-11-10', date_basis: 'confirmed' } }), mk('live', 'Live', 'LIVE', 30)]
+  assert.deepEqual(sortBrands(L, 'status', 'asc', new Set(), new Date('2026-11-05T00:00:00Z')).map((b) => b.id), ['live', 'soon', 'late', 'tbc'])
 })
 
 test('search and live filter', () => {
