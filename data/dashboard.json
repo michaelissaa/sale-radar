@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-05T09:31:13+00:00",
-    "run_id": "20261105T093113Z",
+    "generated_at": "2026-11-05T09:45:26+00:00",
+    "run_id": "20261105T094526Z",
     "timezone": "Australia/Sydney",
     "currency": "AUD",
     "black_friday": "2026-11-27",
@@ -9,16 +9,16 @@
     "brands_total": 52,
     "scan_ok": 40,
     "scan_failed": 12,
-    "last_successful_scan": "2026-11-05T09:31:13+00:00",
+    "last_successful_scan": "2026-11-05T09:45:26+00:00",
     "counts": {
-      "LIVE": 6,
-      "UPCOMING": 13,
-      "EARLY_ACCESS": 0,
-      "NOT_ANNOUNCED": 29,
+      "LIVE": 8,
+      "UPCOMING": 20,
+      "EARLY_ACCESS": 2,
+      "NOT_ANNOUNCED": 20,
       "ENDED": 0,
-      "NEEDS_CHECKING": 4
+      "NEEDS_CHECKING": 2
     },
-    "new_events": 46
+    "new_events": 103
   },
   "brands": [
     {
@@ -89,7 +89,7 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -100,7 +100,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -212,8 +212,8 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -275,7 +275,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "evdnce",
@@ -287,8 +287,8 @@
       "links": {
         "home": "https://evdnce.com/",
         "sale": "https://evdnce.com/",
-        "returns": null,
-        "shipping": null
+        "returns": "https://evdnce.com/pages/help-center",
+        "shipping": "https://evdnce.com/pages/help-center"
       },
       "sale": {
         "status": "LIVE",
@@ -303,7 +303,7 @@
         "end": null,
         "date_basis": "unknown",
         "expected_note": null,
-        "code_required": "UNKNOWN",
+        "code_required": "NO",
         "code": null,
         "early_access": null,
         "conditions": "'Up to' 50%: discounts vary by item. The banner doesn't say Black Friday or give an end date.",
@@ -330,19 +330,38 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "NA",
+          "prepaid_label": "YES",
+          "window_days": 14,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Refund, exchange or store credit",
+          "postage_cost": "$9.95 deducted from refunds",
+          "conditions": "Final sale, underwear, socks and headwear excluded. Unworn with tags.",
+          "source_url": "https://evdnce.com/pages/help-center",
+          "evidence": "A handling and return postage fee of $9.95 is deducted from your refund"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 250,
+          "ships_to_au": "YES",
+          "source_url": "https://evdnce.com/",
+          "evidence": "Free shipping on orders over AU$250"
+        },
+        "summary": "14-day returns via the Loop portal; $9.95 handling and return postage deducted from refunds. Free shipping over AU$250.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -354,6 +373,46 @@
       },
       "recent_changes": [
         {
+          "id": "9ce227df5caf",
+          "brand": "evdnce",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "CONDITIONAL",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "3ccd2a19ff47",
+          "brand": "evdnce",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "b36fee854d12",
+          "brand": "evdnce",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 14,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "50a164c53e58",
+          "brand": "evdnce",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 250,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
           "id": "3dba00d42d30",
           "brand": "evdnce",
           "field": "brand",
@@ -364,7 +423,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "gymshark",
@@ -448,8 +507,8 @@
         "free_shipping_threshold_hint": 100
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -556,8 +615,8 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -652,7 +711,7 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -663,7 +722,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -777,8 +836,8 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -868,7 +927,7 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
         "last_success": "2026-11-05T09:05:28+00:00",
         "ok": false,
         "pages_ok": 0,
@@ -883,7 +942,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "discovered": [
           "https://www.theiconic.com.au/black-friday/"
         ],
@@ -992,8 +1051,8 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1099,8 +1158,8 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -1152,7 +1211,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "asics",
@@ -1224,7 +1283,7 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -1235,7 +1294,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -1331,7 +1390,7 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -1342,7 +1401,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -1379,31 +1438,31 @@
       "notes": null,
       "links": {
         "home": "https://www.aybl.com/",
-        "sale": "https://www.aybl.com/",
-        "returns": null,
-        "shipping": null
+        "sale": "https://www.aybl.com/pages/black-friday-2026",
+        "returns": "https://www.aybl.com/pages/returns",
+        "shipping": "https://www.aybl.com/pages/shipping"
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "auto",
-        "confidence": "low",
-        "name": null,
-        "discount_text": null,
-        "discount_max_pct": null,
-        "discount_kind": null,
-        "scope": "UNKNOWN",
+        "basis": "verified",
+        "confidence": "high",
+        "name": "AYBL Black Friday 2026",
+        "discount_text": "Up to 60% off sitewide",
+        "discount_max_pct": 60,
+        "discount_kind": "up_to",
+        "scope": "SITEWIDE",
         "start": null,
         "end": null,
         "date_basis": "unknown",
         "expected_note": null,
         "code_required": "UNKNOWN",
         "code": null,
-        "early_access": null,
-        "conditions": null,
-        "evidence": "World UAE United Kingdom United States DOWNLOAD THE AYBL APP Free UK Shipping Over £45 Free UK 30 Day Returns BLACK FRIDAY IS COMING Students Get 10% Off Help Help center Start a return Faulty item Open navigation menu Open search W",
-        "source_url": "https://www.aybl.com/",
-        "verified_at": null,
-        "verification": null,
+        "early_access": "Sign up to shop 1 hour before everyone else",
+        "conditions": "Announced, no start date yet. AYBL serves one global store (UK-based).",
+        "evidence": "Black Friday is coming. Sign up for Early Access and shop up to 60% off sitewide 1 hour before everyone else.",
+        "source_url": "https://www.aybl.com/pages/black-friday-2026",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "auto": {
           "bf_mentioned": true,
           "discount_text": "10% Off",
@@ -1423,22 +1482,42 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "NO",
+          "free_return_postage": "NO",
+          "free_instore_returns": "NA",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "sale_items_excluded": "YES",
+          "refund_type": "Original payment method; no exchanges",
+          "conditions": "Free returns only in the UK, USA, NL, DE and FR; for Australia the portal shows the cost and deducts it.",
+          "source_url": "https://www.aybl.com/pages/returns",
+          "evidence": "We currently only offer free returns in the UK, USA, NL, DE & FR... Any costs will be deducted from the final refund"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 90,
+          "standard_aud": 8,
+          "ships_to_au": "YES",
+          "restrictions": "Ships from the UK. Express $30, free over $250.",
+          "source_url": "https://www.aybl.com/pages/shipping",
+          "evidence": "AUSTRALIA ... Standard | 3-5 working days | $8 | $90"
+        },
+        "summary": "30-day returns but return postage is deducted for Australia (free returns only UK/US/EU). Final Sale excluded. Free shipping over $90.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
-        "pages_ok": 1,
-        "pages_tried": 1,
+        "pages_ok": 3,
+        "pages_tried": 3,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [
@@ -1448,6 +1527,56 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "4469a2e20bdb",
+          "brand": "aybl",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": null,
+          "new": "Up to 60% off sitewide",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "65a2ef009e0b",
+          "brand": "aybl",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "NO",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "397946ab9f47",
+          "brand": "aybl",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "a85030798eb4",
+          "brand": "aybl",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 30,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "83dd9199d01f",
+          "brand": "aybl",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 90,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
         {
           "id": "05cedc9de203",
           "brand": "aybl",
@@ -1459,7 +1588,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "glue-store",
@@ -1467,17 +1596,17 @@
       "category": "fashion",
       "priority": 2,
       "storefront": "AU retailer",
-      "notes": null,
+      "notes": "Online store closed for relaunch (Nov 2026)",
       "links": {
         "home": "https://www.gluestore.com.au/",
-        "sale": null,
+        "sale": "https://www.gluestore.com.au/",
         "returns": null,
         "shipping": null
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
+        "basis": "verified",
+        "confidence": "high",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -1490,11 +1619,11 @@
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": null,
-        "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "conditions": "Online store is closed (password page) and relaunching in November. 15% off first order for sign-ups at launch.",
+        "evidence": "Glue Store single media Launching November. Sign up and receive 15% off your first order when we launch",
+        "source_url": "https://www.gluestore.com.au/",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "verified",
         "auto": {
           "bf_mentioned": false,
           "discount_text": "15% off",
@@ -1514,10 +1643,20 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
+        "returns": {
+          "change_of_mind": "UNKNOWN",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "sale_items_excluded": "UNKNOWN"
+        },
+        "shipping": {
+          "free_shipping": "UNKNOWN",
+          "ships_to_au": "UNKNOWN"
+        },
+        "summary": "Online store closed for relaunch; current returns and delivery terms not available.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "unverified",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
@@ -1525,8 +1664,8 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -1538,6 +1677,26 @@
       },
       "recent_changes": [
         {
+          "id": "66eeeae47c15",
+          "brand": "glue-store",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "UNKNOWN",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "6f6c5804f089",
+          "brand": "glue-store",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "UNKNOWN",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
           "id": "211b988c7513",
           "brand": "glue-store",
           "field": "brand",
@@ -1548,7 +1707,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "hallensteins",
@@ -1634,8 +1793,8 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -1697,7 +1856,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "hoka",
@@ -1707,15 +1866,15 @@
       "storefront": "AU site",
       "notes": null,
       "links": {
-        "home": "https://www.hoka.com/en/au/",
-        "sale": null,
-        "returns": null,
+        "home": "https://au.hoka.com/",
+        "sale": "https://au.hoka.com/",
+        "returns": "https://help.au.hoka.com/hc/en-us/articles/4899736773657-WHAT-IS-YOUR-CHANGE-OF-MIND-RETURNS-POLICY",
         "shipping": null
       },
       "sale": {
-        "status": "NEEDS_CHECKING",
-        "basis": "none",
-        "confidence": "low",
+        "status": "NOT_ANNOUNCED",
+        "basis": "verified",
+        "confidence": "medium",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -1729,41 +1888,110 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "evidence": "Regular promotions only; no Black Friday announcement seen.",
+        "source_url": "https://au.hoka.com/",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "auto": null
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "NO",
+          "free_instore_returns": "YES",
+          "prepaid_label": "NO",
+          "window_days": 60,
+          "window_note": "60 days for 5 Nov-31 Dec purchases, otherwise 30",
+          "sale_items_excluded": "NO",
+          "refund_type": "Original payment method",
+          "postage_cost": "$10 postal label",
+          "source_url": "https://help.au.hoka.com/hc/en-us/articles/4899736773657-WHAT-IS-YOUR-CHANGE-OF-MIND-RETURNS-POLICY",
+          "evidence": "you can return any unwanted products, including sale items ... purchases made between November 5 and December 31 come with an extended 60-day return window."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 200,
+          "ships_to_au": "YES",
+          "source_url": "https://au.hoka.com/",
+          "evidence": "Free Shipping on all orders $200+"
+        },
+        "summary": "60-day returns for 5 Nov to 31 Dec purchases, sale items included. Postal return label costs $10; free in store. Free shipping over $200.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
         "pages_tried": 1,
         "errors": [
           {
-            "url": "https://www.hoka.com/en/au/",
+            "url": "https://au.hoka.com/",
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 1,
+        "consecutive_failures": 2,
         "discovered": [],
         "stale": true,
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "cb60130c14a9",
+          "brand": "hoka",
+          "field": "sale.status",
+          "label": "Sale status",
+          "old": "NEEDS_CHECKING",
+          "new": "NOT_ANNOUNCED",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "379a76ba4b75",
+          "brand": "hoka",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "NO",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "b672a88e6c32",
+          "brand": "hoka",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "6c3557a736af",
+          "brand": "hoka",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 60,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "a0ba9d7ea2c8",
+          "brand": "hoka",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 200,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
         {
           "id": "ea68ea7f22e5",
           "brand": "hoka",
@@ -1775,7 +2003,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "jd-sports",
@@ -1786,14 +2014,14 @@
       "notes": null,
       "links": {
         "home": "https://www.jd-sports.com.au/",
-        "sale": null,
-        "returns": null,
+        "sale": "https://www.jd-sports.com.au/collections/offers-the-north-face",
+        "returns": "https://www.jd-sports.com.au/pages/terms-and-conditions",
         "shipping": null
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
+        "status": "UPCOMING",
+        "basis": "verified",
+        "confidence": "medium",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -1807,10 +2035,10 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "evidence": "Black Friday 2026 Coming Soon",
+        "source_url": "https://www.jd-sports.com.au/collections/offers-the-north-face",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -1830,19 +2058,37 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "NO",
+          "free_instore_returns": "YES",
+          "prepaid_label": "CONDITIONAL",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method",
+          "conditions": "Swimwear, underwear and jewellery excluded. Free label only for faulty items.",
+          "source_url": "https://www.jd-sports.com.au/pages/terms-and-conditions",
+          "evidence": "Unless the Goods are faulty or incorrectly supplied, You are responsible for the risk and cost of returning the Goods to Us"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 150,
+          "ships_to_au": "YES",
+          "source_url": "https://www.jd-sports.com.au/",
+          "evidence": "FREE DELIVERY ON ALL ORDERS OVER $150"
+        },
+        "summary": "30-day refunds; you pay postage for change-of-mind returns by post. In-store returns accepted. Free delivery over $150.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -1854,6 +2100,56 @@
       },
       "recent_changes": [
         {
+          "id": "24fd29d77846",
+          "brand": "jd-sports",
+          "field": "sale.status",
+          "label": "Sale status",
+          "old": "NOT_ANNOUNCED",
+          "new": "UPCOMING",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "d0d050456950",
+          "brand": "jd-sports",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "NO",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "3fe0e0ad23c9",
+          "brand": "jd-sports",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "0318493b90c4",
+          "brand": "jd-sports",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 30,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "a47979a24803",
+          "brand": "jd-sports",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 150,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
           "id": "653cf447024b",
           "brand": "jd-sports",
           "field": "brand",
@@ -1864,7 +2160,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "maniere-de-voir",
@@ -1950,8 +2246,8 @@
         "free_shipping_threshold_hint": 400
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2013,7 +2309,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "myprotein",
@@ -2099,8 +2395,8 @@
         "free_shipping_threshold_hint": 150
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -2193,7 +2489,7 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -2204,7 +2500,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -2241,13 +2537,13 @@
       "notes": null,
       "links": {
         "home": "https://www.on.com/en-au/",
-        "sale": null,
-        "returns": null,
-        "shipping": null
+        "sale": "https://www.on.com/en-au/collection/black-friday",
+        "returns": "https://www.on.com/en-au/faq/returns-and-exchanges",
+        "shipping": "https://www.on.com/en-au/faq/shipping"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "auto",
+        "status": "UPCOMING",
+        "basis": "verified",
         "confidence": "low",
         "name": null,
         "discount_text": null,
@@ -2261,46 +2557,64 @@
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": null,
-        "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "conditions": "Only an email sign-up for Black Friday news; no sale details.",
+        "evidence": "Sign up for Black Friday and Cyber Monday, limited drops, new arrivals and more. Straight to your inbox.",
+        "source_url": "https://www.on.com/en-au/collection/black-friday",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "auto": {
-          "bf_mentioned": false,
+          "bf_mentioned": true,
           "discount_text": null,
           "discount_max_pct": null,
           "discount_kind": null,
           "sitewide_hint": false,
           "code": null,
-          "future_language": false,
+          "future_language": true,
           "early_access": false,
           "dates_seen": [],
-          "evidence": null,
+          "evidence": "90 days returns + free express shipping on us Happy Holidays : 90 days returns + free express shipping on us Black Friday collection Black Friday Don't miss out Sign up for Black Friday and Cyber Monday, limited drops, new arrivals",
           "free_shipping_threshold_hint": null,
-          "status": "NOT_ANNOUNCED",
+          "status": "UPCOMING",
           "confidence": "low",
-          "url": "https://www.on.com/en-au/",
-          "title": "On | Swiss Performance Running Shoes & Clothing"
+          "url": "https://www.on.com/en-au/collection/black-friday",
+          "title": "Black Friday & Cyber Monday Deals 2026 | On Australia"
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "YES",
+          "prepaid_label": "YES",
+          "window_days": 90,
+          "window_note": "90 days for 21 Oct-31 Dec 2026 purchases",
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method",
+          "conditions": "Limited editions and last-season items: refund only, no exchange.",
+          "source_url": "https://www.on.com/en-au/faq/returns-and-exchanges",
+          "evidence": "Any product purchased between October 21 and December 31, 2026 ... Australia ... will benefit from extended 90 day returns"
+        },
+        "shipping": {
+          "free_shipping": "YES",
+          "ships_to_au": "YES",
+          "source_url": "https://www.on.com/en-au/faq/shipping",
+          "evidence": "We cover shipping costs and any relevant customs charges in most countries (for standard-level shipping)."
+        },
+        "summary": "Free returns; purchases 21 Oct to 31 Dec get 90 days. Free standard shipping including customs.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
-        "pages_ok": 1,
-        "pages_tried": 1,
+        "pages_ok": 2,
+        "pages_tried": 2,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [],
@@ -2308,6 +2622,46 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "edd5cc51b7ba",
+          "brand": "on-running",
+          "field": "sale.status",
+          "label": "Sale status",
+          "old": "NOT_ANNOUNCED",
+          "new": "UPCOMING",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "be3eca9870e7",
+          "brand": "on-running",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "f94ba18cab41",
+          "brand": "on-running",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "31acae35a5f5",
+          "brand": "on-running",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 90,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
         {
           "id": "a346735cd35d",
           "brand": "on-running",
@@ -2319,7 +2673,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "platypus",
@@ -2330,13 +2684,13 @@
       "notes": null,
       "links": {
         "home": "https://www.platypusshoes.com.au/",
-        "sale": null,
-        "returns": null,
+        "sale": "https://www.platypusshoes.com.au/post/the-platypus-guide-to-black-friday-and-cyber-monday.html",
+        "returns": "https://help.platypusshoes.com.au/hc/en-us/articles/360045681613-WHAT-IS-YOUR-CHANGE-OF-MIND-RETURNS-POLICY",
         "shipping": null
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "auto",
+        "status": "UPCOMING",
+        "basis": "verified",
         "confidence": "low",
         "name": null,
         "discount_text": null,
@@ -2346,15 +2700,15 @@
         "start": null,
         "end": null,
         "date_basis": "unknown",
-        "expected_note": null,
+        "expected_note": "The guide quotes the industry dates (27 to 30 Nov); Platypus hasn't confirmed its own sale dates",
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": null,
-        "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "conditions": "Could not be re-checked directly (page needs JavaScript).",
+        "evidence": "Platypus has published a 2026 Black Friday and Cyber Monday guide (per research pass).",
+        "source_url": "https://www.platypusshoes.com.au/post/the-platypus-guide-to-black-friday-and-cyber-monday.html",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -2374,22 +2728,40 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "NO",
+          "free_instore_returns": "YES",
+          "prepaid_label": "NO",
+          "window_days": 60,
+          "sale_items_excluded": "NO",
+          "refund_type": "Original payment method",
+          "postage_cost": "$10 return label",
+          "source_url": "https://help.platypusshoes.com.au/hc/en-us/articles/360045681613-WHAT-IS-YOUR-CHANGE-OF-MIND-RETURNS-POLICY",
+          "evidence": "you can return any unwanted products, including sale items ... purchase and print your $10 return shipping label."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 150,
+          "ships_to_au": "YES",
+          "source_url": "https://www.platypusshoes.com.au/",
+          "evidence": "Free Express Shipping On All Orders Over $150"
+        },
+        "summary": "60-day change-of-mind returns including sale items. Postal label costs $10; free in store. Free express shipping over $150.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
-        "pages_ok": 1,
-        "pages_tried": 1,
+        "pages_ok": 2,
+        "pages_tried": 2,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [],
@@ -2397,6 +2769,56 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "e19695a25ad1",
+          "brand": "platypus",
+          "field": "sale.status",
+          "label": "Sale status",
+          "old": "NOT_ANNOUNCED",
+          "new": "UPCOMING",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "ab29c1f61896",
+          "brand": "platypus",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "NO",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "d61bccc08abe",
+          "brand": "platypus",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "7945a569b219",
+          "brand": "platypus",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 60,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "313aeb175a6e",
+          "brand": "platypus",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 150,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
         {
           "id": "84d3223faf7a",
           "brand": "platypus",
@@ -2408,7 +2830,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "rebel",
@@ -2419,19 +2841,19 @@
       "notes": null,
       "links": {
         "home": "https://www.rebelsport.com.au/",
-        "sale": null,
-        "returns": null,
-        "shipping": null
+        "sale": "https://www.rebelsport.com.au/help-centre/promotions",
+        "returns": "https://www.rebelsport.com.au/help-centre/refunds-and-returns",
+        "shipping": "https://www.rebelsport.com.au/help-centre/shipping-and-delivery"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
-        "name": null,
-        "discount_text": null,
-        "discount_max_pct": null,
-        "discount_kind": null,
-        "scope": "UNKNOWN",
+        "status": "EARLY_ACCESS",
+        "basis": "verified",
+        "confidence": "medium",
+        "name": "Black Friday Early Deal",
+        "discount_text": "30% off selected Nike running shoes",
+        "discount_max_pct": 30,
+        "discount_kind": "flat",
+        "scope": "SELECTED",
         "start": null,
         "end": null,
         "date_basis": "unknown",
@@ -2439,46 +2861,66 @@
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": null,
-        "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "conditions": "Listed on Rebel's promotions page; end date not shown. Other Christmas deals run 29 Oct to 26 Nov.",
+        "evidence": "Black Friday Early Deal - 30% Off Selected Nike Running Shoes",
+        "source_url": "https://www.rebelsport.com.au/help-centre/promotions",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "verified",
         "auto": {
-          "bf_mentioned": false,
-          "discount_text": "2% Off",
-          "discount_max_pct": 2,
+          "bf_mentioned": true,
+          "discount_text": "30% Off",
+          "discount_max_pct": 30,
           "discount_kind": "flat",
           "sitewide_hint": false,
           "code": null,
           "future_language": false,
           "early_access": false,
-          "dates_seen": [],
-          "evidence": null,
+          "dates_seen": [
+            "26 November"
+          ],
+          "evidence": "ers Member Pricing Need Help? Loading Store Details Home Help Centre Promotions Promotions Current Promotions Black Friday Early Deal - 30% Off Selected Nike Running Shoes Christmas Deals: 29 October – 26 November ON - 3x Bonus Poin",
           "free_shipping_threshold_hint": 150,
-          "status": "NOT_ANNOUNCED",
-          "confidence": "low",
-          "url": "https://www.rebelsport.com.au/",
-          "title": "rebel | Sports Shoes | Footwear, Clothing and Fitness Accessories"
+          "status": "LIVE",
+          "confidence": "medium",
+          "url": "https://www.rebelsport.com.au/help-centre/promotions",
+          "title": "Promotions | Rebel Sport"
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "conditions": "Free returns for online orders under 10kg via ParcelPoint and Australia Post (details not fully verified).",
+          "source_url": "https://www.rebelsport.com.au/help-centre/refunds-and-returns",
+          "evidence": "30 day change of mind returns"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 150,
+          "ships_to_au": "YES",
+          "restrictions": "Only items tagged 'Free Delivery over $150'; bulky/boxed items excluded.",
+          "source_url": "https://www.rebelsport.com.au/help-centre/shipping-and-delivery",
+          "evidence": "Free Delivery over $150'. This offer excludes bulky items"
+        },
+        "summary": "30-day change-of-mind returns; free returns on online orders under 10kg (conditions apply). Free delivery over $150 on tagged items.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
-        "pages_ok": 1,
-        "pages_tried": 1,
+        "pages_ok": 3,
+        "pages_tried": 3,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [
@@ -2488,6 +2930,66 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "7aeebc74cb15",
+          "brand": "rebel",
+          "field": "sale.status",
+          "label": "Sale status",
+          "old": "NOT_ANNOUNCED",
+          "new": "EARLY_ACCESS",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "4a17f03b8fed",
+          "brand": "rebel",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": null,
+          "new": "30% off selected Nike running shoes",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "294121732449",
+          "brand": "rebel",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "CONDITIONAL",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "9706d63b10f9",
+          "brand": "rebel",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "0c630819d062",
+          "brand": "rebel",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 30,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "90f8d3014f98",
+          "brand": "rebel",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 150,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
         {
           "id": "08e93861b5d1",
           "brand": "rebel",
@@ -2499,7 +3001,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "represent",
@@ -2509,15 +3011,15 @@
       "storefront": "UK brand, ships to AU",
       "notes": null,
       "links": {
-        "home": "https://representclo.com/",
-        "sale": null,
-        "returns": null,
-        "shipping": null
+        "home": "https://au.representclo.com/",
+        "sale": "https://row.representclo.com/pages/black-friday-faqs",
+        "returns": "https://row.representclo.com/pages/shipping-returns-product-page",
+        "shipping": "https://row.representclo.com/pages/shipping-returns-product-page"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
+        "status": "UPCOMING",
+        "basis": "verified",
+        "confidence": "medium",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -2531,45 +3033,65 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "evidence": "The Vault is opening. BLACK FRIDAY 2026 is imminent.",
+        "source_url": "https://row.representclo.com/pages/black-friday-faqs",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "auto": {
-          "bf_mentioned": false,
-          "discount_text": "10% off",
-          "discount_max_pct": 10,
-          "discount_kind": "flat",
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
           "sitewide_hint": false,
           "code": null,
           "future_language": false,
-          "early_access": false,
+          "early_access": true,
           "dates_seen": [],
-          "evidence": null,
+          "evidence": "Skip to content Represent 247 Black Friday FAQs | Sign Up & Receive Early Access | REPRESENT Retail The Vault Prestige IL / ILS 0 items Account 0 New Ar",
           "free_shipping_threshold_hint": null,
-          "status": "NOT_ANNOUNCED",
+          "status": "UPCOMING",
           "confidence": "low",
-          "url": "https://representclo.com/",
-          "title": "Luxury British Streetwear | Official US Store®\n        | REPRESENT"
+          "url": "https://row.representclo.com/pages/black-friday-faqs",
+          "title": "Black Friday FAQs | Sign Up & Receive Early Access\n        | REPRESENT"
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 14,
+          "sale_items_excluded": "UNKNOWN",
+          "refund_type": "Full refund",
+          "conditions": "Unused, unaltered condition.",
+          "source_url": "https://row.representclo.com/pages/shipping-returns-product-page",
+          "evidence": "you've got 14 days to send back your items for a full refund"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 420,
+          "standard_aud": 20,
+          "ships_to_au": "YES",
+          "restrictions": "Ships from the UK.",
+          "source_url": "https://row.representclo.com/pages/shipping-returns-product-page",
+          "evidence": "Australia $20 AUD (FREE on orders over $420 AUD)"
+        },
+        "summary": "14 days to send items back for a refund. Shipping to AU $20, free over $420.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
-        "pages_ok": 1,
-        "pages_tried": 1,
+        "pages_ok": 2,
+        "pages_tried": 2,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [],
@@ -2577,6 +3099,56 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "ecfc3b7e8be0",
+          "brand": "represent",
+          "field": "sale.status",
+          "label": "Sale status",
+          "old": "NOT_ANNOUNCED",
+          "new": "UPCOMING",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "3ee83e91cb0d",
+          "brand": "represent",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "UNKNOWN",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "ed257711bf20",
+          "brand": "represent",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "fe164e3fb9b0",
+          "brand": "represent",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 14,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "e19942eff509",
+          "brand": "represent",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 420,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
         {
           "id": "5ab9f2fbfc5e",
           "brand": "represent",
@@ -2588,7 +3160,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "ryderwear",
@@ -2675,8 +3247,8 @@
         "free_shipping_threshold_hint": 120
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -2785,8 +3357,8 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -2819,14 +3391,14 @@
       "notes": null,
       "links": {
         "home": "https://stax.com.au/",
-        "sale": null,
-        "returns": null,
+        "sale": "https://stax.com.au/",
+        "returns": "https://stax.com.au/policies/refund-policy",
         "shipping": null
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
+        "basis": "verified",
+        "confidence": "medium",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -2840,10 +3412,10 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "evidence": "Store is behind a password page for a new collection launch (public access opens 6 Nov, 9am AEDT). No Black Friday announcement seen.",
+        "source_url": "https://stax.com.au/",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -2863,19 +3435,32 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "UNKNOWN",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "sale_items_excluded": "UNKNOWN",
+          "source_url": "https://stax.com.au/policies/refund-policy",
+          "evidence": "By paying now on your order, you will qualify for a return at no extra cost... If you don't opt to pay the fee now... you will be responsible for the cost of the handling fee."
+        },
+        "shipping": {
+          "free_shipping": "UNKNOWN",
+          "ships_to_au": "YES",
+          "source_url": "https://stax.com.au/"
+        },
+        "summary": "Free returns only if you pay the returns option at checkout; otherwise a handling fee applies. Full policy not visible while the store is locked.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2887,6 +3472,26 @@
       },
       "recent_changes": [
         {
+          "id": "00ace6ce809b",
+          "brand": "stax",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "CONDITIONAL",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "4359889b79b5",
+          "brand": "stax",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "UNKNOWN",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
           "id": "2647d2389e59",
           "brand": "stax",
           "field": "brand",
@@ -2897,7 +3502,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "stussy",
@@ -2908,14 +3513,14 @@
       "notes": null,
       "links": {
         "home": "https://stussy.com.au/",
-        "sale": null,
-        "returns": null,
-        "shipping": null
+        "sale": "https://stussy.com.au/",
+        "returns": "https://stussy.com.au/pages/shipping-returns",
+        "shipping": "https://stussy.com.au/pages/shipping-returns"
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
+        "basis": "verified",
+        "confidence": "medium",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -2929,10 +3534,10 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "evidence": "No Black Friday announcement; Stussy says it does not offer codes online.",
+        "source_url": "https://stussy.com.au/",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -2952,19 +3557,36 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "CONDITIONAL",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "NA",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 3,
+          "sale_items_excluded": "UNKNOWN",
+          "conditions": "Email online@stussy.com.au within 3 days. Some items final sale.",
+          "source_url": "https://stussy.com.au/pages/shipping-returns",
+          "evidence": "To request a return / exchange please email online@stussy.com.au within 3 days of receiving your order."
+        },
+        "shipping": {
+          "free_shipping": "NO",
+          "standard_aud": 12,
+          "ships_to_au": "YES",
+          "source_url": "https://stussy.com.au/pages/shipping-returns",
+          "evidence": "Standard - $12"
+        },
+        "summary": "Return requests must be emailed within 3 days of delivery. Standard shipping $12, no free-shipping threshold found.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2976,6 +3598,36 @@
       },
       "recent_changes": [
         {
+          "id": "d4921e71cc58",
+          "brand": "stussy",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "UNKNOWN",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "53ffee55ae39",
+          "brand": "stussy",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "CONDITIONAL",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "028375f1b6b7",
+          "brand": "stussy",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 3,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
           "id": "fe579561d9ab",
           "brand": "stussy",
           "field": "brand",
@@ -2986,7 +3638,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "uniqlo",
@@ -3056,7 +3708,7 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -3067,7 +3719,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -3104,14 +3756,14 @@
       "notes": null,
       "links": {
         "home": "https://www.universalstore.com/",
-        "sale": null,
-        "returns": null,
-        "shipping": null
+        "sale": "https://www.universalstore.com/",
+        "returns": "https://www.universalstore.com/pages/all-returns",
+        "shipping": "https://www.universalstore.com/pages/shipping"
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
+        "basis": "verified",
+        "confidence": "medium",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -3125,10 +3777,10 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "evidence": "Regular sale section only; no Black Friday announcement seen.",
+        "source_url": "https://www.universalstore.com/",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -3148,19 +3800,39 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 40,
+          "sale_items_excluded": "UNKNOWN",
+          "refund_type": "Original payment method",
+          "conditions": "Unworn with tags; hygiene stickers on swimwear and underwear. Original shipping not refunded.",
+          "source_url": "https://www.universalstore.com/pages/all-returns",
+          "evidence": "we'll help you with an exchange or refund within 40 days from purchase. ... we will cover the expense of your return shipment to us"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 145,
+          "standard_aud": 10,
+          "ships_to_au": "YES",
+          "restrictions": "$145 threshold gives free Express; Standard is $10 on all orders.",
+          "source_url": "https://www.universalstore.com/pages/shipping",
+          "evidence": "FREE For orders over $145 / $15 For orders under $145 ... $10 for all orders"
+        },
+        "summary": "40-day returns and Universal Store pays return shipping. Free express over $145; standard $10.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -3172,6 +3844,46 @@
       },
       "recent_changes": [
         {
+          "id": "29f7910a381d",
+          "brand": "universal-store",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "601708e7247a",
+          "brand": "universal-store",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "44ec8285df8c",
+          "brand": "universal-store",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 40,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "a632fd33d56e",
+          "brand": "universal-store",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 145,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
           "id": "e6e822c29b35",
           "brand": "universal-store",
           "field": "brand",
@@ -3182,7 +3894,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "youngla",
@@ -3266,8 +3978,8 @@
         "free_shipping_threshold_hint": 100
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -3329,7 +4041,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "zara",
@@ -3399,7 +4111,7 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -3410,7 +4122,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -3447,15 +4159,15 @@
       "notes": null,
       "links": {
         "home": "https://2xu.com/",
-        "sale": "https://2xu.com/",
-        "returns": null,
-        "shipping": null
+        "sale": "https://2xu.com/pages/black-friday-early-access",
+        "returns": "https://2xu.com/pages/terms-and-conditions",
+        "shipping": "https://2xu.com/pages/shipping-and-tracking"
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "auto",
-        "confidence": "low",
-        "name": null,
+        "basis": "verified",
+        "confidence": "high",
+        "name": "Black Friday",
         "discount_text": null,
         "discount_max_pct": null,
         "discount_kind": null,
@@ -3466,12 +4178,12 @@
         "expected_note": null,
         "code_required": "UNKNOWN",
         "code": null,
-        "early_access": null,
+        "early_access": "Sign up for early access",
         "conditions": null,
-        "evidence": "Skip to content Your Bag Is Empty Shopping bag Review bag Loading... Subtotal $0.00 Checkout Sign up for Black Friday early access now Shop our best selling Light Speed Kinesis Free standard shipping on orders over $80 New in K",
-        "source_url": "https://2xu.com/",
-        "verified_at": null,
-        "verification": null,
+        "evidence": "Sign up for Black Friday early access now",
+        "source_url": "https://2xu.com/pages/black-friday-early-access",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "verified",
         "auto": {
           "bf_mentioned": true,
           "discount_text": null,
@@ -3491,22 +4203,42 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method",
+          "conditions": "Full-priced and/or outlet items; underwear and socks excluded.",
+          "source_url": "https://2xu.com/pages/terms-and-conditions",
+          "evidence": "We will allow a change of mind return for refund, provided that the item in question is: A full priced and/or outlet item; returned within 30 days"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 80,
+          "standard_aud": 8.5,
+          "ships_to_au": "YES",
+          "restrictions": "Express $12.50, free over $150.",
+          "source_url": "https://2xu.com/pages/shipping-and-tracking",
+          "evidence": "Standard shipping is $8.50 or free on orders over $80."
+        },
+        "summary": "30-day change-of-mind refunds for full-price and outlet items. Free shipping over $80.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
-        "pages_ok": 1,
-        "pages_tried": 1,
+        "pages_ok": 2,
+        "pages_tried": 2,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [
@@ -3516,6 +4248,46 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "edbd6d2a6e87",
+          "brand": "2xu",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "UNKNOWN",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "d0e4e329417b",
+          "brand": "2xu",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "d2d7166df2e4",
+          "brand": "2xu",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 30,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "75a62e3fef34",
+          "brand": "2xu",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 80,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
         {
           "id": "532f7585b388",
           "brand": "2xu",
@@ -3527,7 +4299,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "bo-tee",
@@ -3538,18 +4310,18 @@
       "notes": null,
       "links": {
         "home": "https://boandtee.com/",
-        "sale": null,
-        "returns": null,
-        "shipping": null
+        "sale": "https://boandtee.com/pages/30-off",
+        "returns": "https://boandtee.com/pages/returns-information",
+        "shipping": "https://boandtee.com/pages/delivery"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
-        "name": null,
-        "discount_text": null,
-        "discount_max_pct": null,
-        "discount_kind": null,
+        "status": "EARLY_ACCESS",
+        "basis": "verified",
+        "confidence": "high",
+        "name": "30% off event (not labelled Black Friday)",
+        "discount_text": "30% off",
+        "discount_max_pct": 30,
+        "discount_kind": "flat",
         "scope": "UNKNOWN",
         "start": null,
         "end": null,
@@ -3557,12 +4329,12 @@
         "expected_note": null,
         "code_required": "UNKNOWN",
         "code": null,
-        "early_access": null,
-        "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "early_access": "Email sign-up gives an exclusive early-access link",
+        "conditions": "Page is titled '30% Off'; scope and end date not stated.",
+        "evidence": "early access is now live sign up below to be emailed the exclusive link",
+        "source_url": "https://boandtee.com/pages/30-off",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "verified",
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -3582,22 +4354,40 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "NA",
+          "prepaid_label": "YES",
+          "window_days": 14,
+          "window_note": "14 days refund/exchange, 28 days store credit",
+          "sale_items_excluded": "UNKNOWN",
+          "refund_type": "Refund, exchange or store credit",
+          "source_url": "https://boandtee.com/pages/returns-information",
+          "evidence": "Orders must be returned within 14 days of delivery for a full refund or exchange extended to 28 days for store credit"
+        },
+        "shipping": {
+          "free_shipping": "UNKNOWN",
+          "ships_to_au": "YES",
+          "restrictions": "Ships from the UK; customs and duties may be payable on arrival.",
+          "source_url": "https://boandtee.com/pages/delivery",
+          "evidence": "For countries outside of Europe, customs and duties may be payable on arrival."
+        },
+        "summary": "14 days for refund or exchange (28 for store credit). First return free in some cases; customs may apply from the UK.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
-        "pages_ok": 1,
-        "pages_tried": 1,
+        "pages_ok": 2,
+        "pages_tried": 2,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [],
@@ -3605,6 +4395,56 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "1ea9bcb0e341",
+          "brand": "bo-tee",
+          "field": "sale.status",
+          "label": "Sale status",
+          "old": "NOT_ANNOUNCED",
+          "new": "EARLY_ACCESS",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "fc54a399a2cf",
+          "brand": "bo-tee",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": null,
+          "new": "30% off",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "03f2224aa29f",
+          "brand": "bo-tee",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "CONDITIONAL",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "49508d4325b1",
+          "brand": "bo-tee",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "7ad16d9b36cc",
+          "brand": "bo-tee",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 14,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
         {
           "id": "003817c5a0e7",
           "brand": "bo-tee",
@@ -3616,7 +4456,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "cos",
@@ -3686,7 +4526,7 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -3697,7 +4537,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -3805,8 +4645,8 @@
         "free_shipping_threshold_hint": 30
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -3839,19 +4679,19 @@
       "notes": null,
       "links": {
         "home": "https://www.countryroad.com.au/",
-        "sale": null,
-        "returns": null,
-        "shipping": null
+        "sale": "https://www.countryroad.com.au/",
+        "returns": "https://www.countryroad.com.au/pages/returns",
+        "shipping": "https://www.countryroad.com.au/pages/delivery"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
-        "name": null,
-        "discount_text": null,
-        "discount_max_pct": null,
-        "discount_kind": null,
-        "scope": "UNKNOWN",
+        "status": "LIVE",
+        "basis": "verified",
+        "confidence": "high",
+        "name": "25% off bags and shoes (not labelled Black Friday)",
+        "discount_text": "25% off bags and shoes",
+        "discount_max_pct": 25,
+        "discount_kind": "flat",
+        "scope": "SELECTED",
         "start": null,
         "end": null,
         "date_basis": "unknown",
@@ -3859,11 +4699,11 @@
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": null,
-        "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "conditions": "Full-priced only, excludes Child, can't combine with other offers.",
+        "evidence": "25% off Bags and shoes * Shop woman Shop man *Excludes Child",
+        "source_url": "https://www.countryroad.com.au/",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "verified",
         "auto": {
           "bf_mentioned": false,
           "discount_text": "25% Off",
@@ -3883,19 +4723,36 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "CONDITIONAL",
+          "free_returns": "YES",
+          "free_return_postage": "NO",
+          "free_instore_returns": "YES",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "postage_cost": "$9.95 by post",
+          "source_url": "https://www.countryroad.com.au/pages/returns",
+          "evidence": "Return or exchange your online purchase at any Country Road store free of charge. ... can be returned by post for a fee of $9.95 (AUD)"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 100,
+          "ships_to_au": "YES",
+          "source_url": "https://www.countryroad.com.au/pages/delivery",
+          "evidence": "Enjoy fast and free standard delivery* for all online purchases over $100."
+        },
+        "summary": "30-day returns: free in store, $9.95 by post. Free standard delivery over $100.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -3907,6 +4764,66 @@
       },
       "recent_changes": [
         {
+          "id": "e86fabd422fe",
+          "brand": "country-road",
+          "field": "sale.status",
+          "label": "Sale status",
+          "old": "NOT_ANNOUNCED",
+          "new": "LIVE",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "0ced1dcfb09e",
+          "brand": "country-road",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": null,
+          "new": "25% off bags and shoes",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "2272d179cbad",
+          "brand": "country-road",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "NO",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "99cfc7458368",
+          "brand": "country-road",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "CONDITIONAL",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "681c05a4f2b7",
+          "brand": "country-road",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 30,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "db3ce7da30da",
+          "brand": "country-road",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 100,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
           "id": "09b7da92bb11",
           "brand": "country-road",
           "field": "brand",
@@ -3917,7 +4834,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "echt",
@@ -3967,7 +4884,7 @@
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://us.echt.com.au/?shpxid=9cef6f31-007f-4209-8923-ecb72f661d32",
+          "url": "https://us.echt.com.au/?shpxid=66f02100-9f01-4d7b-bd52-abf0fb6bd6ad",
           "title": "Shop ECHT Gym Wear Online | Gym Clothes & Accessories\n – Echt ApparelAmerican ExpressApple PayBizumGoogle PayMastercardP"
         }
       },
@@ -4003,8 +4920,8 @@
         "free_shipping_threshold_hint": 99
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -4042,15 +4959,15 @@
       "notes": null,
       "links": {
         "home": "https://www.footlocker.com.au/",
-        "sale": null,
-        "returns": null,
-        "shipping": null
+        "sale": "https://www.footlocker.com.au/en/blackfriday.html",
+        "returns": "https://help.footlocker.com.au/hc/en-gb/articles/34438200648219-Returns-Exchanges",
+        "shipping": "https://www.footlocker.com.au/en/terms/terms.html"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
-        "name": null,
+        "status": "UPCOMING",
+        "basis": "verified",
+        "confidence": "high",
+        "name": "Black Friday Sale 2026",
         "discount_text": null,
         "discount_max_pct": null,
         "discount_kind": null,
@@ -4061,47 +4978,62 @@
         "expected_note": null,
         "code_required": "UNKNOWN",
         "code": null,
-        "early_access": null,
+        "early_access": "FLX Rewards members get first access",
         "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "evidence": "Black Friday Sale YOU'RE IN Keep an eye on your inbox for first access and exclusive FLX Rewards offers. Black Friday alerts first with SMS or the app",
+        "source_url": "https://www.footlocker.com.au/en/blackfriday.html",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "verified",
         "auto": {
-          "bf_mentioned": false,
-          "discount_text": "10% OFF",
-          "discount_max_pct": 10,
-          "discount_kind": "flat",
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
           "sitewide_hint": false,
           "code": null,
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": null,
+          "evidence": "cons: 80s Unboxing Icons: 90s Unboxing Icons: 00s Unboxing Icons: Now & Future FLX Rewards Sign In | Join FLX Black Friday Sale YOU'RE IN Keep an eye on your inbox for first access and exclusive FLX Rewards offers. VISIT MY DASHBOAR",
           "free_shipping_threshold_hint": null,
-          "status": "NOT_ANNOUNCED",
+          "status": "NEEDS_CHECKING",
           "confidence": "low",
-          "url": "https://www.footlocker.com.au/",
-          "title": "The Heart of Sneakers | Foot Locker Australia"
+          "url": "https://www.footlocker.com.au/en/blackfriday.html",
+          "title": "Black Friday Sale 2026 | Huge Deals on Sneakers, Clothing & Accessories | Foot Locker Australia"
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "YES",
+          "prepaid_label": "UNKNOWN",
+          "sale_items_excluded": "UNKNOWN",
+          "source_url": "https://help.footlocker.com.au/hc/en-gb/articles/34438200648219-Returns-Exchanges",
+          "evidence": "Take the item(s) you wish to return to any Foot Locker store ... along with the original card used for the purchase"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 150,
+          "ships_to_au": "YES",
+          "source_url": "https://www.footlocker.com.au/en/terms/terms.html",
+          "evidence": "Free standard delivery is eligable on all orders over $150 AUD within Australia."
+        },
+        "summary": "Returns in any Foot Locker store or by mail; window and fees not verified. Free standard delivery over $150.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
-        "pages_ok": 1,
-        "pages_tried": 1,
+        "pages_ok": 2,
+        "pages_tried": 2,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [],
@@ -4109,6 +5041,46 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "662262e8432a",
+          "brand": "foot-locker",
+          "field": "sale.status",
+          "label": "Sale status",
+          "old": "NOT_ANNOUNCED",
+          "new": "UPCOMING",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "02d98dbf35b0",
+          "brand": "foot-locker",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "UNKNOWN",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "1b3515c77dc9",
+          "brand": "foot-locker",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "b056aebc5c04",
+          "brand": "foot-locker",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 150,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
         {
           "id": "dd8c8c5bd0df",
           "brand": "foot-locker",
@@ -4120,7 +5092,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "general-pants",
@@ -4131,19 +5103,19 @@
       "notes": null,
       "links": {
         "home": "https://www.generalpants.com/",
-        "sale": null,
-        "returns": null,
-        "shipping": null
+        "sale": "https://www.generalpants.com/",
+        "returns": "https://www.generalpants.com/pages/returns",
+        "shipping": "https://www.generalpants.com/pages/delivery"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
-        "name": null,
-        "discount_text": null,
-        "discount_max_pct": null,
-        "discount_kind": null,
-        "scope": "UNKNOWN",
+        "status": "LIVE",
+        "basis": "verified",
+        "confidence": "high",
+        "name": "Extra 50% off sale (not labelled Black Friday)",
+        "discount_text": "Extra 50% off sale items",
+        "discount_max_pct": 50,
+        "discount_kind": "flat",
+        "scope": "SELECTED",
         "start": null,
         "end": null,
         "date_basis": "unknown",
@@ -4151,11 +5123,11 @@
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": null,
-        "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "conditions": "Applies to items already on sale. Research pass saw it marked 'EXTENDED'; no end date.",
+        "evidence": "EXTRA 50% OFF SALE*",
+        "source_url": "https://www.generalpants.com/",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "verified",
         "auto": {
           "bf_mentioned": false,
           "discount_text": "50% OFF",
@@ -4175,19 +5147,39 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "CONDITIONAL",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "CONDITIONAL",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method",
+          "conditions": "Returns only for full-price items; FINAL SALE excluded.",
+          "source_url": "https://www.generalpants.com/pages/returns",
+          "evidence": "We accept returns and exchanges for full-price items purchased online within 30 days of delivery"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 145,
+          "standard_aud": 10,
+          "ships_to_au": "YES",
+          "restrictions": "Express $15 flat.",
+          "source_url": "https://www.generalpants.com/pages/delivery",
+          "evidence": "STANDARD | Up to 5 Business Days | FREE For Orders Over $145; $10 For Orders Under $145"
+        },
+        "summary": "Full-price items: 30-day returns by Refundid portal or in store. Final Sale not returnable. Free shipping over $145.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -4199,6 +5191,66 @@
       },
       "recent_changes": [
         {
+          "id": "0a0c4de494be",
+          "brand": "general-pants",
+          "field": "sale.status",
+          "label": "Sale status",
+          "old": "NOT_ANNOUNCED",
+          "new": "LIVE",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "8e6dab55c140",
+          "brand": "general-pants",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": null,
+          "new": "Extra 50% off sale items",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "e0c8ad944a7e",
+          "brand": "general-pants",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "UNKNOWN",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "9bd9c84b519c",
+          "brand": "general-pants",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "CONDITIONAL",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "36b5eb025edd",
+          "brand": "general-pants",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 30,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "7b00379e5dd3",
+          "brand": "general-pants",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 145,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
           "id": "2bca500af98b",
           "brand": "general-pants",
           "field": "brand",
@@ -4209,7 +5261,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "hm",
@@ -4280,7 +5332,7 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -4291,7 +5343,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -4328,14 +5380,14 @@
       "notes": null,
       "links": {
         "home": "https://levis.com.au/",
-        "sale": null,
-        "returns": null,
-        "shipping": null
+        "sale": "https://levis.com.au/pages/promotions-terms",
+        "returns": "https://levis.com.au/policies/refund-policy",
+        "shipping": "https://levis.com.au/policies/shipping-policy"
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
+        "basis": "verified",
+        "confidence": "medium",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -4349,10 +5401,10 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "evidence": "Latest dated promotion was a Mid-Season Sale that ended 20 Sep 2026; no Black Friday offer yet.",
+        "source_url": "https://levis.com.au/pages/promotions-terms",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -4372,19 +5424,35 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "CONDITIONAL",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "UNKNOWN",
+          "source_url": "https://levis.com.au/policies/refund-policy",
+          "evidence": "You can, within 30 calendar days from shipping confirmation, subject to the terms of our Returns Policy"
+        },
+        "shipping": {
+          "free_shipping": "YES",
+          "ships_to_au": "YES",
+          "restrictions": "Australia only (not Norfolk Island).",
+          "source_url": "https://levis.com.au/policies/shipping-policy",
+          "evidence": "Delivery is currently FREE for all purchases from levis.com.au."
+        },
+        "summary": "30 days from shipping confirmation to return. Free delivery on all orders.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -4396,6 +5464,36 @@
       },
       "recent_changes": [
         {
+          "id": "06027b4313e2",
+          "brand": "levis",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "UNKNOWN",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "26b5ccc97e2a",
+          "brand": "levis",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "CONDITIONAL",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "ad23732daeb7",
+          "brand": "levis",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 30,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
           "id": "e5658b5ae523",
           "brand": "levis",
           "field": "brand",
@@ -4406,7 +5504,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "lorna-jane",
@@ -4417,19 +5515,19 @@
       "notes": null,
       "links": {
         "home": "https://www.lornajane.com.au/",
-        "sale": "https://www.lornajane.com.au/",
-        "returns": null,
-        "shipping": null
+        "sale": "https://www.lornajane.com.au/collections/black-friday-event",
+        "returns": "https://www.lornajane.com.au/pages/returns-exchanges",
+        "shipping": "https://www.lornajane.com.au/pages/shipping-information"
       },
       "sale": {
         "status": "LIVE",
-        "basis": "auto",
-        "confidence": "medium",
-        "name": null,
-        "discount_text": "Up To 40% Off",
+        "basis": "verified",
+        "confidence": "high",
+        "name": "Black Friday",
+        "discount_text": "Up to 40% off selected styles",
         "discount_max_pct": 40,
         "discount_kind": "up_to",
-        "scope": "UNKNOWN",
+        "scope": "SELECTED",
         "start": null,
         "end": null,
         "date_basis": "unknown",
@@ -4437,11 +5535,11 @@
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": null,
-        "conditions": null,
-        "evidence": "Later Available Tonight Only! $45 Selected Bike Shorts · Shop Now New Arrivals Featured Clothing Best Sellers Black Friday Collections New Arrivals Swimwear Sleepwear Workwear View All Clothing Inspiration Club Lorna Her Own Time Su",
-        "source_url": "https://www.lornajane.com.au/",
-        "verified_at": null,
-        "verification": null,
+        "conditions": "Collection headline says 20% off; T&Cs say up to 40% off selected styles.",
+        "evidence": "Black Friday | 20% Off* ... Offer T&Cs: Black Friday - Up To 40% Off Selected Styles",
+        "source_url": "https://www.lornajane.com.au/collections/black-friday-event",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "verified",
         "auto": {
           "bf_mentioned": true,
           "discount_text": "Up To 40% Off",
@@ -4461,22 +5559,42 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "CONDITIONAL",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "NO",
+          "free_instore_returns": "YES",
+          "prepaid_label": "NO",
+          "window_days": 30,
+          "window_note": "30 days; 1 Nov-25 Dec purchases until 31 Jan 2027",
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Full price: refund. Sale: exchange or gift card",
+          "conditions": "Final-sale tagged items have no change-of-mind return.",
+          "source_url": "https://www.lornajane.com.au/pages/returns-exchanges",
+          "evidence": "we offer an Exchange or Gift Card (3-year expiry) on all purchases of Sale styles"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 160,
+          "standard_aud": 12.95,
+          "ships_to_au": "YES",
+          "source_url": "https://www.lornajane.com.au/pages/shipping-information",
+          "evidence": "Pay $12.95 or spend $160 to receive complimentary shipping."
+        },
+        "summary": "Sale styles: exchange or gift card only (30 days), no refunds. Free in-store returns. Free shipping over $160.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
-        "pages_ok": 1,
-        "pages_tried": 1,
+        "pages_ok": 3,
+        "pages_tried": 3,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [
@@ -4486,6 +5604,56 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "39fd58605f91",
+          "brand": "lorna-jane",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": "Up To 40% Off",
+          "new": "Up to 40% off selected styles",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "085e7e2cc80e",
+          "brand": "lorna-jane",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "NO",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "bd8c402124eb",
+          "brand": "lorna-jane",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "CONDITIONAL",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "f408421481b9",
+          "brand": "lorna-jane",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 30,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "322a2beb167e",
+          "brand": "lorna-jane",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 160,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
         {
           "id": "0ae1ae0deb7d",
           "brand": "lorna-jane",
@@ -4497,7 +5665,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "muscle-nation",
@@ -4547,7 +5715,7 @@
           "free_shipping_threshold_hint": null,
           "status": "NEEDS_CHECKING",
           "confidence": "low",
-          "url": "https://musclenation.us/?shpxid=57616a57-011e-4798-b25b-6819cdf256af",
+          "url": "https://musclenation.us/?shpxid=d955a4ea-5192-4215-a355-80ef52fa52bf",
           "title": "Gym Clothes & Supplements - Shop Online | Muscle Nation\nAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPayPalSa"
         }
       },
@@ -4583,8 +5751,8 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -4619,66 +5787,86 @@
       "notes": null,
       "links": {
         "home": "https://nimbleactivewear.com/",
-        "sale": null,
-        "returns": null,
-        "shipping": null
+        "sale": "https://nimbleactivewear.com/pages/black-friday-sale",
+        "returns": "https://nimbleactivewear.com/pages/what-is-your-returns-policy",
+        "shipping": "https://nimbleactivewear.com/pages/shipping"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
-        "name": null,
-        "discount_text": null,
-        "discount_max_pct": null,
-        "discount_kind": null,
-        "scope": "UNKNOWN",
-        "start": null,
+        "status": "UPCOMING",
+        "basis": "verified",
+        "confidence": "high",
+        "name": "Black Friday Sale",
+        "discount_text": "50% off*",
+        "discount_max_pct": 50,
+        "discount_kind": "flat",
+        "scope": "SELECTED",
+        "start": "2026-11-10",
         "end": null,
-        "date_basis": "unknown",
+        "date_basis": "confirmed",
         "expected_note": null,
-        "code_required": "UNKNOWN",
+        "code_required": "NO",
         "code": null,
         "early_access": null,
-        "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "conditions": "Asterisk: conditions apply. Launch time not yet published; sign up to be told.",
+        "evidence": "50% OFF* Tuesday 10th November ... we'll be launching sale on Tuesday 10th November",
+        "source_url": "https://nimbleactivewear.com/pages/black-friday-sale",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "verified",
         "auto": {
-          "bf_mentioned": false,
-          "discount_text": "10% off",
-          "discount_max_pct": 10,
-          "discount_kind": "flat",
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
           "sitewide_hint": false,
           "code": null,
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": null,
+          "evidence": "available in store. You can find your nearest store here . Will the Sweat To Splash collection be part of the Black Friday sale? No, our new Sweat To Splash collection will not be included in our Black Friday sale, so shop now befor",
           "free_shipping_threshold_hint": 175,
-          "status": "NOT_ANNOUNCED",
+          "status": "NEEDS_CHECKING",
           "confidence": "low",
-          "url": "https://nimbleactivewear.com/",
-          "title": "Women's Activewear Australia | Nimble Activewear Australia"
+          "url": "https://nimbleactivewear.com/pages/black-friday-sale",
+          "title": "Black Friday Sale | Women's Activewear | Nimble Activewear"
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "CONDITIONAL",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Refund less $10, or free exchange/credit",
+          "postage_cost": "$10 on refunds",
+          "conditions": "Promotional items: store credit. Final sale not returnable. No exchanges on sale styles.",
+          "source_url": "https://nimbleactivewear.com/pages/what-is-your-returns-policy",
+          "evidence": "$10 return fee applies to refunds; Exchanges and store credit are free"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 175,
+          "standard_aud": 11.95,
+          "ships_to_au": "YES",
+          "source_url": "https://nimbleactivewear.com/pages/shipping",
+          "evidence": "Standard Post ... $11.95 (free over $175)"
+        },
+        "summary": "30-day returns; refunds cost $10, exchanges and store credit free. Promo items: store credit only. Free shipping over $175.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
-        "pages_ok": 1,
-        "pages_tried": 1,
+        "pages_ok": 2,
+        "pages_tried": 2,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [
@@ -4688,6 +5876,76 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "99af4207cbb9",
+          "brand": "nimble",
+          "field": "sale.status",
+          "label": "Sale status",
+          "old": "NOT_ANNOUNCED",
+          "new": "UPCOMING",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "4c18049375b4",
+          "brand": "nimble",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": null,
+          "new": "50% off*",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "3aad57a0b791",
+          "brand": "nimble",
+          "field": "sale.start",
+          "label": "Start date",
+          "old": null,
+          "new": "2026-11-10",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "d3aed3386cd3",
+          "brand": "nimble",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "CONDITIONAL",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "0fcee32b2f8e",
+          "brand": "nimble",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "664abee3862b",
+          "brand": "nimble",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 30,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "d6c33a2800a8",
+          "brand": "nimble",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 175,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
         {
           "id": "62d9d40931b0",
           "brand": "nimble",
@@ -4699,7 +5957,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "oner-active",
@@ -4784,8 +6042,8 @@
         "free_shipping_threshold_hint": 150
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -4849,7 +6107,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "pe-nation",
@@ -4860,31 +6118,31 @@
       "notes": null,
       "links": {
         "home": "https://www.pe-nation.com/",
-        "sale": "https://www.pe-nation.com/en-us",
-        "returns": null,
-        "shipping": null
+        "sale": "https://www.pe-nation.com/pages/black-friday-faqs",
+        "returns": "https://www.pe-nation.com/pages/returns",
+        "shipping": "https://www.pe-nation.com/pages/shipping"
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "auto",
-        "confidence": "low",
-        "name": null,
-        "discount_text": null,
-        "discount_max_pct": null,
-        "discount_kind": null,
-        "scope": "UNKNOWN",
-        "start": null,
-        "end": null,
-        "date_basis": "unknown",
+        "basis": "verified",
+        "confidence": "high",
+        "name": "P.E Nation Black Friday 2026",
+        "discount_text": "Up to 70% off selected styles",
+        "discount_max_pct": 70,
+        "discount_kind": "up_to",
+        "scope": "SELECTED",
+        "start": "2026-11-11",
+        "end": "2026-11-30",
+        "date_basis": "confirmed",
         "expected_note": null,
-        "code_required": "UNKNOWN",
+        "code_required": "NO",
         "code": null,
-        "early_access": null,
+        "early_access": "Mailing list early access; SMS list gets VIP perks",
         "conditions": null,
-        "evidence": "Skip to content Previous WIN A $1,000 WARDROBE | SIGN UP BLACK FRIDAY SALE COMING SOON | SIGN UP Prices include all Import Duties & Taxes 10% off when you subscribe | Sign Up Next",
-        "source_url": "https://www.pe-nation.com/en-us",
-        "verified_at": null,
-        "verification": null,
+        "evidence": "The P.E Nation Black Friday sale begins Wednesday 11 November 2026 and runs through Cyber Monday on Monday 30 November... Styles are up to 70% off for the full Black Friday event.",
+        "source_url": "https://www.pe-nation.com/pages/black-friday-faqs",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "verified",
         "auto": {
           "bf_mentioned": true,
           "discount_text": "10% off",
@@ -4904,22 +6162,41 @@
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "CONDITIONAL",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Full price: refund. Sale: store credit (12 months) or in-store exchange",
+          "conditions": "Final Sale items cannot be returned unless faulty.",
+          "source_url": "https://www.pe-nation.com/pages/returns",
+          "evidence": "Sale items... Store credit (valid for 12 months) or Exchange (in-store only)... Final Sale items are final"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 150,
+          "standard_aud": 7.95,
+          "ships_to_au": "YES",
+          "source_url": "https://www.pe-nation.com/pages/shipping",
+          "evidence": "$7.95 AUD for orders under $150.00 AUD; FREE for orders over $150.00 AUD"
+        },
+        "summary": "30-day free returns, but sale and Black Friday items are store credit or in-store exchange only; final sale not returnable. Free shipping over $150.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
-        "pages_ok": 1,
-        "pages_tried": 1,
+        "pages_ok": 5,
+        "pages_tried": 5,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [
@@ -4933,6 +6210,76 @@
       },
       "recent_changes": [
         {
+          "id": "58aad419a53e",
+          "brand": "pe-nation",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": null,
+          "new": "Up to 70% off selected styles",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "6b90f3b50925",
+          "brand": "pe-nation",
+          "field": "sale.start",
+          "label": "Start date",
+          "old": null,
+          "new": "2026-11-11",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "bd6dd075838c",
+          "brand": "pe-nation",
+          "field": "sale.end",
+          "label": "End date",
+          "old": null,
+          "new": "2026-11-30",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "1df56d4f174a",
+          "brand": "pe-nation",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "71af90c1a7f3",
+          "brand": "pe-nation",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "eb3bfcbdf8d7",
+          "brand": "pe-nation",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 30,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "024ad13f3fbe",
+          "brand": "pe-nation",
+          "field": "policy.shipping.free_threshold_aud",
+          "label": "Free shipping threshold",
+          "old": null,
+          "new": 150,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
           "id": "b8cd5c4abfe9",
           "brand": "pe-nation",
           "field": "brand",
@@ -4943,7 +6290,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "puma",
@@ -5029,8 +6376,8 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -5142,8 +6489,8 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -5184,14 +6531,14 @@
       "storefront": "AU site",
       "notes": null,
       "links": {
-        "home": "https://www.thenorthface.com.au/",
-        "sale": null,
+        "home": "https://thenorthface.com.au/",
+        "sale": "https://thenorthface.com.au/black-friday-sale.html",
         "returns": null,
         "shipping": null
       },
       "sale": {
-        "status": "NEEDS_CHECKING",
-        "basis": "none",
+        "status": "UPCOMING",
+        "basis": "verified",
         "confidence": "low",
         "name": null,
         "discount_text": null,
@@ -5205,42 +6552,104 @@
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": null,
-        "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "conditions": "Evergreen information page; no dates or discounts published.",
+        "evidence": "Black Friday and Cyber Monday 2026 will feature some of our lowest prices of the year.",
+        "source_url": "https://thenorthface.com.au/black-friday-sale.html",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "auto": null
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "NO",
+          "refund_type": "Exchange or refund",
+          "source_url": "https://thenorthface.com.au/black-friday-sale.html",
+          "evidence": "sale items can be returned. Simply return any unused item within 30 days for an exchange or refund."
+        },
+        "shipping": {
+          "free_shipping": "YES",
+          "standard_aud": 0,
+          "ships_to_au": "YES",
+          "restrictions": "Express $15 flat.",
+          "source_url": "https://thenorthface.com.au/",
+          "evidence": "We offer free standard shipping on all orders Australia-wide."
+        },
+        "summary": "30-day returns including sale items. Free standard shipping Australia-wide.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
-        "pages_tried": 1,
+        "pages_tried": 2,
         "errors": [
           {
-            "url": "https://www.thenorthface.com.au/",
+            "url": "https://thenorthface.com.au/",
+            "error": "HTTP 429 (likely bot protection)"
+          },
+          {
+            "url": "https://thenorthface.com.au/black-friday-sale.html",
             "error": "HTTP 429 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 1,
+        "consecutive_failures": 2,
         "discovered": [],
         "stale": true,
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "e5f216c83227",
+          "brand": "the-north-face",
+          "field": "sale.status",
+          "label": "Sale status",
+          "old": "NEEDS_CHECKING",
+          "new": "UPCOMING",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "961e5e36ff3a",
+          "brand": "the-north-face",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "UNKNOWN",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "ab09a6a0589f",
+          "brand": "the-north-face",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "0a8704b52316",
+          "brand": "the-north-face",
+          "field": "policy.returns.window_days",
+          "label": "Returns window",
+          "old": null,
+          "new": 30,
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
         {
           "id": "ee67e18c9073",
           "brand": "the-north-face",
@@ -5252,7 +6661,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "under-armour",
@@ -5337,8 +6746,8 @@
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -5376,18 +6785,18 @@
       "name": "Vuori",
       "category": "gymwear",
       "priority": 3,
-      "storefront": "US brand, ships to AU",
+      "storefront": "AU storefront (US brand)",
       "notes": null,
       "links": {
-        "home": "https://vuoriclothing.com/",
-        "sale": null,
+        "home": "https://vuoriclothing.com.au/",
+        "sale": "https://vuoriclothing.com.au/",
         "returns": null,
         "shipping": null
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "auto",
-        "confidence": "low",
+        "basis": "verified",
+        "confidence": "medium",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -5401,10 +6810,10 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": null,
-        "source_url": null,
-        "verified_at": null,
-        "verification": null,
+        "evidence": "Regular sale sections only; no Black Friday announcement seen.",
+        "source_url": "https://vuoriclothing.com.au/",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -5416,27 +6825,42 @@
           "early_access": false,
           "dates_seen": [],
           "evidence": null,
-          "free_shipping_threshold_hint": 75,
+          "free_shipping_threshold_hint": null,
           "status": "NOT_ANNOUNCED",
           "confidence": "low",
-          "url": "https://vuoriclothing.com/",
+          "url": "https://vuoriclothing.com.au/",
           "title": "Athletic Clothing & Activewear Apparel for Performance – VuoriVuoriVuoriVuori logoVuori logo"
         }
       },
       "policy": {
-        "returns": {},
-        "shipping": {},
-        "summary": null,
-        "verified_at": null,
-        "verification": "unverified",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "sale_items_excluded": "UNKNOWN",
+          "source_url": "https://vuoriclothing.com.au/",
+          "evidence": "Free Express Shipping and Free Returns on All Orders"
+        },
+        "shipping": {
+          "free_shipping": "YES",
+          "ships_to_au": "YES",
+          "restrictions": "Ships from San Diego by DHL (3-4 business days).",
+          "source_url": "https://vuoriclothing.com.au/",
+          "evidence": "Free Express Shipping and Free Returns on All Orders"
+        },
+        "summary": "Free express shipping and free returns on all orders (AU store). Returns window not stated.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "verification": "sourced",
         "page_checked_at": "2026-11-05T09:31:13+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "scan": {
-        "last_attempt": "2026-11-05T09:31:13+00:00",
-        "last_success": "2026-11-05T09:31:13+00:00",
+        "last_attempt": "2026-11-05T09:45:26+00:00",
+        "last_success": "2026-11-05T09:45:26+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -5448,6 +6872,26 @@
       },
       "recent_changes": [
         {
+          "id": "ca31f0968267",
+          "brand": "vuori",
+          "field": "policy.returns.free_return_postage",
+          "label": "Free return postage",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
+          "id": "433f1ab79ea7",
+          "brand": "vuori",
+          "field": "policy.returns.change_of_mind",
+          "label": "Change-of-mind returns",
+          "old": null,
+          "new": "YES",
+          "at": "2026-11-05T09:45:26+00:00",
+          "run": "20261105T094526Z"
+        },
+        {
           "id": "bac0d3de0397",
           "brand": "vuori",
           "field": "brand",
@@ -5458,7 +6902,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     }
   ]
 }

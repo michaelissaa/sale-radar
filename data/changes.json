@@ -1,6 +1,1036 @@
 {
   "events": [
     {
+      "id": "9ce227df5caf",
+      "brand": "evdnce",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "CONDITIONAL",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "3ccd2a19ff47",
+      "brand": "evdnce",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "b36fee854d12",
+      "brand": "evdnce",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 14,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "50a164c53e58",
+      "brand": "evdnce",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 250,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "4469a2e20bdb",
+      "brand": "aybl",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "Up to 60% off sitewide",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "65a2ef009e0b",
+      "brand": "aybl",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "NO",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "397946ab9f47",
+      "brand": "aybl",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "a85030798eb4",
+      "brand": "aybl",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "83dd9199d01f",
+      "brand": "aybl",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 90,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "66eeeae47c15",
+      "brand": "glue-store",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "UNKNOWN",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "6f6c5804f089",
+      "brand": "glue-store",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "UNKNOWN",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "cb60130c14a9",
+      "brand": "hoka",
+      "field": "sale.status",
+      "label": "Sale status",
+      "old": "NEEDS_CHECKING",
+      "new": "NOT_ANNOUNCED",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "379a76ba4b75",
+      "brand": "hoka",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "NO",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "b672a88e6c32",
+      "brand": "hoka",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "6c3557a736af",
+      "brand": "hoka",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 60,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "a0ba9d7ea2c8",
+      "brand": "hoka",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 200,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "24fd29d77846",
+      "brand": "jd-sports",
+      "field": "sale.status",
+      "label": "Sale status",
+      "old": "NOT_ANNOUNCED",
+      "new": "UPCOMING",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "d0d050456950",
+      "brand": "jd-sports",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "NO",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "3fe0e0ad23c9",
+      "brand": "jd-sports",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "0318493b90c4",
+      "brand": "jd-sports",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "a47979a24803",
+      "brand": "jd-sports",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 150,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "edd5cc51b7ba",
+      "brand": "on-running",
+      "field": "sale.status",
+      "label": "Sale status",
+      "old": "NOT_ANNOUNCED",
+      "new": "UPCOMING",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "be3eca9870e7",
+      "brand": "on-running",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "f94ba18cab41",
+      "brand": "on-running",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "31acae35a5f5",
+      "brand": "on-running",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 90,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "e19695a25ad1",
+      "brand": "platypus",
+      "field": "sale.status",
+      "label": "Sale status",
+      "old": "NOT_ANNOUNCED",
+      "new": "UPCOMING",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "ab29c1f61896",
+      "brand": "platypus",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "NO",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "d61bccc08abe",
+      "brand": "platypus",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "7945a569b219",
+      "brand": "platypus",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 60,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "313aeb175a6e",
+      "brand": "platypus",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 150,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "7aeebc74cb15",
+      "brand": "rebel",
+      "field": "sale.status",
+      "label": "Sale status",
+      "old": "NOT_ANNOUNCED",
+      "new": "EARLY_ACCESS",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "4a17f03b8fed",
+      "brand": "rebel",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "30% off selected Nike running shoes",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "294121732449",
+      "brand": "rebel",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "CONDITIONAL",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "9706d63b10f9",
+      "brand": "rebel",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "0c630819d062",
+      "brand": "rebel",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "90f8d3014f98",
+      "brand": "rebel",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 150,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "ecfc3b7e8be0",
+      "brand": "represent",
+      "field": "sale.status",
+      "label": "Sale status",
+      "old": "NOT_ANNOUNCED",
+      "new": "UPCOMING",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "3ee83e91cb0d",
+      "brand": "represent",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "UNKNOWN",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "ed257711bf20",
+      "brand": "represent",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "fe164e3fb9b0",
+      "brand": "represent",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 14,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "e19942eff509",
+      "brand": "represent",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 420,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "00ace6ce809b",
+      "brand": "stax",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "CONDITIONAL",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "4359889b79b5",
+      "brand": "stax",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "UNKNOWN",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "d4921e71cc58",
+      "brand": "stussy",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "UNKNOWN",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "53ffee55ae39",
+      "brand": "stussy",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "CONDITIONAL",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "028375f1b6b7",
+      "brand": "stussy",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 3,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "29f7910a381d",
+      "brand": "universal-store",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "601708e7247a",
+      "brand": "universal-store",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "44ec8285df8c",
+      "brand": "universal-store",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 40,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "a632fd33d56e",
+      "brand": "universal-store",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 145,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "edbd6d2a6e87",
+      "brand": "2xu",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "UNKNOWN",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "d0e4e329417b",
+      "brand": "2xu",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "d2d7166df2e4",
+      "brand": "2xu",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "75a62e3fef34",
+      "brand": "2xu",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 80,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "1ea9bcb0e341",
+      "brand": "bo-tee",
+      "field": "sale.status",
+      "label": "Sale status",
+      "old": "NOT_ANNOUNCED",
+      "new": "EARLY_ACCESS",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "fc54a399a2cf",
+      "brand": "bo-tee",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "30% off",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "03f2224aa29f",
+      "brand": "bo-tee",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "CONDITIONAL",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "49508d4325b1",
+      "brand": "bo-tee",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "7ad16d9b36cc",
+      "brand": "bo-tee",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 14,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "e86fabd422fe",
+      "brand": "country-road",
+      "field": "sale.status",
+      "label": "Sale status",
+      "old": "NOT_ANNOUNCED",
+      "new": "LIVE",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "0ced1dcfb09e",
+      "brand": "country-road",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "25% off bags and shoes",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "2272d179cbad",
+      "brand": "country-road",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "NO",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "99cfc7458368",
+      "brand": "country-road",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "CONDITIONAL",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "681c05a4f2b7",
+      "brand": "country-road",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "db3ce7da30da",
+      "brand": "country-road",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 100,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "662262e8432a",
+      "brand": "foot-locker",
+      "field": "sale.status",
+      "label": "Sale status",
+      "old": "NOT_ANNOUNCED",
+      "new": "UPCOMING",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "02d98dbf35b0",
+      "brand": "foot-locker",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "UNKNOWN",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "1b3515c77dc9",
+      "brand": "foot-locker",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "b056aebc5c04",
+      "brand": "foot-locker",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 150,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "0a0c4de494be",
+      "brand": "general-pants",
+      "field": "sale.status",
+      "label": "Sale status",
+      "old": "NOT_ANNOUNCED",
+      "new": "LIVE",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "8e6dab55c140",
+      "brand": "general-pants",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "Extra 50% off sale items",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "e0c8ad944a7e",
+      "brand": "general-pants",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "UNKNOWN",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "9bd9c84b519c",
+      "brand": "general-pants",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "CONDITIONAL",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "36b5eb025edd",
+      "brand": "general-pants",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "7b00379e5dd3",
+      "brand": "general-pants",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 145,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "06027b4313e2",
+      "brand": "levis",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "UNKNOWN",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "26b5ccc97e2a",
+      "brand": "levis",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "CONDITIONAL",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "ad23732daeb7",
+      "brand": "levis",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "39fd58605f91",
+      "brand": "lorna-jane",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "Up To 40% Off",
+      "new": "Up to 40% off selected styles",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "085e7e2cc80e",
+      "brand": "lorna-jane",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "NO",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "bd8c402124eb",
+      "brand": "lorna-jane",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "CONDITIONAL",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "f408421481b9",
+      "brand": "lorna-jane",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "322a2beb167e",
+      "brand": "lorna-jane",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 160,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "99af4207cbb9",
+      "brand": "nimble",
+      "field": "sale.status",
+      "label": "Sale status",
+      "old": "NOT_ANNOUNCED",
+      "new": "UPCOMING",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "4c18049375b4",
+      "brand": "nimble",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "50% off*",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "3aad57a0b791",
+      "brand": "nimble",
+      "field": "sale.start",
+      "label": "Start date",
+      "old": null,
+      "new": "2026-11-10",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "d3aed3386cd3",
+      "brand": "nimble",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "CONDITIONAL",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "0fcee32b2f8e",
+      "brand": "nimble",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "664abee3862b",
+      "brand": "nimble",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "d6c33a2800a8",
+      "brand": "nimble",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 175,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "58aad419a53e",
+      "brand": "pe-nation",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "Up to 70% off selected styles",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "6b90f3b50925",
+      "brand": "pe-nation",
+      "field": "sale.start",
+      "label": "Start date",
+      "old": null,
+      "new": "2026-11-11",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "bd6dd075838c",
+      "brand": "pe-nation",
+      "field": "sale.end",
+      "label": "End date",
+      "old": null,
+      "new": "2026-11-30",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "1df56d4f174a",
+      "brand": "pe-nation",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "71af90c1a7f3",
+      "brand": "pe-nation",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "eb3bfcbdf8d7",
+      "brand": "pe-nation",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "024ad13f3fbe",
+      "brand": "pe-nation",
+      "field": "policy.shipping.free_threshold_aud",
+      "label": "Free shipping threshold",
+      "old": null,
+      "new": 150,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "e5f216c83227",
+      "brand": "the-north-face",
+      "field": "sale.status",
+      "label": "Sale status",
+      "old": "NEEDS_CHECKING",
+      "new": "UPCOMING",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "961e5e36ff3a",
+      "brand": "the-north-face",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "UNKNOWN",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "ab09a6a0589f",
+      "brand": "the-north-face",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "0a8704b52316",
+      "brand": "the-north-face",
+      "field": "policy.returns.window_days",
+      "label": "Returns window",
+      "old": null,
+      "new": 30,
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "ca31f0968267",
+      "brand": "vuori",
+      "field": "policy.returns.free_return_postage",
+      "label": "Free return postage",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
+      "id": "433f1ab79ea7",
+      "brand": "vuori",
+      "field": "policy.returns.change_of_mind",
+      "label": "Change-of-mind returns",
+      "old": null,
+      "new": "YES",
+      "at": "2026-11-05T09:45:26+00:00",
+      "run": "20261105T094526Z"
+    },
+    {
       "id": "d70e304e5266",
       "brand": "culture-kings",
       "field": "policy.returns.free_return_postage",
