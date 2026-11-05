@@ -200,15 +200,17 @@ B["abercrombie"] = {
 }
 
 # Remaining brands live in research/extra.py (EXTRA dict) so this file stays readable.
-extra = Path(__file__).with_name("extra.py")
-if extra.exists():
+for extra in sorted(Path(__file__).parent.glob("extra*.py")):  # extra.py, extra2.py, ... (later batches win)
     ns = {"R": R, "S": S, "P": P, "SALE": SALE, "T": T}
     exec(extra.read_text(encoding="utf-8"), ns)
-    B.update(ns["EXTRA"])
+    for bid, rec in ns["EXTRA"].items():
+        B.setdefault(bid, {}).update(rec)
+    VERIFIED_EXTRA = ns.get("VERIFIED", set())
+    globals().setdefault("_verified_extra", set()).update(VERIFIED_EXTRA)
 
 # Sale records re-checked directly against the retailer page on 5 Nov (others came from the research agent).
 VERIFIED_SALES = {"gymshark", "salomon", "lskd", "myprotein", "ryderwear", "echt", "muscle-nation", "cotton-on",
-                  "the-iconic", "hm", "new-balance", "reebok", "under-armour"}
+                  "the-iconic", "hm", "new-balance", "reebok", "under-armour"} | globals().get("_verified_extra", set())
 for bid, rec in B.items():
     if "sale" in rec:
         rec["sale"]["verification"] = "verified" if bid in VERIFIED_SALES else "sourced"
