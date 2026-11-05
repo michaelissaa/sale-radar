@@ -1131,8 +1131,428 @@
         "discount_max_pct": 50,
         "discount_kind": "up_to",
         "scope": "SITEWIDE",
+        "code_required": "NO",
         "conditions": "'Up to' 50%: discounts vary by item. The banner doesn't say Black Friday or give an end date.",
         "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "summary": "14-day returns via the Loop portal; $9.95 handling and return postage deducted from refunds. Free shipping over AU$250.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "NA",
+          "prepaid_label": "YES",
+          "window_days": 14,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Refund, exchange or store credit",
+          "postage_cost": "$9.95 deducted from refunds",
+          "conditions": "Final sale, underwear, socks and headwear excluded. Unworn with tags.",
+          "source_url": "https://evdnce.com/pages/help-center",
+          "evidence": "A handling and return postage fee of $9.95 is deducted from your refund"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 250,
+          "ships_to_au": "YES",
+          "source_url": "https://evdnce.com/",
+          "evidence": "Free shipping on orders over AU$250"
+        }
+      }
+    },
+    "aybl": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.aybl.com/pages/black-friday-2026",
+        "evidence": "Black Friday is coming. Sign up for Early Access and shop up to 60% off sitewide 1 hour before everyone else.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "confidence": "high",
+        "name": "AYBL Black Friday 2026",
+        "discount_text": "Up to 60% off sitewide",
+        "discount_max_pct": 60,
+        "discount_kind": "up_to",
+        "scope": "SITEWIDE",
+        "early_access": "Sign up to shop 1 hour before everyone else",
+        "conditions": "Announced, no start date yet. AYBL serves one global store (UK-based).",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "summary": "30-day returns but return postage is deducted for Australia (free returns only UK/US/EU). Final Sale excluded. Free shipping over $90.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "NO",
+          "free_return_postage": "NO",
+          "free_instore_returns": "NA",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "sale_items_excluded": "YES",
+          "refund_type": "Original payment method; no exchanges",
+          "conditions": "Free returns only in the UK, USA, NL, DE and FR; for Australia the portal shows the cost and deducts it.",
+          "source_url": "https://www.aybl.com/pages/returns",
+          "evidence": "We currently only offer free returns in the UK, USA, NL, DE & FR... Any costs will be deducted from the final refund"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 90,
+          "standard_aud": 8,
+          "ships_to_au": "YES",
+          "restrictions": "Ships from the UK. Express $30, free over $250.",
+          "source_url": "https://www.aybl.com/pages/shipping",
+          "evidence": "AUSTRALIA ... Standard | 3-5 working days | $8 | $90"
+        }
+      }
+    },
+    "stax": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://stax.com.au/",
+        "evidence": "Store is behind a password page for a new collection launch (public access opens 6 Nov, 9am AEDT). No Black Friday announcement seen.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "summary": "Free returns only if you pay the returns option at checkout; otherwise a handling fee applies. Full policy not visible while the store is locked.",
+        "returns": {
+          "change_of_mind": "UNKNOWN",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "sale_items_excluded": "UNKNOWN",
+          "source_url": "https://stax.com.au/policies/refund-policy",
+          "evidence": "By paying now on your order, you will qualify for a return at no extra cost... If you don't opt to pay the fee now... you will be responsible for the cost of the handling fee."
+        },
+        "shipping": {
+          "free_shipping": "UNKNOWN",
+          "ships_to_au": "YES",
+          "source_url": "https://stax.com.au/"
+        }
+      }
+    },
+    "bo-tee": {
+      "sale": {
+        "status": "EARLY_ACCESS",
+        "source_url": "https://boandtee.com/pages/30-off",
+        "evidence": "early access is now live sign up below to be emailed the exclusive link",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "confidence": "high",
+        "name": "30% off event (not labelled Black Friday)",
+        "discount_text": "30% off",
+        "discount_max_pct": 30,
+        "discount_kind": "flat",
+        "early_access": "Email sign-up gives an exclusive early-access link",
+        "conditions": "Page is titled '30% Off'; scope and end date not stated.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "summary": "14 days for refund or exchange (28 for store credit). First return free in some cases; customs may apply from the UK.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "NA",
+          "prepaid_label": "YES",
+          "window_days": 14,
+          "window_note": "14 days refund/exchange, 28 days store credit",
+          "sale_items_excluded": "UNKNOWN",
+          "refund_type": "Refund, exchange or store credit",
+          "source_url": "https://boandtee.com/pages/returns-information",
+          "evidence": "Orders must be returned within 14 days of delivery for a full refund or exchange extended to 28 days for store credit"
+        },
+        "shipping": {
+          "free_shipping": "UNKNOWN",
+          "ships_to_au": "YES",
+          "restrictions": "Ships from the UK; customs and duties may be payable on arrival.",
+          "source_url": "https://boandtee.com/pages/delivery",
+          "evidence": "For countries outside of Europe, customs and duties may be payable on arrival."
+        }
+      }
+    },
+    "pe-nation": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.pe-nation.com/pages/black-friday-faqs",
+        "evidence": "The P.E Nation Black Friday sale begins Wednesday 11 November 2026 and runs through Cyber Monday on Monday 30 November... Styles are up to 70% off for the full Black Friday event.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "confidence": "high",
+        "name": "P.E Nation Black Friday 2026",
+        "discount_text": "Up to 70% off selected styles",
+        "discount_max_pct": 70,
+        "discount_kind": "up_to",
+        "scope": "SELECTED",
+        "start": "2026-11-11",
+        "end": "2026-11-30",
+        "dates_confirmed": true,
+        "code_required": "NO",
+        "early_access": "Mailing list early access; SMS list gets VIP perks",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "summary": "30-day free returns, but sale and Black Friday items are store credit or in-store exchange only; final sale not returnable. Free shipping over $150.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "CONDITIONAL",
+          "prepaid_label": "YES",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Full price: refund. Sale: store credit (12 months) or in-store exchange",
+          "conditions": "Final Sale items cannot be returned unless faulty.",
+          "source_url": "https://www.pe-nation.com/pages/returns",
+          "evidence": "Sale items... Store credit (valid for 12 months) or Exchange (in-store only)... Final Sale items are final"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 150,
+          "standard_aud": 7.95,
+          "ships_to_au": "YES",
+          "source_url": "https://www.pe-nation.com/pages/shipping",
+          "evidence": "$7.95 AUD for orders under $150.00 AUD; FREE for orders over $150.00 AUD"
+        }
+      }
+    },
+    "nimble": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://nimbleactivewear.com/pages/black-friday-sale",
+        "evidence": "50% OFF* Tuesday 10th November ... we'll be launching sale on Tuesday 10th November",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "confidence": "high",
+        "name": "Black Friday Sale",
+        "discount_text": "50% off*",
+        "discount_max_pct": 50,
+        "discount_kind": "flat",
+        "scope": "SELECTED",
+        "start": "2026-11-10",
+        "dates_confirmed": true,
+        "code_required": "NO",
+        "conditions": "Asterisk: conditions apply. Launch time not yet published; sign up to be told.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "summary": "30-day returns; refunds cost $10, exchanges and store credit free. Promo items: store credit only. Free shipping over $175.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "CONDITIONAL",
+          "free_instore_returns": "CONDITIONAL",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Refund less $10, or free exchange/credit",
+          "postage_cost": "$10 on refunds",
+          "conditions": "Promotional items: store credit. Final sale not returnable. No exchanges on sale styles.",
+          "source_url": "https://nimbleactivewear.com/pages/what-is-your-returns-policy",
+          "evidence": "$10 return fee applies to refunds; Exchanges and store credit are free"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 175,
+          "standard_aud": 11.95,
+          "ships_to_au": "YES",
+          "source_url": "https://nimbleactivewear.com/pages/shipping",
+          "evidence": "Standard Post ... $11.95 (free over $175)"
+        }
+      }
+    },
+    "lorna-jane": {
+      "sale": {
+        "status": "LIVE",
+        "source_url": "https://www.lornajane.com.au/collections/black-friday-event",
+        "evidence": "Black Friday | 20% Off* ... Offer T&Cs: Black Friday - Up To 40% Off Selected Styles",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "confidence": "high",
+        "name": "Black Friday",
+        "discount_text": "Up to 40% off selected styles",
+        "discount_max_pct": 40,
+        "discount_kind": "up_to",
+        "scope": "SELECTED",
+        "conditions": "Collection headline says 20% off; T&Cs say up to 40% off selected styles.",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "summary": "Sale styles: exchange or gift card only (30 days), no refunds. Free in-store returns. Free shipping over $160.",
+        "returns": {
+          "change_of_mind": "CONDITIONAL",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "NO",
+          "free_instore_returns": "YES",
+          "prepaid_label": "NO",
+          "window_days": 30,
+          "window_note": "30 days; 1 Nov-25 Dec purchases until 31 Jan 2027",
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Full price: refund. Sale: exchange or gift card",
+          "conditions": "Final-sale tagged items have no change-of-mind return.",
+          "source_url": "https://www.lornajane.com.au/pages/returns-exchanges",
+          "evidence": "we offer an Exchange or Gift Card (3-year expiry) on all purchases of Sale styles"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 160,
+          "standard_aud": 12.95,
+          "ships_to_au": "YES",
+          "source_url": "https://www.lornajane.com.au/pages/shipping-information",
+          "evidence": "Pay $12.95 or spend $160 to receive complimentary shipping."
+        }
+      }
+    },
+    "2xu": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://2xu.com/pages/black-friday-early-access",
+        "evidence": "Sign up for Black Friday early access now",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "confidence": "high",
+        "name": "Black Friday",
+        "early_access": "Sign up for early access",
+        "verification": "verified"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "summary": "30-day change-of-mind refunds for full-price and outlet items. Free shipping over $80.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "UNKNOWN",
+          "free_return_postage": "UNKNOWN",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "window_days": 30,
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method",
+          "conditions": "Full-priced and/or outlet items; underwear and socks excluded.",
+          "source_url": "https://2xu.com/pages/terms-and-conditions",
+          "evidence": "We will allow a change of mind return for refund, provided that the item in question is: A full priced and/or outlet item; returned within 30 days"
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 80,
+          "standard_aud": 8.5,
+          "ships_to_au": "YES",
+          "restrictions": "Express $12.50, free over $150.",
+          "source_url": "https://2xu.com/pages/shipping-and-tracking",
+          "evidence": "Standard shipping is $8.50 or free on orders over $80."
+        }
+      }
+    },
+    "vuori": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://vuoriclothing.com.au/",
+        "evidence": "Regular sale sections only; no Black Friday announcement seen.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "summary": "Free express shipping and free returns on all orders (AU store). Returns window not stated.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "UNKNOWN",
+          "prepaid_label": "UNKNOWN",
+          "sale_items_excluded": "UNKNOWN",
+          "source_url": "https://vuoriclothing.com.au/",
+          "evidence": "Free Express Shipping and Free Returns on All Orders"
+        },
+        "shipping": {
+          "free_shipping": "YES",
+          "ships_to_au": "YES",
+          "restrictions": "Ships from San Diego by DHL (3-4 business days).",
+          "source_url": "https://vuoriclothing.com.au/",
+          "evidence": "Free Express Shipping and Free Returns on All Orders"
+        }
+      }
+    },
+    "on-running": {
+      "sale": {
+        "status": "UPCOMING",
+        "source_url": "https://www.on.com/en-au/collection/black-friday",
+        "evidence": "Sign up for Black Friday and Cyber Monday, limited drops, new arrivals and more. Straight to your inbox.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "confidence": "low",
+        "conditions": "Only an email sign-up for Black Friday news; no sale details.",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "summary": "Free returns; purchases 21 Oct to 31 Dec get 90 days. Free standard shipping including customs.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "YES",
+          "free_return_postage": "YES",
+          "free_instore_returns": "YES",
+          "prepaid_label": "YES",
+          "window_days": 90,
+          "window_note": "90 days for 21 Oct-31 Dec 2026 purchases",
+          "sale_items_excluded": "CONDITIONAL",
+          "refund_type": "Original payment method",
+          "conditions": "Limited editions and last-season items: refund only, no exchange.",
+          "source_url": "https://www.on.com/en-au/faq/returns-and-exchanges",
+          "evidence": "Any product purchased between October 21 and December 31, 2026 ... Australia ... will benefit from extended 90 day returns"
+        },
+        "shipping": {
+          "free_shipping": "YES",
+          "ships_to_au": "YES",
+          "source_url": "https://www.on.com/en-au/faq/shipping",
+          "evidence": "We cover shipping costs and any relevant customs charges in most countries (for standard-level shipping)."
+        }
+      }
+    },
+    "hoka": {
+      "sale": {
+        "status": "NOT_ANNOUNCED",
+        "source_url": "https://au.hoka.com/",
+        "evidence": "Regular promotions only; no Black Friday announcement seen.",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "confidence": "medium",
+        "verification": "sourced"
+      },
+      "policy": {
+        "verification": "sourced",
+        "verified_at": "2026-11-05T10:00:00+00:00",
+        "summary": "60-day returns for 5 Nov to 31 Dec purchases, sale items included. Postal return label costs $10; free in store. Free shipping over $200.",
+        "returns": {
+          "change_of_mind": "YES",
+          "free_returns": "CONDITIONAL",
+          "free_return_postage": "NO",
+          "free_instore_returns": "YES",
+          "prepaid_label": "NO",
+          "window_days": 60,
+          "window_note": "60 days for 5 Nov-31 Dec purchases, otherwise 30",
+          "sale_items_excluded": "NO",
+          "refund_type": "Original payment method",
+          "postage_cost": "$10 postal label",
+          "source_url": "https://help.au.hoka.com/hc/en-us/articles/4899736773657-WHAT-IS-YOUR-CHANGE-OF-MIND-RETURNS-POLICY",
+          "evidence": "you can return any unwanted products, including sale items ... purchases made between November 5 and December 31 come with an extended 60-day return window."
+        },
+        "shipping": {
+          "free_shipping": "CONDITIONAL",
+          "free_threshold_aud": 200,
+          "ships_to_au": "YES",
+          "source_url": "https://au.hoka.com/",
+          "evidence": "Free Shipping on all orders $200+"
+        }
       }
     }
   }
