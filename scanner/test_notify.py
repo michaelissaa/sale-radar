@@ -136,6 +136,18 @@ class BuildTests(unittest.TestCase):
         _, state = self._run(env, raises=OSError("down"))
         self.assertIsNone(state)
 
+    def test_test_mode_never_recorded(self):
+        with tempfile.TemporaryDirectory() as d:
+            d = Path(d)
+            (d / "dashboard.json").write_text(json.dumps(self.dash))
+            with mock.patch.dict(notify.os.environ, {"NOTIFY_URL": "https://x", "NOTIFY_SECRET": "s"}, clear=True), \
+                 mock.patch.object(notify, "post", return_value={"ok": True, "emails": 1, "recipients": 1}) as p:
+                notify.main(data_dir=d, now=NOW, test=True)
+            sent = p.call_args[0][1]["alerts"]
+            self.assertTrue(all(a["title"].startswith("[TEST]") for a in sent))
+            self.assertEqual({a["kind"] for a in sent}, {"bf_reminder", "bf_live", "sale_live"})
+            self.assertFalse((d / "notified.json").exists())
+
     def test_date_format(self):
         self.assertEqual(notify.fmt_date("2026-11-10T09:00:00+11:00"), "Tue 10 Nov, 9:00am")
         self.assertEqual(notify.fmt_date("2026-11-01"), "Sun 1 Nov")

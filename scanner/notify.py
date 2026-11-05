@@ -148,6 +148,19 @@ def build(dash: dict, events: list[dict], run_id: str, sent: dict, now: datetime
     return out
 
 
+def test_alerts(now: datetime, site_url: str) -> list[dict]:
+    """Labelled sample alerts (one per Black Friday alert type) for an end-to-end email test."""
+    samples = [
+        ("bf_reminder", "Black Friday sale goes live soon", "Goes live: Tue 10 Nov, 9:00am (Sydney time, confirmed by retailer). This is a test."),
+        ("bf_live", "Black Friday sale is live", "50% off everything. This is a test."),
+        ("sale_live", "Regular sale started (not Black Friday)", "Only sent if you opted into regular sales. This is a test."),
+    ]
+    return [{"id": f"test:{k}", "key": f"test:{k}", "brand": "muscle-nation", "brand_name": "Muscle Nation", "category": "gymwear",
+             "kind": k, "title": f"[TEST] Muscle Nation: {t}", "detail": d, "status": "UPCOMING", "start": None,
+             "url": "https://musclenation.org/pages/black-friday-browse", "site_url": f"{site_url}#muscle-nation",
+             "at": now.isoformat(timespec="seconds")} for k, t, d in samples]
+
+
 def post(url: str, payload: dict) -> dict:
     req = urllib.request.Request(url, data=json.dumps(payload).encode(),
                                  headers={"Content-Type": "text/plain;charset=utf-8"}, method="POST")
@@ -159,7 +172,8 @@ def post(url: str, payload: dict) -> dict:
         return {"ok": False, "error": f"unexpected response: {body[:200]}"}
 
 
-def main(dry_run: bool = False, data_dir: Path = ROOT / "data", now: datetime | None = None, reminders: bool = False) -> list[dict]:
+def main(dry_run: bool = False, data_dir: Path = ROOT / "data", now: datetime | None = None, reminders: bool = False,
+         test: bool = False) -> list[dict]:
     now = now or datetime.now(timezone.utc)
     dash = load(data_dir / "dashboard.json", None)
     if not dash:
@@ -169,7 +183,8 @@ def main(dry_run: bool = False, data_dir: Path = ROOT / "data", now: datetime | 
     changes = load(data_dir / "changes.json", {"events": []})["events"]
     state_path = data_dir / "notified.json"
     state = load(state_path, {"sent": {}})
-    alerts = build(dash, changes, dash["meta"]["run_id"], state["sent"], now, site.get("site_url", ""), reminders)
+    alerts = test_alerts(now, site.get("site_url", "")) if test else \
+        build(dash, changes, dash["meta"]["run_id"], state["sent"], now, site.get("site_url", ""), reminders)
     print(f"notify{' (reminders)' if reminders else ''}: {len(alerts)} alert(s)")
     for a in alerts:
         print(f"  - {a['title']} | {a['detail'][:110]}")
@@ -188,6 +203,8 @@ def main(dry_run: bool = False, data_dir: Path = ROOT / "data", now: datetime | 
         print(f"::warning title=notify::backend error: {res.get('error')}")
         return alerts
     print(f"notify: backend sent {res.get('emails', 0)} email(s) to {res.get('recipients', 0)} subscriber(s)")
+    if test:
+        return alerts  # tests are never recorded, so they can't suppress real alerts
     for a in alerts:
         state["sent"][a["key"]] = now.isoformat(timespec="seconds")
     state_path.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
@@ -198,6 +215,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--reminders", action="store_true", help="clock-based alerts only (hourly job)")
+    ap.add_argument("--test", action="store_true", help="send labelled sample alerts to matching subscribers")
     a = ap.parse_args()
-    main(a.dry_run, reminders=a.reminders)
+    main(a.dry_run, reminders=a.reminders, test=a.test)
     sys.exit(0)

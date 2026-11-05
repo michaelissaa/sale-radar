@@ -1,0 +1,24 @@
+name: Send test email alert
+
+# Manual only. Sends three [TEST] sample alerts (reminder, Black Friday live, regular sale) to every
+# confirmed subscriber whose choices match Muscle Nation. Nothing is recorded, so real alerts are unaffected.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send test alerts
+        env:
+          NOTIFY_URL: ${{ secrets.NOTIFY_URL }}
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
+        run: python scanner/notify.py --test
