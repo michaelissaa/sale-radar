@@ -400,7 +400,7 @@ def run(only: set[str] | None = None, offline: Path | None = None, data_dir: Pat
         brands_out.append(rec)
         status_line = f"{bid:22} {sale['status']:15} basis={sale['basis']:8} pages={scan_rec.get('pages_ok')}/{scan_rec.get('pages_tried')}"
         print(status_line + (f"  errors={len(scan_rec['errors'])}" if scan_rec.get("errors") else ""), flush=True)
-        if scan_rec.get("errors"):
+        if scan_rec.get("errors") and offline is None:  # fixture runs (tests) shouldn't annotate the Actions log
             for e in scan_rec["errors"]:
                 print(f"::warning title={bid}::{e['url']} -> {e['error']}", flush=True)
 
