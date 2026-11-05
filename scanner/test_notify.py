@@ -49,6 +49,11 @@ class ClassifyTests(unittest.TestCase):
         self.assertEqual(self.kinds(brand("a", "NEEDS_CHECKING"), ev("a", "scan.ok", True, False)), [])
         self.assertEqual(self.kinds(brand("a", "NOT_ANNOUNCED"), ev("a", "sale.status", "UPCOMING", "NOT_ANNOUNCED")), [])
 
+    def test_new_field_and_corrections_stay_quiet(self):
+        # 5 Nov: regular_active appeared (None -> False) on every brand; EVDNCE corrected LIVE -> NOT_ANNOUNCED
+        self.assertEqual(self.kinds(brand("a", "NOT_ANNOUNCED"), ev("a", "sale.regular_active", None, False)), [])
+        self.assertEqual(self.kinds(brand("a", "NOT_ANNOUNCED"), ev("a", "sale.status", "LIVE", "NOT_ANNOUNCED")), [])
+
     def test_ended(self):
         self.assertEqual(self.kinds(brand("a", "ENDED"), ev("a", "sale.status", "LIVE", "ENDED")), ["bf_ended"])
 

@@ -77,15 +77,18 @@ def classify(brand: dict, changes: list[dict]) -> list[str]:
             kinds.append("bf_live")
         elif new == "UPCOMING" and old not in ACTIVE | {"UPCOMING"}:
             kinds.append("bf_announced")
-        elif old in ACTIVE and new in ("ENDED", "NOT_ANNOUNCED"):
+        elif old in ACTIVE and new == "ENDED":  # LIVE -> NOT_ANNOUNCED is a correction, not an ending
             kinds.append("bf_ended")
     if ("sale.start" in by or "sale.end" in by) and sale.get("date_basis") == "confirmed" and (sale.get("start") or sale.get("end")):
-        kinds.append("bf_dates")
+        if "bf_live" not in kinds:  # going live already tells them
+            kinds.append("bf_dates")
     if "sale.discount_text" in by and sale["status"] in ACTIVE and sale.get("discount_text") and not kinds:
         kinds.append("discount")
     reg = by.get("sale.regular_active")
-    if reg:
-        kinds.append("sale_live" if reg["new"] else "sale_ended")
+    if reg and reg["new"] is True and reg["old"] is not True:
+        kinds.append("sale_live")
+    elif reg and reg["old"] is True and reg["new"] is False:  # missing -> False (new field) is not an ending
+        kinds.append("sale_ended")
     return list(dict.fromkeys(kinds))
 
 
