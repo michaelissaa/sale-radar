@@ -1,7 +1,7 @@
 {
   "brands": {
     "adidas": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -12,7 +12,7 @@
           "error": "disallowed by robots.txt"
         }
       ],
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
@@ -31,8 +31,8 @@
       }
     },
     "culture-kings": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -74,8 +74,8 @@
       }
     },
     "gymshark": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -135,8 +135,8 @@
       }
     },
     "lskd": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -180,7 +180,7 @@
       }
     },
     "lululemon": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -191,7 +191,7 @@
           "error": "TimeoutError: The read operation timed out"
         }
       ],
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
@@ -210,8 +210,8 @@
       }
     },
     "nike": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -253,13 +253,22 @@
       }
     },
     "the-iconic": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
       "last_success": "2026-11-05T09:05:28+00:00",
-      "ok": true,
-      "pages_ok": 1,
-      "pages_tried": 1,
-      "errors": [],
-      "consecutive_failures": 0,
+      "ok": false,
+      "pages_ok": 0,
+      "pages_tried": 2,
+      "errors": [
+        {
+          "url": "https://www.theiconic.com.au/",
+          "error": "disallowed by robots.txt"
+        },
+        {
+          "url": "https://www.theiconic.com.au/black-friday/",
+          "error": "disallowed by robots.txt"
+        }
+      ],
+      "consecutive_failures": 1,
       "discovered": [
         "https://www.theiconic.com.au/black-friday/"
       ],
@@ -298,8 +307,8 @@
       }
     },
     "abercrombie": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -338,7 +347,7 @@
           "free_shipping_threshold_hint": null,
           "status": "NOT_ANNOUNCED",
           "confidence": "low",
-          "url": "https://www.abercrombie.com/shop/wd/black-friday",
+          "url": "https://www.abercrombie.com/shop/us/black-friday?originalStore=wd",
           "title": "Client Challenge"
         }
       },
@@ -358,8 +367,8 @@
       }
     },
     "alphalete": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -401,7 +410,7 @@
       }
     },
     "asics": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -412,7 +421,7 @@
           "error": "HTTP 403 (likely bot protection)"
         }
       ],
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
@@ -431,7 +440,7 @@
       }
     },
     "asos": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -442,7 +451,7 @@
           "error": "TimeoutError: The read operation timed out"
         }
       ],
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
@@ -461,8 +470,8 @@
       }
     },
     "hallensteins": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -504,8 +513,8 @@
       }
     },
     "maniere-de-voir": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -548,11 +557,11 @@
       }
     },
     "myprotein": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
-      "pages_ok": 2,
-      "pages_tried": 2,
+      "pages_ok": 3,
+      "pages_tried": 3,
       "errors": [],
       "consecutive_failures": 0,
       "discovered": [
@@ -594,6 +603,23 @@
           "confidence": "low",
           "url": "https://au.myprotein.com/c/black-friday/",
           "title": "Black Friday 2026 Sign Up  |  Myprotein AU"
+        },
+        "https://au.myprotein.com/c/nutrition/au-best-sellers/": {
+          "bf_mentioned": true,
+          "discount_text": "40% OFF",
+          "discount_max_pct": 40,
+          "discount_kind": "flat",
+          "sitewide_hint": true,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "No.1 Online Sports Nutrition Brand Extra 10% off + FREE shaker for new customers Earn $10 Credit? HOW DO YOU BLACK FRIDAY? 40% OFF EVERYTHING | DISCOUNT APPLIED APP EXCLUSIVE | EXTRA 5% OFF | AUTO APPLIES SHOP NOW Home Sports Nutri",
+          "free_shipping_threshold_hint": 150,
+          "status": "LIVE",
+          "confidence": "medium",
+          "url": "https://au.myprotein.com/c/nutrition/au-best-sellers/",
+          "title": "Sports Nutrition Best Sellers  |  Myprotein AU"
         }
       },
       "policy": {
@@ -613,7 +639,7 @@
       }
     },
     "new-balance": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -621,10 +647,10 @@
       "errors": [
         {
           "url": "https://www.newbalance.com.au/",
-          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>"
+          "error": "disallowed by robots.txt"
         }
       ],
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
@@ -643,8 +669,8 @@
       }
     },
     "ryderwear": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -708,8 +734,8 @@
       }
     },
     "salomon": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -768,7 +794,7 @@
       }
     },
     "uniqlo": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -779,7 +805,7 @@
           "error": "TimeoutError: The read operation timed out"
         }
       ],
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
@@ -798,8 +824,8 @@
       }
     },
     "youngla": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -842,7 +868,7 @@
       }
     },
     "zara": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -853,7 +879,7 @@
           "error": "disallowed by robots.txt"
         }
       ],
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
@@ -872,7 +898,7 @@
       }
     },
     "cos": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -883,7 +909,7 @@
           "error": "HTTP 403 (likely bot protection)"
         }
       ],
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
@@ -904,8 +930,8 @@
       }
     },
     "cotton-on": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -965,18 +991,18 @@
       }
     },
     "echt": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
-      "pages_ok": 2,
-      "pages_tried": 2,
+      "pages_ok": 4,
+      "pages_tried": 4,
       "errors": [],
       "consecutive_failures": 0,
       "discovered": [
-        "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items",
-        "https://echt.com.au/collections/men-black-friday-2026-up-to-70-off-selected-items",
-        "https://echt.com.au/collections/black-friday-2026-nothing-over-20",
-        "https://echt.com.au/pages/black-friday-run"
+        "https://us.echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items",
+        "https://us.echt.com.au/collections/men-black-friday-2026-up-to-70-off-selected-items",
+        "https://us.echt.com.au/collections/black-friday-2026-nothing-over-20",
+        "https://us.echt.com.au/pages/black-friday-run"
       ],
       "signals_by_url": {
         "https://echt.com.au/": {
@@ -990,10 +1016,10 @@
           "early_access": false,
           "dates_seen": [],
           "evidence": "s Stringers & Tanks Others Others › Accessories Gift Cards Activity Activity › Weight Training Running Lounge Black Friday › Women’s Sale Men’s Sale Nothing Over $20 3 For 30% Off › Supplements › Rewards › › Account Sign in Wishlist",
-          "free_shipping_threshold_hint": 99,
+          "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://echt.com.au/",
+          "url": "https://us.echt.com.au/?shpxid=96d61b72-739f-412b-82a8-c24825f91f58",
           "title": "Shop ECHT Gym Wear Online | Gym Clothes & Accessories\n – Echt ApparelAmerican ExpressApple PayBizumGoogle PayMastercardP"
         },
         "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items": {
@@ -1007,11 +1033,45 @@
           "early_access": false,
           "dates_seen": [],
           "evidence": "s Stringers & Tanks Others Others › Accessories Gift Cards Activity Activity › Weight Training Running Lounge Black Friday › Women’s Sale Men’s Sale Nothing Over $20 3 For 30% Off › Supplements › Rewards › › Account Sign in Wishlist",
-          "free_shipping_threshold_hint": 99,
+          "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items",
+          "url": "https://us.echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items?shpxid=342e85d6-b0d0-4b0e-be20-308678e09619",
           "title": "Black Friday 2026 - Up to 70% Off Selected Items\n – Echt ApparelAmerican ExpressApple PayBizumGoogle PayMastercardPayPal"
+        },
+        "https://echt.com.au/collections/men-black-friday-2026-up-to-70-off-selected-items": {
+          "bf_mentioned": true,
+          "discount_text": "30% Off",
+          "discount_max_pct": 30,
+          "discount_kind": "flat",
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "s Stringers & Tanks Others Others › Accessories Gift Cards Activity Activity › Weight Training Running Lounge Black Friday › Women’s Sale Men’s Sale Nothing Over $20 3 For 30% Off › Supplements › Rewards › › Account Sign in Wishlist",
+          "free_shipping_threshold_hint": null,
+          "status": "LIVE",
+          "confidence": "medium",
+          "url": "https://us.echt.com.au/collections/men-black-friday-2026-up-to-70-off-selected-items?shpxid=9a04dd2d-f8dc-4686-ada8-ae453323cb1b",
+          "title": "Men - Black Friday 2026 - Up to 70% Off Selected Items\n – Echt ApparelAmerican ExpressApple PayBizumGoogle PayMastercard"
+        },
+        "https://echt.com.au/collections/black-friday-2026-nothing-over-20": {
+          "bf_mentioned": true,
+          "discount_text": "30% Off",
+          "discount_max_pct": 30,
+          "discount_kind": "flat",
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "s Stringers & Tanks Others Others › Accessories Gift Cards Activity Activity › Weight Training Running Lounge Black Friday › Women’s Sale Men’s Sale Nothing Over $20 3 For 30% Off › Supplements › Rewards › › Account Sign in Wishlist",
+          "free_shipping_threshold_hint": null,
+          "status": "LIVE",
+          "confidence": "medium",
+          "url": "https://us.echt.com.au/collections/black-friday-2026-nothing-over-20?shpxid=2fdea75c-a6c6-4583-aaee-6ba17922adc2",
+          "title": "Black Friday 2026 - Nothing Over $20\n – Echt ApparelAmerican ExpressApple PayBizumGoogle PayMastercardPayPalSatispayShop"
         }
       },
       "policy": {
@@ -1031,7 +1091,7 @@
       }
     },
     "hm": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -1042,7 +1102,7 @@
           "error": "disallowed by robots.txt"
         }
       ],
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
@@ -1061,19 +1121,15 @@
       }
     },
     "muscle-nation": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
-      "pages_ok": 2,
-      "pages_tried": 2,
+      "pages_ok": 4,
+      "pages_tried": 4,
       "errors": [],
       "consecutive_failures": 0,
       "discovered": [
-        "https://musclenation.org/pages/black-friday-browse",
-        "https://musclenation.org/collections/black-friday-womens/products/womens-neon-lily-oversized-tee-washed-black",
-        "https://musclenation.org/collections/black-friday-womens/products/doberman-division-oversized-tee-washed-black",
-        "https://musclenation.org/collections/black-friday-womens/products/womens-bones-oversized-tee-washed-black",
-        "https://musclenation.org/collections/black-friday-womens/products/cherry-club-oversized-tee-guava"
+        "https://musclenation.us/pages/black-friday-browse"
       ],
       "signals_by_url": {
         "https://musclenation.org/": {
@@ -1090,7 +1146,7 @@
           "free_shipping_threshold_hint": null,
           "status": "NEEDS_CHECKING",
           "confidence": "low",
-          "url": "https://musclenation.org/",
+          "url": "https://musclenation.us/?shpxid=9d0c9e04-06a0-43e1-a944-8c6563be8455",
           "title": "Gym Clothes & Supplements - Shop Online | Muscle Nation\nAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPayPalSa"
         },
         "https://musclenation.org/pages/black-friday-browse": {
@@ -1107,8 +1163,42 @@
           "free_shipping_threshold_hint": null,
           "status": "NEEDS_CHECKING",
           "confidence": "low",
-          "url": "https://musclenation.org/pages/black-friday-browse",
+          "url": "https://musclenation.us/pages/black-friday-browse?shpxid=2b351df5-bef0-4ccc-afb9-0faefa289af5",
           "title": "Black Friday Browse\n – Muscle NationAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPayPalSatispayShop PayUnion "
+        },
+        "https://musclenation.org/collections/black-friday-womens/products/womens-neon-lily-oversized-tee-washed-black": {
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "HIPPING ON ORDERS OVER $130* FREE AU SHIPPING ON ORDERS OVER $130* WOMENS MENS SUPPLEMENTS ACCESSORIES Browse Black Friday New Arrivals Best Sellers Matching Sets Comp Sets Sports Bras Maximum Support Bras Medium Support Bras Everyd",
+          "free_shipping_threshold_hint": null,
+          "status": "NEEDS_CHECKING",
+          "confidence": "low",
+          "url": "https://musclenation.us/collections/black-friday-womens/products/womens-neon-lily-oversized-tee-washed-black?shpxid=25de90ff-036b-429c-bf77-304be5a6c04e",
+          "title": "Womens Neon Lily Oversized Tee Washed Black | Muscle Nation\nAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPayP"
+        },
+        "https://musclenation.org/collections/black-friday-womens/products/doberman-division-oversized-tee-washed-black": {
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "HIPPING ON ORDERS OVER $130* FREE AU SHIPPING ON ORDERS OVER $130* WOMENS MENS SUPPLEMENTS ACCESSORIES Browse Black Friday New Arrivals Best Sellers Matching Sets Comp Sets Sports Bras Maximum Support Bras Medium Support Bras Everyd",
+          "free_shipping_threshold_hint": null,
+          "status": "NEEDS_CHECKING",
+          "confidence": "low",
+          "url": "https://musclenation.us/collections/black-friday-womens/products/doberman-division-oversized-tee-washed-black?shpxid=0269de63-bb1b-4407-a920-d3f285da8874",
+          "title": "Doberman Division Oversized Tee Washed Black | Muscle Nation\nAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPay"
         }
       },
       "policy": {
@@ -1127,11 +1217,11 @@
       }
     },
     "oner-active": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
-      "pages_ok": 1,
-      "pages_tried": 1,
+      "pages_ok": 2,
+      "pages_tried": 2,
       "errors": [],
       "consecutive_failures": 0,
       "discovered": [
@@ -1154,6 +1244,23 @@
           "confidence": "low",
           "url": "https://au.oneractive.com/",
           "title": "Activewear for Women by Krissy Cela | Oner Active AU"
+        },
+        "https://au.oneractive.com/collections/shop": {
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "items. In the main menu, Tab opens each menu and the down arrow key moves into it. Skip to main content Menu Black Friday Shop About Us Log In / Sign Up Loyalty Club Contact us Track your order Help center Australia & New Zealand C",
+          "free_shipping_threshold_hint": 150,
+          "status": "NEEDS_CHECKING",
+          "confidence": "low",
+          "url": "https://au.oneractive.com/collections/shop",
+          "title": "Women's Workout Clothes & Activewear | Ladies Workout & Gymwear - Oner Active AU"
         }
       },
       "policy": {
@@ -1173,8 +1280,8 @@
       }
     },
     "puma": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -1218,8 +1325,8 @@
       }
     },
     "reebok": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -1261,8 +1368,8 @@
       }
     },
     "under-armour": {
-      "last_attempt": "2026-11-05T09:05:28+00:00",
-      "last_success": "2026-11-05T09:05:28+00:00",
+      "last_attempt": "2026-11-05T09:21:01+00:00",
+      "last_success": "2026-11-05T09:21:01+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -1306,7 +1413,7 @@
   },
   "http_cache": {
     "https://www.culturekings.com.au/": {
-      "etag": "W/\"page_cache:10233455:IndexController:fb2851cf6d7c1f1104a8f5d54627d945:03c1ef90cffe5cf8e8ea22c331304450\"",
+      "etag": "W/\"page_cache:10233455:IndexController:59a65aa6f7d9db8ebb00b175af9449aa:6a446da02c59e87c3d06f435eb6271e7\"",
       "last_modified": null
     },
     "https://www.culturekings.com.au/pages/shipping-returns": {
@@ -1314,11 +1421,11 @@
       "last_modified": null
     },
     "https://au.gymshark.com/": {
-      "etag": "W/\"16zpsysx7s1va91\"",
+      "etag": "W/\"qdzdvcxluva91\"",
       "last_modified": null
     },
     "https://au.gymshark.com/pages/black-friday": {
-      "etag": "W/\"pul9m71pt0xl6j\"",
+      "etag": "W/\"62tdvavxloxl6j\"",
       "last_modified": null
     },
     "https://support.gymshark.com/en-US/article/returns-policy": {
@@ -1330,7 +1437,7 @@
       "last_modified": null
     },
     "https://www.lskd.co/": {
-      "etag": "W/\"page_cache:9932004:IndexController:9d79a1523d346e49e75a0681d37ed03a:e5c3e425ea882ac99b1de37f2861ada3\"",
+      "etag": "W/\"page_cache:9932004:IndexController:efbb1f9e670f9a11a8aec337ce292afa:9cad922a34ccaff76637c7d08f43c69e\"",
       "last_modified": null
     },
     "https://lskd-au.gorgias.help/en-US/returns-policy-info-92275": {
@@ -1338,7 +1445,7 @@
       "last_modified": null
     },
     "https://www.nike.com/au/": {
-      "etag": "\"9hp4stpt1d84go\"",
+      "etag": "\"pxfvozv1ij84nq\"",
       "last_modified": null
     },
     "https://www.nike.com/au/help/a/returns-policy": {
@@ -1394,7 +1501,7 @@
       "last_modified": null
     },
     "https://au.manieredevoir.com/": {
-      "etag": "W/\"sfr:computation:v2:2f2c4611b83201b1f2813946032f6eaf294663ef1b3b25c13a664234e313ccba:2189f757fd0b64eb7b75c7bd421ea7e5\"",
+      "etag": "W/\"sfr:computation:v2:a1a040eb18a627b7675eeb03b83c1557847e0e5837d113af6249b2481ad8aebe:240552c1bbf6e36cf77e7e7ba92f5568\"",
       "last_modified": null
     },
     "https://au.manieredevoir.com/pages/delivery-returns": {
@@ -1418,11 +1525,11 @@
       "last_modified": null
     },
     "https://au.ryderwear.com/": {
-      "etag": "W/\"page_cache:26782664:IndexController:7a56ab515a7c5a2fa5f5b556a19789a0:a89dac8e2292512f480f7825be81d271\"",
+      "etag": "W/\"sfr:computation:v2:8ee22588da16cfe9e97e24426094b8bc068c354d1f981cb9ae0da514440006f3:671e52afc89d6bea7200899e0cbb5233\"",
       "last_modified": null
     },
     "https://au.ryderwear.com/pages/black-friday": {
-      "etag": "W/\"sfr:computation:v2:2a027aabe4a6e239777bc4a0dc3ef9063271ea1c6c44e3511c23f663e3d56920:06610501fc0ce981fa6c00faff97a15d\"",
+      "etag": "W/\"sfr:computation:v2:7c7932b6e1573e4c5178dc366b19d0284a9430031f0baa58a96682b038318b20:0db0bb0bc1de5ac3f241ab5454a77fef\"",
       "last_modified": null
     },
     "https://www.ryderwear.com/pages/returns": {
@@ -1430,11 +1537,11 @@
       "last_modified": null
     },
     "https://salomon.com.au/": {
-      "etag": "W/\"sfr:computation:v2:c838e1f8e7bccf747a44965d8f58813a64e9053cf9c2c3e5db0b9d955f8022a1:008535f5830d034d0d5da29556303028\"",
+      "etag": "W/\"sfr:computation:v2:b2ceb4dcb320e1d19af758fda3353dafb1fd7bf4f7b9ca49605beeff05a50ede:d4ce07f5851b8917065177c467419aa0\"",
       "last_modified": null
     },
     "https://salomon.com.au/collections/womens-black-friday": {
-      "etag": "W/\"sfr:computation:v2:d4c57f7689f8ef7a76b9df7f3535e3fc50e5d8ea04e1244abc9c8711359a11c6:c53ef0e67c99d288233bf26c0940d298\"",
+      "etag": "W/\"sfr:computation:v2:f582146cb3b72283f78210a32ed42838b47f5527ce69a9919e918d80d0994e68:de0b312d8728f4553a94293ca29d4043\"",
       "last_modified": null
     },
     "https://salomon.com.au/pages/returns-2": {
@@ -1474,11 +1581,11 @@
       "last_modified": null
     },
     "https://echt.com.au/": {
-      "etag": "W/\"sfr:computation:v2:48fd7a1235c4a08cf804471ff786ce53bd75695b9c83f6549c9a3887be94bc1e:056ffceccb721f8b8f4ecf00dc4ce73a\"",
+      "etag": "W/\"sfr:computation:v2:32ca473cb1459766d100cb1374d9e5220376f325f132d0f08f08df541e65cdd0:f7692081745cb04f069f873c7b766140\"",
       "last_modified": null
     },
     "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items": {
-      "etag": "W/\"sfr:computation:v2:573292a0a3abd6550d728fd42b7359a1a9cc54b2287bf11f3e04de747b20679c:f9ae572c7d07e2de93263c3164e3b262\"",
+      "etag": "W/\"sfr:computation:v2:5c5728943e792f6b98e01e07aa348bdc76b95f08dff85e5afdb89cfe724cc070:dcc5c6eb9e38a6ac1562fa0c0fddbe24\"",
       "last_modified": null
     },
     "https://echt.gorgias.help/en-US/how-do-i-return--exchange-an-item-430440": {
@@ -1490,11 +1597,11 @@
       "last_modified": null
     },
     "https://musclenation.org/": {
-      "etag": "W/\"sfr:computation:v2:47faed55f2a9f804beb9b6419f372fe6cfeca074886dd658ae13c595001d8e62:9a8beb211549c00c8d5533af01e8d5bf\"",
+      "etag": "W/\"sfr:computation:v2:12c2c17d2533865d053d0fa9a0d2d3d0bc1c83d5d3520cd9185b8d3e6a3aa94f:62b1a0a3e6f38515e1ba729bee211379\"",
       "last_modified": null
     },
     "https://musclenation.org/pages/black-friday-browse": {
-      "etag": "W/\"sfr:computation:v2:a31d50ccae34e668ed40985e2b87318c73ef92cb00bc2b70ccab49e6fa5d1313:c3205f938f7992aaf2040af2aede1164\"",
+      "etag": "W/\"sfr:computation:v2:f1173def50cbefad756990581a74dd38f37e495183b125bb377c81dc7e2c2d72:62b1a0a3e6f38515e1ba729bee211379\"",
       "last_modified": null
     },
     "https://musclenation.org/pages/returns-policy": {
@@ -1506,7 +1613,7 @@
       "last_modified": null
     },
     "https://au.oneractive.com/": {
-      "etag": "W/\"sfr:computation:v2:6ee4a20f70bd5f0be74eda7a59ee3791ad20590743236708afa69c284fa3a119:a2af9c5f7fd7729baec95e7b2f41d5c2\"",
+      "etag": "W/\"sfr:computation:v2:9b168e0b51fef24530505b1361620e5bd45c96b9bd60cafab7751917df3cacee:77bc9972c0ba9c60eb6763989231e4c3\"",
       "last_modified": null
     },
     "https://au.oneractive.com/pages/help-center/returns": {
@@ -1526,11 +1633,35 @@
       "last_modified": null
     },
     "https://www.reebok.com.au/": {
-      "etag": "W/\"sfr:computation:v2:4f7b5e0edf8f23191b92496f13fb6a9136745b0613d4d846140b40b099719069:044871e627a0a06ece9025daa5dc271f\"",
+      "etag": "W/\"sfr:computation:v2:b7a74e15f24d0765ad36e30890654fdd977cbf1e996b76f62394c0d673703764:f3c56558548fc92b9149dffbacac847e\"",
       "last_modified": null
     },
     "https://www.underarmour.com.au/": {
       "etag": null,
+      "last_modified": null
+    },
+    "https://au.myprotein.com/c/nutrition/au-best-sellers/": {
+      "etag": null,
+      "last_modified": null
+    },
+    "https://echt.com.au/collections/men-black-friday-2026-up-to-70-off-selected-items": {
+      "etag": "W/\"sfr:computation:v2:545f62f08b9bed53e8c9a94e71602fdea5eebcfa70f5db15e4824ffd444d6981:3911b44ada332ea19c0ba8d5203a4f2a\"",
+      "last_modified": null
+    },
+    "https://echt.com.au/collections/black-friday-2026-nothing-over-20": {
+      "etag": "W/\"sfr:computation:v2:cd5ee9a92a7bef60fdb3151a41709a09e1364a91d532662a5144bd42fa444e10:78243529a67e4969f28e86883c7813c6\"",
+      "last_modified": null
+    },
+    "https://musclenation.org/collections/black-friday-womens/products/womens-neon-lily-oversized-tee-washed-black": {
+      "etag": "W/\"sfr:computation:v2:dad2601b73497da97bb2a5425922dd06bda8e427ff6d76c20a7ac68d45099a40:62b1a0a3e6f38515e1ba729bee211379\"",
+      "last_modified": null
+    },
+    "https://musclenation.org/collections/black-friday-womens/products/doberman-division-oversized-tee-washed-black": {
+      "etag": "W/\"sfr:computation:v2:f5929ddbeef0870bf1540077314eefae62f01639bb4fb1266eea1c8efda472d8:62b1a0a3e6f38515e1ba729bee211379\"",
+      "last_modified": null
+    },
+    "https://au.oneractive.com/collections/shop": {
+      "etag": "W/\"sfr:computation:v2:ac3f32ee56f7ade9312f29b211a5941bf1c7dbbce2d5584ff6ae0183c50af262:ab00dbcf477ec766a0985ee5f3d49594\"",
       "last_modified": null
     }
   }
