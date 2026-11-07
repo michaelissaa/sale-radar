@@ -1,7 +1,7 @@
 {
   "brands": {
     "adidas": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -12,19 +12,19 @@
           "error": "disallowed by robots.txt"
         }
       ],
-      "consecutive_failures": 10,
+      "consecutive_failures": 11,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.adidas.com.au/help/returns-refunds",
-            "error": "HTTP 403 (likely bot protection)"
+            "error": "disallowed by robots.txt"
           },
           {
             "url": "https://www.adidas.com.au/help/shipping-delivery",
-            "error": "HTTP 403 (likely bot protection)"
+            "error": "disallowed by robots.txt"
           }
         ],
         "ok": false
@@ -36,8 +36,8 @@
       }
     },
     "culture-kings": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -64,7 +64,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -75,11 +75,11 @@
           "returns": "0f1af4a4538eb3c2",
           "shipping": "0f1af4a4538eb3c2"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 2000,
         "discounted": 39,
         "share": 0.019,
@@ -88,8 +88,8 @@
       }
     },
     "gymshark": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -134,18 +134,18 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 100,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
           "returns": "dbdfa9ee205c88ae",
-          "shipping": "3f48ff03a8ba8a72"
+          "shipping": "f95e5585b09abe95"
         },
         "baseline_fingerprints": {
           "returns": "b79a4efdaaefd4e7",
           "shipping": "c5ec3ab827921ec0"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -154,8 +154,8 @@
       }
     },
     "lskd": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -182,7 +182,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.lskd.co/pages/shipping",
@@ -199,16 +199,16 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 2000,
-        "discounted": 145,
-        "share": 0.072,
+        "discounted": 143,
+        "share": 0.071,
         "max_pct": 95,
         "capped": true
       }
     },
     "lululemon": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -219,11 +219,11 @@
           "error": "TimeoutError: The read operation timed out"
         }
       ],
-      "consecutive_failures": 10,
+      "consecutive_failures": 11,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.lululemon.com.au/en-au/help/returns",
@@ -243,8 +243,8 @@
       }
     },
     "nike": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -271,7 +271,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -282,7 +282,7 @@
           "returns": "172eae9db4a633e6",
           "shipping": "172eae9db4a633e6"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -291,7 +291,7 @@
       }
     },
     "the-iconic": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": "2026-11-05T09:05:28+00:00",
       "ok": false,
       "pages_ok": 0,
@@ -306,7 +306,7 @@
           "error": "disallowed by robots.txt"
         }
       ],
-      "consecutive_failures": 9,
+      "consecutive_failures": 10,
       "discovered": [
         "https://www.theiconic.com.au/black-friday/"
       ],
@@ -330,7 +330,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.theiconic.com.au/returns-policy/",
@@ -359,8 +359,8 @@
       }
     },
     "abercrombie": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -404,18 +404,18 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
-          "returns": "2a3e34114850a10c",
-          "shipping": "2a3e34114850a10c"
+          "returns": "bbd62f476bb950f9",
+          "shipping": "579ece58fd161227"
         },
         "baseline_fingerprints": {
           "returns": "da39a3ee5e6b4b0d",
           "shipping": "da39a3ee5e6b4b0d"
         },
-        "last_success": "2026-11-06T19:26:23+00:00",
+        "last_success": "2026-11-07T21:52:58+00:00",
         "free_shipping_threshold_hint": 99
       },
       "markdown": {
@@ -425,8 +425,8 @@
       }
     },
     "alphalete": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -453,22 +453,22 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
-          "returns": "0fb569fd0bc55eba",
-          "shipping": "0fb569fd0bc55eba"
+          "returns": "489b20c19ec4db5d",
+          "shipping": "489b20c19ec4db5d"
         },
         "baseline_fingerprints": {
           "returns": "489b20c19ec4db5d",
           "shipping": "489b20c19ec4db5d"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 1065,
         "discounted": 362,
         "share": 0.34,
@@ -477,7 +477,7 @@
       }
     },
     "asics": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -488,11 +488,11 @@
           "error": "HTTP 403 (likely bot protection)"
         }
       ],
-      "consecutive_failures": 10,
+      "consecutive_failures": 11,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.asics.com/au/en-au/returns",
@@ -512,7 +512,7 @@
       }
     },
     "asos": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -523,11 +523,11 @@
           "error": "TimeoutError: The read operation timed out"
         }
       ],
-      "consecutive_failures": 10,
+      "consecutive_failures": 11,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.asos.com/au/customer-care/returns-refunds/",
@@ -547,8 +547,8 @@
       }
     },
     "hallensteins": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -575,18 +575,18 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
-          "returns": "1507ffc84a293034",
-          "shipping": "1507ffc84a293034"
+          "returns": "8dc8131c18bf9c62",
+          "shipping": "8dc8131c18bf9c62"
         },
         "baseline_fingerprints": {
           "returns": "352ae3f00c729f67",
           "shipping": "352ae3f00c729f67"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -595,8 +595,8 @@
       }
     },
     "maniere-de-voir": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -624,7 +624,7 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 400,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -635,11 +635,11 @@
           "returns": "08ae1373a54e9c89",
           "shipping": "08ae1373a54e9c89"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 1464,
         "discounted": 0,
         "share": 0.0,
@@ -648,8 +648,8 @@
       }
     },
     "myprotein": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 3,
       "pages_tried": 3,
@@ -713,18 +713,18 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 150,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
-          "returns": "4584e27db9e3da1e",
-          "shipping": "a261679023798df2"
+          "returns": "4774ce3d04bebbc7",
+          "shipping": "911dcffb6f769161"
         },
         "baseline_fingerprints": {
           "returns": "4584e27db9e3da1e",
           "shipping": "50bf04068568a744"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -733,7 +733,7 @@
       }
     },
     "new-balance": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -744,11 +744,11 @@
           "error": "disallowed by robots.txt"
         }
       ],
-      "consecutive_failures": 10,
+      "consecutive_failures": 11,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.newbalance.com.au/returns",
@@ -768,8 +768,8 @@
       }
     },
     "ryderwear": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -818,7 +818,7 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 120,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -829,11 +829,11 @@
           "returns": "c580c20e89eb2da3",
           "shipping": "c580c20e89eb2da3"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 2000,
         "discounted": 1996,
         "share": 0.998,
@@ -842,8 +842,8 @@
       }
     },
     "salomon": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -887,7 +887,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -898,11 +898,11 @@
           "returns": "3898219f57ec95d1",
           "shipping": "d66e7ff101aa0ac5"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 1699,
         "discounted": 570,
         "share": 0.335,
@@ -911,7 +911,7 @@
       }
     },
     "uniqlo": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -922,11 +922,11 @@
           "error": "TimeoutError: The read operation timed out"
         }
       ],
-      "consecutive_failures": 10,
+      "consecutive_failures": 11,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://faq-au.uniqlo.com/",
@@ -946,8 +946,8 @@
       }
     },
     "youngla": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -975,7 +975,7 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 100,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -986,11 +986,11 @@
           "returns": "8db57e7f48a44e33",
           "shipping": "8d0b41cc0d7ee041"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 210,
         "discounted": 0,
         "share": 0.0,
@@ -999,7 +999,7 @@
       }
     },
     "zara": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -1010,11 +1010,11 @@
           "error": "disallowed by robots.txt"
         }
       ],
-      "consecutive_failures": 10,
+      "consecutive_failures": 11,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.zara.com/au/en/help-center/ReturnsAndRefunds",
@@ -1034,7 +1034,7 @@
       }
     },
     "cos": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -1045,11 +1045,11 @@
           "error": "HTTP 403 (likely bot protection)"
         }
       ],
-      "consecutive_failures": 10,
+      "consecutive_failures": 11,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.cos.com/en-au/customer-service/shipping",
@@ -1071,8 +1071,8 @@
       }
     },
     "cotton-on": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -1117,18 +1117,18 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 30,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
-          "returns": "b42f237e416716a1",
-          "shipping": "4ed5e5a6cc663c6c"
+          "returns": "3f8a2c81f7a9ae59",
+          "shipping": "31c10e3363bc0ccc"
         },
         "baseline_fingerprints": {
           "returns": "36bedc67e6f3b3c6",
           "shipping": "0fc3b479ab3a6731"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -1137,8 +1137,8 @@
       }
     },
     "echt": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 5,
       "pages_tried": 5,
@@ -1165,7 +1165,7 @@
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://us.echt.com.au/?shpxid=2e41b674-25a7-45c8-bee1-f27a6390c268",
+          "url": "https://us.echt.com.au/?shpxid=f9ddb3c4-fbb2-406a-b492-5a494736b0ae",
           "title": "Shop ECHT Gym Wear Online | Gym Clothes & Accessories\n – Echt ApparelAmerican ExpressApple PayGoogle PayMastercardPayPal"
         },
         "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items": {
@@ -1182,7 +1182,7 @@
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://us.echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items?shpxid=7a523af4-aa80-4eb8-9c35-03f061564454",
+          "url": "https://us.echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items?shpxid=8760a189-a0f2-4737-a417-2e084cdfb8c9",
           "title": "Black Friday 2026 - Up to 70% Off Selected Items\n – Echt ApparelAmerican ExpressApple PayGoogle PayMastercardPayPalShop "
         },
         "https://us.echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items": {
@@ -1239,7 +1239,7 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 99,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -1250,11 +1250,11 @@
           "returns": "86c409bcfec01d1f",
           "shipping": "c6e3217042dca6af"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 997,
         "discounted": 764,
         "share": 0.766,
@@ -1263,7 +1263,7 @@
       }
     },
     "hm": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -1274,11 +1274,11 @@
           "error": "disallowed by robots.txt"
         }
       ],
-      "consecutive_failures": 10,
+      "consecutive_failures": 11,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www2.hm.com/en_au/customer-service/returns.html",
@@ -1298,8 +1298,8 @@
       }
     },
     "muscle-nation": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 3,
       "pages_tried": 3,
@@ -1323,7 +1323,7 @@
           "free_shipping_threshold_hint": null,
           "status": "NEEDS_CHECKING",
           "confidence": "low",
-          "url": "https://musclenation.us/?shpxid=ce694282-f908-4cf3-b91b-ef9d839ec9a1",
+          "url": "https://musclenation.us/?shpxid=cabc5fd2-dc3e-47ae-b52c-85168d1e6b46",
           "title": "Gym Clothes & Supplements - Shop Online | Muscle Nation\nAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPayPalSa"
         },
         "https://musclenation.org/pages/black-friday-browse": {
@@ -1340,7 +1340,7 @@
           "free_shipping_threshold_hint": null,
           "status": "NEEDS_CHECKING",
           "confidence": "low",
-          "url": "https://musclenation.us/pages/black-friday-browse?shpxid=a8fe0d0d-5315-4375-a32c-42faa2cfb67d",
+          "url": "https://musclenation.us/pages/black-friday-browse?shpxid=1f18611b-eb5b-4b10-a21a-8b3b875782a3",
           "title": "Black Friday Browse\n – Muscle NationAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPayPalSatispayShop PayUnion "
         },
         "https://musclenation.us/pages/black-friday-browse": {
@@ -1362,7 +1362,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -1373,11 +1373,11 @@
           "returns": "0c336820c37ed85c",
           "shipping": "7ba8d21c26fb66f4"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 1979,
         "discounted": 339,
         "share": 0.171,
@@ -1386,8 +1386,8 @@
       }
     },
     "oner-active": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -1434,7 +1434,7 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 150,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -1445,21 +1445,21 @@
           "returns": "a116618799cdbceb",
           "shipping": "be1038dae6d90e0a"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 2000,
-        "discounted": 184,
-        "share": 0.092,
+        "discounted": 188,
+        "share": 0.094,
         "max_pct": 50,
         "capped": true
       }
     },
     "puma": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -1486,7 +1486,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://au.puma.com/au/en/help/shipping",
@@ -1508,8 +1508,8 @@
       }
     },
     "reebok": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -1536,7 +1536,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.reebok.com.au/pages/returns",
@@ -1551,7 +1551,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 1458,
         "discounted": 836,
         "share": 0.573,
@@ -1560,8 +1560,8 @@
       }
     },
     "under-armour": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -1607,7 +1607,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.underarmour.com.au/en-au/returns",
@@ -1627,8 +1627,8 @@
       }
     },
     "evdnce": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -1655,7 +1655,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "free_shipping_threshold_hint": 250,
@@ -1667,11 +1667,11 @@
           "returns": "b7d6e0b0d16559da",
           "shipping": "b7d6e0b0d16559da"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 387,
         "discounted": 12,
         "share": 0.031,
@@ -1680,8 +1680,8 @@
       }
     },
     "aybl": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 3,
       "pages_tried": 3,
@@ -1748,22 +1748,22 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
-          "returns": "cb135e9f45ef5dcc",
-          "shipping": "25cd1151c4d86a9d"
+          "returns": "a02f555fe0d1e5ee",
+          "shipping": "0aae6e53c503af18"
         },
         "baseline_fingerprints": {
           "returns": "cb135e9f45ef5dcc",
           "shipping": "25cd1151c4d86a9d"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 2000,
         "discounted": 0,
         "share": 0.0,
@@ -1772,8 +1772,8 @@
       }
     },
     "glue-store": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -1800,7 +1800,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": false
       },
@@ -1811,7 +1811,7 @@
       }
     },
     "hoka": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -1822,11 +1822,11 @@
           "error": "HTTP 403 (likely bot protection)"
         }
       ],
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://help.au.hoka.com/hc/en-us/articles/4899736773657-WHAT-IS-YOUR-CHANGE-OF-MIND-RETURNS-POLICY",
@@ -1842,8 +1842,8 @@
       }
     },
     "jd-sports": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -1870,7 +1870,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.jd-sports.com.au/pages/terms-and-conditions",
@@ -1886,8 +1886,8 @@
       }
     },
     "on-running": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -1931,7 +1931,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -1942,7 +1942,7 @@
           "returns": "da39a3ee5e6b4b0d",
           "shipping": "da39a3ee5e6b4b0d"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -1951,8 +1951,8 @@
       }
     },
     "platypus": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -1996,7 +1996,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://help.platypusshoes.com.au/hc/en-us/articles/360045681613-WHAT-IS-YOUR-CHANGE-OF-MIND-RETURNS-POLICY",
@@ -2012,8 +2012,8 @@
       }
     },
     "rebel": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 3,
       "pages_tried": 3,
@@ -2078,7 +2078,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "free_shipping_threshold_hint": 150,
@@ -2090,7 +2090,7 @@
           "returns": "14703a5d3611824c",
           "shipping": "aef39c9787f7f7eb"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -2099,8 +2099,8 @@
       }
     },
     "represent": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -2122,7 +2122,7 @@
           "free_shipping_threshold_hint": null,
           "status": "NOT_ANNOUNCED",
           "confidence": "low",
-          "url": "https://row.representclo.com/?shpxid=bda6f2dc-ad55-454c-b0f3-7634b0206a32",
+          "url": "https://row.representclo.com/?shpxid=bf68a8c3-17f2-4b4a-a6b4-59d3b0617a4f",
           "title": "Luxury British Streetwear | Official Global Store®\n        | REPRESENT"
         },
         "https://row.representclo.com/pages/black-friday-faqs": {
@@ -2144,7 +2144,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -2155,11 +2155,11 @@
           "returns": "ab46d94d6b113741",
           "shipping": "ab46d94d6b113741"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 1206,
         "discounted": 0,
         "share": 0.0,
@@ -2168,8 +2168,8 @@
       }
     },
     "stax": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -2196,7 +2196,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -2205,7 +2205,7 @@
         "baseline_fingerprints": {
           "returns": "268fa8b3b32b9014"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -2214,8 +2214,8 @@
       }
     },
     "stussy": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -2242,7 +2242,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -2253,11 +2253,11 @@
           "returns": "b8f61ecb8cf81aa3",
           "shipping": "b8f61ecb8cf81aa3"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 869,
         "discounted": 7,
         "share": 0.008,
@@ -2266,8 +2266,8 @@
       }
     },
     "universal-store": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -2294,7 +2294,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -2305,21 +2305,21 @@
           "returns": "8678224d71b7696b",
           "shipping": "48c3853e57d67cd2"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 2000,
-        "discounted": 925,
-        "share": 0.463,
+        "discounted": 902,
+        "share": 0.451,
         "max_pct": 99,
         "capped": true
       }
     },
     "2xu": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -2365,7 +2365,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "free_shipping_threshold_hint": 80,
@@ -2377,21 +2377,21 @@
           "returns": "60016f5ad5c1599a",
           "shipping": "fe3562dfebc1d297"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
-        "products": 1034,
-        "discounted": 251,
-        "share": 0.243,
+        "checked_at": "2026-11-07T21:52:58+00:00",
+        "products": 1032,
+        "discounted": 249,
+        "share": 0.241,
         "max_pct": 71,
         "capped": false
       }
     },
     "bo-tee": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -2435,22 +2435,22 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
-          "returns": "9662a879f736836e",
-          "shipping": "b5679ee541268c32"
+          "returns": "92607714c635b4b1",
+          "shipping": "557e809b3c9bd762"
         },
         "baseline_fingerprints": {
           "returns": "9662a879f736836e",
           "shipping": "b5679ee541268c32"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 249,
         "discounted": 2,
         "share": 0.008,
@@ -2459,8 +2459,8 @@
       }
     },
     "country-road": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -2487,7 +2487,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "free_shipping_threshold_hint": 100,
@@ -2499,21 +2499,21 @@
           "returns": "444cc89aec6fc709",
           "shipping": "761267c85dc88ebd"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 2000,
-        "discounted": 83,
-        "share": 0.042,
+        "discounted": 81,
+        "share": 0.041,
         "max_pct": 70,
         "capped": true
       }
     },
     "foot-locker": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -2545,19 +2545,19 @@
           "discount_kind": null,
           "sitewide_hint": false,
           "code": null,
-          "future_language": false,
-          "early_access": false,
+          "future_language": true,
+          "early_access": true,
           "dates_seen": [],
-          "evidence": "xing Icons: 80s Unboxing Icons: 90s Unboxing Icons: 00s Unboxing Icons: Future FLX Rewards Sign In | Join FLX Black Friday Sale YOU'RE IN Keep an eye on your inbox for first access and exclusive FLX Rewards offers. VISIT MY DASHBOAR",
+          "evidence": "gift every year Be first in line with member-only sales Convert points into savings Sign in or join for free Black Friday Sale YOU'RE IN Keep an eye on your inbox for first access and exclusive FLX Rewards offers. s and be the firs",
           "free_shipping_threshold_hint": null,
-          "status": "NEEDS_CHECKING",
+          "status": "UPCOMING",
           "confidence": "low",
           "url": "https://www.footlocker.com.au/en/blackfriday.html",
           "title": "Black Friday Sale 2026 | Huge Deals on Sneakers, Clothing & Accessories | Foot Locker Australia"
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://help.footlocker.com.au/hc/en-gb/articles/34438200648219-Returns-Exchanges",
@@ -2580,8 +2580,8 @@
       }
     },
     "general-pants": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -2608,7 +2608,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -2619,11 +2619,11 @@
           "returns": "c51d132fbed584d8",
           "shipping": "a94214dc5607720c"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 2000,
         "discounted": 1873,
         "share": 0.936,
@@ -2632,8 +2632,8 @@
       }
     },
     "levis": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -2660,7 +2660,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -2671,11 +2671,11 @@
           "returns": "09dcc8df94e67d8a",
           "shipping": "f5d4c122de46178c"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 1211,
         "discounted": 0,
         "share": 0.0,
@@ -2684,8 +2684,8 @@
       }
     },
     "lorna-jane": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 3,
       "pages_tried": 3,
@@ -2705,7 +2705,7 @@
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": "ay Later Available Final Days! Lotus Leggings From $50 · Shop Now New Arrivals Featured Clothing Best Sellers Black Friday Collections New Arrivals Swimwear Sleepwear Workwear View All Clothing Inspiration Club Lorna Her Own Time Su",
+          "evidence": "Later Available Ends Tomorrow! Lotus Leggings From $50 · Shop Now New Arrivals Featured Clothing Best Sellers Black Friday Collections New Arrivals Swimwear Sleepwear Workwear View All Clothing Inspiration Club Lorna Her Own Time Su",
           "free_shipping_threshold_hint": 160,
           "status": "LIVE",
           "confidence": "medium",
@@ -2722,7 +2722,7 @@
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": "ay Later Available Final Days! Lotus Leggings From $50 · Shop Now New Arrivals Featured Clothing Best Sellers Black Friday Collections New Arrivals Swimwear Sleepwear Workwear View All Clothing Inspiration Club Lorna Her Own Time Su",
+          "evidence": "Later Available Ends Tomorrow! Lotus Leggings From $50 · Shop Now New Arrivals Featured Clothing Best Sellers Black Friday Collections New Arrivals Swimwear Sleepwear Workwear View All Clothing Inspiration Club Lorna Her Own Time Su",
           "free_shipping_threshold_hint": 160,
           "status": "LIVE",
           "confidence": "medium",
@@ -2739,7 +2739,7 @@
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": "ay Later Available Final Days! Lotus Leggings From $50 · Shop Now New Arrivals Featured Clothing Best Sellers Black Friday Collections New Arrivals Swimwear Sleepwear Workwear View All Clothing Inspiration Club Lorna Her Own Time Su",
+          "evidence": "Later Available Ends Tomorrow! Lotus Leggings From $50 · Shop Now New Arrivals Featured Clothing Best Sellers Black Friday Collections New Arrivals Swimwear Sleepwear Workwear View All Clothing Inspiration Club Lorna Her Own Time Su",
           "free_shipping_threshold_hint": 160,
           "status": "LIVE",
           "confidence": "medium",
@@ -2748,23 +2748,23 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "free_shipping_threshold_hint": 160,
         "fingerprints": {
-          "returns": "121d1abcd2119180",
-          "shipping": "5f4e5ab216a7c6f7"
+          "returns": "7f4835288be1d342",
+          "shipping": "4b1ee7efce6b2124"
         },
         "baseline_fingerprints": {
           "returns": "121d1abcd2119180",
           "shipping": "5f4e5ab216a7c6f7"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 2000,
         "discounted": 1732,
         "share": 0.866,
@@ -2773,8 +2773,8 @@
       }
     },
     "nimble": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -2786,9 +2786,9 @@
       "signals_by_url": {
         "https://nimbleactivewear.com/": {
           "bf_mentioned": false,
-          "discount_text": "10% off",
-          "discount_max_pct": 10,
-          "discount_kind": "flat",
+          "discount_text": "Up to 50% off",
+          "discount_max_pct": 50,
+          "discount_kind": "up_to",
           "sitewide_hint": false,
           "code": null,
           "future_language": false,
@@ -2820,7 +2820,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "free_shipping_threshold_hint": 175,
@@ -2832,11 +2832,11 @@
           "returns": "1a1fbc1df3f5e08a",
           "shipping": "f3466b27efca6f63"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 413,
         "discounted": 174,
         "share": 0.421,
@@ -2845,8 +2845,8 @@
       }
     },
     "pe-nation": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 5,
       "pages_tried": 5,
@@ -2946,7 +2946,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -2957,11 +2957,11 @@
           "returns": "0dee2aa72b9a0547",
           "shipping": "13a010d4b75d7540"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 1919,
         "discounted": 1380,
         "share": 0.719,
@@ -2970,7 +2970,7 @@
       }
     },
     "the-north-face": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -2985,11 +2985,11 @@
           "error": "HTTP 429 (likely bot protection)"
         }
       ],
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": false
       },
@@ -3000,8 +3000,8 @@
       }
     },
     "vuori": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -3028,7 +3028,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": false
       },
@@ -3039,8 +3039,8 @@
       }
     },
     "amazon": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 3,
       "pages_tried": 3,
@@ -3052,8 +3052,8 @@
       "signals_by_url": {
         "https://www.amazon.com.au/": {
           "bf_mentioned": true,
-          "discount_text": "38% off",
-          "discount_max_pct": 38,
+          "discount_text": "34% off",
+          "discount_max_pct": 34,
           "discount_kind": "flat",
           "sitewide_hint": false,
           "code": null,
@@ -3063,7 +3063,7 @@
             "17 Nov",
             "30 Nov"
           ],
-          "evidence": ". Prime is $12.99/month. Cancel anytime. Excludes select remote areas. Prime is $12.99/month. Cancel anytime. Black Friday Sale starts 17 Nov - 30 Nov Our boldest lineup yet New Amazon devices Shop deals ending soon Spider-Man Marve",
+          "evidence": ". Prime is $12.99/month. Cancel anytime. Excludes select remote areas. Prime is $12.99/month. Cancel anytime. Black Friday Sale starts 17 Nov - 30 Nov All-new Fire TV Stick 4K Give new life to your TV Shop deals ending soon OtterBox",
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
@@ -3106,16 +3106,16 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.amazon.com.au/gp/help/customer/display.html?nodeId=GZXW7X6AKTHNUP6H",
-            "error": "HTTP 503"
+            "error": "HTTP 403 (likely bot protection)"
           }
         ],
         "ok": false,
         "fingerprints": {
-          "returns": "98d2d67039a15074"
+          "returns": "00d725aec6a75e20"
         },
         "baseline_fingerprints": {
           "returns": "596e06c2bcf8244a"
@@ -3128,8 +3128,8 @@
       }
     },
     "elite-eleven": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -3156,7 +3156,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -3167,11 +3167,11 @@
           "returns": "e49eaf98f13492b3",
           "shipping": null
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 2000,
         "discounted": 127,
         "share": 0.064,
@@ -3180,8 +3180,8 @@
       }
     },
     "harvey-norman": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -3225,7 +3225,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -3234,7 +3234,7 @@
         "baseline_fingerprints": {
           "returns": "da39a3ee5e6b4b0d"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -3243,8 +3243,8 @@
       }
     },
     "jb-hifi": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -3288,7 +3288,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -3299,21 +3299,21 @@
           "returns": "da39a3ee5e6b4b0d",
           "shipping": "da39a3ee5e6b4b0d"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 2000,
-        "discounted": 10,
-        "share": 0.005,
+        "discounted": 8,
+        "share": 0.004,
         "max_pct": 49,
         "capped": true
       }
     },
     "samsung": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -3359,7 +3359,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -3370,7 +3370,7 @@
           "returns": "f4c0acef14798a27",
           "shipping": "0055f882a404e75e"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -3379,8 +3379,8 @@
       }
     },
     "adanola": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -3408,7 +3408,7 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 135,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -3419,11 +3419,11 @@
           "returns": "e7faf0892227f791",
           "shipping": "5c1af983271a963e"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 247,
         "discounted": 0,
         "share": 0.0,
@@ -3432,8 +3432,8 @@
       }
     },
     "alo-yoga": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -3461,34 +3461,31 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 75,
-        "checked_at": "2026-11-06T19:26:23+00:00",
-        "errors": [
-          {
-            "url": "https://www.aloyoga.com/pages/returns-exchanges",
-            "error": "HTTP 404"
-          }
-        ],
-        "ok": false,
+        "checked_at": "2026-11-07T21:52:58+00:00",
+        "errors": [],
+        "ok": true,
         "fingerprints": {
-          "shipping": "90de74cea392337a"
+          "shipping": "90de74cea392337a",
+          "returns": "567bdda15dbf2a36"
         },
         "baseline_fingerprints": {
           "shipping": "90de74cea392337a"
-        }
+        },
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "products": 491,
-        "discounted": 67,
-        "share": 0.136,
-        "max_pct": 42,
+        "discounted": 75,
+        "share": 0.153,
+        "max_pct": 60,
         "capped": false
       }
     },
     "apple": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -3515,7 +3512,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -3526,7 +3523,7 @@
           "returns": "b76e27b5bdda81ac",
           "shipping": "428cd89d1d889bfa"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -3535,12 +3532,17 @@
       }
     },
     "dell": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
-      "pages_ok": 2,
+      "pages_ok": 1,
       "pages_tried": 2,
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.dell.com/en-au/shop/lp/black-friday-deals",
+          "error": "HTTP 403 (likely bot protection)"
+        }
+      ],
       "consecutive_failures": 0,
       "discovered": [],
       "signals_by_url": {
@@ -3560,27 +3562,10 @@
           "confidence": "low",
           "url": "https://www.dell.com/en-au",
           "title": "Computers, Monitors & Technology Solutions | Dell Australia"
-        },
-        "https://www.dell.com/en-au/shop/lp/black-friday-deals": {
-          "bf_mentioned": false,
-          "discount_text": null,
-          "discount_max_pct": null,
-          "discount_kind": null,
-          "sitewide_hint": false,
-          "code": null,
-          "future_language": false,
-          "early_access": false,
-          "dates_seen": [],
-          "evidence": null,
-          "free_shipping_threshold_hint": null,
-          "status": "NOT_ANNOUNCED",
-          "confidence": "low",
-          "url": "https://www.dell.com/en-au?showmessage=1",
-          "title": "Computers, Monitors & Technology Solutions | Dell Australia"
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -3591,7 +3576,7 @@
           "returns": "8f4f6b58ec116cd5",
           "shipping": "65b6ef1fdb0d1f89"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -3600,8 +3585,8 @@
       }
     },
     "dyson": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -3628,7 +3613,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -3639,7 +3624,7 @@
           "returns": "d7727fb63ed8cffc",
           "shipping": "d7727fb63ed8cffc"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -3648,22 +3633,13 @@
       }
     },
     "hp": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-06T19:26:23+00:00",
-      "ok": false,
-      "pages_ok": 0,
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
+      "ok": true,
+      "pages_ok": 2,
       "pages_tried": 2,
-      "errors": [
-        {
-          "url": "https://www.hp.com/au-en/shop/",
-          "error": "HTTP 403 (likely bot protection)"
-        },
-        {
-          "url": "https://www.hp.com/au-en/shop/sale-offers.html",
-          "error": "HTTP 403 (likely bot protection)"
-        }
-      ],
-      "consecutive_failures": 2,
+      "errors": [],
+      "consecutive_failures": 0,
       "discovered": [],
       "signals_by_url": {
         "https://www.hp.com/au-en/shop/": {
@@ -3705,7 +3681,7 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 50,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -3716,7 +3692,7 @@
           "returns": "f8103301c0cf3a8d",
           "shipping": "f8103301c0cf3a8d"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -3725,7 +3701,7 @@
       }
     },
     "hype-dc": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -3736,11 +3712,11 @@
           "error": "disallowed by robots.txt"
         }
       ],
-      "consecutive_failures": 6,
+      "consecutive_failures": 7,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.hypedc.com/au/articles/faq/returns-faq",
@@ -3760,8 +3736,8 @@
       }
     },
     "lenovo": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 4,
       "pages_tried": 4,
@@ -3842,7 +3818,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -3853,7 +3829,7 @@
           "returns": "f87df41aae7f3116",
           "shipping": "f87df41aae7f3116"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -3862,8 +3838,8 @@
       }
     },
     "myer": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -3908,7 +3884,7 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 99,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -3919,7 +3895,7 @@
           "returns": "845ab76225fcdf8e",
           "shipping": "41859393dd9c2138"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -3928,8 +3904,8 @@
       }
     },
     "the-good-guys": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 5,
       "pages_tried": 5,
@@ -4029,7 +4005,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -4038,7 +4014,7 @@
         "baseline_fingerprints": {
           "returns": "e4fa6c9dad94a3f5"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -4047,8 +4023,8 @@
       }
     },
     "asus": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -4092,7 +4068,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://au.store.asus.com/rog/shopping-faqs",
@@ -4112,7 +4088,7 @@
       }
     },
     "bing-lee": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -4127,11 +4103,11 @@
           "error": "disallowed by robots.txt"
         }
       ],
-      "consecutive_failures": 6,
+      "consecutive_failures": 7,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.binglee.com.au/articles/help/returns-refunds-warranties-and-repairs/returns-policy",
@@ -4151,8 +4127,8 @@
       }
     },
     "bonds": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -4180,7 +4156,7 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 59,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -4191,7 +4167,7 @@
           "returns": "a2a033332ddf626a",
           "shipping": "f53e3ba43f214c60"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -4200,7 +4176,7 @@
       }
     },
     "converse": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
       "last_success": null,
       "ok": false,
       "pages_ok": 0,
@@ -4215,11 +4191,11 @@
           "error": "disallowed by robots.txt"
         }
       ],
-      "consecutive_failures": 6,
+      "consecutive_failures": 7,
       "discovered": [],
       "signals_by_url": {},
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [
           {
             "url": "https://www.converse.com.au/help/returns-policy",
@@ -4239,8 +4215,8 @@
       }
     },
     "david-jones": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -4267,7 +4243,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -4278,7 +4254,7 @@
           "returns": "da39a3ee5e6b4b0d",
           "shipping": "da39a3ee5e6b4b0d"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -4287,8 +4263,8 @@
       }
     },
     "garmin": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 3,
       "pages_tried": 3,
@@ -4351,7 +4327,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -4360,7 +4336,7 @@
         "baseline_fingerprints": {
           "returns": "6afa763c50d9eb55"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -4369,8 +4345,8 @@
       }
     },
     "logitech": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 2,
       "pages_tried": 2,
@@ -4414,7 +4390,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": false
       },
@@ -4425,8 +4401,8 @@
       }
     },
     "officeworks": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 3,
       "pages_tried": 3,
@@ -4490,11 +4466,11 @@
           "status": "NEEDS_CHECKING",
           "confidence": "low",
           "url": "https://www.officeworks.com.au/information/policies/onepass",
-          "title": "503 Service Temporarily UnavailableOnePass | Officeworks503 Service Temporarily Unavailable500 Internal Server Error"
+          "title": "OnePass | Officeworks"
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -4505,7 +4481,7 @@
           "returns": "0feeb58b380262ba",
           "shipping": "53555da2e4039da6"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -4514,8 +4490,8 @@
       }
     },
     "sony": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -4543,7 +4519,7 @@
       },
       "policy": {
         "free_shipping_threshold_hint": 200,
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -4554,7 +4530,7 @@
           "returns": "4d8f577bfa043963",
           "shipping": "ae74037e032f8acc"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -4563,8 +4539,8 @@
       }
     },
     "vans": {
-      "last_attempt": "2026-11-07T13:05:49+00:00",
-      "last_success": "2026-11-07T13:05:49+00:00",
+      "last_attempt": "2026-11-07T21:52:58+00:00",
+      "last_success": "2026-11-07T21:52:58+00:00",
       "ok": true,
       "pages_ok": 1,
       "pages_tried": 1,
@@ -4591,7 +4567,7 @@
         }
       },
       "policy": {
-        "checked_at": "2026-11-06T19:26:23+00:00",
+        "checked_at": "2026-11-07T21:52:58+00:00",
         "errors": [],
         "ok": true,
         "fingerprints": {
@@ -4600,7 +4576,7 @@
         "baseline_fingerprints": {
           "returns": "da39a3ee5e6b4b0d"
         },
-        "last_success": "2026-11-06T19:26:23+00:00"
+        "last_success": "2026-11-07T21:52:58+00:00"
       },
       "markdown": {
         "ok": false,
@@ -4611,31 +4587,31 @@
   },
   "http_cache": {
     "https://www.culturekings.com.au/": {
-      "etag": "W/\"page_cache:10233455:IndexController:93ac1fe72bc9bbfe147746172d01dfe7:971b2ea9cac1745024a624fe09e9ae06\"",
+      "etag": "W/\"page_cache:10233455:IndexController:8d4d0b74ccd18d975c3daa6dbddd9366:cca51f146d66248a91dc51a9fd34f1ed\"",
       "last_modified": null
     },
     "https://www.culturekings.com.au/pages/shipping-returns": {
-      "etag": "W/\"page_cache:10233455:PageDetailsController:86fca7469f29570275017c7d9a229fe9:17e0fe181239e74eafe9cc539f7ad8a4\"",
+      "etag": "W/\"page_cache:10233455:PageDetailsController:ebc45e6b72f9ce52917fd4e634aaaa33:37b05a0256daab35e5c569cd36af1eae\"",
       "last_modified": null
     },
     "https://au.gymshark.com/": {
-      "etag": "W/\"lp8de1pd3hv7vu\"",
+      "etag": "W/\"7uz3opm4glv7vq\"",
       "last_modified": null
     },
     "https://au.gymshark.com/pages/black-friday": {
-      "etag": "W/\"hbc303sppqx1z4\"",
+      "etag": "W/\"gpbufo6la7x1z4\"",
       "last_modified": null
     },
     "https://support.gymshark.com/en-US/article/returns-policy": {
-      "etag": "W/\"07236a7477c3d1d21caa14ef0b1c3ece\"",
+      "etag": "W/\"c406fcfdfd378e7b92620f6e592604f5\"",
       "last_modified": null
     },
     "https://support.gymshark.com/en-US/article/delivery-information": {
-      "etag": "W/\"b3c655a16fb4872a8f18b4fd254224d7\"",
+      "etag": "W/\"85e232e4b6c8cba87583b81f8099148a\"",
       "last_modified": null
     },
     "https://www.lskd.co/": {
-      "etag": "W/\"page_cache:9932004:IndexController:760b8b79f7af1c85ceca9aa80c25c249:e9f30024a5b395da5bf1af744d8039e0\"",
+      "etag": "W/\"page_cache:9932004:IndexController:7ec6d7b5cb4c91f92de9e9bce1185481:89906c199ad6acd555630e2e403c8d75\"",
       "last_modified": null
     },
     "https://lskd-au.gorgias.help/en-US/returns-policy-info-92275": {
@@ -4643,7 +4619,7 @@
       "last_modified": null
     },
     "https://www.nike.com/au/": {
-      "etag": "\"z7zvz8zzr684og\"",
+      "etag": "\"2mu9flah1u84og\"",
       "last_modified": null
     },
     "https://www.nike.com/au/help/a/returns-policy": {
@@ -4699,11 +4675,11 @@
       "last_modified": null
     },
     "https://au.manieredevoir.com/": {
-      "etag": "W/\"sfr:computation:v2:88835e52d7b952c6994bfac12761390af7e98f151b086c1540655284a79d0c7a:8d91c19398805540957a073512494db8\"",
+      "etag": "W/\"sfr:computation:v2:88dd055a0d301c089014878626d81199705a180a041dd6e8f9748c35c30c889e:76189a9b42d38f99daff5591bb0dd48d\"",
       "last_modified": null
     },
     "https://au.manieredevoir.com/pages/delivery-returns": {
-      "etag": "W/\"sfr:computation:v2:86523245e14ee9cce457ec4f04e2c0de2b48b83621923df43ab3402b6d60535d:6ba3572c9e7230867a4cdadbde62d390\"",
+      "etag": "W/\"sfr:computation:v2:6bcfa97b86983551d1caa5e2c4a9541aaba427e5cbd52b6ce6518deb14f95459:22976c3dccae091115917e8fa64d13a8\"",
       "last_modified": null
     },
     "https://au.myprotein.com/": {
@@ -4723,31 +4699,31 @@
       "last_modified": null
     },
     "https://au.ryderwear.com/": {
-      "etag": "W/\"sfr:computation:v2:2df3ab3bda7e92fa6dac8d12dba67c2893943967f227d26f9ddd275bc55c6b36:9e9691db28cd0f60465d7b486aaedf2c\"",
+      "etag": "W/\"sfr:computation:v2:76ab8c86608f2b5693856eb0da9c7c07ac8e7998bbe70f18559eb3afbde40325:765541f92aacbcf414c187b48081b11f\"",
       "last_modified": null
     },
     "https://au.ryderwear.com/pages/black-friday": {
-      "etag": "W/\"sfr:computation:v2:3d8dc91d3aa545bb87d73eff6c23dbb2ecbd6f8f2426630ff9c07f832f6d099b:f3ab5a88dbf32124c210a06096b63fa7\"",
+      "etag": "W/\"sfr:computation:v2:b849e89d7a4ba981abd50ad1d69a528be466491048b7ca309b89be96e3ff12f9:6da1512f5ce680b3d3286e82d03e84d7\"",
       "last_modified": null
     },
     "https://www.ryderwear.com/pages/returns": {
-      "etag": "W/\"sfr:computation:v2:9a86b47e44cdca1d1e3a4dd83c482e6b119e124af494da811e51595e5ea06f90:89a0fa8ed02f60224a9b08e4ddf0cef8\"",
+      "etag": "W/\"sfr:computation:v2:65b9eec5f3fdfb1bb0be16a8167b42480d3ceb56ad355482b25e7d2d498babdc:96734a8e5812bb6c28bda28d4b89d7dd\"",
       "last_modified": null
     },
     "https://salomon.com.au/": {
-      "etag": "W/\"sfr:computation:v2:67883be5482ed370ebedf16a8319ffb98b5e05179e4c98e2cd24c19083269296:2eb8e8ecf172e9d50ee94d59211576ab\"",
+      "etag": "W/\"sfr:computation:v2:462b542da663fe4c65222134e9aa4f76e53f35e4d8ad36548261d4c307f3716e:0121ead49dccbe29d7b541ffd3ad94eb\"",
       "last_modified": null
     },
     "https://salomon.com.au/collections/womens-black-friday": {
-      "etag": "W/\"sfr:computation:v2:893cb75130ac2fda2d2a5e593b532b2d1e516cbcb165bff38b2672921f552455:dbd2c82448f0d09e7f0da80bc2ba38dd\"",
+      "etag": "W/\"sfr:computation:v2:905660df8047be3d4d2b1561c33a737cda72ff6a0b58e2b214d78b0ed96ff706:18757f1aed0fd4340a90db672cb7db44\"",
       "last_modified": null
     },
     "https://salomon.com.au/pages/returns-2": {
-      "etag": "W/\"sfr:computation:v2:cc8b77da6215e103259e19c0eb7335218a2505ec381313f955a3a9aa5938db01:3d60a0ad49212235605db5f27001b786\"",
+      "etag": "W/\"sfr:computation:v2:80ad1c12d5bc4171f05378025100ab33537b10098e7d8720af32eb428cd31fe3:f588f37e6547840f5aa31c587ffe907d\"",
       "last_modified": null
     },
     "https://salomon.com.au/pages/shipping": {
-      "etag": "W/\"sfr:computation:v2:06dd75a0589474b95dedf4e319d6576927f51cbd0c6ae1797c60bc6a83ecdbba:0490a85957e1fcfbb16eb195be49c619\"",
+      "etag": "W/\"sfr:computation:v2:999c453602b2fd77104f03fed27cdde912afbeeb86992b6203ba08b083d364a1:49de77147830181f3c00cf11687d0eab\"",
       "last_modified": null
     },
     "https://au.youngla.com/": {
@@ -4759,7 +4735,7 @@
       "last_modified": null
     },
     "https://www.cos.com/en-au/customer-service/returns": {
-      "etag": "\"tk1yvbu67vc5xd\"",
+      "etag": "\"9zj1fgocyc740\"",
       "last_modified": null
     },
     "https://cottonon.com/AU/": {
@@ -4779,11 +4755,11 @@
       "last_modified": null
     },
     "https://echt.com.au/": {
-      "etag": "W/\"sfr:computation:v2:06187baae445ba76c251ae5285259727ebbee0695802919bc447942ebd27243e:d05bb6a8494153af8a521ceb067a562d\"",
+      "etag": "W/\"sfr:computation:v2:9bf774aae33130ec265dad49bbf9df073728c17daaf30c8060f69ea129b9fd71:2f30471239daf29498a6c3993f7c6e82\"",
       "last_modified": null
     },
     "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items": {
-      "etag": "W/\"sfr:computation:v2:49656a1d29ef734b1d38a657a8bc70bb07ff46506874ab8be77cce0b763b2e39:7167f5210bc3e8fb1e1047a9ad6d3a03\"",
+      "etag": "W/\"sfr:computation:v2:df19b24b80b7de05492ca1b83f0f269fa93c47348821478363bdfe9c4677ed9d:a8c93ad9e54f242b19814d93c73448a9\"",
       "last_modified": null
     },
     "https://echt.gorgias.help/en-US/how-do-i-return--exchange-an-item-430440": {
@@ -4791,35 +4767,35 @@
       "last_modified": null
     },
     "https://echt.com.au/pages/shipping-info": {
-      "etag": "W/\"sfr:computation:v2:2ac74e0c97b6862e20e7208b37d5a04270d4aac1ff876da8220fbc5366fb81d2:6fd5699772ecf4eaacabfb95da7516da\"",
+      "etag": "W/\"sfr:computation:v2:7d58d51719fc8a56920576d27dab283b00a7651d1f20169c647d4a6d20da2b86:15a6061c0c5f49f1875a25f32860ec4e\"",
       "last_modified": null
     },
     "https://musclenation.org/": {
-      "etag": "W/\"sfr:computation:v2:f1ef54255fafebf4372c21121d890bfb95bff36fd7eb2491513bf43288391aa2:62b1a0a3e6f38515e1ba729bee211379\"",
+      "etag": "W/\"sfr:computation:v2:88198ffff34e5371867e160b84ba59d69ab0b239e9765ab706c0cd62e8be5436:62b1a0a3e6f38515e1ba729bee211379\"",
       "last_modified": null
     },
     "https://musclenation.org/pages/black-friday-browse": {
-      "etag": "W/\"sfr:computation:v2:193b4dea26760080d30c7c6480ca77f3442bc36014a484217a4fd2e240f10353:62b1a0a3e6f38515e1ba729bee211379\"",
+      "etag": "W/\"sfr:computation:v2:895977adc66eccd869a6a1b14ec1a21be5a9795ef8d1a7f7b3dd1b02012c0d85:62b1a0a3e6f38515e1ba729bee211379\"",
       "last_modified": null
     },
     "https://musclenation.org/pages/returns-policy": {
-      "etag": "W/\"sfr:computation:v2:e96120f9c013c20602f619f4bb9c541b03f790cf218eac74cdc08736a98dbc5a:62b1a0a3e6f38515e1ba729bee211379\"",
+      "etag": "W/\"sfr:computation:v2:2778c7086e0e5ab2538b91406d4d9c562d6c99ad5e15f762597484512de46da6:62b1a0a3e6f38515e1ba729bee211379\"",
       "last_modified": null
     },
     "https://musclenation.org/policies/shipping-policy": {
-      "etag": "W/\"sfr:computation:v2:d8839e92f35f4f7b7d43673d4a76d8ad635fa1c45344f97b29ed087f5e9fe563:62b1a0a3e6f38515e1ba729bee211379\"",
+      "etag": "W/\"sfr:computation:v2:d73cfcce4511fdc4c2859f1971b0e6de6164e2e8cb8d46c2ddb38309eadbf60e:62b1a0a3e6f38515e1ba729bee211379\"",
       "last_modified": null
     },
     "https://au.oneractive.com/": {
-      "etag": "W/\"sfr:computation:v2:b74a3edf1c2e0fc3a31549b406d4c55384f6eb1258af090c71b229edb26b2d00:2c6d2a5e2ec0a13f5f9a8f042ab9580c\"",
+      "etag": "W/\"sfr:computation:v2:3d69c1704d98721f28ada02fd804bf99c16540df5436c6dea13ba1b2677f658e:0faeb2d303c71d7d6f86429b6a48aa45\"",
       "last_modified": null
     },
     "https://au.oneractive.com/pages/help-center/returns": {
-      "etag": "W/\"sfr:computation:v2:bc610287ff14dc910a93a7fd82c3365a786e3e2ca640c8e67b1332b07a7f1545:c96dc99e3e71789500b1b95f90482b4d\"",
+      "etag": "W/\"sfr:computation:v2:d099395cb8d4173b5ea6923b7af90a8efb4c7d98967fafa27ed0507df12147ae:931f0b71616c641e10ec31bbb63a38f2\"",
       "last_modified": null
     },
     "https://au.oneractive.com/pages/shipping-policy": {
-      "etag": "W/\"sfr:computation:v2:812babf1f51a51ce602d33a4efe790a851a413f9128946ea42fbec890b42ef26:ee9a9848dbb1e7f90cce7953f2903d23\"",
+      "etag": "W/\"sfr:computation:v2:7196fd33b0fa7ab3608f0d14120c93a7c5640564cf6c608ec832e0ac78984a44:50b8d17e494022d337ad9d52362dbfbe\"",
       "last_modified": null
     },
     "https://au.puma.com/au/en": {
@@ -4827,11 +4803,11 @@
       "last_modified": null
     },
     "https://au.puma.com/au/en/help/returns": {
-      "etag": "\"6dmk1s2hjufgqm\"",
+      "etag": "\"1mqoyzk41rfgq9\"",
       "last_modified": null
     },
     "https://www.reebok.com.au/": {
-      "etag": "W/\"sfr:computation:v2:45f560b0dad5b82388fb0ff1ba4bb39333600633b35d6d4cc1d5909a089d553a:612344aac471e2face6390069c23f600\"",
+      "etag": "W/\"sfr:computation:v2:06d557ccbb8dc5d6de606caeeebe20d370f294643616ac8cbd43ebd215075946:2bb98db21649d08448431f5228a1a86e\"",
       "last_modified": null
     },
     "https://www.underarmour.com.au/": {
@@ -4859,28 +4835,28 @@
       "last_modified": null
     },
     "https://au.oneractive.com/collections/shop": {
-      "etag": "W/\"sfr:computation:v2:837bafb4b2f0695e05349582955e53a8659a6a2373a5adb0696dffa65485777d:a40c380af351ed18512e56486da34855\"",
+      "etag": "W/\"sfr:computation:v2:dca4c53d8d525ad7e77fbe07ac0869f150286b82cf5496b2d0e0e0a1ea9b1977:7f470beb6c3e1d22ca13e0c719975d98\"",
       "last_modified": null
     },
     "https://evdnce.com/": {
-      "etag": "W/\"sfr:computation:v2:d671105b8b1b1c4f675b1cb9c83148f8134174a36045f514dfd330f446aa0f67:2fbfef3a880038166d40b7da4c8e38c0\"",
+      "etag": "W/\"sfr:computation:v2:45300c918998a22812c478de3deac5cfa0fbc4b8ff5d32c316918b1a63cd2dde:9878a16a7e7df4ef95b0e3edbf9ba970\"",
       "last_modified": null
     },
     "https://www.aybl.com/": {
-      "etag": "W/\"sfr:computation:v2:955d8e57973c5e79bc374988a54de4350fae2d172f3ad3a7dec4ded36d385ba5:bd557276e80109baa6db7400142afad6\"",
+      "etag": "W/\"sfr:computation:v2:1832292d3076b3a40bd3fe0bd5fbc33a2456772b5ed5848221a40bf60a11ede7:e06e79c5d5e1f6820b946cb24a40769b\"",
       "last_modified": null
     },
     "https://www.gluestore.com.au/": {
-      "etag": "W/\"page_cache:41353937050:PasswordController:0a6c4b085d87c6c3a242d1f0ad065c20:6818feb85fc6b9a51b3ee6b7a6145b47\"",
+      "etag": "W/\"page_cache:41353937050:PasswordController:942624118562418a36c7bde8f7e8cf95:2fd9547e4ee2ed2b365fa6fba41044d8\"",
       "last_modified": null
     },
     "https://www.jd-sports.com.au/": {
-      "etag": "W/\"sfr:computation:v2:ba5cd646b2370bc7f6b14a0a210376be17e6fd4482e0328eef7ed17b4bdf0923:0956f5074cb1fd80ca243f70c407e5fe\"",
+      "etag": "W/\"sfr:computation:v2:574be541ea94245f4dfc3030f663b8747dfc8b657dd9a1d6787d235a36f8fbdc:e62187e6710d0e24d7a945ced4930510\"",
       "last_modified": null
     },
     "https://www.on.com/en-au/": {
       "etag": null,
-      "last_modified": "Sat, 07 Nov 2026 13:05:59 GMT"
+      "last_modified": "Sat, 07 Nov 2026 22:00:50 GMT"
     },
     "https://www.platypusshoes.com.au/": {
       "etag": null,
@@ -4895,67 +4871,67 @@
       "last_modified": null
     },
     "https://stax.com.au/": {
-      "etag": "W/\"sfr:computation:v2:d2685027e7e17ce3d2711cf8f08a57b3f8615dc8e510300b7af94763e924419b:60f45c2cc87ad5ef5766ca599a231531\"",
+      "etag": "W/\"sfr:computation:v2:bd9a2c925fa1f4320819a579c6ec93a14cfe0da714aceb96a6c47ec5f28a3401:2bb44483349356d86c3ce0a0ca746685\"",
       "last_modified": null
     },
     "https://stussy.com.au/": {
-      "etag": "W/\"sfr:computation:v2:4c06ed9426505b56733aeee3060d7c76acc7a6d8012f608bdd630c5065bc68d7:3dc7734763ce67e7b3bf0e9023ecdda7\"",
+      "etag": "W/\"sfr:computation:v2:92fb17f3efe41e17105cd139c51dd7a342acf59038c9602963f305ecb756537b:355481cd4e21ea845104eb28a3d96538\"",
       "last_modified": null
     },
     "https://www.universalstore.com/": {
-      "etag": "W/\"sfr:computation:v2:4322611789bf81acee976f4aaf9649aebf0db3cc3c11bb009ef01b6caf83c26a:68100dd2b8ef259555f12b9c8e551447\"",
+      "etag": "W/\"sfr:computation:v2:6853ffaaf4a8342d5d7f7a604f53abddf5162a65c9ddde76014b38d5ec7e0d15:1aa9be569295df7c132dfa5369e0b0e5\"",
       "last_modified": null
     },
     "https://2xu.com/": {
-      "etag": "W/\"sfr:computation:v2:43cde04847941a035c7c256322f15feb39c8c93ab33b9cb4061da04f21763406:904de0e0dc508e519297cafa38c70add\"",
+      "etag": "W/\"sfr:computation:v2:bb4e9b6e9d4a40516a85ace0c4788484bbecda9ec04c5f2d03d01d995af784c7:5a8d10b5e7481e2880c662a54cad6bc4\"",
       "last_modified": null
     },
     "https://boandtee.com/": {
-      "etag": "W/\"sfr:computation:v2:e40487b1746d6471b9beab375a8ca8c4f30802a6a52c3d0f649d2c15d0326cf5:a9cb2f30e2d29527c54c3d822aff42a4\"",
+      "etag": "W/\"sfr:computation:v2:ad9c0c9690485ff60caf51c9f1f6eedcec69ee2aab182d6d13eab713d791aeb7:0fe2e5927675bd087c9d096abf7ea6bf\"",
       "last_modified": null
     },
     "https://www.countryroad.com.au/": {
-      "etag": "W/\"sfr:computation:v2:0819886a488c97e3a770e8ed0e652f43060e57fdfe4e0faf00c7f45e25a84250:665463aaea7c500f793c6bdadb8c9327:7b618e3de03fea6093961b8d6ee34bce\"",
+      "etag": "W/\"sfr:computation:v2:27f5aaf5ddac81e655fda8926087358321b4e89f51088e38a2c709df60c88316:1d4e13f756979a1bcf8538d7e427a7dd:7b618e3de03fea6093961b8d6ee34bce\"",
       "last_modified": null
     },
     "https://us.echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items": {
-      "etag": "W/\"sfr:computation:v2:49656a1d29ef734b1d38a657a8bc70bb07ff46506874ab8be77cce0b763b2e39:a0d6264c29b5762e275a06de584bf4a2\"",
+      "etag": "W/\"sfr:computation:v2:c210a82b195962f3324c6c06587a79de50084b6591a27ec4bde723e3bd122817:7972d04fcfd3eb4efe6b1b200a1e85fa\"",
       "last_modified": null
     },
     "https://us.echt.com.au/collections/men-black-friday-2026-up-to-70-off-selected-items": {
-      "etag": "W/\"sfr:computation:v2:63ade3217f514164ad127528062bb0206f160255660c4a65f98c054809cd5b6e:7a1fb3ccbc8b5fd93e615442eb5ed27a\"",
+      "etag": "W/\"sfr:computation:v2:38331542fee7dad0ac34699d35b40a21841d6c4705745cb11e857b820654d5c4:fb06b4ac7ac1bf58c7ed3b9702a7cabd\"",
       "last_modified": null
     },
     "https://us.echt.com.au/collections/black-friday-2026-nothing-over-20": {
-      "etag": "W/\"sfr:computation:v2:1494aa4b4a706754e685bc767d0f428612fa9106644374ad4731bffb3bd98e2f:d8af0577615ce9606e4d9f35a9f32fc4\"",
+      "etag": "W/\"sfr:computation:v2:022164192e14e84d8470573b7d64a920a3bae32803384e9a4e3bc81560ccaee7:9e7736056080ada94deb43fc392d35e1\"",
       "last_modified": null
     },
     "https://www.footlocker.com.au/": {
-      "etag": "W/\"c63f9-gyIYW8ypNGxTxuanBNBGtgporiY\"",
+      "etag": "W/\"c63f9-infndGMdlj1T9lSyuQvjJhufBKs\"",
       "last_modified": null
     },
     "https://www.generalpants.com/": {
-      "etag": "W/\"sfr:computation:v2:a2b064359ed3f1ebbe06773609892c34d2d7a31215f6189caf7bf3f1c4de8e43:6df154745fb0597bb07675aa13fd014d\"",
+      "etag": "W/\"sfr:computation:v2:6311fd561fb73a71a8597994bd090ddca2285b52a957a7fbd554cf1c9601b8f2:098a3cb3fe3a5b898718f9d5906bb392\"",
       "last_modified": null
     },
     "https://levis.com.au/": {
-      "etag": "W/\"sfr:computation:v2:36e230340bb3c1b3e42c4b2382b88835ca5b3d6f2c0a02f8f316a4c5e61bca20:d6aa3def7480231739c9a4de94bfa02d\"",
+      "etag": "W/\"sfr:computation:v2:e7b710299f9262f4e12451ee61189c79cf012dc6ae533d276b94558a5f7a4def:709a6a254a64c2647947f12704032bae\"",
       "last_modified": null
     },
     "https://www.lornajane.com.au/": {
-      "etag": "W/\"sfr:computation:v2:ef0674cefc4b966f00e728328407a2eab6d3b1b598f4268ff75c4b97b2c7b362:d49eac2bdfbefc25fb8ac668865e33f5\"",
+      "etag": "W/\"sfr:computation:v2:69800e2655dded8850c01b793e9fb8ba6148580e8bf4cb1d394969e89c221417:3ee328bb9b2ce88bab6d774878e6149d\"",
       "last_modified": null
     },
     "https://musclenation.us/pages/black-friday-browse": {
-      "etag": "W/\"sfr:computation:v2:193b4dea26760080d30c7c6480ca77f3442bc36014a484217a4fd2e240f10353:62b1a0a3e6f38515e1ba729bee211379\"",
+      "etag": "W/\"sfr:computation:v2:895977adc66eccd869a6a1b14ec1a21be5a9795ef8d1a7f7b3dd1b02012c0d85:62b1a0a3e6f38515e1ba729bee211379\"",
       "last_modified": null
     },
     "https://nimbleactivewear.com/": {
-      "etag": "W/\"sfr:computation:v2:aab598eab2ee50c203976673333a39c0d6645419ef9d07a6f15f1f41c1ba4632:58848653b79f48f9d536c21c1d9c856f\"",
+      "etag": "W/\"sfr:computation:v2:3b14a0f49c18a5bd4d7cfccdea9219cf88aa242f2ad67da8585a9ee14b144a76:dc1445141bb5e0fa006765ec2f4f4f7a\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/": {
-      "etag": "W/\"sfr:computation:v2:56ea3c8911fda01307ffb5f0c63d024280c07329c186359f18a165223614ec47:9968aee6af249ce3be45ca57bf892a30\"",
+      "etag": "W/\"sfr:computation:v2:5ac1dd8a47a9eaaaee47dd0565707586fdc032de5778cf479e2bc17d3435a15b:173fb3b83bafcd5c2e71f50bc08f41bb\"",
       "last_modified": null
     },
     "https://vuoriclothing.com/": {
@@ -4963,16 +4939,16 @@
       "last_modified": null
     },
     "https://www.aybl.com/pages/black-friday-2026": {
-      "etag": "W/\"sfr:computation:v2:9336747bec2078d52257bac81af5dceaab1bf539a70216471bc73b3621b8b447:c2b8cbd99815dd03363032417c6e755b\"",
+      "etag": "W/\"sfr:computation:v2:31c7e623a6f233e02d1e0e3c6b63d8b260f1e41f9ef1349cfd376c3b3871e865:55ac2bd63d83470aab436af29934c1f9\"",
       "last_modified": null
     },
     "https://www.aybl.com/pages/early-access": {
-      "etag": "W/\"sfr:computation:v2:f502ef37c2bb531160fa32c6a67b90c5c5feef7752e099673eed95d7dc63d39d:c4f02ca8a784c2d0bc315d172a727029\"",
+      "etag": "W/\"sfr:computation:v2:7606a119f3ae8d257eb5bb9e602d272d41d5976554ed4408d7082cd34f98ccaa:bdab035c77a14399cd39cebc90c5c9f4\"",
       "last_modified": null
     },
     "https://www.on.com/en-au/collection/black-friday": {
       "etag": null,
-      "last_modified": "Sat, 07 Nov 2026 13:08:17 GMT"
+      "last_modified": "Sat, 07 Nov 2026 22:00:53 GMT"
     },
     "https://www.platypusshoes.com.au/post/the-platypus-guide-to-black-friday-and-cyber-monday.html": {
       "etag": null,
@@ -4987,55 +4963,55 @@
       "last_modified": null
     },
     "https://au.representclo.com/": {
-      "etag": "W/\"sfr:computation:v2:1ff76c0f4ee46aa9eb84ca72376cf109d91eed5c25135c7eb9580410e12be785:6e7909dd4ae2d15f9cd54812834342ce\"",
+      "etag": "W/\"sfr:computation:v2:91566bcccb71a47c3a9ddf518001b59fe6b29f48c858c8a7a50c2bca3b0392de:84eba2dd09a869f6f31b7f0a5ea46a98\"",
       "last_modified": null
     },
     "https://row.representclo.com/pages/black-friday-faqs": {
-      "etag": "W/\"sfr:computation:v2:0187cb222ac245fe5db8be7130e749e8fb14dcfdfb2c6b669d69c9d7acf5a38b:0d55e61d09ab70d0fcdc64b47ed2ea9b\"",
+      "etag": "W/\"sfr:computation:v2:712c72ec7aded31254870e56bcb29ff35242ba828ef0ca2fea042d5103c7830b:dbe49b28043ca732686a35e38c807804\"",
       "last_modified": null
     },
     "https://2xu.com/pages/black-friday-early-access": {
-      "etag": "W/\"sfr:computation:v2:2266a47ee1f89da31b5f55355654fd90efcd18e71dcfd9c4234fccfaa93f21da:d1b290315a154ed005aa1b3a4138fca1\"",
+      "etag": "W/\"sfr:computation:v2:9f0ad737cd791218ae0fa4a965a411bb7962be8069f8b8c0720348f46e3d971a:a310760d48c474587e9c807dc5310b3d\"",
       "last_modified": null
     },
     "https://boandtee.com/pages/30-off": {
-      "etag": "W/\"sfr:computation:v2:89f7da8ad886ee433c0dd2f683443d254455068dfca738e153bce3e22d53818c:09c6400251383d219dd3511c5699bb4e\"",
+      "etag": "W/\"sfr:computation:v2:fb099890f09d7afcf316cffb598b8b7554d336d7312b3fa41b6067711f1d0ed9:bca2b00fcefc3438f5f8631fee0882de\"",
       "last_modified": null
     },
     "https://www.footlocker.com.au/en/blackfriday.html": {
-      "etag": "W/\"aa823-zz9pr7+F/wD6TQS0ZZ0hdvx4ADE\"",
+      "etag": "W/\"aa869-+ouqrgay4P+Rt2cb6qSeN4xIay8\"",
       "last_modified": null
     },
     "https://www.lornajane.com.au/collections/black-friday-event": {
-      "etag": "W/\"sfr:computation:v2:99dfbca99490ad3ff8a69fe6a7f0fb37555146f4de86ffce660c8225e7a07c52:99186c0d09052b79ba5cb6f77d7bd174\"",
+      "etag": "W/\"sfr:computation:v2:cf6d4a84b10f3f3d07c2d84174369869228d30da2087cf595375cd9db0b59a35:f2376b649e3e5771fcd04e6807c6a902\"",
       "last_modified": null
     },
     "https://www.lornajane.com.au/collections/black-friday": {
-      "etag": "W/\"sfr:computation:v2:1182a295c0ff721afdb18dd4b13fa67a56eac8a33a614e0a8a6c0cf4ec50eaed:cfae9f65e8e2c0944969507a9f4bc63a\"",
+      "etag": "W/\"sfr:computation:v2:3f804854a79ab3d279aa0eebb84b69e2e24535eb7ca8f0d9ef3942e33a483d00:bcc472dcd7877a45f16c46e4d0726066\"",
       "last_modified": null
     },
     "https://nimbleactivewear.com/pages/black-friday-sale": {
-      "etag": "W/\"sfr:computation:v2:93d5c1e281218ca4b2e7227ae60015a79e30c9336010e9b87406edcf6b7361f2:06251d369a13449768225fb44b39cdbf\"",
+      "etag": "W/\"sfr:computation:v2:cf82101f719e1630d7940945276105d0e612f6bec134650fc1e4471de0da2302:3749808728cab4fb8f70fd0389e60b48\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/pages/black-friday-faqs": {
-      "etag": "W/\"sfr:computation:v2:2ad96a1c077800b6a30c00e7358d45f1a2d4ca92eb773e210d64df03e778a4b5:2a9202786b1974310b4d5cb8f06a0dd1\"",
+      "etag": "W/\"sfr:computation:v2:1731e984aaf4c6547eb41ead924a5deecdff28d4864699e03590028b16858cf5:45026023c55ebadb7281205f5e075c1e\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/collections/black-friday-sale": {
-      "etag": "W/\"sfr:computation:v2:a07faecb0ea1afb898741af2f35b1e6a65746dcc0517b2e5da52d738a4798f22:81c29dad7c3429c2636a3fd2dda983c5\"",
+      "etag": "W/\"sfr:computation:v2:56129bd024178b73de2543efb38e79df50565ab1857f879d8b5a8610debbdf8b:ccf74556db34edf882874b620b955dec\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/en-us/collections/black-friday-sale": {
-      "etag": "W/\"sfr:computation:v2:a07faecb0ea1afb898741af2f35b1e6a65746dcc0517b2e5da52d738a4798f22:346f9458289a22fb0d17410313253124\"",
+      "etag": "W/\"sfr:computation:v2:56129bd024178b73de2543efb38e79df50565ab1857f879d8b5a8610debbdf8b:428857dc28337e8b24a95ea84f0cd44f\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/en-us/pages/black-friday-sign-up": {
-      "etag": "W/\"sfr:computation:v2:8ca94712fdb5ba1bd42686fab732a12ede7266dc6414c0250455b3aa278f58b4:72a740e773dbb0d4fc8ff09634b6e3a3\"",
+      "etag": "W/\"sfr:computation:v2:bb882d9c51924c8a1b6a71482fc62737e338f792789f4302a37643fa078079c4:571cb24edbcf2adfc80e9167fd4d9231\"",
       "last_modified": null
     },
     "https://vuoriclothing.com.au/": {
-      "etag": "\"iar4u2m8s8cte5\"",
+      "etag": "\"jt725sb26ectct\"",
       "last_modified": null
     },
     "https://www.amazon.com.au/": {
@@ -5051,83 +5027,83 @@
       "last_modified": null
     },
     "https://www.culturekings.com.au/products.json?limit=250&page=1": {
-      "etag": "W/\"page_cache:10233455:ProductListController:d8b1b2866c1429f4ea0179bfa579d93c\"",
+      "etag": "W/\"page_cache:10233455:ProductListController:0a570977fcf79a18cc60646f608cc31a\"",
       "last_modified": null
     },
     "https://www.culturekings.com.au/products.json?limit=250&page=2": {
-      "etag": "W/\"page_cache:10233455:ProductListController:df3712161798344cfdfdce3a667f11e9\"",
+      "etag": "W/\"page_cache:10233455:ProductListController:851570ca3edaaf3fb73b87a335195aeb\"",
       "last_modified": null
     },
     "https://www.culturekings.com.au/products.json?limit=250&page=3": {
-      "etag": "W/\"page_cache:10233455:ProductListController:4cda0e08b5939bbc7ce1ef85985e783e\"",
+      "etag": "W/\"page_cache:10233455:ProductListController:11bd8e3a2223c7ea5f371eeb40a162a4\"",
       "last_modified": null
     },
     "https://www.culturekings.com.au/products.json?limit=250&page=4": {
-      "etag": "W/\"page_cache:10233455:ProductListController:18adaf513fd3ad1e3daf71563b94d537\"",
+      "etag": "W/\"page_cache:10233455:ProductListController:887f535b0974fa546e63de6d79f3da74\"",
       "last_modified": null
     },
     "https://www.culturekings.com.au/products.json?limit=250&page=5": {
-      "etag": "W/\"page_cache:10233455:ProductListController:90e370321d5be30f0a51614f6745bc54\"",
+      "etag": "W/\"page_cache:10233455:ProductListController:92c6fe446d34807fcc06b3e3c12e8c92\"",
       "last_modified": null
     },
     "https://www.culturekings.com.au/products.json?limit=250&page=6": {
-      "etag": "W/\"page_cache:10233455:ProductListController:650b4beaaac01c87d7df90d21d10faf3\"",
+      "etag": "W/\"page_cache:10233455:ProductListController:ad9e3fe20febb243fee2bb153c3cb29f\"",
       "last_modified": null
     },
     "https://www.culturekings.com.au/products.json?limit=250&page=7": {
-      "etag": "W/\"page_cache:10233455:ProductListController:60bbffe343fcea790904f1839a1fe569\"",
+      "etag": "W/\"page_cache:10233455:ProductListController:25f47c7a979fb074aa2d91201277622f\"",
       "last_modified": null
     },
     "https://www.culturekings.com.au/products.json?limit=250&page=8": {
-      "etag": "W/\"page_cache:10233455:ProductListController:6b344f1f219498ca7e711ce992a43d10\"",
+      "etag": "W/\"page_cache:10233455:ProductListController:20f01354c483f934aeef036418203079\"",
       "last_modified": null
     },
     "https://eliteelevensporting.com/": {
-      "etag": "W/\"sfr:computation:v2:de90967568eca890c63883539355ffee415f3470680902c6bf2b2f9828414aa4:62b1a0a3e6f38515e1ba729bee211379\"",
+      "etag": "W/\"sfr:computation:v2:028558f035be4957e6a136897f991d7aa90ba0c1399a1e8e9a6ffd91281f1f49:62b1a0a3e6f38515e1ba729bee211379\"",
       "last_modified": null
     },
     "https://eliteelevensporting.com/pages/faqs": {
-      "etag": "W/\"sfr:computation:v2:66b0baa675d7a59b70c92328c5b50db7ca515a362c4007687c0ed4ede7bd67a2:62b1a0a3e6f38515e1ba729bee211379\"",
+      "etag": "W/\"sfr:computation:v2:d768c3e449a8e63b78b9ded456e2c70f5b2f2a38d218c1ffa0a7791e62e69f59:62b1a0a3e6f38515e1ba729bee211379\"",
       "last_modified": null
     },
     "https://eliteelevensporting.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:f25d59540996072a6eebe6ca009ddea4ffcbc2a0babbc4d8624f6837b412166b\"",
+      "etag": "W/\"sfr:computation:v2:6b67db5639bd26e898439e348e86081e20989ebd134a1362b6e21cc09223acf2\"",
       "last_modified": null
     },
     "https://eliteelevensporting.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:d7f2fe638aa74a19753f361c3586fb800556c78a8c5be4004e71f33518f0d0af\"",
+      "etag": "W/\"sfr:computation:v2:084bd93187498dee7ddd6aeb914e274a8e9e117a01f4505559cd54e45b1b9d31\"",
       "last_modified": null
     },
     "https://eliteelevensporting.com/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:ed20348d165261d5ab752da40a85f3caa61762d9e4a5973c584df4b6dc587015\"",
+      "etag": "W/\"sfr:computation:v2:19ca49a9105b50dc62b8a00b1e4c076ad7ee3e2927e638b3ab6428613dedead9\"",
       "last_modified": null
     },
     "https://eliteelevensporting.com/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:9313a343e3dc38c698998a7e2a0c5eedc4fd8eca4389110cc53cb671170b86ab\"",
+      "etag": "W/\"sfr:computation:v2:eafb640eae113c1977262689b99c5b75f1adb377c938e4b681edf5c3b6a94f2e\"",
       "last_modified": null
     },
     "https://eliteelevensporting.com/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:9544186367b2ed4c6feb2873d6bd6aa55f60782cca97d80e7bbc5eb5d10e55d4\"",
+      "etag": "W/\"sfr:computation:v2:41fac231232820f162c8f7cc6f6cdacb7d0c832f48e5aca076d5fd75a2eabe80\"",
       "last_modified": null
     },
     "https://eliteelevensporting.com/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:4b856ddbea126479cbf03309ee58e8bfea89c4e294ed149fbb882773afb01e03\"",
+      "etag": "W/\"sfr:computation:v2:543a2939d911c8c34adad82ab19ba5720e32864a104b8ca7957069f9d0f4b292\"",
       "last_modified": null
     },
     "https://eliteelevensporting.com/products.json?limit=250&page=7": {
-      "etag": "W/\"sfr:computation:v2:85cfe15b12fd6715ddb1e5655658d2f9fc2877e0b65d98389d26c0809d3cc954\"",
+      "etag": "W/\"sfr:computation:v2:e7942a848dbcd7989ea108a934b10550fa711aaaaea1e6b8edf877ccce739a28\"",
       "last_modified": null
     },
     "https://eliteelevensporting.com/products.json?limit=250&page=8": {
-      "etag": "W/\"sfr:computation:v2:93a0e0ef1488f3e1d1b48289fb8711211acb498100fba1307559c3f449dfd857\"",
+      "etag": "W/\"sfr:computation:v2:b6e26ef39e9cee4cfcb2b8b1453ed3450c97b8138bd611da457e384d31b0b6aa\"",
       "last_modified": null
     },
     "https://evdnce.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:295e2852a74145ee6d4ad0404cb5a750f74c895d5757081526b2601324930ff0\"",
+      "etag": "W/\"sfr:computation:v2:14ad9fa84f2651cdf93a6dec38123f7e9458fa99f5061e10eac9b2e072167c04\"",
       "last_modified": null
     },
     "https://evdnce.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:a1a10665a8de0e618b7d421838fe4c35dc186326b94a6410ed7aa55988664f0c\"",
+      "etag": "W/\"sfr:computation:v2:a15f05014a09590d24c45db8b7b638e159af0e3c594b0f2431c493d3bd26842a\"",
       "last_modified": null
     },
     "https://www.harveynorman.com.au/": {
@@ -5159,72 +5135,72 @@
       "last_modified": null
     },
     "https://www.jbhifi.com.au/products.json?limit=250&page=1": {
-      "etag": "W/\"page_cache:2498035810:ProductListController:83188288e1d1f8ae06cfcd260ae2b4be\"",
+      "etag": "W/\"page_cache:2498035810:ProductListController:49ee43c258d4f321d204d642d39b576a\"",
       "last_modified": null
     },
     "https://www.jbhifi.com.au/products.json?limit=250&page=2": {
-      "etag": "W/\"page_cache:2498035810:ProductListController:2b332b401f264b5be3e822f960ffda23\"",
+      "etag": "W/\"page_cache:2498035810:ProductListController:c5bcdfd42a5d9d73c2692407f74c4a8b\"",
       "last_modified": null
     },
     "https://www.jbhifi.com.au/products.json?limit=250&page=3": {
-      "etag": "W/\"page_cache:2498035810:ProductListController:434049bc90a59c7e5618b50845c7f45d\"",
+      "etag": "W/\"page_cache:2498035810:ProductListController:0216cb8f0a4900b6eaa922be13b674ec\"",
       "last_modified": null
     },
     "https://www.jbhifi.com.au/products.json?limit=250&page=4": {
-      "etag": "W/\"page_cache:2498035810:ProductListController:d39ac9a608d013b867ed8b83d281baaf\"",
+      "etag": "W/\"page_cache:2498035810:ProductListController:b7658c5ad41ede9f22a593c35a4800df\"",
       "last_modified": null
     },
     "https://www.jbhifi.com.au/products.json?limit=250&page=5": {
-      "etag": "W/\"page_cache:2498035810:ProductListController:4974fc5446e40963255395b29ebe59e1\"",
+      "etag": "W/\"page_cache:2498035810:ProductListController:bb0aae51d9ef6c95cae5dcbbc6b8761d\"",
       "last_modified": null
     },
     "https://www.jbhifi.com.au/products.json?limit=250&page=6": {
-      "etag": "W/\"page_cache:2498035810:ProductListController:73ec8167c0f118ca905047eacf2071dc\"",
+      "etag": "W/\"page_cache:2498035810:ProductListController:4a5be2dfd98deef0944bcf95cc912f2a\"",
       "last_modified": null
     },
     "https://www.jbhifi.com.au/products.json?limit=250&page=7": {
-      "etag": "W/\"page_cache:2498035810:ProductListController:ebcc0a0b2a9d3547354457216c4f7017\"",
+      "etag": "W/\"page_cache:2498035810:ProductListController:cdd658f47b81c87d47d2017acfdb0efb\"",
       "last_modified": null
     },
     "https://www.jbhifi.com.au/products.json?limit=250&page=8": {
-      "etag": "W/\"page_cache:2498035810:ProductListController:7072b0a01c5904493e79f7d5d537bc0b\"",
+      "etag": "W/\"page_cache:2498035810:ProductListController:c9fad4acf84370b3f6bd96714e073a70\"",
       "last_modified": null
     },
     "https://www.lskd.co/products.json?limit=250&page=1": {
-      "etag": "W/\"page_cache:9932004:ProductListController:7f4a6d9b9864e16273479c942a6ba7fb\"",
+      "etag": "W/\"page_cache:9932004:ProductListController:085c7aa1ca4b4a8d4ccc76a7af916ba7\"",
       "last_modified": null
     },
     "https://www.lskd.co/products.json?limit=250&page=2": {
-      "etag": "W/\"page_cache:9932004:ProductListController:802fabeec83d95bf89be9c4eba011ca7\"",
+      "etag": "W/\"page_cache:9932004:ProductListController:556bf39d0c746a0eccdedc489dbbb23a\"",
       "last_modified": null
     },
     "https://www.lskd.co/products.json?limit=250&page=3": {
-      "etag": "W/\"page_cache:9932004:ProductListController:32fea7e5d3416b88ef6269379e5962fb\"",
+      "etag": "W/\"page_cache:9932004:ProductListController:8aeae3ceba60a3d1b0f2a8094c77a3fd\"",
       "last_modified": null
     },
     "https://www.lskd.co/products.json?limit=250&page=4": {
-      "etag": "W/\"page_cache:9932004:ProductListController:88adebe9988b22ed29d957f6e6ef726f\"",
+      "etag": "W/\"page_cache:9932004:ProductListController:bd227547907d81431832cb981c473acf\"",
       "last_modified": null
     },
     "https://www.lskd.co/products.json?limit=250&page=5": {
-      "etag": "W/\"page_cache:9932004:ProductListController:e6f5568acfb6295a2107276a472a92af\"",
+      "etag": "W/\"page_cache:9932004:ProductListController:ce4425103efe4150e483439d669de3c0\"",
       "last_modified": null
     },
     "https://www.lskd.co/products.json?limit=250&page=6": {
-      "etag": "W/\"page_cache:9932004:ProductListController:393a8388cbdcfe2027820a2adfac0c94\"",
+      "etag": "W/\"page_cache:9932004:ProductListController:95d5a65c16a7c7db2e3ce2cf945afad8\"",
       "last_modified": null
     },
     "https://www.lskd.co/products.json?limit=250&page=7": {
-      "etag": "W/\"page_cache:9932004:ProductListController:068ef11e6354c20d674bdac340a53eac\"",
+      "etag": "W/\"page_cache:9932004:ProductListController:3352ae79ae738b9f48cc04849efa39c4\"",
       "last_modified": null
     },
     "https://www.lskd.co/products.json?limit=250&page=8": {
-      "etag": "W/\"page_cache:9932004:ProductListController:04de502472aa7103285a6ce13f901e28\"",
+      "etag": "W/\"page_cache:9932004:ProductListController:31b6d542012aa5b0cc288d37d7c40e0a\"",
       "last_modified": null
     },
     "https://www.samsung.com/au/": {
-      "etag": "W/\"7276e-65faf280ab1e8\"",
-      "last_modified": "Sat, 07 Nov 2026 12:49:15 GMT"
+      "etag": "W/\"725fb-65fb62d502690\"",
+      "last_modified": "Sat, 07 Nov 2026 21:11:49 GMT"
     },
     "https://www.samsung.com/au/offer/black-friday-sale/": {
       "etag": "W/\"b87d0-65fa5417f8658\"",
@@ -5239,55 +5215,55 @@
       "last_modified": "Wed, 04 Nov 2026 14:27:10 GMT"
     },
     "https://adanola.com/en-au": {
-      "etag": "W/\"page_cache:21564663:IndexController:b65d5ceabcd437122640d2602b9d05d9:62b1a0a3e6f38515e1ba729bee211379\"",
+      "etag": "W/\"page_cache:21564663:IndexController:ed2f11b8a1e7a858b13eaa5fce6f5063:0d037cde874f4cd76389103a710574d2\"",
       "last_modified": null
     },
     "https://adanola.com/en-au/pages/returns": {
-      "etag": "W/\"page_cache:21564663:PageDetailsController:1ecff21905c03fd2c757600bdda8a545:62b1a0a3e6f38515e1ba729bee211379\"",
+      "etag": "W/\"page_cache:21564663:PageDetailsController:3e4e19cf610f34018d36c201e54b8775:6ebf4775520e033893c9773fda1786dd\"",
       "last_modified": null
     },
     "https://adanola.com/pages/worldwide-shipping": {
-      "etag": "W/\"page_cache:21564663:PageDetailsController:e7da88c212b860ef39bf30e9439b6032:62b1a0a3e6f38515e1ba729bee211379\"",
+      "etag": "W/\"page_cache:21564663:PageDetailsController:c71886df2d9da3c86ef069258e222e56:8dfec6509f096481016b09f5d0cee301\"",
       "last_modified": null
     },
     "https://adanola.com/products.json?limit=250&page=1": {
-      "etag": "W/\"page_cache:21564663:ProductListController:8afa191abf1621a895f6834cf84933f9\"",
+      "etag": "W/\"page_cache:21564663:ProductListController:dc4df6cd3a8468ce83b425b81079c8d3\"",
       "last_modified": null
     },
     "https://www.aloyoga.com/en-au": {
-      "etag": "W/\"page_cache:21852813:IndexController:12f715f7f3e96a7325be09d6414079d2:cf0b7a8fe1bc289567d80402ecdbdef1\"",
+      "etag": "W/\"page_cache:21852813:IndexController:eca2dd1ad6defdfd42f9786acefa09fb:18f6be658891ff3312331c21dac12d34\"",
       "last_modified": null
     },
     "https://www.aloyoga.com/pages/shipping-info": {
-      "etag": "W/\"page_cache:21852813:PageDetailsController:1f5b4186a63d16e08212a6058ff84c01:e6da59e0653eaa1d937d131f59f89354\"",
+      "etag": "W/\"page_cache:21852813:PageDetailsController:689b084cd20a90f2f18c643ee12f487d:c9d9943c8ee1d66819f0d16f8cd17ce0\"",
       "last_modified": null
     },
     "https://www.aloyoga.com/products.json?limit=250&page=1": {
-      "etag": "W/\"page_cache:21852813:ProductListController:a6dd65e7aa43e1567e465f335521e755\"",
+      "etag": "W/\"page_cache:21852813:ProductListController:0b0946ee1563f24212e01861720f5759\"",
       "last_modified": null
     },
     "https://www.aloyoga.com/products.json?limit=250&page=2": {
-      "etag": "W/\"page_cache:21852813:ProductListController:fbb5201358b9eb2c9572e7ef9d71a5d7\"",
+      "etag": "W/\"page_cache:21852813:ProductListController:9dfff8ab6d6ba85e8a74af8974d219a9\"",
       "last_modified": null
     },
     "https://alphaleteathletics.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:4edb13c32d2b75c115468be8c3de50b795f6bb6052726baaa85d3da91a49abe6\"",
+      "etag": "W/\"sfr:computation:v2:cf729a4a9be3b16f636b59d4c55daa7b4222e8a790ab4551c81d71a05379b567\"",
       "last_modified": null
     },
     "https://alphaleteathletics.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:80fb0480e779f1c06313bf55ffeebd00e1b616cf31f5691d568cc8ea4cc18ea8\"",
+      "etag": "W/\"sfr:computation:v2:c18d804f4da772ef3fa26ad6c0bc91bb25763eb0f648d1489042398829218a73\"",
       "last_modified": null
     },
     "https://alphaleteathletics.com/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:c25f70508c53c0e74ebb159e41f2441091808135bef8556f3090363e7b447726\"",
+      "etag": "W/\"sfr:computation:v2:97ce412459266d6fb91b9d8a430d27c6904038e53b7e07322b22285925fb9d2e\"",
       "last_modified": null
     },
     "https://alphaleteathletics.com/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:781b06698617f63ff718db58466d66ce8d09cf331ecf73d74c8f16f15c5311c2\"",
+      "etag": "W/\"sfr:computation:v2:3f2ea86156131df94e1eb6aaeff16969bb7edf2df19d37ae476bc0d7b2ac7bc7\"",
       "last_modified": null
     },
     "https://alphaleteathletics.com/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:3f46debcd3c553d53abebe5cc499423736cb4e3c658fe05a9ec702144076bb15\"",
+      "etag": "W/\"sfr:computation:v2:8ef60892e4b57852fec82d19c0282d1604e7d07eba72a96313079416d8786ceb\"",
       "last_modified": null
     },
     "https://www.apple.com/au/": {
@@ -5295,43 +5271,43 @@
       "last_modified": null
     },
     "https://www.apple.com/au/shop/help/returns_refund": {
-      "etag": "\"ed13a610a589a07d46194842dce6edcb\"",
-      "last_modified": "Fri, 06 Nov 2026 19:29:23 GMT"
+      "etag": "\"8750de4a1ff2e6bad5f31a638c013f67\"",
+      "last_modified": "Sat, 07 Nov 2026 21:30:26 GMT"
     },
     "https://www.apple.com/au/shop/help/shipping_delivery": {
-      "etag": "\"212fa3b5506c1cc83f1c55a2bf549a44\"",
-      "last_modified": "Fri, 06 Nov 2026 19:16:22 GMT"
+      "etag": "\"6b6d87634223d4fba885f222339b3153\"",
+      "last_modified": "Sat, 07 Nov 2026 21:57:04 GMT"
     },
     "https://www.aybl.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:bd68abd51aa20452cf52039771d3df15160b359bceb89d60c3caf27c5b8e3183\"",
+      "etag": "W/\"sfr:computation:v2:44de2fccf2b9b40acf28721c8e69abde63781e29b1635c04b25acbfa13bdaec9\"",
       "last_modified": null
     },
     "https://www.aybl.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:2ceb7c3d1285ddbe9fefe1c6e4fcc5e9666e911f3cad06efbd4688573b198adc\"",
+      "etag": "W/\"sfr:computation:v2:101dbe839aedfa3cb665b81c9cc86241710f55cd4d4e759541a3578b683b0c56\"",
       "last_modified": null
     },
     "https://www.aybl.com/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:df7a70667765234e5b8b0f3862533064a388216488b815f296ed080b5ed1115e\"",
+      "etag": "W/\"sfr:computation:v2:55b54f6da46d43a5f38191d622033d79abfac48864c6441f3c845813c0febc10\"",
       "last_modified": null
     },
     "https://www.aybl.com/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:8a5817f5757200c297cd3a7fedceb84f0e48184ad12732933551ca6eb21adc01\"",
+      "etag": "W/\"sfr:computation:v2:abb59ea75832a5be72271e0c83626f7b1c93c65c0581be6d691ab896b98504db\"",
       "last_modified": null
     },
     "https://www.aybl.com/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:e91e6b82ec6042c0fe08e953503d9cfbcb2cc4640fd2b5c9ce0ab534c9e7ce24\"",
+      "etag": "W/\"sfr:computation:v2:b133e31c780463ed309a9fb2c9a8c37cd3a776508959566a6d1320444a4a3989\"",
       "last_modified": null
     },
     "https://www.aybl.com/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:5fa473316de137f3cf71896bca1beb4fe7d44bb58a395732a27cb5a2c0f27df8\"",
+      "etag": "W/\"sfr:computation:v2:7d872e6fcdf75e715eeb9c6f00a401a348f36a0471cbd0c3a3830395cde9acc9\"",
       "last_modified": null
     },
     "https://www.aybl.com/products.json?limit=250&page=7": {
-      "etag": "W/\"sfr:computation:v2:84a5be0b21baaa3f6af640164defebc07287282937575e9300e4bc091b8f853f\"",
+      "etag": "W/\"sfr:computation:v2:21a33cd5c12eb3e9ebc653d0e758139c00978ca0e3f7c48146a0f08977e59bed\"",
       "last_modified": null
     },
     "https://www.aybl.com/products.json?limit=250&page=8": {
-      "etag": "W/\"sfr:computation:v2:d76a3e76612ff5f41b8670d7e01cc84d668406b21286fcd31523e7185c13c17a\"",
+      "etag": "W/\"sfr:computation:v2:b627b76f0b4db155ec7aec061c7867be584f887ffe7b6676d24354de3593b933\"",
       "last_modified": null
     },
     "https://www.dell.com/en-au": {
@@ -5379,43 +5355,43 @@
       "last_modified": null
     },
     "https://au.manieredevoir.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:7a579e66a85f5b6f62677b5424e54234440ad888d442fa8cff87fa368b2daf39\"",
+      "etag": "W/\"sfr:computation:v2:ffa2020621ab8106a967cac08732979ba3d4763c7177cf2e9ecf7f7135c358fe\"",
       "last_modified": null
     },
     "https://au.manieredevoir.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:fd0d54e386dd7f283fb2523351ca8645cc88cc9381b299836d689e97e75838f6\"",
+      "etag": "W/\"sfr:computation:v2:3a13f6543538ca11d2a81d09f704dca38a25b132116ff3bab06e4a847373df14\"",
       "last_modified": null
     },
     "https://au.manieredevoir.com/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:8d710688549662f0d979cd5dec572972078e2c22a45e8ac206bc19e06d00030c\"",
+      "etag": "W/\"sfr:computation:v2:dc0443a352f791f469fb1770720d4fa0da2962eaa3d082a2515cec9cad1c7ecd\"",
       "last_modified": null
     },
     "https://au.manieredevoir.com/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:59f5354b34ce29faedcce41dd5c43390f2a0581b316362b2b0d79084fc72d46f\"",
+      "etag": "W/\"sfr:computation:v2:f945a9ee1a1712d8a4727ac3cc12cb4c0758c0b38ccabed803616f0a045c76b7\"",
       "last_modified": null
     },
     "https://au.manieredevoir.com/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:798d4c2bc8fb407eceeda92dfda929f658aab9ebd79b1bd77207700c82275cfb\"",
+      "etag": "W/\"sfr:computation:v2:f182f19242a2c02d32558138d50d78acb630285f4ed239e9d641f652e276d1e4\"",
       "last_modified": null
     },
     "https://au.manieredevoir.com/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:aed1159879d60ec7f1ed696c70366d4d6c7a3be47fce057e52de60c8bbf2b057\"",
+      "etag": "W/\"sfr:computation:v2:9c25c1e7f4ad3ffac1a3c63437b829ccb82bfa2b845d8cf6c4cf98ae584926a0\"",
       "last_modified": null
     },
     "https://www.myer.com.au/": {
-      "etag": "\"2dp7q3lahq11h5w\"",
+      "etag": "\"mo0lw0t9m411g8k\"",
       "last_modified": null
     },
     "https://www.myer.com.au/content/black-Friday": {
-      "etag": "\"ygajk7j1a5ujj7\"",
+      "etag": "\"7724einchduilv\"",
       "last_modified": null
     },
     "https://www.myer.com.au/content/returns-policy": {
-      "etag": "\"x05fxru5hpmy6z\"",
+      "etag": "\"1066ttdb96gmx9n\"",
       "last_modified": null
     },
     "https://www.myer.com.au/content/payment-and-delivery": {
-      "etag": "\"12c5044t95imss8\"",
+      "etag": "\"amjrvn02ommruw\"",
       "last_modified": null
     },
     "https://www.on.com/products.json?limit=250&page=1": {
@@ -5423,99 +5399,99 @@
       "last_modified": "Thu, 05 Nov 2026 10:40:57 GMT"
     },
     "https://au.representclo.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:ff75867bcfbb2ca5cf990b14fb92a0eab72e9d8967e1933b79b0b30ba6a17ebc\"",
+      "etag": "W/\"sfr:computation:v2:ed747379405bd119a326845c8bf50360b3d64724a74d39454308aea846677dff\"",
       "last_modified": null
     },
     "https://au.representclo.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:e006e9f24bb23ff6addf3fb6cb191520c65503cc0e8fa5a605f4d2322a38fda6\"",
+      "etag": "W/\"sfr:computation:v2:2cd1336faedb74b0a949d0123259327d3e1e637fddd111672598729d2a03e899\"",
       "last_modified": null
     },
     "https://au.representclo.com/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:5405de2abdf716ff5cd99c3d313307c831e1b44f2edecbc1905c3c7b8b1617cf\"",
+      "etag": "W/\"sfr:computation:v2:553aef61388a277c64ddd51df1bbd6444ca4f70b88ef09541cdb59ca986cb404\"",
       "last_modified": null
     },
     "https://au.representclo.com/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:c8b500b2850b6f816ef62096afc0aae46d3f2a0b1c64a0314df2d35e14fd106e\"",
+      "etag": "W/\"sfr:computation:v2:fd8c0efd231f9ef954d643663d3d198f47e6d702d723fdf1ac9cbfdcf65eaa24\"",
       "last_modified": null
     },
     "https://au.representclo.com/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:aa549230ede75e31b042b258e3fe75653f59e5f52f666c3d6bc711a24e6af2c2\"",
+      "etag": "W/\"sfr:computation:v2:13b6cc62b3f18ab8ddc5d29c86adb767c666fe5c7c6f59e99f4e4224bc90e5a9\"",
       "last_modified": null
     },
     "https://au.ryderwear.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:081cf1ecb3c2410a52180640c2b034113ebcd70aeb722bf3b0fb7c5558bccd52\"",
+      "etag": "W/\"sfr:computation:v2:8c0bc7c0d9f726f55e8bfc2aa5ae2a71e38a91f97bc0fb0327fa37884d634927\"",
       "last_modified": null
     },
     "https://au.ryderwear.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:efb76ca5cfc59aa424cf13ed80c5cfad8eb90db00a0f303b1ee33f0000fe680d\"",
+      "etag": "W/\"sfr:computation:v2:75b2ed0f985060fb507069610c2e25cf1158e3fb418cba3024c74dfd9248f2ca\"",
       "last_modified": null
     },
     "https://au.ryderwear.com/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:a795721dcf6875f60023daae34125a30f5b03a92ce86b74fb5778d5022efd328\"",
+      "etag": "W/\"sfr:computation:v2:f0ddb5d63a847a6ea79b51620d393c6ea2c3cdc7a339c46e2e55bbc229b06519\"",
       "last_modified": null
     },
     "https://au.ryderwear.com/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:04e4717e53cfc2bfbba7dd7974510671fbf675cf701108d538cb0fb2d48c0d1c\"",
+      "etag": "W/\"sfr:computation:v2:417f427b0d20484c9fe564621b67b7fda55c7dbea3e0880ac936eb621ddbbd16\"",
       "last_modified": null
     },
     "https://au.ryderwear.com/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:2e9c601a5bcb1fdad7c3b1b4649660f52796af906e25cca0937644bb91c93edb\"",
+      "etag": "W/\"sfr:computation:v2:172463f977124c64ae7a860a741ed88900745d804f9b5f6693d59690c8aeb86d\"",
       "last_modified": null
     },
     "https://au.ryderwear.com/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:f6d5ad1849a5844778a6b0feef6ca08d0880517e555f2fdbb9f9b76c1620fa89\"",
+      "etag": "W/\"sfr:computation:v2:307350d96794c4c304d042cc1dcaa536c4045168fd21aeb8e5b50c5b80588321\"",
       "last_modified": null
     },
     "https://au.ryderwear.com/products.json?limit=250&page=7": {
-      "etag": "W/\"sfr:computation:v2:4141487d9b6ada79811ef694a5519c9f689bcce595a2d406795da144832cc32e\"",
+      "etag": "W/\"sfr:computation:v2:02f8723dd65f81a8b6ea5b391447b9ebb26cc5c0ce7b7cd0e115a5146d2764e2\"",
       "last_modified": null
     },
     "https://au.ryderwear.com/products.json?limit=250&page=8": {
-      "etag": "W/\"sfr:computation:v2:8212b63bfbbea9cd9cef4993f56dc9279226511fd4f9a8d3c14a25b749cc917c\"",
+      "etag": "W/\"sfr:computation:v2:f686d98e8c2eb9a192c1678f110642236c3bcca998db0dc5019fadb56e7000f2\"",
       "last_modified": null
     },
     "https://salomon.com.au/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:14ff92a77d1dc85a94a068363dba0d56a432bcff274f2436a40b47dd70005e63\"",
+      "etag": "W/\"sfr:computation:v2:e143debbab7224a848938cddadd0ae1f8495ba57a688a5d70bf6fe823b01006c\"",
       "last_modified": null
     },
     "https://salomon.com.au/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:e88c3b3e4eb580ee06e8422afc05bef5327b01e42d313d03b4692fcd950e4ca3\"",
+      "etag": "W/\"sfr:computation:v2:2eadc7732dbbdd348bf8a9260891c251c7d4009eaa6c6482199a64cab7f975f5\"",
       "last_modified": null
     },
     "https://salomon.com.au/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:7433165e4fc5e84eb827d3ebfcfbd7887135b3a3ab4704a6c7d10c163fa3d7d1\"",
+      "etag": "W/\"sfr:computation:v2:17ad2eff9a6a1da7992824594bae437420dbc817b6dce12c0cbaa79fcccaf556\"",
       "last_modified": null
     },
     "https://salomon.com.au/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:b2d28256e8241fc3412fc45a3e9268d71de52b341d6603596e1991cb953753ff\"",
+      "etag": "W/\"sfr:computation:v2:69b6b8aa42989e6d5a1fd192ecc866ff0cefdcaaca588125c1e242fddf416e68\"",
       "last_modified": null
     },
     "https://salomon.com.au/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:980d68b6138757aeb89853c5e80dfd4bb33a0564fc71f38aee5d22e6a1c22785\"",
+      "etag": "W/\"sfr:computation:v2:1d49354a06b4daf2ff4fda8058a3b1de4e558ccc90bdab61e56567f7efb02804\"",
       "last_modified": null
     },
     "https://salomon.com.au/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:f13a063a630d3c41d37568f1ceafa04a1fc80d03230fa0ce976c7a7b630ee10c\"",
+      "etag": "W/\"sfr:computation:v2:603ff95f516dd2531c98f99c9344c98dca86b1d23931e54bd8b64d280111d04f\"",
       "last_modified": null
     },
     "https://salomon.com.au/products.json?limit=250&page=7": {
-      "etag": "W/\"sfr:computation:v2:d455fd0e2f3aeda78833345a7c11fb5879c7e0f67e09053ab1ae6c879befdaa7\"",
+      "etag": "W/\"sfr:computation:v2:f7c06b0e38dbda291c280319e7abe0ab51fa7a1f75abd350f3f80622a2816ee1\"",
       "last_modified": null
     },
     "https://stussy.com.au/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:3e7ecfbbb0f3ae1eb2ac2b8dcf4464302c041ed700c868f79fe29abdeb4ac3ef\"",
+      "etag": "W/\"sfr:computation:v2:dd55900679bc5ce609a3c697d8b69ac3b3237da799392bd5f531b273ac41e63d\"",
       "last_modified": null
     },
     "https://stussy.com.au/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:0e08b46f8d4c2b373c6a9901eb9d17d0918eb64a1758c88f3b4f91011e121e20\"",
+      "etag": "W/\"sfr:computation:v2:3905e3be73dc9ded48213eaa9ebece47b385474d410b923e2c802111aa5d812a\"",
       "last_modified": null
     },
     "https://stussy.com.au/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:0bc6acf7f660cc0cbdadb5d11b92309b172ee19885928af4097efc22a694270d\"",
+      "etag": "W/\"sfr:computation:v2:080485a1eb4a0f390d5054f7398959c3056e59fd59db7a6200c12871aa81c0f0\"",
       "last_modified": null
     },
     "https://stussy.com.au/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:2c0769f0405c2fc4f1c4d3de6fc7b33fd14c9c23d4e8036ade3e664d9192341e\"",
+      "etag": "W/\"sfr:computation:v2:7602624100aab1746d6d31770369dca24e4e52a5a04a50db09095349efe788fa\"",
       "last_modified": null
     },
     "https://www.thegoodguys.com.au/": {
@@ -5531,59 +5507,59 @@
       "last_modified": null
     },
     "https://www.universalstore.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:92ffe58222bd83e298ba82daaf8e8d8ca7f1b43a6b53e9af59e9f470eb09d507\"",
+      "etag": "W/\"sfr:computation:v2:0e6a0c0b0162dacc1cc97581fadf1326e20eb31e1eee2ec95c440ae52ccfe9ab\"",
       "last_modified": null
     },
     "https://www.universalstore.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:45122ad6330917db9ce4ff060482c723f173ecc5808e8e5d42598975b4be1935\"",
+      "etag": "W/\"sfr:computation:v2:ab6d2a4bc2d2a6ffd3c42cedd5f246db27bcb78f23f586a807a884c441aec38a\"",
       "last_modified": null
     },
     "https://www.universalstore.com/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:ec8234cb5899c4a9ed50fb20b4ed258480f97f039a27c270e77a16bcf1fc35d7\"",
+      "etag": "W/\"sfr:computation:v2:6a18b7f607f7f7593f688c5e0b8a13c68d9c16f041802a4caa108d844fe933e8\"",
       "last_modified": null
     },
     "https://www.universalstore.com/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:fc25c1d90b14505e8cec720150976217f9eed7fcbcd45bd86d74a34a3b532e68\"",
+      "etag": "W/\"sfr:computation:v2:66db0750b7efdfc8e134547dce0e2873a835054ea08d88cf504766bf0ba71c6e\"",
       "last_modified": null
     },
     "https://www.universalstore.com/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:d336477b39d0a046b05ba55b7a59f7c6f230bce576492ca241280c4fb48c2a44\"",
+      "etag": "W/\"sfr:computation:v2:6245b3267cdcc1a2ff6fdb37355bbfa0b21862c183266505bebee6ca06e32a03\"",
       "last_modified": null
     },
     "https://www.universalstore.com/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:72c6e743be0933aca3e8f2167aab424abce31cfe3d7f04819f3dd7a2b1c60abe\"",
+      "etag": "W/\"sfr:computation:v2:6494707225c6e78ada8591f64ae41d1d13fe85019807153b135c24233766294b\"",
       "last_modified": null
     },
     "https://www.universalstore.com/products.json?limit=250&page=7": {
-      "etag": "W/\"sfr:computation:v2:936ea89f0cea046dc1c96ff6c88cb33feeda3efba914192b4bf17d710fbef562\"",
+      "etag": "W/\"sfr:computation:v2:f39fa8e40386eb9b1cab14ccdb68d3e334941ab2b965b54d3929850947993d33\"",
       "last_modified": null
     },
     "https://www.universalstore.com/products.json?limit=250&page=8": {
-      "etag": "W/\"sfr:computation:v2:3b98abfbd11092880899bb4273e98761ff86839ea3f9219bc2715bafc1d70465\"",
+      "etag": "W/\"sfr:computation:v2:fe1c09cd58e73af5a540e7382c61991437afba362a4bfdc041a92dedec646a54\"",
       "last_modified": null
     },
     "https://au.youngla.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:31800b6d9af8ed40b6b05df2aed4dab9b03d3141730d80ea203da48121b2fffd\"",
+      "etag": "W/\"sfr:computation:v2:c5147aa2a36ed52ea3f9ce48f6a9e277a504fb2109641e9af140e0cf967d868d\"",
       "last_modified": null
     },
     "https://2xu.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:f1732408daa57d84ee9ccd09876ee375ec04f64d4e5a06dbb525e67f18b9926f\"",
+      "etag": "W/\"sfr:computation:v2:a7f1ae373f965b988732c866cf759f3f57b04dfd22834ed0ad014bbac6fd4454\"",
       "last_modified": null
     },
     "https://2xu.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:18e1e9a1e154e08ae896a973b327aae8aac1bf968e7f4c8684d979ce53c01530\"",
+      "etag": "W/\"sfr:computation:v2:82523c3601bfdc6543a8e1f179aa1db435154192004215101ed8f891d8a1bbf3\"",
       "last_modified": null
     },
     "https://2xu.com/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:96519b05ef9e0b393f5b1a6f24983ddd57060cf31a988a0936cc8a63b3acfd20\"",
+      "etag": "W/\"sfr:computation:v2:43159a2b3825b1ba1bf98332939cb3bb3fe543690d55fc56470a5857b8354f3a\"",
       "last_modified": null
     },
     "https://2xu.com/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:01c033e8f1cade0d796d36ef067b3ca220c3ad80fbf3cf15812f063e1383a508\"",
+      "etag": "W/\"sfr:computation:v2:04621e63f3fbde1a7df563ac7e59f705ba36bb6916517b87ddacebf6f8fd0334\"",
       "last_modified": null
     },
     "https://2xu.com/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:1149123a4b8446aca9d27434ec92ab3181fa898ec001e9d1c14ddf1a0bd7cdb8\"",
+      "etag": "W/\"sfr:computation:v2:ed68a780a48fd641ba1d1341393b6f8a3451eb27c7fc16bae5f755c80c5d5087\"",
       "last_modified": null
     },
     "https://www.asus.com/au/": {
@@ -5595,7 +5571,7 @@
       "last_modified": null
     },
     "https://boandtee.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:f2e875abc7dc32c455359c976dca956dec11db3dbe861554d3418cb22c76b864\"",
+      "etag": "W/\"sfr:computation:v2:a1ca74b1424b6a0a41a6d68639946a08938562c67e00d5eb37d117fbc51e19a9\"",
       "last_modified": null
     },
     "https://www.bonds.com.au/": {
@@ -5611,35 +5587,35 @@
       "last_modified": null
     },
     "https://www.countryroad.com.au/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:397c960411dc2d8b8b7f86e99370d224cc20ed82825fb19c5d28c5b89ae6c880\"",
+      "etag": "W/\"sfr:computation:v2:f78b4cbf586c35243f47f856e5a770ffbf50f406099506af8daab37ffdb8be75\"",
       "last_modified": null
     },
     "https://www.countryroad.com.au/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:a09af63ceb62555d49b1e6e5b0858266f60af772cd55f470f7be31ed468cac2e\"",
+      "etag": "W/\"sfr:computation:v2:6227f06ea714c64cc0865c43ffb4fd17cb17c6c0f655b660324ce2e49d4c223e\"",
       "last_modified": null
     },
     "https://www.countryroad.com.au/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:ed58100f99defd0cf2dc0d824a193d66389ed2ccfb239b0bfcf09e048b8b6645\"",
+      "etag": "W/\"sfr:computation:v2:b83fad6b495566ea3364a868af34b9a54a988ed521b6dc2e5c1ad0ade06aa0a9\"",
       "last_modified": null
     },
     "https://www.countryroad.com.au/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:f8226fadddf50d2db0a3fa986c357eb1dee5bd91f6f93f5aa1f4ad22e2f59749\"",
+      "etag": "W/\"sfr:computation:v2:7f13e5e19c67bb57c4a7f7a68c9fc7e151fa81dcc4bd8d9e3ccdcfe14ee0a147\"",
       "last_modified": null
     },
     "https://www.countryroad.com.au/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:5e46ede99745a81ee1c7324875dca3e35d77738d0b19c56cb4944178d71fa934\"",
+      "etag": "W/\"sfr:computation:v2:455424ca7ec18e6e721e5a8e69c0420a1d2b2a13fbbd81deafd8a932a36944c5\"",
       "last_modified": null
     },
     "https://www.countryroad.com.au/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:5b763387896ca04a44086febe2a87796448c6cb113a3b9c99a0b6eca2576ce48\"",
+      "etag": "W/\"sfr:computation:v2:8cea55a43915019d173b0e22cf039f9603b51c3850827846792d4ab993f1833f\"",
       "last_modified": null
     },
     "https://www.countryroad.com.au/products.json?limit=250&page=7": {
-      "etag": "W/\"sfr:computation:v2:e708ef5c4618bb3121d1f5bbcee982b928661116d49ad515ec0aaeeaff870db4\"",
+      "etag": "W/\"sfr:computation:v2:04074e78d16078118acf8040ee7fe092db81cff8b2b4d8d9ba5242e47214e33f\"",
       "last_modified": null
     },
     "https://www.countryroad.com.au/products.json?limit=250&page=8": {
-      "etag": "W/\"sfr:computation:v2:b8e6fa5aaac1768d49f11a20650fd21b1ffbcf121cc70302f1b8d7edadc70cf5\"",
+      "etag": "W/\"sfr:computation:v2:cd078d93fc381e45a6ae0318a1b99a716b99b6d26c68a0740413bd24e99eb155\"",
       "last_modified": null
     },
     "https://www.davidjones.com/": {
@@ -5659,19 +5635,19 @@
       "last_modified": null
     },
     "https://echt.com.au/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:39f3cbcd6849208e45bcc17ff2f8e6eed3db2b4165833cd2c0fa450614408ea0\"",
+      "etag": "W/\"sfr:computation:v2:6911b5b2f5ba3623432c1919f9233cdcd025a1b0e7e89c3b52f1a4c2338cec6b\"",
       "last_modified": null
     },
     "https://echt.com.au/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:6a5bd870707d1b33f39c25925d03d9822576c6001d16807cdaf138bce9a730ab\"",
+      "etag": "W/\"sfr:computation:v2:e3284d2bd106bc147df9af7d33258f69d46e57c40e2639024587cb905dc5d98a\"",
       "last_modified": null
     },
     "https://echt.com.au/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:7add4ae2f7e3d26b87a955d3c0e0ff72ac504f5f480d9e807524bd5de0a4a070\"",
+      "etag": "W/\"sfr:computation:v2:aab13f77aaf0a526d12e0b7bff3a520f0bdf1df8c0b3407d7fa1fed1091dc30f\"",
       "last_modified": null
     },
     "https://echt.com.au/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:f5b9dfd4d700c66bb96422c5f3857d9b3b722d4e1560eedf3f89b67172d53a75\"",
+      "etag": "W/\"sfr:computation:v2:6340ba8deb1ddd64b6fd5c1bf5665fe1ca8ec747e83a200a2a287fe9ec625616\"",
       "last_modified": null
     },
     "https://www.footlocker.com.au/products.json?limit=250&page=1": {
@@ -5691,63 +5667,63 @@
       "last_modified": null
     },
     "https://www.generalpants.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:f9936167dbffc5d6b74ae39ca1ba6d34ff2529651bbe318f73f501408e57cac3\"",
+      "etag": "W/\"sfr:computation:v2:e18c01f4cf85281dedf21eb18a13d713f661ce0cc550d49fe36381ef5e99a533\"",
       "last_modified": null
     },
     "https://www.generalpants.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:97a028254b8ef56fc9bb5120d9de0b4397065e2effc6348f2108c8bd8c2c70d0\"",
+      "etag": "W/\"sfr:computation:v2:a0a83cbcbd6c248ed563be1268b3c77374e75a2efb4d0ee5c0708fa2e1906d21\"",
       "last_modified": null
     },
     "https://www.generalpants.com/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:cdb463262f5e681faa02b8d493b498fb7a4d11fde609575efff28e3858d6d9b0\"",
+      "etag": "W/\"sfr:computation:v2:ca2742feb6c10c530b613cfba7ce98a6963fd854c2fdb257398f591ee707ac93\"",
       "last_modified": null
     },
     "https://www.generalpants.com/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:030cefbebb380b82cdb78a9309f4379fb1999d319e41805d4ba6cc7654ad8825\"",
+      "etag": "W/\"sfr:computation:v2:7fe75ba521b6924e4eccdf6a16c33597c907a0cde04f62c6d64399df623755fb\"",
       "last_modified": null
     },
     "https://www.generalpants.com/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:a62ff192fb5670c707474d0e4f728f1d5f78e0810ee8643cdb8152110dca004a\"",
+      "etag": "W/\"sfr:computation:v2:17cfb4da1e2b08ca43ad37148dcf33477d7354b7cfea1490b7c774544cb32b01\"",
       "last_modified": null
     },
     "https://www.generalpants.com/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:28ffb915f4bec392c92bc4808bbb0acefc5a9cba4e9d81949d53b12ee0be0c77\"",
+      "etag": "W/\"sfr:computation:v2:11e24e3bc089edf8cb7867f5821b1c8234e2996f52780c441fa701479c21e3f9\"",
       "last_modified": null
     },
     "https://www.generalpants.com/products.json?limit=250&page=7": {
-      "etag": "W/\"sfr:computation:v2:c277aee1b5fa7eafefa0272a7770481654222382999ee7cff3a50280e824fc48\"",
+      "etag": "W/\"sfr:computation:v2:770da2285f7b0281e5556344858a64298e59fd62988384eabe0eee4c0be7eb88\"",
       "last_modified": null
     },
     "https://www.generalpants.com/products.json?limit=250&page=8": {
-      "etag": "W/\"sfr:computation:v2:bf2865a4290538462e62b5ca9af25b21850fe436131f0837f933f487c6276818\"",
+      "etag": "W/\"sfr:computation:v2:f193c9e45bfc0a60f8fdabdb591c12275559216351e59da1bf3ea77dcc143bfa\"",
       "last_modified": null
     },
     "https://levis.com.au/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:9e3685ce2c8e1e1e2f35129970d6468329cc2e4e9d35ad8cac25d282ce904ab4\"",
+      "etag": "W/\"sfr:computation:v2:9d276148328380f0fab9f9368fb9e067136302497bb54766d0c953c3b314da78\"",
       "last_modified": null
     },
     "https://levis.com.au/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:dc94e33f6d27e404bf23afd930c753281347bd4bb4948d3cf4146e5d767d298f\"",
+      "etag": "W/\"sfr:computation:v2:02d1cc1272fe1ddfb0817498d69b6a771b4b99ad7b3a16e15c1e4e427213fc77\"",
       "last_modified": null
     },
     "https://levis.com.au/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:7456b2a80335df8740c6e6cbe5d76560ca7dc286f23b9e6c89d60d0740f07a51\"",
+      "etag": "W/\"sfr:computation:v2:7cfd5ac3ccf83ac7c4264e7fb06a856b2477e6312dd270bbe6529534a3333f77\"",
       "last_modified": null
     },
     "https://levis.com.au/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:dab1f7149bc0f080cbef18a506d4043f29aa1c41eadc3916cfa48274632076b4\"",
+      "etag": "W/\"sfr:computation:v2:198345e9abe75d83d7ce10251b5ad931c009143cd6f47d77230fba2339748f45\"",
       "last_modified": null
     },
     "https://levis.com.au/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:8268cc13fafb482564d00a27786c4cd823fec40eb66ad2759cd42b157fe3c8e2\"",
+      "etag": "W/\"sfr:computation:v2:d1fd648ed3017bf8700b90e7fa5b293f73da0de52fb569691bfc308effa3d1a1\"",
       "last_modified": null
     },
     "https://www.logitech.com/en-au": {
-      "etag": "W/\"ic4nd5\"",
+      "etag": "W/\"14tawxr\"",
       "last_modified": null
     },
     "https://www.logitech.com/en-au/shop/deals": {
-      "etag": "W/\"160w007\"",
+      "etag": "W/\"15ioxn9\"",
       "last_modified": null
     },
     "https://www.logitech.com/products.json?limit=250&page=1": {
@@ -5755,75 +5731,75 @@
       "last_modified": null
     },
     "https://www.lornajane.com.au/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:2ef7bb7c5c65d89d31eab742b7a8fbd89085be20b284b3075cc003aff198ee46\"",
+      "etag": "W/\"sfr:computation:v2:d7c2ad683e399e4c46c833a04ffd1ba2012e98714ead2f693c615921860ac59a\"",
       "last_modified": null
     },
     "https://www.lornajane.com.au/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:a913b49901660537ce8c8c0803b39d67a44d6ba2f9cddecc47d40aa152d3779e\"",
+      "etag": "W/\"sfr:computation:v2:21cf6a21d345c90188796f5bf7ee53df765b0d41992a4504dd52c776d0e6a1bc\"",
       "last_modified": null
     },
     "https://www.lornajane.com.au/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:0593109103f92f542c7f2fc8d3171327e1f0fcd45a99cf2f75f16b51c715718d\"",
+      "etag": "W/\"sfr:computation:v2:ddb79cdbbe639e69d0bae7e6e24b2c0e9a3beb824fa5618a29003cac9af961d0\"",
       "last_modified": null
     },
     "https://www.lornajane.com.au/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:0cbc0e960d419bf6c73fa850a7f2341674e7626b0e6a9747beb334201be7aac1\"",
+      "etag": "W/\"sfr:computation:v2:19259e45b280d5a6fef6063c442832e9703b2d052f3d5a0cbe0b606fd3653300\"",
       "last_modified": null
     },
     "https://www.lornajane.com.au/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:902168d8b5643a88999b4f533ea4e20abb965540650e438cc5809447dc9fc013\"",
+      "etag": "W/\"sfr:computation:v2:2d0cf7ab5b2453144736cc4f269075510872c95a50b2593de21b6b844feffc77\"",
       "last_modified": null
     },
     "https://www.lornajane.com.au/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:5da3d56202162d0bc6bbc58479762bd5983b83fafd13ca25fd45fc0daa533934\"",
+      "etag": "W/\"sfr:computation:v2:423100fd0e50ecaf50db06f6c26efec7b4867ff10e58b982fe4cb055f23e2691\"",
       "last_modified": null
     },
     "https://www.lornajane.com.au/products.json?limit=250&page=7": {
-      "etag": "W/\"sfr:computation:v2:816e075ec1a468ad0a90e5d3cb287a202c57d4f4d36de57a5c3ff0179ee95897\"",
+      "etag": "W/\"sfr:computation:v2:7cc1fbde2f5d614e7c5812ff4408680e47823fbe2e19c7d2f5b7d3b404bc55bc\"",
       "last_modified": null
     },
     "https://www.lornajane.com.au/products.json?limit=250&page=8": {
-      "etag": "W/\"sfr:computation:v2:1751930738a4f26ae2afdb151bcf9cf062115a879dac7de8b2e06033165ed1e8\"",
+      "etag": "W/\"sfr:computation:v2:e06d0c493f1ca590b7f8bd9195c9acbe9a81788ddabe7f28d1dbf35211a82eb5\"",
       "last_modified": null
     },
     "https://musclenation.org/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:d60e8e609ff5c9cc1d190fe42a0f6a3a745dc918b4b1ed27d568913a5a65688f\"",
+      "etag": "W/\"sfr:computation:v2:8e67cb713dd32a308572fbac16426f6c48cbef1b70de6070b70cfb0b05836134\"",
       "last_modified": null
     },
     "https://musclenation.org/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:c5fd9eb741f97287b7da575337cb229c1a107bdf84d8e4a2ebf9e19c57f67736\"",
+      "etag": "W/\"sfr:computation:v2:dcb23589e6ba00e553e1e83dc6e2298fe8f8ded70c063a6c119a41971b67742d\"",
       "last_modified": null
     },
     "https://musclenation.org/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:3f7aef6acb7ecba299de3ec907d5e8877f53233a680de5a4d98dfec499d59429\"",
+      "etag": "W/\"sfr:computation:v2:bc80646f8410ce93e3c012750b786c4e7d292102af52d555dcd07e7c01c0854f\"",
       "last_modified": null
     },
     "https://musclenation.org/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:617c93bd1b43ec7c84160d19f603955f249564ce046e612b496f33640d0fc8db\"",
+      "etag": "W/\"sfr:computation:v2:365b5b394a888c3cc6159c30f96d8d183a5ff1c30b4e71706f2cdc5a5f9758a7\"",
       "last_modified": null
     },
     "https://musclenation.org/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:7e58996568dbdb35d9ed57a01e61117d28af3c0992ddea5f711b584d7bce5abc\"",
+      "etag": "W/\"sfr:computation:v2:b6ccb8d00641d5059a96c5e5da8e57a32e16bc91c0f9a2435818e13766dd3ef8\"",
       "last_modified": null
     },
     "https://musclenation.org/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:31bff0000d4726b6c7d8c1eedbb47aaa547d1b1a1e8429438481a54a647df84a\"",
+      "etag": "W/\"sfr:computation:v2:52b5bdc370a7075478ff9d709fe6fd47fb8ba035d19f0c34b11db04ed10ba70a\"",
       "last_modified": null
     },
     "https://musclenation.org/products.json?limit=250&page=7": {
-      "etag": "W/\"sfr:computation:v2:349d6fc73bbf2dc4e01dae5c7ddd1fcfbd1588234220200137046a8c8a1189c9\"",
+      "etag": "W/\"sfr:computation:v2:38c861f419aafbfe1d77fa80d3806d40638e5fcd98e82961b643b03c98e38e20\"",
       "last_modified": null
     },
     "https://musclenation.org/products.json?limit=250&page=8": {
-      "etag": "W/\"sfr:computation:v2:614e2c8ffb1fc11fb283dc1839b8c32abb4d74f239890942b78d9b20f4f09335\"",
+      "etag": "W/\"sfr:computation:v2:7a3506b06e79697edbf7299d5f2808d55d543c493cccb49c99f1f4524e4e400e\"",
       "last_modified": null
     },
     "https://nimbleactivewear.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:e3665b9afe7ed265f65e23633e828ef4b5d2e557bf0f252bd9a7a363afccce14\"",
+      "etag": "W/\"sfr:computation:v2:e5493d7bb321cc426cb3dd47d9f9deb5d3dfe5991c256d9a431d27f9a55555eb\"",
       "last_modified": null
     },
     "https://nimbleactivewear.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:e9c22dc132c234e07977512fbe652f1fdd4d747817a36885dddd1cb84222394d\"",
+      "etag": "W/\"sfr:computation:v2:561814e30f38094e72e9739abc42117267801c96038ec3e3f2a3fd463ea3fa3a\"",
       "last_modified": null
     },
     "https://www.officeworks.com.au/": {
@@ -5843,91 +5819,91 @@
       "last_modified": null
     },
     "https://au.oneractive.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:6fd8cf595b4d63836ca3574414efd4cb4ff92cd3c494427682d538261be9845e\"",
+      "etag": "W/\"sfr:computation:v2:3cd53b00340355651e895e1fc9ee1773c74e1c39bd9e9301837845c965b833b8\"",
       "last_modified": null
     },
     "https://au.oneractive.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:4f88ba1a5a817aa217ad24a9bc4452e04f7c325b0be8fb9386073b9ba74232ee\"",
+      "etag": "W/\"sfr:computation:v2:e770d768bb0c21ecc1deaa4ff096f4826f41655e4ade4736872a8aec61283841\"",
       "last_modified": null
     },
     "https://au.oneractive.com/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:a9db3cc70d2f64cf904ed332a7bf512ec6673cbaf5b3c83d943cffc9b6d9951b\"",
+      "etag": "W/\"sfr:computation:v2:d1a839349d4baea605d639ff757cb1cee988cb040be1104f858ead735ef261c0\"",
       "last_modified": null
     },
     "https://au.oneractive.com/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:7673a43b7f23cb73e8e88e28f596fff5607954de33f7238bbb5d4effd892fc53\"",
+      "etag": "W/\"sfr:computation:v2:cb28b3b44e081a6537958199f947000d295f91c91c75f78af48eca2b0f265950\"",
       "last_modified": null
     },
     "https://au.oneractive.com/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:064a3f28f068e3939e4dbcc8f8fb85ceeee2c4f65dc9db0110e1b2bb7fd61cea\"",
+      "etag": "W/\"sfr:computation:v2:9c976d38143744002878fb20417d04670960c4ee90466ad8b0f87cde73b2fd90\"",
       "last_modified": null
     },
     "https://au.oneractive.com/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:1752780525f0fbcdf0a1478853629b7934e15090277506022a83a4d952a2a2cb\"",
+      "etag": "W/\"sfr:computation:v2:62820e2f8c2c129b6a4745b69641a5144b746d1763967a244d2b5f6b360a511a\"",
       "last_modified": null
     },
     "https://au.oneractive.com/products.json?limit=250&page=7": {
-      "etag": "W/\"sfr:computation:v2:23869bb31ca6f2c37e93e8a3896617e74b2c4888943d76bbdc1527b9335ca307\"",
+      "etag": "W/\"sfr:computation:v2:9b1aab2c4cded8d6cc2b6a3f1bb39b6d12d4a8b3daa7d3405ca180beebe36052\"",
       "last_modified": null
     },
     "https://au.oneractive.com/products.json?limit=250&page=8": {
-      "etag": "W/\"sfr:computation:v2:d09e5cfdb44cd7390a65a1d76f1b38b3fe0c4f3ed342d5d29b1676126ee8128d\"",
+      "etag": "W/\"sfr:computation:v2:f468023ab76b92321daaf90afdd8c42735fec1b3c91a96fb36c38f816ad9477a\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:ffe0aaaef93675519ba2f022a4eb1ed7ff0c0cf223a57ae1d519e90e6c7a8fb4\"",
+      "etag": "W/\"sfr:computation:v2:6f7093ddb236500ed8c9f2b2e3e89e37933ed1b664c20f3bde5db884c737e9c8\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:54b3a831db6f40494dbd5523530261e3d729e3ef59b47924b2486277bc7dbd2a\"",
+      "etag": "W/\"sfr:computation:v2:223a54c5fdefafb371932d29114c64d537e43612b248635f9ccb10c0783892af\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:853e3e45dbdae4d11c2eb6de2f38a3609dbe9c0237a532463712ca3f136a0232\"",
+      "etag": "W/\"sfr:computation:v2:3ffaeba4ae6af2c9feb765ce233861fcb7da30cd30e892712004ea74b4e68d7d\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:68191997ca0d4c57f5d8bd666bfcbf0da547b67f196537b8b5754a682eb1781b\"",
+      "etag": "W/\"sfr:computation:v2:52fdf247b0466c4e9e4d67496bcf0a6517790ddfecdb720effb9dd612b3dc97c\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:be361ad4fc2a127fff18ed31ebc24bda7474f1bf95479ebb35e0dccb6ab4b952\"",
+      "etag": "W/\"sfr:computation:v2:798af963049c0f3284e4be9ecb5d911df3b89ebb43696dbeb5cca1b2d5ded8ba\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:9c32adcf2bb3eac48c87a38b10d0311036d92599001fc5080a85eff62b1a5932\"",
+      "etag": "W/\"sfr:computation:v2:2077f81b355e249779c2d731401ae049e0e75c842abc32b309817d4ef5c53d4c\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/products.json?limit=250&page=7": {
-      "etag": "W/\"sfr:computation:v2:89d5977c164df6eb76747653aa44ad6b8da55384fc3fb5f299d6aa34ee17c85a\"",
+      "etag": "W/\"sfr:computation:v2:42a65b7e907bac88d54da55b4c768545c3e48f8f6b88085bc5a62bcde978c3df\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/products.json?limit=250&page=8": {
-      "etag": "W/\"sfr:computation:v2:c1e5a0e9785f3cae9be996f6b8633baa4e4f56af3ceeb1756f9a23bcac650a0b\"",
+      "etag": "W/\"sfr:computation:v2:f683d88767e7ed771b58f5ed975fe9ed11fdd2f5bdf67eec4ca495e19aa58690\"",
       "last_modified": null
     },
     "https://www.reebok.com.au/products.json?limit=250&page=1": {
-      "etag": "W/\"sfr:computation:v2:72b2efdf14d5a05774677e15837335432de5302b1d641e8de1e2e02d1df665dc\"",
+      "etag": "W/\"sfr:computation:v2:11db460291f3eb8f13fac4eb53f9cb7d13496eae815fea411cac903b63c1827d\"",
       "last_modified": null
     },
     "https://www.reebok.com.au/products.json?limit=250&page=2": {
-      "etag": "W/\"sfr:computation:v2:a80fc76f8c49246daafd8fc1c8d9136582900f4dd1f0d7d4a1996759d1ffc955\"",
+      "etag": "W/\"sfr:computation:v2:dbfb8d2805a60e04748c3f811656469abe09452c4ed60a9a319fd84ee29cf8d5\"",
       "last_modified": null
     },
     "https://www.reebok.com.au/products.json?limit=250&page=3": {
-      "etag": "W/\"sfr:computation:v2:f3b2f93d4328029464c712696c8c8e9d776417e1fbe26c7c56405dbdbf4a8f81\"",
+      "etag": "W/\"sfr:computation:v2:3ad4b4764fcf350826a4d24bd78e27cae8744e0af7f96895aca323809713c357\"",
       "last_modified": null
     },
     "https://www.reebok.com.au/products.json?limit=250&page=4": {
-      "etag": "W/\"sfr:computation:v2:b0f1d46445e941e34774ef800a5fc34dd3ead1617da6782c0f77447fce37d326\"",
+      "etag": "W/\"sfr:computation:v2:612dc0de43a8f41d85c98984e7c2a5685c27b4fde440bf5e5b1db2321b554da5\"",
       "last_modified": null
     },
     "https://www.reebok.com.au/products.json?limit=250&page=5": {
-      "etag": "W/\"sfr:computation:v2:4c9d4bacf1e60b7fcd2d921d02515eb890d6b529f3bdefd295790e19551cfcce\"",
+      "etag": "W/\"sfr:computation:v2:0ae9ebf423a109e9f08c4fd61ca89586332c0fd48abb9e9f80045f241d1e905f\"",
       "last_modified": null
     },
     "https://www.reebok.com.au/products.json?limit=250&page=6": {
-      "etag": "W/\"sfr:computation:v2:fdbdcbe335fc99bb273b432710349176e8fc61fabf54c7a4f95c317359430f6c\"",
+      "etag": "W/\"sfr:computation:v2:cb347675f2e143dd31deb48bd080fdd5fbca85c474619b1f15dd977aa35c1eba\"",
       "last_modified": null
     },
     "https://store.sony.com.au/": {
@@ -5999,15 +5975,15 @@
       "last_modified": null
     },
     "https://evdnce.com/pages/help-center": {
-      "etag": "W/\"sfr:computation:v2:f3be34357e7438d7248c7fceb5417466d9bdafa01710b8f594d79ac5350fede2:2b3e6430a3b5a19bae6ea099f5466f4a\"",
+      "etag": "W/\"sfr:computation:v2:24b57d46f5fab4272a152bf5fe7bb3dc261c51a97b9d59a6b989e1fa56456aab:a845a0a72cc5322573724b47d96876e3\"",
       "last_modified": null
     },
     "https://www.aybl.com/pages/returns": {
-      "etag": "W/\"sfr:computation:v2:f2c6dc20ff66240f7ba0b90941d2fa21e9801e801e1a5af256c2ce8249d00e5e:9d9791d9a0b878585b5d3fbed254dd92\"",
+      "etag": "W/\"sfr:computation:v2:bee5486ee94f5d2b3aa573cfd7067f5e17984b731c4e8dc3e792742678f20cf7:e348993be8698cac961909c5502a95cf\"",
       "last_modified": null
     },
     "https://www.aybl.com/pages/shipping": {
-      "etag": "W/\"sfr:computation:v2:109b26fb2bd5406a146f3bc7e9e6e60bc2463f165dc535c3763b18c46cc996be:98bb7810b19af287e21a455478e9cc9d\"",
+      "etag": "W/\"sfr:computation:v2:13ee4e127e2472f2e68bbb29454ab11615547e002435839e021f06737af8ab56:495844d8ebdf13412bb01ecc77938adf\"",
       "last_modified": null
     },
     "https://www.dell.com/en-au/shop/lp/return-policy": {
@@ -6035,91 +6011,95 @@
       "last_modified": null
     },
     "https://row.representclo.com/pages/shipping-returns-product-page": {
-      "etag": "W/\"sfr:computation:v2:93432edf89b88f554e3142681d4df63d02577428da9c172a097cad81d85e40a5:a57c427b70ef328c4e06a1966c72bc79\"",
+      "etag": "W/\"sfr:computation:v2:29cccc3c2c8fcd82332cc9acf8fa885c9a82392adb9b1b8a6f92806147621d59:a79d6b86f619b583912c1a534ad2e476\"",
       "last_modified": null
     },
     "https://stax.com.au/policies/refund-policy": {
-      "etag": "W/\"sfr:computation:v2:ebefea24236004a63e3376c711e657c98b37d1c1bd72e375fce4c309f4815a96:ce0f2a7734b155aa848bb68164abb0db\"",
+      "etag": "W/\"sfr:computation:v2:ec73498b0ea6135d2fd9b8a3c37815fa6bb0ab27a8f76846034cae4b26e5d20b:2ede103966abf5021994cfc813adf615\"",
       "last_modified": null
     },
     "https://stussy.com.au/pages/shipping-returns": {
-      "etag": "W/\"sfr:computation:v2:f084831cbe8c9a843bab281238babc39ece7a06c5f29b4be02e61dbc17f4af3b:102026ba39ad3fa392ecc1aaa619c1d2\"",
+      "etag": "W/\"sfr:computation:v2:0a94d4f1ef81cfdfffac7693b3602ac647639b7eee2839137a78f703223fd32f:b67494e1ac236263aae2534b26533752\"",
       "last_modified": null
     },
     "https://www.universalstore.com/pages/all-returns": {
-      "etag": "W/\"sfr:computation:v2:89c2867f544e54ec089c1ddb338ddd58ef8300634d68eb812645a850c7d28144:eeed36796a7f8d1b13ad616ed96f64ea\"",
+      "etag": "W/\"sfr:computation:v2:638e075656e6e8b6b4bc3f2895b9bc59347bad1253ea7f3cc9a15260c4554e10:a85683a1d344b0bcb0f2274d13d8683b\"",
       "last_modified": null
     },
     "https://www.universalstore.com/pages/shipping": {
-      "etag": "W/\"sfr:computation:v2:1cb862e75f5858b9ebb257ff9e07ef57aec62ebb7e2573df8b58142c5630eb34:84095e46db2dc8c5ad2f959549b65fc7\"",
+      "etag": "W/\"sfr:computation:v2:18a1ff8c18d108045b0e11c1cd3254bce018f3733a39cf000eae6f28c981b7ac:6a0455d9032de75c3fdedf2e097652fc\"",
       "last_modified": null
     },
     "https://2xu.com/pages/terms-and-conditions": {
-      "etag": "W/\"sfr:computation:v2:d5e231aaeae92b9cba1ee70bc1dd859d71177f76783a2c7ce41ab70702599288:3620769aeac2ef7e629bde44e77ffcdb\"",
+      "etag": "W/\"sfr:computation:v2:f381f40e65c0ee8e668b30292fe6ba17b7c87e259cd358ae0b9d267d1e92c552:3dec338f09e9738593a24aa0f3a2f18f\"",
       "last_modified": null
     },
     "https://2xu.com/pages/shipping-and-tracking": {
-      "etag": "W/\"sfr:computation:v2:1b2a9c432ba7c792fb50613c6c8596616f5d2ad404711c9aacf30d75d2a7d726:250a6d44894d18d26a7d2ef3f2dbc9de\"",
+      "etag": "W/\"sfr:computation:v2:5241d0c4de3a4517f46f244855295458ff61ad28e6963cb9a390febd8783bb18:70c1ffd77f4b0e12bf14ef1bed7e94f1\"",
       "last_modified": null
     },
     "https://boandtee.com/pages/returns-information": {
-      "etag": "W/\"sfr:computation:v2:b98d0cebdb679d6cb2481eff6ef24ee6781e9d474abebb7ee7f42ed81366c644:da481ced3a4d2b09f92152e8489ddf2c\"",
+      "etag": "W/\"sfr:computation:v2:06f2cf8c0ab4d203c36e9fdda43ae34bd243908d0634f0846fd3977e6194ee3f:3522fea8aaec3c88d19fed6529ca6e53\"",
       "last_modified": null
     },
     "https://boandtee.com/pages/delivery": {
-      "etag": "W/\"sfr:computation:v2:1465db51f9a6c3fd238654cb4b735ced9b9cdf85753b4d879c5d0c92a653d94d:f4615d21c2b4e3123f405a3a1dfae8ef\"",
+      "etag": "W/\"sfr:computation:v2:81e3a582e59fafe7d3f941f0882e76815339567c5f4bbc81e512e2088f694392:31fd8e08c92cc2c24b70c198051c12a7\"",
       "last_modified": null
     },
     "https://www.countryroad.com.au/pages/returns": {
-      "etag": "W/\"sfr:computation:v2:2cb613d0635401167dc050de2bf3a99650016639ded3b71cb1e96a09f88b6c8c:4cc838dc902aee86956ed0408bef020a:7b618e3de03fea6093961b8d6ee34bce\"",
+      "etag": "W/\"sfr:computation:v2:da1e0e28a1840b8f8ac7cd577bfb380ef8350633023511f2c3ad033349c603f9:1218b003b4e85f091dd514fc465d6708:7b618e3de03fea6093961b8d6ee34bce\"",
       "last_modified": null
     },
     "https://www.countryroad.com.au/pages/delivery": {
-      "etag": "W/\"sfr:computation:v2:ddaf72a87a262d7cb3c65e43329e8712ed7e329afe0240e767be500f5fcc67fd:ff4d2c2b7bf6bbc248a1c555324b1db1:7b618e3de03fea6093961b8d6ee34bce\"",
+      "etag": "W/\"sfr:computation:v2:5d10404a266f8aa0b2851582ef17851cced3e76072b362516c6435539dff580e:c3ce2c6d19d1d7642e5fc6688de16e9c:7b618e3de03fea6093961b8d6ee34bce\"",
       "last_modified": null
     },
     "https://www.footlocker.com.au/en/terms/terms.html": {
-      "etag": "W/\"c309f-HSJrYRcQGf/YLIkpi0ZJKWXtXKM\"",
+      "etag": "W/\"c309f-tsPvIAux+vyqABk18uA69OPUXGY\"",
       "last_modified": null
     },
     "https://www.generalpants.com/pages/returns": {
-      "etag": "W/\"sfr:computation:v2:ecc5dbc2a6f52b50af6fc0025f7a0b52ea0abe033c931bbf9ae9a64d5c1a5d8a:4b87b10f114aeedaca48c058f259dd1d\"",
+      "etag": "W/\"sfr:computation:v2:fa357d21f6ec87a7f252021bf28e2a3ea131d551ddb86b19de67e9b1f1208a62:445e589018185b3557819cb3af535fd1\"",
       "last_modified": null
     },
     "https://www.generalpants.com/pages/delivery": {
-      "etag": "W/\"sfr:computation:v2:0f11d1afdee8986a32e26e9bb401078eb6c58c71d1824188860c1258fb219c26:42ca37b89c998d6143291f694d4eacdb\"",
+      "etag": "W/\"sfr:computation:v2:3be2542bd75d3559514a406d9b12fe0b3c6465e64c815c9e65941eefc98fb019:801cddab0710d29cdf61c74b963e8915\"",
       "last_modified": null
     },
     "https://levis.com.au/policies/refund-policy": {
-      "etag": "W/\"sfr:computation:v2:6563c5d534a72e7e0580bc87e8c79113d8e92d1012095e45abae542a4788c9ef:de6a1a430b8035f52db26e732ebed41c\"",
+      "etag": "W/\"sfr:computation:v2:b726e600b997f9fc0d9a3a3e210b4f955dd43b15d27250df04fae5bcb318cc62:bfa5ad11aaaf9a2ca849d4817c30988a\"",
       "last_modified": null
     },
     "https://levis.com.au/policies/shipping-policy": {
-      "etag": "W/\"sfr:computation:v2:fdc0f3d1ecde4957b42d042e1b5a9a65616ea20ff77546c98e0c968d78ddec22:26aab19a365caa92f68e4ad3608b4e92\"",
+      "etag": "W/\"sfr:computation:v2:bcde8933b7254ae35d3e799fd0eb554542dedc62ed94b36025b62f6efdbdec31:5b08a88157449920beaba79c0891a626\"",
       "last_modified": null
     },
     "https://www.lornajane.com.au/pages/returns-exchanges": {
-      "etag": "W/\"sfr:computation:v2:e30f1e4874210f485e99768a27c53a9ec674a3e219390ba9b1fead8a0308a507:dae5576695a7ebb6c024f970bc151e72\"",
+      "etag": "W/\"sfr:computation:v2:410890b15f77e1a55ad8dedca57a4637912f026e63855fa70ae0090a4a41976c:e07a678d4bee95c6c635107ab5a211b3\"",
       "last_modified": null
     },
     "https://www.lornajane.com.au/pages/shipping-information": {
-      "etag": "W/\"sfr:computation:v2:37d062dcd01673a616148a2ab591e4f2b737ff2cf567c1afc21880a68de38341:0c62d0c9c6dd587b2ab7dbbbaac82711\"",
+      "etag": "W/\"sfr:computation:v2:8c49bd97f386881f4426fe2a85323b31216949bc6f38cad8735f4c884c567ee1:5edf3a0754a6510f79aa87f9578827a4\"",
       "last_modified": null
     },
     "https://nimbleactivewear.com/pages/what-is-your-returns-policy": {
-      "etag": "W/\"sfr:computation:v2:9c8f98df5c0df362aa87c94fce2eaffe812589914adeb443ff1483fd07ea1750:ace8e85f3e12c9d66253080aa583285c\"",
+      "etag": "W/\"sfr:computation:v2:f1da480a4136630ac9ab8dd959bc950ad596d614c303bcc359c2462a02098587:318630d9618f0c275a094350a0a1e50c\"",
       "last_modified": null
     },
     "https://nimbleactivewear.com/pages/shipping": {
-      "etag": "W/\"sfr:computation:v2:6e7a1bd42a307d5457efa19defde99fa393e9f6a9a383c31417baeb3331b67d6:c23976212432cde21f56e0f6a4caa981\"",
+      "etag": "W/\"sfr:computation:v2:89d224c45c6ae7ed3b8105dc20c98c63797c5a5d054022b4517d245564eba66b:4b77ad28324c9f4c1e79d91af2f53e0a\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/pages/returns": {
-      "etag": "W/\"sfr:computation:v2:b2e53cf662faea0d0cfba0e408592f5269b8d30251bcde58d270c76d2690080f:1cb79ee7374f4ab93613504fb5ea7eef\"",
+      "etag": "W/\"sfr:computation:v2:827a86f1b6edf535a8a3e1c5ab142f4dbb89c10b26fc27a73277080932cdfd86:a104faa30a68d91e7eeba0c79833167e\"",
       "last_modified": null
     },
     "https://www.pe-nation.com/pages/shipping": {
-      "etag": "W/\"sfr:computation:v2:35957c4eaaec0ebe549be4012116cb4184127a331b72be6d71189b4117f4e3fd:47619b0e79fb392846ab3895f6957f84\"",
+      "etag": "W/\"sfr:computation:v2:2b895420e4ab2d48d7d9b5776db6d790d272eaaa28164f11fd27ee26656be8e9:0111b716c0455da9d2bcaeb21f88c547\"",
+      "last_modified": null
+    },
+    "https://www.aloyoga.com/pages/returns-exchanges": {
+      "etag": "W/\"page_cache:21852813:PageDetailsController:dd29dba1a78a620ca88e39a4bfa84425:e8fc4cfb9a390a4a8eae7489c9e557a8\"",
       "last_modified": null
     }
   }
