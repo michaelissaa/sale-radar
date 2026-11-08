@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generated_at": "2026-11-08T06:05:07+00:00",
-    "run_id": "20261108T060507Z",
+    "generated_at": "2026-11-08T13:28:49+00:00",
+    "run_id": "20261108T132849Z",
     "timezone": "Australia/Sydney",
     "currency": "AUD",
     "black_friday": "2026-11-27",
     "cyber_monday": "2026-11-30",
     "brands_total": 77,
-    "scan_ok": 61,
-    "scan_failed": 16,
-    "last_successful_scan": "2026-11-08T06:05:07+00:00",
-    "live_black_friday": 12,
-    "live_regular": 8,
+    "scan_ok": 62,
+    "scan_failed": 15,
+    "last_successful_scan": "2026-11-08T13:28:49+00:00",
+    "live_black_friday": 8,
+    "live_regular": 5,
     "counts": {
-      "LIVE": 8,
-      "UPCOMING": 28,
-      "EARLY_ACCESS": 4,
-      "NOT_ANNOUNCED": 35,
-      "ENDED": 0,
-      "NEEDS_CHECKING": 2
+      "LIVE": 7,
+      "UPCOMING": 20,
+      "EARLY_ACCESS": 1,
+      "NOT_ANNOUNCED": 32,
+      "ENDED": 1,
+      "NEEDS_CHECKING": 16
     },
-    "new_events": 1
+    "new_events": 35
   },
   "brands": [
     {
@@ -38,8 +38,8 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "stale",
+        "confidence": "low",
         "name": "2026 Black Friday Sale",
         "discount_text": null,
         "discount_max_pct": null,
@@ -98,7 +98,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -109,7 +109,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 12,
+        "consecutive_failures": 13,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -183,7 +183,7 @@
         "verification": "verified",
         "sale_type": "black_friday",
         "auto": {
-          "bf_mentioned": false,
+          "bf_mentioned": true,
           "discount_text": "Up to 10% off",
           "discount_max_pct": 10,
           "discount_kind": "up_to",
@@ -191,11 +191,14 @@
           "code": null,
           "future_language": false,
           "early_access": false,
-          "dates_seen": [],
-          "evidence": null,
+          "dates_seen": [
+            "17 Nov",
+            "30 Nov"
+          ],
+          "evidence": ". Prime is $12.99/month. Cancel anytime. Excludes select remote areas. Prime is $12.99/month. Cancel anytime. Black Friday Sale starts 17 Nov - 30 Nov Our boldest lineup yet New Amazon devices Great deals under $25 Shop now Shop bea",
           "free_shipping_threshold_hint": null,
-          "status": "NOT_ANNOUNCED",
-          "confidence": "low",
+          "status": "LIVE",
+          "confidence": "medium",
           "url": "https://www.amazon.com.au/",
           "title": "Amazon.com.au: Shop online for Electronics, Apparel, Toys, Books, DVDs & more"
         },
@@ -239,8 +242,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -286,8 +289,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -301,7 +304,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "evidence": null,
         "source_url": "https://www.culturekings.com.au/",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
@@ -369,8 +372,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -459,8 +462,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -474,7 +477,7 @@
         "code": null,
         "early_access": null,
         "conditions": "Watching for Elite Eleven's Black Friday announcement.",
-        "evidence": "No Black Friday 2026 announcement yet; only the regular Outlet (e.g. 'Save 50%').",
+        "evidence": null,
         "source_url": "https://eliteelevensporting.com/",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "verified",
@@ -536,8 +539,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -576,8 +579,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "high",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -591,7 +594,7 @@
         "code": null,
         "early_access": null,
         "conditions": "Corrected 5 Nov: no real sale. The banner contradicts the store's prices. A handful of items are marked down.",
-        "evidence": "Home page banner reads 'UP TO 50% OFF SITEWIDE LIVE NOW', but the store's own product prices show only 12 of 387 products discounted (3%), the Seamless Sculpt range at 50%.",
+        "evidence": null,
         "source_url": "https://evdnce.com/products.json",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "verified",
@@ -655,8 +658,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -765,8 +768,8 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "high",
+        "basis": "auto",
+        "confidence": "low",
         "name": "Gymshark Black Friday & Cyber Monday Sale 2026",
         "discount_text": null,
         "discount_max_pct": null,
@@ -780,7 +783,7 @@
         "code": null,
         "early_access": "App users and loyalty members get first notice; no 2026 member discount disclosed",
         "conditions": null,
-        "evidence": "The sale isn't live just yet (we know, brutal timing)... You didn't think we'd reveal the start date and time that easily did you?",
+        "evidence": "audi Schweiz Sverige United Arab Emirates United Kingdom United States What are you looking for? The Gymshark Black Friday Sale 2026 Want to be the first to get updates? Subscribe to our newsletter, or download our app and sign up t",
         "source_url": "https://au.gymshark.com/pages/black-friday",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
@@ -842,8 +845,8 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -891,9 +894,9 @@
         "shipping": null
       },
       "sale": {
-        "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NOT_ANNOUNCED",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -907,11 +910,11 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "The countdown to Black Friday is on ... with huge deals ... coming soon!",
+        "evidence": null,
         "source_url": "https://www.harveynorman.com.au/black-friday",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -961,8 +964,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -974,6 +977,16 @@
       },
       "recent_changes": [
         {
+          "id": "a915d34d3a9c",
+          "brand": "harvey-norman",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "UPCOMING",
+          "new": "NOT_ANNOUNCED",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
           "id": "fd999f1b8983",
           "brand": "harvey-norman",
           "field": "brand",
@@ -984,7 +997,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "jb-hifi",
@@ -1001,8 +1014,8 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "high",
+        "basis": "auto",
+        "confidence": "low",
         "name": "JB Hi-Fi Black Friday Sale 2026",
         "discount_text": null,
         "discount_max_pct": null,
@@ -1016,7 +1029,7 @@
         "code": null,
         "early_access": "Sign up to be first to know when it begins",
         "conditions": null,
-        "evidence": "Black Friday Sale is the one JB plans for all year, and the countdown is officially on",
+        "evidence": "our browser version is unsupported. Please update for best experience. Stack the Best Deals This Year in JB’s Black Friday Sale Forget slow sales and same-old discounts. The Black Friday Sale is the one JB plans for all year, and th",
         "source_url": "https://www.jbhifi.com.au/pages/black-friday-sale",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "verified",
@@ -1078,8 +1091,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1118,8 +1131,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -1133,7 +1146,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "lskd.co/pages/black-friday redirects to the home page; no Black Friday 2026 sale wording found on 5 Nov.",
+        "evidence": null,
         "source_url": "https://www.lskd.co/",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
@@ -1197,8 +1210,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -1251,9 +1264,9 @@
         "shipping": "https://www.lululemon.com.au/en-au/help/shipping"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NEEDS_CHECKING",
+        "basis": "stale",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -1310,7 +1323,7 @@
         "reason": "TimeoutError: The read operation timed out"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -1321,7 +1334,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 12,
+        "consecutive_failures": 13,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -1336,6 +1349,16 @@
         ]
       },
       "recent_changes": [
+        {
+          "id": "a3481e57b1ba",
+          "brand": "lululemon",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "NOT_ANNOUNCED",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "696fcd1e1328",
           "brand": "lululemon",
@@ -1357,7 +1380,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "nike",
@@ -1373,9 +1396,9 @@
         "shipping": "https://www.nike.com/au/help/a/shipping-delivery"
       },
       "sale": {
-        "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NOT_ANNOUNCED",
+        "basis": "auto",
+        "confidence": "low",
         "name": "Black Friday Sale",
         "discount_text": null,
         "discount_max_pct": null,
@@ -1389,11 +1412,11 @@
         "code": null,
         "early_access": "Sign-up for early access offered",
         "conditions": null,
-        "evidence": "Something is coming... Sign up for early access to our biggest sale of the year",
+        "evidence": null,
         "source_url": "https://www.nike.com/au/w/black-friday-2phlm",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -1452,8 +1475,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -1464,6 +1487,16 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "351878dff1c5",
+          "brand": "nike",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "UPCOMING",
+          "new": "NOT_ANNOUNCED",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "78637495efaf",
           "brand": "nike",
@@ -1485,7 +1518,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "samsung",
@@ -1501,9 +1534,9 @@
         "shipping": "https://www.samsung.com/au/shop-faq/delivery-and-installations/delivery-costs/"
       },
       "sale": {
-        "status": "LIVE",
-        "basis": "verified",
-        "confidence": "high",
+        "status": "NEEDS_CHECKING",
+        "basis": "auto",
+        "confidence": "low",
         "name": "Samsung Black Friday Sale 2026",
         "discount_text": "Up to $2,500 off selected TVs",
         "discount_max_pct": null,
@@ -1521,7 +1554,7 @@
         "source_url": "https://www.samsung.com/au/offer/black-friday-sale/",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "verified",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": true,
           "discount_text": null,
@@ -1575,8 +1608,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1590,6 +1623,16 @@
       },
       "recent_changes": [
         {
+          "id": "d5eaaeb37b70",
+          "brand": "samsung",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "LIVE",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
           "id": "de8a3f2ad73a",
           "brand": "samsung",
           "field": "brand",
@@ -1600,7 +1643,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "the-iconic",
@@ -1617,8 +1660,8 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "stale",
+        "confidence": "low",
         "name": "THE ICONIC Black Friday 2026",
         "discount_text": null,
         "discount_max_pct": null,
@@ -1675,7 +1718,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": "2026-11-05T09:05:28+00:00",
         "ok": false,
         "pages_ok": 0,
@@ -1690,7 +1733,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 11,
+        "consecutive_failures": 12,
         "discovered": [
           "https://www.theiconic.com.au/black-friday/"
         ],
@@ -1754,8 +1797,8 @@
         "shipping": "https://www.abercrombie.com/shop/wd/help/shipping-handling"
       },
       "sale": {
-        "status": "UPCOMING",
-        "basis": "verified",
+        "status": "NOT_ANNOUNCED",
+        "basis": "auto",
         "confidence": "low",
         "name": null,
         "discount_text": null,
@@ -1770,11 +1813,11 @@
         "code": null,
         "early_access": null,
         "conditions": "Seen on the global Black Friday page; Australian dates and discount not stated.",
-        "evidence": "Sign up for myAbercrombie and be first to find out about the sale you've been waiting for.",
+        "evidence": null,
         "source_url": "https://www.abercrombie.com/shop/wd/black-friday",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -1828,8 +1871,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1840,6 +1883,16 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "783ea90f171a",
+          "brand": "abercrombie",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "UPCOMING",
+          "new": "NOT_ANNOUNCED",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "d07afdd4ae7f",
           "brand": "abercrombie",
@@ -1861,7 +1914,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "adanola",
@@ -1878,8 +1931,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -1893,7 +1946,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "No Black Friday 2026 announcement found.",
+        "evidence": null,
         "source_url": "https://adanola.com/en-au",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
@@ -1960,8 +2013,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2000,8 +2053,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -2015,7 +2068,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "No Black Friday 2026 announcement found.",
+        "evidence": null,
         "source_url": "https://www.aloyoga.com/en-au",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
@@ -2077,8 +2130,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2117,8 +2170,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -2132,7 +2185,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "evidence": null,
         "source_url": "https://alphaleteathletics.com/",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
@@ -2195,8 +2248,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2275,8 +2328,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -2290,7 +2343,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "No Black Friday shopping event announced yet.",
+        "evidence": null,
         "source_url": "https://www.apple.com/au/",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
@@ -2350,8 +2403,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2389,9 +2442,9 @@
         "shipping": "https://www.asics.com/au/en-au/shipping"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NEEDS_CHECKING",
+        "basis": "stale",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -2452,7 +2505,7 @@
         "reason": "HTTP 302"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -2463,7 +2516,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 12,
+        "consecutive_failures": 13,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -2478,6 +2531,16 @@
         ]
       },
       "recent_changes": [
+        {
+          "id": "59ac4aed3cfc",
+          "brand": "asics",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "NOT_ANNOUNCED",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "05cffe772a07",
           "brand": "asics",
@@ -2499,7 +2562,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "asos",
@@ -2515,9 +2578,9 @@
         "shipping": "https://www.asos.com/au/customer-care/delivery/"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NEEDS_CHECKING",
+        "basis": "stale",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -2576,7 +2639,7 @@
         "reason": "TimeoutError: The read operation timed out"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -2587,7 +2650,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 12,
+        "consecutive_failures": 13,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -2602,6 +2665,16 @@
         ]
       },
       "recent_changes": [
+        {
+          "id": "dc9d6d1c70aa",
+          "brand": "asos",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "NOT_ANNOUNCED",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "8c45d87dab1c",
           "brand": "asos",
@@ -2623,7 +2696,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "aybl",
@@ -2640,8 +2713,8 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "high",
+        "basis": "auto",
+        "confidence": "low",
         "name": "AYBL Black Friday 2026",
         "discount_text": "Up to 60% off sitewide",
         "discount_max_pct": 60,
@@ -2725,8 +2798,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -2827,8 +2900,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -2842,7 +2915,7 @@
         "code": null,
         "early_access": null,
         "conditions": "Earn $75 Dell Rewards on eligible purchases of $2500+, ends 12 Nov (not a Black Friday sale).",
-        "evidence": "Current offer is a Dell Rewards bonus ending 12 Nov 2026; no Black Friday sale yet.",
+        "evidence": null,
         "source_url": "https://www.dell.com/en-au/shop/lp/black-friday-deals",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
@@ -2901,8 +2974,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -2941,8 +3014,8 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "high",
+        "basis": "auto",
+        "confidence": "low",
         "name": "Dyson Black Friday 2026",
         "discount_text": null,
         "discount_max_pct": null,
@@ -2956,7 +3029,7 @@
         "code": null,
         "early_access": "Sign up for exclusive access",
         "conditions": null,
-        "evidence": "Black Friday is almost here. Sign up now for exclusive access to Dyson Black Friday 2026 deals",
+        "evidence": "Robot Hair care Floorcare Wet Cleaners Air treatment Hair care products Headphones Lighting Latest from Dyson Black Friday is almost here Sign up now for exclusive access to Dyson Black Friday 2026 deals. Sign up now → All I want is",
         "source_url": "https://www.dyson.com.au/",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "verified",
@@ -3018,8 +3091,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -3058,8 +3131,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "high",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -3073,7 +3146,7 @@
         "code": null,
         "early_access": null,
         "conditions": "Online store is closed (password page) and relaunching in November. 15% off first order for sign-ups at launch.",
-        "evidence": "Glue Store single media Launching November. Sign up and receive 15% off your first order when we launch",
+        "evidence": null,
         "source_url": "https://www.gluestore.com.au/",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "verified",
@@ -3124,8 +3197,8 @@
         "reason": "HTTP 401 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -3194,8 +3267,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -3209,7 +3282,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "evidence": null,
         "source_url": "https://www.hallensteins.com/au",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
@@ -3273,8 +3346,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -3362,9 +3435,9 @@
         "shipping": null
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NEEDS_CHECKING",
+        "basis": "stale",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -3422,7 +3495,7 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -3433,7 +3506,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 10,
+        "consecutive_failures": 11,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -3444,6 +3517,16 @@
         ]
       },
       "recent_changes": [
+        {
+          "id": "8200c681c93c",
+          "brand": "hoka",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "NOT_ANNOUNCED",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "2bb7656d7b92",
           "brand": "hoka",
@@ -3515,7 +3598,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "hp",
@@ -3526,18 +3609,18 @@
       "notes": null,
       "links": {
         "home": "https://www.hp.com/au-en/shop/",
-        "sale": "https://www.hp.com/au-en/shop/sale-offers.html",
+        "sale": "https://www.hp.com/au-en/shop/",
         "returns": "https://www.hp.com/au-en/shop/faqs-content",
         "shipping": "https://www.hp.com/au-en/shop/faqs-content"
       },
       "sale": {
-        "status": "EARLY_ACCESS",
-        "basis": "verified",
+        "status": "LIVE",
+        "basis": "auto",
         "confidence": "medium",
         "name": "Early Black Friday offers",
-        "discount_text": "Extra 10% off with code EBF",
-        "discount_max_pct": 10,
-        "discount_kind": "flat",
+        "discount_text": "Up to 45% off",
+        "discount_max_pct": 45,
+        "discount_kind": "up_to",
         "scope": "SELECTED",
         "start": null,
         "end": null,
@@ -3547,12 +3630,30 @@
         "code": "EBF",
         "early_access": null,
         "conditions": "Reported by the research pass; not re-confirmed directly.",
-        "evidence": "We've gathered our top Early Black Friday offers in one place.",
-        "source_url": "https://www.hp.com/au-en/shop/sale-offers.html",
+        "evidence": "The Program Login Register Account Settings X X Extra 10% off with code EBF Extra 10% off with code EBF Early Black Friday Flash Sale Unlock extra 10% off across selected HP laptops, desktops and more. Ends 9 Nov. Unlock extra 10% o",
+        "source_url": "https://www.hp.com/au-en/shop/",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
         "sale_type": "black_friday",
-        "auto": null,
+        "auto": {
+          "bf_mentioned": true,
+          "discount_text": "Up to 45% off",
+          "discount_max_pct": 45,
+          "discount_kind": "up_to",
+          "sitewide_hint": false,
+          "code": "EBF",
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [
+            "9 Nov"
+          ],
+          "evidence": "The Program Login Register Account Settings X X Extra 10% off with code EBF Extra 10% off with code EBF Early Black Friday Flash Sale Unlock extra 10% off across selected HP laptops, desktops and more. Ends 9 Nov. Unlock extra 10% o",
+          "free_shipping_threshold_hint": null,
+          "status": "LIVE",
+          "confidence": "medium",
+          "url": "https://www.hp.com/au-en/shop/",
+          "title": "HP® Laptops, Printers, Computers & Monitors  - Shop HP.com Australia"
+        },
         "regular_active": false
       },
       "policy": {
@@ -3590,27 +3691,48 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-07T21:52:58+00:00",
-        "ok": false,
-        "pages_ok": 0,
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
+        "ok": true,
+        "pages_ok": 2,
         "pages_tried": 2,
-        "errors": [
-          {
-            "url": "https://www.hp.com/au-en/shop/",
-            "error": "HTTP 403 (likely bot protection)"
-          },
-          {
-            "url": "https://www.hp.com/au-en/shop/sale-offers.html",
-            "error": "HTTP 403 (likely bot protection)"
-          }
-        ],
-        "consecutive_failures": 1,
+        "errors": [],
+        "consecutive_failures": 0,
         "discovered": [],
         "stale": false,
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "ce9620bec6ba",
+          "brand": "hp",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "EARLY_ACCESS",
+          "new": "LIVE",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
+          "id": "3f4d91f0aa3d",
+          "brand": "hp",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": "Extra 10% off with code EBF",
+          "new": "Up to 45% off",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
+          "id": "19d0ddd2e3c8",
+          "brand": "hp",
+          "field": "scan.ok",
+          "label": "Scan health",
+          "old": false,
+          "new": true,
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "57a4967a5030",
           "brand": "hp",
@@ -3669,7 +3791,7 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
+        "basis": "stale",
         "confidence": "low",
         "name": null,
         "discount_text": null,
@@ -3727,7 +3849,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -3738,7 +3860,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 8,
+        "consecutive_failures": 9,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -3780,9 +3902,9 @@
         "shipping": null
       },
       "sale": {
-        "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NOT_ANNOUNCED",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -3796,11 +3918,11 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "Black Friday 2026 Coming Soon",
+        "evidence": null,
         "source_url": "https://www.jd-sports.com.au/collections/offers-the-north-face",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -3855,8 +3977,8 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -3872,6 +3994,16 @@
         ]
       },
       "recent_changes": [
+        {
+          "id": "8f145add8d33",
+          "brand": "jd-sports",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "UPCOMING",
+          "new": "NOT_ANNOUNCED",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "b0d829f944ce",
           "brand": "jd-sports",
@@ -3943,7 +4075,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "lenovo",
@@ -3954,18 +4086,18 @@
       "notes": null,
       "links": {
         "home": "https://www.lenovo.com/au/en/",
-        "sale": "https://www.lenovo.com/au/en/deals/black-friday-sale/",
+        "sale": "https://www.lenovo.com/au/en/black-friday-savings/",
         "returns": "https://www.lenovo.com/au/en/shopping-faqs/",
         "shipping": "https://www.lenovo.com/au/en/shopping-faqs/"
       },
       "sale": {
-        "status": "EARLY_ACCESS",
-        "basis": "verified",
-        "confidence": "high",
+        "status": "LIVE",
+        "basis": "auto",
+        "confidence": "medium",
         "name": "Black Friday Early Access Sale",
-        "discount_text": null,
-        "discount_max_pct": null,
-        "discount_kind": null,
+        "discount_text": "Up to 50% Off",
+        "discount_max_pct": 50,
+        "discount_kind": "up_to",
         "scope": "UNKNOWN",
         "start": null,
         "end": null,
@@ -3975,8 +4107,8 @@
         "code": null,
         "early_access": "Open to everyone; extra member savings promoted",
         "conditions": null,
-        "evidence": "Black Friday Early Access Sale. SHOP AHEAD OF THE CROWDS. Your early access to the biggest savings this year.",
-        "source_url": "https://www.lenovo.com/au/en/deals/black-friday-sale/",
+        "evidence": "Black Friday Sale | Laptops, Tablets, PCs, Accessories Deals skip to main content Add To Cart BLACK FRIDAY SALE IS LIVE Th",
+        "source_url": "https://www.lenovo.com/au/en/black-friday-savings/",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "verified",
         "sale_type": "black_friday",
@@ -4033,8 +4165,8 @@
         "reason": "HTTP 503"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -4049,6 +4181,26 @@
       },
       "recent_changes": [
         {
+          "id": "05f6d1a6d4ab",
+          "brand": "lenovo",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "EARLY_ACCESS",
+          "new": "LIVE",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
+          "id": "4609400a850a",
+          "brand": "lenovo",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": null,
+          "new": "Up to 50% Off",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
           "id": "050d97de7970",
           "brand": "lenovo",
           "field": "brand",
@@ -4059,7 +4211,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "maniere-de-voir",
@@ -4076,8 +4228,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -4091,7 +4243,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "evidence": null,
         "source_url": "https://au.manieredevoir.com/",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
@@ -4156,8 +4308,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -4245,9 +4397,9 @@
         "shipping": "https://www.myer.com.au/content/payment-and-delivery"
       },
       "sale": {
-        "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NEEDS_CHECKING",
+        "basis": "auto",
+        "confidence": "low",
         "name": "Myer Black Friday 2026",
         "discount_text": null,
         "discount_max_pct": null,
@@ -4265,7 +4417,7 @@
         "source_url": "https://www.myer.com.au/content/black-Friday",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": true,
           "discount_text": null,
@@ -4321,8 +4473,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -4334,6 +4486,16 @@
       },
       "recent_changes": [
         {
+          "id": "b21187ac462b",
+          "brand": "myer",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "UPCOMING",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
           "id": "f210a45e66c1",
           "brand": "myer",
           "field": "brand",
@@ -4344,7 +4506,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "myprotein",
@@ -4355,16 +4517,16 @@
       "notes": null,
       "links": {
         "home": "https://au.myprotein.com/",
-        "sale": "https://au.myprotein.com/c/black-friday/",
+        "sale": "https://au.myprotein.com/",
         "returns": "https://au.myprotein.com/c/customer-services/returns-policy/",
         "shipping": "https://au.myprotein.com/c/customer-services/delivery-information/"
       },
       "sale": {
         "status": "LIVE",
-        "basis": "verified",
-        "confidence": "high",
+        "basis": "auto",
+        "confidence": "medium",
         "name": "Black Friday 2026 (early)",
-        "discount_text": "40% off everything",
+        "discount_text": "40% OFF",
         "discount_max_pct": 40,
         "discount_kind": "flat",
         "scope": "SITEWIDE",
@@ -4376,8 +4538,8 @@
         "code": null,
         "early_access": "Extra 5% off in the app (auto-applies)",
         "conditions": "Product tiles say the discount is applied automatically. One banner also mentions code 'blackfriday'; check at checkout.",
-        "evidence": "HOW DO YOU BLACK FRIDAY? 40% OFF EVERYTHING | DISCOUNT APPLIED. APP EXCLUSIVE | EXTRA 5% OFF | AUTO APPLIES",
-        "source_url": "https://au.myprotein.com/c/black-friday/",
+        "evidence": "No.1 Online Sports Nutrition Brand Extra 10% off + FREE shaker for new customers Earn $10 Credit? HOW DO YOU BLACK FRIDAY? 40% OFF EVERYTHING | DISCOUNT APPLIED WEEKEND OFFER | FREE 250G BCAA ON ORDERS +$100 APP EXCLUSIVE | EXTRA 5",
+        "source_url": "https://au.myprotein.com/",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
         "sale_type": "black_friday",
@@ -4440,8 +4602,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -4454,6 +4616,16 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "78091cd63148",
+          "brand": "myprotein",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": "40% off everything",
+          "new": "40% OFF",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "d3230a4328a9",
           "brand": "myprotein",
@@ -4475,7 +4647,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "new-balance",
@@ -4551,7 +4723,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -4562,7 +4734,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 12,
+        "consecutive_failures": 13,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -4615,7 +4787,7 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
+        "basis": "auto",
         "confidence": "low",
         "name": null,
         "discount_text": null,
@@ -4630,7 +4802,7 @@
         "code": null,
         "early_access": null,
         "conditions": "Only an email sign-up for Black Friday news; no sale details.",
-        "evidence": "Sign up for Black Friday and Cyber Monday, limited drops, new arrivals and more. Straight to your inbox.",
+        "evidence": "90 days returns + free express shipping on us Happy Holidays : 90 days returns + free express shipping on us Black Friday collection Black Friday Don't miss out Sign up for Black Friday and Cyber Monday, limited drops, new arrivals",
         "source_url": "https://www.on.com/en-au/collection/black-friday",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
@@ -4689,8 +4861,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -4778,8 +4950,8 @@
         "shipping": null
       },
       "sale": {
-        "status": "UPCOMING",
-        "basis": "verified",
+        "status": "NOT_ANNOUNCED",
+        "basis": "auto",
         "confidence": "low",
         "name": null,
         "discount_text": null,
@@ -4794,11 +4966,11 @@
         "code": null,
         "early_access": null,
         "conditions": "Could not be re-checked directly (page needs JavaScript).",
-        "evidence": "Platypus has published a 2026 Black Friday and Cyber Monday guide (per research pass).",
+        "evidence": null,
         "source_url": "https://www.platypusshoes.com.au/post/the-platypus-guide-to-black-friday-and-cyber-monday.html",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": false,
           "discount_text": null,
@@ -4853,8 +5025,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -4870,6 +5042,16 @@
         ]
       },
       "recent_changes": [
+        {
+          "id": "524e7239d24d",
+          "brand": "platypus",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "UPCOMING",
+          "new": "NOT_ANNOUNCED",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "418ef12b02ac",
           "brand": "platypus",
@@ -4941,7 +5123,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "rebel",
@@ -4957,11 +5139,11 @@
         "shipping": "https://www.rebelsport.com.au/help-centre/shipping-and-delivery"
       },
       "sale": {
-        "status": "EARLY_ACCESS",
-        "basis": "verified",
+        "status": "LIVE",
+        "basis": "auto",
         "confidence": "medium",
         "name": "Black Friday Early Deal",
-        "discount_text": "30% off selected Nike running shoes",
+        "discount_text": "30% Off",
         "discount_max_pct": 30,
         "discount_kind": "flat",
         "scope": "SELECTED",
@@ -4973,7 +5155,7 @@
         "code": null,
         "early_access": null,
         "conditions": "Listed on Rebel's promotions page; end date not shown. Other Christmas deals run 29 Oct to 26 Nov.",
-        "evidence": "Black Friday Early Deal - 30% Off Selected Nike Running Shoes",
+        "evidence": "ers Member Pricing Need Help? Loading Store Details Home Help Centre Promotions Promotions Current Promotions Black Friday Early Deal - 30% Off Selected Nike Running Shoes Christmas Deals: 29 October – 26 November ON - 3x Bonus Poin",
         "source_url": "https://www.rebelsport.com.au/help-centre/promotions",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "verified",
@@ -5034,8 +5216,8 @@
         "reason": "HTTP 410"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -5048,6 +5230,26 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "8823c7b02237",
+          "brand": "rebel",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "EARLY_ACCESS",
+          "new": "LIVE",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
+          "id": "09150289535e",
+          "brand": "rebel",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": "30% off selected Nike running shoes",
+          "new": "30% Off",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "b41a3ba16a01",
           "brand": "rebel",
@@ -5107,29 +5309,9 @@
           "new": 30,
           "at": "2026-11-05T09:45:26+00:00",
           "run": "20261105T094526Z"
-        },
-        {
-          "id": "90f8d3014f98",
-          "brand": "rebel",
-          "field": "policy.shipping.free_threshold_aud",
-          "label": "Free shipping threshold",
-          "old": null,
-          "new": 150,
-          "at": "2026-11-05T09:45:26+00:00",
-          "run": "20261105T094526Z"
-        },
-        {
-          "id": "08e93861b5d1",
-          "brand": "rebel",
-          "field": "brand",
-          "label": "Now tracking",
-          "old": null,
-          "new": "Rebel Sport",
-          "at": "2026-11-05T09:31:13+00:00",
-          "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "represent",
@@ -5146,8 +5328,8 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -5161,7 +5343,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "The Vault is opening. BLACK FRIDAY 2026 is imminent.",
+        "evidence": "Skip to content Represent 247 Black Friday FAQs | Sign Up & Receive Early Access | REPRESENT Retail The Vault Prestige IL / ILS 0 items Account 0 New Ar",
         "source_url": "https://row.representclo.com/pages/black-friday-faqs",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
@@ -5226,8 +5408,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -5407,8 +5589,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -5488,9 +5670,9 @@
         "shipping": "https://salomon.com.au/pages/shipping"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "high",
+        "status": "NEEDS_CHECKING",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -5568,8 +5750,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -5580,6 +5762,16 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "4bf85d795547",
+          "brand": "salomon",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "NOT_ANNOUNCED",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "707deaf46770",
           "brand": "salomon",
@@ -5611,7 +5803,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "stax",
@@ -5628,8 +5820,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -5643,7 +5835,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "Store is behind a password page for a new collection launch (public access opens 6 Nov, 9am AEDT). No Black Friday announcement seen.",
+        "evidence": null,
         "source_url": "https://stax.com.au/",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
@@ -5697,8 +5889,8 @@
         "reason": "HTTP 401 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -5767,8 +5959,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -5782,7 +5974,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "No Black Friday announcement; Stussy says it does not offer codes online.",
+        "evidence": null,
         "source_url": "https://stussy.com.au/",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
@@ -5844,8 +6036,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -5923,9 +6115,9 @@
         "shipping": null
       },
       "sale": {
-        "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NEEDS_CHECKING",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -5943,7 +6135,7 @@
         "source_url": "https://www.thegoodguys.com.au/deals/black-friday-freezers",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": true,
           "discount_text": null,
@@ -5994,8 +6186,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -6012,6 +6204,16 @@
       },
       "recent_changes": [
         {
+          "id": "9c8af19824b7",
+          "brand": "the-good-guys",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "UPCOMING",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
           "id": "1e8550cb985f",
           "brand": "the-good-guys",
           "field": "brand",
@@ -6022,7 +6224,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "uniqlo",
@@ -6038,9 +6240,9 @@
         "shipping": "https://faq-au.uniqlo.com/"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NEEDS_CHECKING",
+        "basis": "stale",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -6099,7 +6301,7 @@
         "reason": "TimeoutError: The read operation timed out"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -6110,7 +6312,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 12,
+        "consecutive_failures": 13,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -6125,6 +6327,16 @@
         ]
       },
       "recent_changes": [
+        {
+          "id": "f70f7754a814",
+          "brand": "uniqlo",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "NOT_ANNOUNCED",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "e638fcd9ef32",
           "brand": "uniqlo",
@@ -6146,7 +6358,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "universal-store",
@@ -6163,8 +6375,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -6178,7 +6390,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "Regular sale section only; no Black Friday announcement seen.",
+        "evidence": null,
         "source_url": "https://www.universalstore.com/",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
@@ -6249,8 +6461,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -6349,8 +6561,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -6364,7 +6576,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "evidence": null,
         "source_url": "https://au.youngla.com/",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
@@ -6427,8 +6639,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -6516,9 +6728,9 @@
         "shipping": "https://www.zara.com/au/en/help-center/Shipping"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NEEDS_CHECKING",
+        "basis": "stale",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -6577,7 +6789,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -6588,7 +6800,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 12,
+        "consecutive_failures": 13,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -6603,6 +6815,16 @@
         ]
       },
       "recent_changes": [
+        {
+          "id": "13a0609dbe2f",
+          "brand": "zara",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "NOT_ANNOUNCED",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "f585ecf04038",
           "brand": "zara",
@@ -6624,7 +6846,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "2xu",
@@ -6635,14 +6857,14 @@
       "notes": null,
       "links": {
         "home": "https://2xu.com/",
-        "sale": "https://2xu.com/pages/black-friday-early-access",
+        "sale": "https://2xu.com/",
         "returns": "https://2xu.com/pages/terms-and-conditions",
         "shipping": "https://2xu.com/pages/shipping-and-tracking"
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "high",
+        "basis": "auto",
+        "confidence": "low",
         "name": "Black Friday",
         "discount_text": null,
         "discount_max_pct": null,
@@ -6656,8 +6878,8 @@
         "code": null,
         "early_access": "Sign up for early access",
         "conditions": null,
-        "evidence": "Sign up for Black Friday early access now",
-        "source_url": "https://2xu.com/pages/black-friday-early-access",
+        "evidence": "Skip to content Your Bag Is Empty Shopping bag Review bag Loading... Subtotal $0.00 Checkout Sign up for Black Friday early access now Shop our best selling Light Speed Kinesis Free standard shipping on orders over $80 New in K",
+        "source_url": "https://2xu.com/",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "verified",
         "sale_type": "black_friday",
@@ -6721,8 +6943,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -6812,9 +7034,9 @@
         "shipping": "https://au.store.asus.com/terms-conditions"
       },
       "sale": {
-        "status": "LIVE",
-        "basis": "verified",
-        "confidence": "high",
+        "status": "NEEDS_CHECKING",
+        "basis": "auto",
+        "confidence": "low",
         "name": "ASUS Black Friday Deals",
         "discount_text": "Up to $1,500 off selected devices",
         "discount_max_pct": null,
@@ -6832,7 +7054,7 @@
         "source_url": "https://www.asus.com/au/deals/black-friday/",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "verified",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": true,
           "discount_text": null,
@@ -6886,8 +7108,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -6908,6 +7130,16 @@
       },
       "recent_changes": [
         {
+          "id": "af020baf393f",
+          "brand": "asus",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "LIVE",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
           "id": "f69d3a7305da",
           "brand": "asus",
           "field": "brand",
@@ -6918,7 +7150,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "bing-lee",
@@ -6935,8 +7167,8 @@
       },
       "sale": {
         "status": "EARLY_ACCESS",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "stale",
+        "confidence": "low",
         "name": "Early Black Friday Deals",
         "discount_text": null,
         "discount_max_pct": null,
@@ -6992,7 +7224,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -7007,7 +7239,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 8,
+        "consecutive_failures": 9,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -7050,9 +7282,9 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "high",
-        "name": null,
+        "basis": "auto",
+        "confidence": "low",
+        "name": "30% off event (not labelled Black Friday)",
         "discount_text": null,
         "discount_max_pct": null,
         "discount_kind": null,
@@ -7064,7 +7296,7 @@
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": "Email sign-up gives an exclusive early-access link",
-        "conditions": null,
+        "conditions": "Page is titled '30% Off'; scope and end date not stated.",
         "evidence": null,
         "source_url": "https://boandtee.com/pages/30-off",
         "verified_at": "2026-11-05T10:00:00+00:00",
@@ -7087,16 +7319,7 @@
           "url": "https://boandtee.com/",
           "title": "Women's Activewear, Gymwear and Athleisure | Bo+Tee"
         },
-        "regular": {
-          "name": "30% off event (not labelled Black Friday)",
-          "discount_text": "30% off",
-          "discount_max_pct": 30,
-          "evidence": "early access is now live sign up below to be emailed the exclusive link",
-          "source_url": "https://boandtee.com/pages/30-off",
-          "conditions": "Page is titled '30% Off'; scope and end date not stated.",
-          "basis": "verified"
-        },
-        "regular_active": true
+        "regular_active": false
       },
       "policy": {
         "returns": {
@@ -7140,8 +7363,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -7152,6 +7375,16 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "0d313338c954",
+          "brand": "bo-tee",
+          "field": "sale.regular_active",
+          "label": "Regular sale",
+          "old": true,
+          "new": false,
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "10659bf43af5",
           "brand": "bo-tee",
@@ -7221,19 +7454,9 @@
           "new": "YES",
           "at": "2026-11-05T09:45:26+00:00",
           "run": "20261105T094526Z"
-        },
-        {
-          "id": "7ad16d9b36cc",
-          "brand": "bo-tee",
-          "field": "policy.returns.window_days",
-          "label": "Returns window",
-          "old": null,
-          "new": 14,
-          "at": "2026-11-05T09:45:26+00:00",
-          "run": "20261105T094526Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "bonds",
@@ -7250,13 +7473,13 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "high",
-        "name": null,
+        "basis": "auto",
+        "confidence": "low",
+        "name": "Multi-buy offers (not Black Friday)",
         "discount_text": null,
         "discount_max_pct": null,
         "discount_kind": null,
-        "scope": "UNKNOWN",
+        "scope": "SELECTED",
         "start": null,
         "end": null,
         "date_basis": "unknown",
@@ -7264,7 +7487,7 @@
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": null,
-        "conditions": null,
+        "conditions": "Black Friday not announced. A 'Cyber Weekend has begun' banner reported by research was not on the page on re-check.",
         "evidence": null,
         "source_url": "https://www.bonds.com.au/",
         "verified_at": "2026-11-05T11:00:00+00:00",
@@ -7287,16 +7510,7 @@
           "url": "https://www.bonds.com.au/",
           "title": "BONDS Australia | Clothing & Accessories for Men, Women, Kids & Babies Online"
         },
-        "regular": {
-          "name": "Multi-buy offers (not Black Friday)",
-          "discount_text": "40% off clothing when you buy 2",
-          "discount_max_pct": 40,
-          "evidence": "40% OFF MEN'S CLOTHING WHEN YOU BUY 2 ... 40% OFF WOMEN'S CLOTHING WHEN YOU BUY 2",
-          "source_url": "https://www.bonds.com.au/",
-          "conditions": "Black Friday not announced. A 'Cyber Weekend has begun' banner reported by research was not on the page on re-check.",
-          "basis": "verified"
-        },
-        "regular_active": true
+        "regular_active": false
       },
       "policy": {
         "returns": {
@@ -7334,8 +7548,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -7347,6 +7561,16 @@
       },
       "recent_changes": [
         {
+          "id": "06d6107d644d",
+          "brand": "bonds",
+          "field": "sale.regular_active",
+          "label": "Regular sale",
+          "old": true,
+          "new": false,
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
           "id": "e450a68345c0",
           "brand": "bonds",
           "field": "brand",
@@ -7357,7 +7581,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "converse",
@@ -7374,7 +7598,7 @@
       },
       "sale": {
         "status": "NEEDS_CHECKING",
-        "basis": "verified",
+        "basis": "stale",
         "confidence": "low",
         "name": null,
         "discount_text": null,
@@ -7432,7 +7656,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -7447,7 +7671,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 8,
+        "consecutive_failures": 9,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -7490,8 +7714,8 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "stale",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -7550,7 +7774,7 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -7561,7 +7785,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 12,
+        "consecutive_failures": 13,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -7610,8 +7834,8 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "high",
+        "basis": "auto",
+        "confidence": "low",
         "name": "Black Friday & Cyber Monday",
         "discount_text": null,
         "discount_max_pct": null,
@@ -7625,7 +7849,7 @@
         "code": null,
         "early_access": "Cotton On & Co Perks members and app users get a VIP head start",
         "conditions": null,
-        "evidence": "Black Friday and Cyber Monday are almost here... The sale you've been waiting for all year is about to kick off. ... What time do the events start online? Telling you now would be cheating.",
+        "evidence": "Added to bag Tops 2 for $30 20% off beach bundles 30% off summer faves Online first: Cassie Halter Maxi Dress BLACK FRIDAY & CYBER MONDAY After living rent-free in our heads all year. Black Friday and Cyber Monday are almost here. T",
         "source_url": "https://cottonon.com/AU/black-friday-cyber-monday/",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
@@ -7689,8 +7913,8 @@
         "reason": "HTTP 410"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -7739,13 +7963,13 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "high",
-        "name": null,
+        "basis": "auto",
+        "confidence": "low",
+        "name": "25% off bags and shoes (not labelled Black Friday)",
         "discount_text": null,
         "discount_max_pct": null,
         "discount_kind": null,
-        "scope": "UNKNOWN",
+        "scope": "SELECTED",
         "start": null,
         "end": null,
         "date_basis": "unknown",
@@ -7753,7 +7977,7 @@
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": null,
-        "conditions": null,
+        "conditions": "Full-priced only, excludes Child, can't combine with other offers.",
         "evidence": null,
         "source_url": "https://www.countryroad.com.au/",
         "verified_at": "2026-11-05T10:00:00+00:00",
@@ -7776,16 +8000,7 @@
           "url": "https://www.countryroad.com.au/",
           "title": "Country Road | Women's, Men's & Kid's Clothing & Homewares"
         },
-        "regular": {
-          "name": "25% off bags and shoes (not labelled Black Friday)",
-          "discount_text": "25% off bags and shoes",
-          "discount_max_pct": 25,
-          "evidence": "25% off Bags and shoes * Shop woman Shop man *Excludes Child",
-          "source_url": "https://www.countryroad.com.au/",
-          "conditions": "Full-priced only, excludes Child, can't combine with other offers.",
-          "basis": "verified"
-        },
-        "regular_active": true
+        "regular_active": false
       },
       "policy": {
         "returns": {
@@ -7825,8 +8040,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -7837,6 +8052,16 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "99772c9e8d0f",
+          "brand": "country-road",
+          "field": "sale.regular_active",
+          "label": "Regular sale",
+          "old": true,
+          "new": false,
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "68293805c798",
           "brand": "country-road",
@@ -7906,19 +8131,9 @@
           "new": "CONDITIONAL",
           "at": "2026-11-05T09:45:26+00:00",
           "run": "20261105T094526Z"
-        },
-        {
-          "id": "681c05a4f2b7",
-          "brand": "country-road",
-          "field": "policy.returns.window_days",
-          "label": "Returns window",
-          "old": null,
-          "new": 30,
-          "at": "2026-11-05T09:45:26+00:00",
-          "run": "20261105T094526Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "david-jones",
@@ -7935,13 +8150,13 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
-        "name": null,
+        "basis": "auto",
+        "confidence": "low",
+        "name": "Designer sale (not Black Friday)",
         "discount_text": null,
         "discount_max_pct": null,
         "discount_kind": null,
-        "scope": "UNKNOWN",
+        "scope": "SELECTED",
         "start": null,
         "end": null,
         "date_basis": "unknown",
@@ -7949,7 +8164,7 @@
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": null,
-        "conditions": null,
+        "conditions": "Black Friday not announced yet.",
         "evidence": null,
         "source_url": "https://www.davidjones.com/sale",
         "verified_at": "2026-11-05T11:00:00+00:00",
@@ -7972,16 +8187,7 @@
           "url": "https://www.davidjones.com/",
           "title": ""
         },
-        "regular": {
-          "name": "Designer sale (not Black Friday)",
-          "discount_text": "40% off selected designer fashion",
-          "discount_max_pct": 40,
-          "evidence": "Selected full-priced women's international designer fashion. 40% OFF",
-          "source_url": "https://www.davidjones.com/sale",
-          "conditions": "Black Friday not announced yet.",
-          "basis": "verified"
-        },
-        "regular_active": true
+        "regular_active": false
       },
       "policy": {
         "returns": {
@@ -8018,8 +8224,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -8031,6 +8237,16 @@
       },
       "recent_changes": [
         {
+          "id": "99f4f5d4660c",
+          "brand": "david-jones",
+          "field": "sale.regular_active",
+          "label": "Regular sale",
+          "old": true,
+          "new": false,
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
           "id": "9f458d3addbb",
           "brand": "david-jones",
           "field": "brand",
@@ -8041,7 +8257,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "echt",
@@ -8052,18 +8268,18 @@
       "notes": null,
       "links": {
         "home": "https://echt.com.au/",
-        "sale": "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items",
+        "sale": "https://us.echt.com.au/?shpxid=5072f2f9-37c3-4f84-8d1a-56d857a7aebf",
         "returns": "https://echt.gorgias.help/en-US/how-do-i-return--exchange-an-item-430440",
         "shipping": "https://echt.com.au/pages/shipping-info"
       },
       "sale": {
         "status": "LIVE",
-        "basis": "verified",
-        "confidence": "high",
+        "basis": "auto",
+        "confidence": "medium",
         "name": "Black Friday 2026",
-        "discount_text": "Up to 70% off selected items",
-        "discount_max_pct": 70,
-        "discount_kind": "up_to",
+        "discount_text": "30% Off",
+        "discount_max_pct": 30,
+        "discount_kind": "flat",
         "scope": "SELECTED",
         "start": null,
         "end": null,
@@ -8073,8 +8289,8 @@
         "code": null,
         "early_access": null,
         "conditions": "Collection is live. Extra promotions seen (extra 15% off $135+, free gift over $100) were on ECHT's US storefront and may not apply in Australia.",
-        "evidence": "Black Friday 2026 - Up to 70% Off Selected Items",
-        "source_url": "https://echt.com.au/collections/black-friday-2026-up-to-70-off-selected-items",
+        "evidence": "s Stringers & Tanks Others Others › Accessories Gift Cards Activity Activity › Weight Training Running Lounge Black Friday › Women’s Sale Men’s Sale Nothing Over $20 3 For 30% Off › Supplements › Rewards › › Account Sign in Wishlist",
+        "source_url": "https://us.echt.com.au/?shpxid=5072f2f9-37c3-4f84-8d1a-56d857a7aebf",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
         "sale_type": "black_friday",
@@ -8092,7 +8308,7 @@
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://us.echt.com.au/?shpxid=5fd6a7d3-926e-4739-a7f4-9948827b0f81",
+          "url": "https://us.echt.com.au/?shpxid=5072f2f9-37c3-4f84-8d1a-56d857a7aebf",
           "title": "Shop ECHT Gym Wear Online | Gym Clothes & Accessories\n – Echt ApparelAmerican ExpressApple PayGoogle PayMastercardPayPal"
         },
         "regular_active": false
@@ -8140,8 +8356,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -8157,6 +8373,16 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "e51ecf42f05a",
+          "brand": "echt",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": "Up to 70% off selected items",
+          "new": "30% Off",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "7731cde08c34",
           "brand": "echt",
@@ -8178,7 +8404,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "foot-locker",
@@ -8195,8 +8421,8 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "high",
+        "basis": "auto",
+        "confidence": "low",
         "name": "Black Friday Sale 2026",
         "discount_text": null,
         "discount_max_pct": null,
@@ -8210,7 +8436,7 @@
         "code": null,
         "early_access": "FLX Rewards members get first access",
         "conditions": null,
-        "evidence": "Black Friday Sale YOU'RE IN Keep an eye on your inbox for first access and exclusive FLX Rewards offers. Black Friday alerts first with SMS or the app",
+        "evidence": "gift every year Be first in line with member-only sales Convert points into savings Sign in or join for free Black Friday Sale YOU'RE IN Keep an eye on your inbox for first access and exclusive FLX Rewards offers. s and be the firs",
         "source_url": "https://www.footlocker.com.au/en/blackfriday.html",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "verified",
@@ -8222,12 +8448,12 @@
           "discount_kind": null,
           "sitewide_hint": false,
           "code": null,
-          "future_language": false,
-          "early_access": false,
+          "future_language": true,
+          "early_access": true,
           "dates_seen": [],
-          "evidence": "xing Icons: 80s Unboxing Icons: 90s Unboxing Icons: 00s Unboxing Icons: Future FLX Rewards Sign In | Join FLX Black Friday Sale YOU'RE IN Keep an eye on your inbox for first access and exclusive FLX Rewards offers. VISIT MY DASHBOAR",
+          "evidence": "gift every year Be first in line with member-only sales Convert points into savings Sign in or join for free Black Friday Sale YOU'RE IN Keep an eye on your inbox for first access and exclusive FLX Rewards offers. s and be the firs",
           "free_shipping_threshold_hint": null,
-          "status": "NEEDS_CHECKING",
+          "status": "UPCOMING",
           "confidence": "low",
           "url": "https://www.footlocker.com.au/en/blackfriday.html",
           "title": "Black Friday Sale 2026 | Huge Deals on Sneakers, Clothing & Accessories | Foot Locker Australia"
@@ -8266,8 +8492,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -8360,9 +8586,9 @@
         "shipping": null
       },
       "sale": {
-        "status": "LIVE",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NEEDS_CHECKING",
+        "basis": "auto",
+        "confidence": "low",
         "name": "Garmin Black Friday Sale",
         "discount_text": null,
         "discount_max_pct": null,
@@ -8380,7 +8606,7 @@
         "source_url": "https://www.garmin.com/en-AU/c/promotions/",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": true,
           "discount_text": null,
@@ -8433,8 +8659,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -8448,6 +8674,16 @@
       },
       "recent_changes": [
         {
+          "id": "b4d844bbdd12",
+          "brand": "garmin",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "LIVE",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
           "id": "4f6d9af3e4fd",
           "brand": "garmin",
           "field": "brand",
@@ -8458,7 +8694,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "general-pants",
@@ -8475,13 +8711,13 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "high",
-        "name": null,
+        "basis": "auto",
+        "confidence": "low",
+        "name": "Extra 50% off sale (not labelled Black Friday)",
         "discount_text": null,
         "discount_max_pct": null,
         "discount_kind": null,
-        "scope": "UNKNOWN",
+        "scope": "SELECTED",
         "start": null,
         "end": null,
         "date_basis": "unknown",
@@ -8489,7 +8725,7 @@
         "code_required": "UNKNOWN",
         "code": null,
         "early_access": null,
-        "conditions": null,
+        "conditions": "Applies to items already on sale. Research pass saw it marked 'EXTENDED'; no end date.",
         "evidence": null,
         "source_url": "https://www.generalpants.com/",
         "verified_at": "2026-11-05T10:00:00+00:00",
@@ -8513,13 +8749,10 @@
           "title": "General Pants Co. | Men’s & Women’s Clothing, Footwear & Accessories\nAmerican ExpressApple PayGoogle PayMastercardPayPal"
         },
         "regular": {
-          "name": "Extra 50% off sale (not labelled Black Friday)",
-          "discount_text": "Extra 50% off sale items",
-          "discount_max_pct": 50,
-          "evidence": "EXTRA 50% OFF SALE*",
-          "source_url": "https://www.generalpants.com/",
-          "conditions": "Applies to items already on sale. Research pass saw it marked 'EXTENDED'; no end date.",
-          "basis": "verified"
+          "name": "Store-wide markdowns",
+          "discount_text": "Up to 83% off (94% of products)",
+          "discount_max_pct": 83,
+          "basis": "feed"
         },
         "regular_active": true
       },
@@ -8564,8 +8797,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -8674,7 +8907,7 @@
       },
       "sale": {
         "status": "NEEDS_CHECKING",
-        "basis": "verified",
+        "basis": "stale",
         "confidence": "low",
         "name": null,
         "discount_text": null,
@@ -8735,7 +8968,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -8746,7 +8979,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 12,
+        "consecutive_failures": 13,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -8799,8 +9032,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -8814,7 +9047,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "Latest dated promotion was a Mid-Season Sale that ended 20 Sep 2026; no Black Friday offer yet.",
+        "evidence": null,
         "source_url": "https://levis.com.au/pages/promotions-terms",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
@@ -8875,8 +9108,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -8955,8 +9188,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -8970,7 +9203,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "Only regular deals page; no Black Friday announcement.",
+        "evidence": null,
         "source_url": "https://www.logitech.com/en-au/shop/deals",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
@@ -9027,8 +9260,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -9061,16 +9294,16 @@
       "notes": null,
       "links": {
         "home": "https://www.lornajane.com.au/",
-        "sale": "https://www.lornajane.com.au/collections/black-friday-event",
+        "sale": "https://www.lornajane.com.au/",
         "returns": "https://www.lornajane.com.au/pages/returns-exchanges",
         "shipping": "https://www.lornajane.com.au/pages/shipping-information"
       },
       "sale": {
         "status": "LIVE",
-        "basis": "verified",
-        "confidence": "high",
+        "basis": "auto",
+        "confidence": "medium",
         "name": "Black Friday",
-        "discount_text": "Up to 40% off selected styles",
+        "discount_text": "Up To 40% Off",
         "discount_max_pct": 40,
         "discount_kind": "up_to",
         "scope": "SELECTED",
@@ -9082,8 +9315,8 @@
         "code": null,
         "early_access": null,
         "conditions": "Collection headline says 20% off; T&Cs say up to 40% off selected styles.",
-        "evidence": "Black Friday | 20% Off* ... Offer T&Cs: Black Friday - Up To 40% Off Selected Styles",
-        "source_url": "https://www.lornajane.com.au/collections/black-friday-event",
+        "evidence": "Later Available Ends Tomorrow! Lotus Leggings From $50 · Shop Now New Arrivals Featured Clothing Best Sellers Black Friday Collections New Arrivals Swimwear Sleepwear Workwear View All Clothing Inspiration Club Lorna Her Own Time Su",
+        "source_url": "https://www.lornajane.com.au/",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "verified",
         "sale_type": "black_friday",
@@ -9150,8 +9383,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -9164,6 +9397,16 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "1a2a91355644",
+          "brand": "lorna-jane",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": "Up to 40% off selected styles",
+          "new": "Up To 40% Off",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "45682ea257b2",
           "brand": "lorna-jane",
@@ -9235,7 +9478,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "muscle-nation",
@@ -9286,7 +9529,7 @@
           "free_shipping_threshold_hint": null,
           "status": "NEEDS_CHECKING",
           "confidence": "low",
-          "url": "https://musclenation.us/?shpxid=74974375-f93c-4164-a766-b3ac2d533e80",
+          "url": "https://musclenation.us/?shpxid=097d7580-3f04-4e2e-971b-1d3f8e961092",
           "title": "Gym Clothes & Supplements - Shop Online | Muscle Nation\nAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPayPalSa"
         },
         "regular_active": false
@@ -9335,8 +9578,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -9473,8 +9716,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -9584,9 +9827,9 @@
         "shipping": "https://www.officeworks.com.au/information/policies/delivery-offer"
       },
       "sale": {
-        "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NEEDS_CHECKING",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -9604,7 +9847,7 @@
         "source_url": "https://www.officeworks.com.au/campaigns/black-friday",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": true,
           "discount_text": null,
@@ -9664,8 +9907,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -9679,6 +9922,16 @@
       },
       "recent_changes": [
         {
+          "id": "2585f78f45f9",
+          "brand": "officeworks",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "UPCOMING",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
           "id": "297de819ee12",
           "brand": "officeworks",
           "field": "brand",
@@ -9689,7 +9942,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "oner-active",
@@ -9705,9 +9958,9 @@
         "shipping": "https://au.oneractive.com/pages/shipping-policy"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "status": "NEEDS_CHECKING",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -9788,8 +10041,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -9802,6 +10055,16 @@
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "1ce0ecfd1985",
+          "brand": "oner-active",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "NOT_ANNOUNCED",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "0162d3ce63ce",
           "brand": "oner-active",
@@ -9863,7 +10126,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "pe-nation",
@@ -9965,8 +10228,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -10080,8 +10343,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -10095,7 +10358,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "No Black Friday 2026 announcement found on the official site during the 5 Nov research pass.",
+        "evidence": null,
         "source_url": "https://au.puma.com/au/en/",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
@@ -10156,8 +10419,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -10210,9 +10473,9 @@
         "shipping": "https://www.reebok.com.au/pages/shipping"
       },
       "sale": {
-        "status": "LIVE",
-        "basis": "verified",
-        "confidence": "high",
+        "status": "ENDED",
+        "basis": "auto",
+        "confidence": "low",
         "name": "Black Friday",
         "discount_text": "30% off almost everything",
         "discount_max_pct": 30,
@@ -10230,7 +10493,7 @@
         "source_url": "https://reebok.com.au/collections/black-friday",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": false,
           "discount_text": "15% off",
@@ -10248,7 +10511,13 @@
           "url": "https://reebok.com.au/",
           "title": "Reebok Australia - Iconic Sneakers & Sportwear"
         },
-        "regular_active": false
+        "regular": {
+          "name": "Store-wide markdowns",
+          "discount_text": "Up to 82% off (57% of products)",
+          "discount_max_pct": 82,
+          "basis": "feed"
+        },
+        "regular_active": true
       },
       "policy": {
         "returns": {
@@ -10290,8 +10559,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -10311,6 +10580,26 @@
         ]
       },
       "recent_changes": [
+        {
+          "id": "140cc83517cd",
+          "brand": "reebok",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "LIVE",
+          "new": "ENDED",
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
+        {
+          "id": "69000d9a74be",
+          "brand": "reebok",
+          "field": "sale.regular_active",
+          "label": "Regular sale",
+          "old": false,
+          "new": true,
+          "at": "2026-11-08T13:28:49+00:00",
+          "run": "20261108T132849Z"
+        },
         {
           "id": "497e2d1f806b",
           "brand": "reebok",
@@ -10332,7 +10621,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "sony",
@@ -10349,8 +10638,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -10364,7 +10653,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "No Black Friday 2026 announcement found.",
+        "evidence": null,
         "source_url": "https://store.sony.com.au/",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
@@ -10422,8 +10711,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -10462,7 +10751,7 @@
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
+        "basis": "stale",
         "confidence": "low",
         "name": null,
         "discount_text": null,
@@ -10520,7 +10809,7 @@
         "reason": "HTTP 429 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -10535,7 +10824,7 @@
             "error": "HTTP 429 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 10,
+        "consecutive_failures": 11,
         "discovered": [],
         "stale": true,
         "policy_errors": []
@@ -10613,14 +10902,14 @@
       "notes": null,
       "links": {
         "home": "https://www.underarmour.com.au/",
-        "sale": "https://www.underarmour.com.au/en-au/c/black-friday/",
+        "sale": "https://www.underarmour.com.au/en-au/t/black-friday/",
         "returns": "https://www.underarmour.com.au/en-au/returns",
         "shipping": "https://www.underarmour.com.au/en-au/shipping"
       },
       "sale": {
         "status": "UPCOMING",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": "Under Armour Black Friday Event 2026",
         "discount_text": null,
         "discount_max_pct": null,
@@ -10634,8 +10923,8 @@
         "code": null,
         "early_access": null,
         "conditions": "An earlier 30% off sitewide promotion ended 2 Nov 2026 (per the research pass). Black Friday deals not yet published.",
-        "evidence": "While we can't share our deals just yet, we're warming up for the long-awaited Under Armour 2026 Black Friday event.",
-        "source_url": "https://www.underarmour.com.au/en-au/c/black-friday/",
+        "evidence": "move Item New Looks For a New Season. Shop Now New Looks For a New Season. Shop Now Filter / Sort GEAR UP FOR BLACK FRIDAY 2026 Starts on the 19th of November. Get first dibs on Black Friday deals. Here's what to expect from Under A",
+        "source_url": "https://www.underarmour.com.au/en-au/t/black-friday/",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
         "sale_type": "black_friday",
@@ -10694,8 +10983,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -10755,8 +11044,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -10770,7 +11059,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "Only the regular sale section; no Black Friday announcement.",
+        "evidence": null,
         "source_url": "https://www.vans.com.au/",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
@@ -10828,8 +11117,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -10868,8 +11157,8 @@
       },
       "sale": {
         "status": "NOT_ANNOUNCED",
-        "basis": "verified",
-        "confidence": "medium",
+        "basis": "auto",
+        "confidence": "low",
         "name": null,
         "discount_text": null,
         "discount_max_pct": null,
@@ -10883,7 +11172,7 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "Regular sale sections only; no Black Friday announcement seen.",
+        "evidence": null,
         "source_url": "https://vuoriclothing.com.au/",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
@@ -10939,8 +11228,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-08T06:05:07+00:00",
-        "last_success": "2026-11-08T06:05:07+00:00",
+        "last_attempt": "2026-11-08T13:28:49+00:00",
+        "last_success": "2026-11-08T13:28:49+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,

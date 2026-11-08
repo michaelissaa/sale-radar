@@ -1,6 +1,356 @@
 {
   "events": [
     {
+      "id": "a915d34d3a9c",
+      "brand": "harvey-norman",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "NOT_ANNOUNCED",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "a3481e57b1ba",
+      "brand": "lululemon",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "351878dff1c5",
+      "brand": "nike",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "NOT_ANNOUNCED",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "d5eaaeb37b70",
+      "brand": "samsung",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "LIVE",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "783ea90f171a",
+      "brand": "abercrombie",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "NOT_ANNOUNCED",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "59ac4aed3cfc",
+      "brand": "asics",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "dc9d6d1c70aa",
+      "brand": "asos",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "8200c681c93c",
+      "brand": "hoka",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "ce9620bec6ba",
+      "brand": "hp",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "EARLY_ACCESS",
+      "new": "LIVE",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "3f4d91f0aa3d",
+      "brand": "hp",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "Extra 10% off with code EBF",
+      "new": "Up to 45% off",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "19d0ddd2e3c8",
+      "brand": "hp",
+      "field": "scan.ok",
+      "label": "Scan health",
+      "old": false,
+      "new": true,
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "8f145add8d33",
+      "brand": "jd-sports",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "NOT_ANNOUNCED",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "05f6d1a6d4ab",
+      "brand": "lenovo",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "EARLY_ACCESS",
+      "new": "LIVE",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "4609400a850a",
+      "brand": "lenovo",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "Up to 50% Off",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "b21187ac462b",
+      "brand": "myer",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "78091cd63148",
+      "brand": "myprotein",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "40% off everything",
+      "new": "40% OFF",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "524e7239d24d",
+      "brand": "platypus",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "NOT_ANNOUNCED",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "8823c7b02237",
+      "brand": "rebel",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "EARLY_ACCESS",
+      "new": "LIVE",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "09150289535e",
+      "brand": "rebel",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "30% off selected Nike running shoes",
+      "new": "30% Off",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "4bf85d795547",
+      "brand": "salomon",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "9c8af19824b7",
+      "brand": "the-good-guys",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "f70f7754a814",
+      "brand": "uniqlo",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "13a0609dbe2f",
+      "brand": "zara",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "af020baf393f",
+      "brand": "asus",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "LIVE",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "0d313338c954",
+      "brand": "bo-tee",
+      "field": "sale.regular_active",
+      "label": "Regular sale",
+      "old": true,
+      "new": false,
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "06d6107d644d",
+      "brand": "bonds",
+      "field": "sale.regular_active",
+      "label": "Regular sale",
+      "old": true,
+      "new": false,
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "99772c9e8d0f",
+      "brand": "country-road",
+      "field": "sale.regular_active",
+      "label": "Regular sale",
+      "old": true,
+      "new": false,
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "99f4f5d4660c",
+      "brand": "david-jones",
+      "field": "sale.regular_active",
+      "label": "Regular sale",
+      "old": true,
+      "new": false,
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "e51ecf42f05a",
+      "brand": "echt",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "Up to 70% off selected items",
+      "new": "30% Off",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "b4d844bbdd12",
+      "brand": "garmin",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "LIVE",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "1a2a91355644",
+      "brand": "lorna-jane",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "Up to 40% off selected styles",
+      "new": "Up To 40% Off",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "2585f78f45f9",
+      "brand": "officeworks",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "1ce0ecfd1985",
+      "brand": "oner-active",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "140cc83517cd",
+      "brand": "reebok",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "LIVE",
+      "new": "ENDED",
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
+      "id": "69000d9a74be",
+      "brand": "reebok",
+      "field": "sale.regular_active",
+      "label": "Regular sale",
+      "old": false,
+      "new": true,
+      "at": "2026-11-08T13:28:49+00:00",
+      "run": "20261108T132849Z"
+    },
+    {
       "id": "57a4967a5030",
       "brand": "hp",
       "field": "scan.ok",
