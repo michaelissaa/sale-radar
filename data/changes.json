@@ -1,6 +1,96 @@
 {
   "events": [
     {
+      "id": "b5fde038e8a9",
+      "brand": "elite-eleven",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "UPCOMING",
+      "at": "2026-11-10T07:22:08+00:00",
+      "run": "20261110T072208Z"
+    },
+    {
+      "id": "09ba37582c05",
+      "brand": "dyson",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "LIVE",
+      "at": "2026-11-10T07:22:08+00:00",
+      "run": "20261110T072208Z"
+    },
+    {
+      "id": "db39ccf196b4",
+      "brand": "dyson",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "10% off",
+      "at": "2026-11-10T07:22:08+00:00",
+      "run": "20261110T072208Z"
+    },
+    {
+      "id": "378c6f9c173b",
+      "brand": "hp",
+      "field": "scan.ok",
+      "label": "Scan health",
+      "old": true,
+      "new": false,
+      "at": "2026-11-10T07:22:08+00:00",
+      "run": "20261110T072208Z"
+    },
+    {
+      "id": "2a2cde56668e",
+      "brand": "foot-locker",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NEEDS_CHECKING",
+      "new": "LIVE",
+      "at": "2026-11-10T07:22:08+00:00",
+      "run": "20261110T072208Z"
+    },
+    {
+      "id": "bbdf08d76823",
+      "brand": "foot-locker",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "up to 50% off",
+      "at": "2026-11-10T07:22:08+00:00",
+      "run": "20261110T072208Z"
+    },
+    {
+      "id": "6384542e9768",
+      "brand": "muscle-nation",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "LIVE",
+      "new": "ENDED",
+      "at": "2026-11-10T07:22:08+00:00",
+      "run": "20261110T072208Z"
+    },
+    {
+      "id": "5449ac31b5ce",
+      "brand": "puma",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "UPCOMING",
+      "at": "2026-11-10T07:22:08+00:00",
+      "run": "20261110T072208Z"
+    },
+    {
+      "id": "6b852d9365f8",
+      "brand": "reebok",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "30% OFF",
+      "new": "30% off",
+      "at": "2026-11-10T07:22:08+00:00",
+      "run": "20261110T072208Z"
+    },
+    {
       "id": "7eb3b4fd5844",
       "brand": "alo-yoga",
       "field": "sale.regular_active",
