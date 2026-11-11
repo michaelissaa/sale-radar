@@ -1,6 +1,36 @@
 {
   "events": [
     {
+      "id": "b30dccf7d731",
+      "brand": "abercrombie",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "UPCOMING",
+      "at": "2026-11-11T06:27:18+00:00",
+      "run": "20261111T062718Z"
+    },
+    {
+      "id": "db708e1abdcf",
+      "brand": "dyson",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "LIVE",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-11T06:27:18+00:00",
+      "run": "20261111T062718Z"
+    },
+    {
+      "id": "c2cc77840398",
+      "brand": "dyson",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "10% off",
+      "new": null,
+      "at": "2026-11-11T06:27:18+00:00",
+      "run": "20261111T062718Z"
+    },
+    {
       "id": "c34149cd31f7",
       "brand": "hp",
       "field": "scan.ok",
