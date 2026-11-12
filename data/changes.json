@@ -1,6 +1,46 @@
 {
   "events": [
     {
+      "id": "e97ef39ba4d5",
+      "brand": "evdnce",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-12T19:56:40+00:00",
+      "run": "20261112T195640Z"
+    },
+    {
+      "id": "e80dc0f79d95",
+      "brand": "evdnce",
+      "field": "scan.ok",
+      "label": "Scan health",
+      "old": true,
+      "new": false,
+      "at": "2026-11-12T19:56:40+00:00",
+      "run": "20261112T195640Z"
+    },
+    {
+      "id": "d252d2b99ca7",
+      "brand": "new-balance",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "LIVE",
+      "at": "2026-11-12T19:56:40+00:00",
+      "run": "20261112T195640Z"
+    },
+    {
+      "id": "90a57cf5dd23",
+      "brand": "youngla",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-12T19:56:40+00:00",
+      "run": "20261112T195640Z"
+    },
+    {
       "id": "a238c68d6be2",
       "brand": "universal-store",
       "field": "sale.regular_active",
