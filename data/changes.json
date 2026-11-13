@@ -1,6 +1,56 @@
 {
   "events": [
     {
+      "id": "089700e717b7",
+      "brand": "evdnce",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NEEDS_CHECKING",
+      "new": "NOT_ANNOUNCED",
+      "at": "2026-11-13T06:48:59+00:00",
+      "run": "20261113T064859Z"
+    },
+    {
+      "id": "9a8d3cb727b2",
+      "brand": "evdnce",
+      "field": "scan.ok",
+      "label": "Scan health",
+      "old": false,
+      "new": true,
+      "at": "2026-11-13T06:48:59+00:00",
+      "run": "20261113T064859Z"
+    },
+    {
+      "id": "deec2c8680cf",
+      "brand": "salomon",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NEEDS_CHECKING",
+      "new": "UPCOMING",
+      "at": "2026-11-13T06:48:59+00:00",
+      "run": "20261113T064859Z"
+    },
+    {
+      "id": "dc0de42b230a",
+      "brand": "country-road",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-13T06:48:59+00:00",
+      "run": "20261113T064859Z"
+    },
+    {
+      "id": "c9fd123eff4e",
+      "brand": "country-road",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "30% off",
+      "at": "2026-11-13T06:48:59+00:00",
+      "run": "20261113T064859Z"
+    },
+    {
       "id": "e97ef39ba4d5",
       "brand": "evdnce",
       "field": "sale.status",
