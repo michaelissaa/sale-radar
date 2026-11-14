@@ -1,6 +1,46 @@
 {
   "events": [
     {
+      "id": "de83b0fcd9ae",
+      "brand": "abercrombie",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "UPCOMING",
+      "at": "2026-11-14T22:27:47+00:00",
+      "run": "20261114T222747Z"
+    },
+    {
+      "id": "07c462c75487",
+      "brand": "hp",
+      "field": "scan.ok",
+      "label": "Scan health",
+      "old": true,
+      "new": false,
+      "at": "2026-11-14T22:27:47+00:00",
+      "run": "20261114T222747Z"
+    },
+    {
+      "id": "7566d4e8d4be",
+      "brand": "myprotein",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "LIVE",
+      "at": "2026-11-14T22:27:47+00:00",
+      "run": "20261114T222747Z"
+    },
+    {
+      "id": "376ad81e56df",
+      "brand": "myprotein",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "40% off everything",
+      "new": "40% OFF",
+      "at": "2026-11-14T22:27:47+00:00",
+      "run": "20261114T222747Z"
+    },
+    {
       "id": "fe2266a78831",
       "brand": "myprotein",
       "field": "sale.status",
