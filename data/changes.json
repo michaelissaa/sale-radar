@@ -1,6 +1,36 @@
 {
   "events": [
     {
+      "id": "5a0c13e625d5",
+      "brand": "abercrombie",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "NOT_ANNOUNCED",
+      "at": "2026-11-15T06:37:01+00:00",
+      "run": "20261115T063701Z"
+    },
+    {
+      "id": "29d78d5c7469",
+      "brand": "hp",
+      "field": "scan.ok",
+      "label": "Scan health",
+      "old": false,
+      "new": true,
+      "at": "2026-11-15T06:37:01+00:00",
+      "run": "20261115T063701Z"
+    },
+    {
+      "id": "506cd5f0ca6d",
+      "brand": "foot-locker",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-15T06:37:01+00:00",
+      "run": "20261115T063701Z"
+    },
+    {
       "id": "de83b0fcd9ae",
       "brand": "abercrombie",
       "field": "sale.status",
