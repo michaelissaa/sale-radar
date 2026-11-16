@@ -1,6 +1,106 @@
 {
   "events": [
     {
+      "id": "b36fa6863d10",
+      "brand": "amazon",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "LIVE",
+      "at": "2026-11-16T22:06:12+00:00",
+      "run": "20261116T220612Z"
+    },
+    {
+      "id": "8038a3de45bc",
+      "brand": "alphalete",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "LIVE",
+      "at": "2026-11-16T22:06:12+00:00",
+      "run": "20261116T220612Z"
+    },
+    {
+      "id": "f6246951541e",
+      "brand": "alphalete",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "UP TO 80% OFF",
+      "at": "2026-11-16T22:06:12+00:00",
+      "run": "20261116T220612Z"
+    },
+    {
+      "id": "3884ef79634b",
+      "brand": "aybl",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "LIVE",
+      "new": "UPCOMING",
+      "at": "2026-11-16T22:06:12+00:00",
+      "run": "20261116T220612Z"
+    },
+    {
+      "id": "b6af3e66d531",
+      "brand": "aybl",
+      "field": "sale.regular_active",
+      "label": "Regular sale",
+      "old": false,
+      "new": true,
+      "at": "2026-11-16T22:06:12+00:00",
+      "run": "20261116T220612Z"
+    },
+    {
+      "id": "df71daf64453",
+      "brand": "aybl",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "up to 60% off",
+      "new": "Up to 60% off sitewide",
+      "at": "2026-11-16T22:06:12+00:00",
+      "run": "20261116T220612Z"
+    },
+    {
+      "id": "de09b3cb4363",
+      "brand": "hp",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "Up to 40% off",
+      "new": "10% off",
+      "at": "2026-11-16T22:06:12+00:00",
+      "run": "20261116T220612Z"
+    },
+    {
+      "id": "f767764318de",
+      "brand": "myprotein",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "40% OFF",
+      "new": "45% OFF",
+      "at": "2026-11-16T22:06:12+00:00",
+      "run": "20261116T220612Z"
+    },
+    {
+      "id": "4ff0aeeccb1f",
+      "brand": "rebel",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NEEDS_CHECKING",
+      "new": "LIVE",
+      "at": "2026-11-16T22:06:12+00:00",
+      "run": "20261116T220612Z"
+    },
+    {
+      "id": "68a00747e7b9",
+      "brand": "rebel",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "30% off selected Nike running shoes",
+      "new": "Up to 50% off",
+      "at": "2026-11-16T22:06:12+00:00",
+      "run": "20261116T220612Z"
+    },
+    {
       "id": "a27f6ef52f6b",
       "brand": "alo-yoga",
       "field": "sale.regular_active",
