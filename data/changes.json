@@ -1,6 +1,46 @@
 {
   "events": [
     {
+      "id": "2b062be6725b",
+      "brand": "elite-eleven",
+      "field": "sale.regular_active",
+      "label": "Regular sale",
+      "old": false,
+      "new": true,
+      "at": "2026-11-17T07:57:18+00:00",
+      "run": "20261117T075718Z"
+    },
+    {
+      "id": "53278925fc2a",
+      "brand": "alo-yoga",
+      "field": "sale.regular_active",
+      "label": "Regular sale",
+      "old": true,
+      "new": false,
+      "at": "2026-11-17T07:57:18+00:00",
+      "run": "20261117T075718Z"
+    },
+    {
+      "id": "50022fec4750",
+      "brand": "hp",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "LIVE",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-17T07:57:18+00:00",
+      "run": "20261117T075718Z"
+    },
+    {
+      "id": "f6accfcbfe62",
+      "brand": "hp",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "10% off",
+      "new": "Extra 10% off with code EBF",
+      "at": "2026-11-17T07:57:18+00:00",
+      "run": "20261117T075718Z"
+    },
+    {
       "id": "b36fa6863d10",
       "brand": "amazon",
       "field": "sale.status",
