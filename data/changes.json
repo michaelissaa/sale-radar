@@ -1,6 +1,26 @@
 {
   "events": [
     {
+      "id": "c6aa986d9e7d",
+      "brand": "asus",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NEEDS_CHECKING",
+      "new": "NOT_ANNOUNCED",
+      "at": "2026-11-19T07:28:50+00:00",
+      "run": "20261119T072850Z"
+    },
+    {
+      "id": "ec7502cd17df",
+      "brand": "asus",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "Up to $1,500 off selected devices",
+      "new": null,
+      "at": "2026-11-19T07:28:50+00:00",
+      "run": "20261119T072850Z"
+    },
+    {
       "id": "f8476b98d037",
       "brand": "jb-hifi",
       "field": "sale.status",
