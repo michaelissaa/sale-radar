@@ -1,6 +1,86 @@
 {
   "events": [
     {
+      "id": "82e0a2399e23",
+      "brand": "represent",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "LIVE",
+      "new": "UPCOMING",
+      "at": "2026-11-19T20:39:50+00:00",
+      "run": "20261119T203950Z"
+    },
+    {
+      "id": "4465231ad84c",
+      "brand": "represent",
+      "field": "sale.regular_active",
+      "label": "Regular sale",
+      "old": false,
+      "new": true,
+      "at": "2026-11-19T20:39:50+00:00",
+      "run": "20261119T203950Z"
+    },
+    {
+      "id": "d54d7d3eec7f",
+      "brand": "represent",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "UP TO 70% OFF",
+      "new": null,
+      "at": "2026-11-19T20:39:50+00:00",
+      "run": "20261119T203950Z"
+    },
+    {
+      "id": "ec529d7c706f",
+      "brand": "asus",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-19T20:39:50+00:00",
+      "run": "20261119T203950Z"
+    },
+    {
+      "id": "3997560e3937",
+      "brand": "asus",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "Up to $1,500 off selected devices",
+      "at": "2026-11-19T20:39:50+00:00",
+      "run": "20261119T203950Z"
+    },
+    {
+      "id": "b1d30e0b12f9",
+      "brand": "bo-tee",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NEEDS_CHECKING",
+      "new": "EARLY_ACCESS",
+      "at": "2026-11-19T20:39:50+00:00",
+      "run": "20261119T203950Z"
+    },
+    {
+      "id": "b21efe652a44",
+      "brand": "bo-tee",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "30% off",
+      "new": "up to 40% off",
+      "at": "2026-11-19T20:39:50+00:00",
+      "run": "20261119T203950Z"
+    },
+    {
+      "id": "1ec7c9f3560d",
+      "brand": "levis",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NOT_ANNOUNCED",
+      "new": "UPCOMING",
+      "at": "2026-11-19T20:39:50+00:00",
+      "run": "20261119T203950Z"
+    },
+    {
       "id": "c6aa986d9e7d",
       "brand": "asus",
       "field": "sale.status",
