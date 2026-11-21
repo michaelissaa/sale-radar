@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-11-20T20:24:25+00:00",
-    "run_id": "20261120T202425Z",
+    "generated_at": "2026-11-21T07:12:17+00:00",
+    "run_id": "20261121T071217Z",
     "timezone": "Australia/Sydney",
     "currency": "AUD",
     "black_friday": "2026-11-27",
     "cyber_monday": "2026-11-30",
     "brands_total": 77,
-    "scan_ok": 61,
-    "scan_failed": 16,
-    "last_successful_scan": "2026-11-20T20:24:25+00:00",
+    "scan_ok": 62,
+    "scan_failed": 15,
+    "last_successful_scan": "2026-11-21T07:12:17+00:00",
     "live_black_friday": 21,
     "live_regular": 8,
     "counts": {
@@ -20,7 +20,7 @@
       "ENDED": 1,
       "NEEDS_CHECKING": 20
     },
-    "new_events": 7
+    "new_events": 1
   },
   "brands": [
     {
@@ -87,7 +87,7 @@
         "summary": "30-day returns by post only. Free delivery for adiClub members; guests free over $120.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -98,7 +98,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -109,7 +109,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 39,
+        "consecutive_failures": 40,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -226,7 +226,7 @@
         "summary": "Free returns within 30 days on eligible Amazon-fulfilled fashion (look for 'FREE Returns'). Free delivery on eligible orders over $59.",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [
           "returns"
@@ -239,15 +239,15 @@
         "reason": "HTTP 503"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 4,
         "errors": [
           {
-            "url": "https://www.amazon.com.au/events/devicedeals/",
-            "error": "HTTP 503"
+            "url": "https://www.amazon.com.au/b/",
+            "error": "HTTP 404"
           }
         ],
         "consecutive_failures": 0,
@@ -261,8 +261,12 @@
         "stale": false,
         "policy_errors": [
           {
-            "url": "https://www.amazon.com.au/gp/help/customer/display.html?nodeId=GZXW7X6AKTHNUP6H",
+            "url": "https://www.amazon.com.au/b?ie=UTF8&node=10347105051",
             "error": "HTTP 503"
+          },
+          {
+            "url": "https://www.amazon.com.au/gp/help/customer/display.html?nodeId=GZXW7X6AKTHNUP6H",
+            "error": "HTTP 403 (likely bot protection)"
           }
         ]
       },
@@ -370,7 +374,7 @@
         "summary": "30 days for exchange or store credit. Online refunds cost an $8.95 handling fee. Free in-store returns.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -380,7 +384,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 2000,
         "discounted": 67,
         "share": 0.034,
@@ -388,8 +392,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -570,7 +574,7 @@
         "summary": "Free returns for Australian customers within 30 days (store credit, or refund less a fee). Sale-period returns: store credit only.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -580,7 +584,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 2000,
         "discounted": 1972,
         "share": 0.986,
@@ -588,8 +592,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -714,7 +718,7 @@
         "summary": "14-day returns via the Loop portal; $9.95 handling and return postage deducted from refunds. Free shipping over AU$250.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -724,7 +728,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 398,
         "discounted": 12,
         "share": 0.03,
@@ -732,8 +736,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -905,7 +909,7 @@
         "summary": "Free returns in Australia via the returns portal, 30 days. Free standard shipping over $100.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -919,8 +923,8 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -1032,7 +1036,7 @@
         "summary": "No change-of-mind refunds on online orders. Statutory rights for faulty goods still apply.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -1043,8 +1047,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1155,23 +1159,23 @@
         "summary": "30-day change-of-mind refunds for unused, unopened products; category exclusions apply.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 2000,
-        "discounted": 61,
-        "share": 0.03,
-        "max_pct": 68,
+        "discounted": 262,
+        "share": 0.131,
+        "max_pct": 77,
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1284,7 +1288,7 @@
         "summary": "30 days for a refund, 60 days for exchange or store credit. Return postage free only in some cases.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [
           "returns"
@@ -1293,16 +1297,16 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 2000,
-        "discounted": 147,
-        "share": 0.073,
+        "discounted": 143,
+        "share": 0.071,
         "max_pct": 95,
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -1403,7 +1407,7 @@
         "summary": "Free 30-day returns by post or in store, but sale and We Made Too Much items are excluded. Free shipping when signed in.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -1414,7 +1418,7 @@
         "reason": "TimeoutError: The read operation timed out"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -1425,7 +1429,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 39,
+        "consecutive_failures": 40,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -1555,7 +1559,7 @@
         "summary": "30-day returns (60 days for 1 Nov to 25 Dec purchases). Free return postage for Nike Members; guests pay $9.95.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -1569,8 +1573,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -1707,7 +1711,7 @@
         "summary": "Change-of-mind returns only for unopened mobile devices within 14 days. Free delivery on mobile products only.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -1718,8 +1722,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1817,7 +1821,7 @@
         "summary": "Free change-of-mind returns within 30 days. Sale items returnable unless marked Final Sale.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -1828,7 +1832,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": "2026-11-05T09:05:28+00:00",
         "ok": false,
         "pages_ok": 0,
@@ -1843,7 +1847,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 38,
+        "consecutive_failures": 39,
         "discovered": [
           "https://www.theiconic.com.au/black-friday/"
         ],
@@ -1967,7 +1971,7 @@
         "summary": "Australian return and delivery terms could not be verified; the pages served were US-region content.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -1981,8 +1985,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -2145,7 +2149,7 @@
         "summary": "30-day returns at your cost. Shipping $15, free over A$230, duties included.",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -2155,7 +2159,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 249,
         "discounted": 1,
         "share": 0.004,
@@ -2163,8 +2167,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2265,7 +2269,7 @@
         "summary": "30-day returns with return shipping covered. Free worldwide shipping over US$75.",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "shipping"
@@ -2274,16 +2278,16 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 499,
-        "discounted": 105,
-        "share": 0.21,
-        "max_pct": 43,
+        "discounted": 101,
+        "share": 0.202,
+        "max_pct": 41,
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2425,7 +2429,7 @@
         "summary": "30-day returns but you pay return postage; no prepaid label or exchanges for international orders. Final Sale excluded.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -2435,7 +2439,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 1256,
         "discounted": 1255,
         "share": 0.999,
@@ -2443,8 +2447,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -2607,7 +2611,7 @@
         "summary": "14-day returns, free by post or in store. Free delivery.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -2621,8 +2625,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 3,
@@ -2730,7 +2734,7 @@
         "summary": "45-day returns (60 for OneASICS members). Free returns for members, $9.99 for guests. Final Sale excluded. Free shipping over $199.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -2741,7 +2745,7 @@
         "reason": "HTTP 302"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -2752,7 +2756,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 39,
+        "consecutive_failures": 40,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -2864,7 +2868,7 @@
         "summary": "28-day returns for a refund, $8.99 return fee deducted. No exchanges. Free shipping over $120 or with Premier.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -2875,7 +2879,7 @@
         "reason": "TimeoutError: The read operation timed out"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -2886,7 +2890,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 39,
+        "consecutive_failures": 40,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -2981,7 +2985,7 @@
           "dates_seen": [
             "9th November"
           ],
-          "evidence": "00 Regular price £44.00 20% OFF Craft Oversized T Shirt Black Sale price £22.40 Regular price £28.00 Shop all BLACK FRIDAY FAQs When does the sale go live? Our Black Friday sale goes live Monday 9th November at 7pm GMT / 2pm EST / 8",
+          "evidence": "rice £22.00 Regular price £44.00 40% OFF Core 5\" Shorts Black Sale price £13.20 Regular price £22.00 Shop all BLACK FRIDAY FAQs When does the sale go live? Our Black Friday sale goes live Monday 9th November at 7pm GMT / 2pm EST / 8",
           "free_shipping_threshold_hint": null,
           "status": "UPCOMING",
           "confidence": "low",
@@ -3022,7 +3026,7 @@
         "summary": "30-day returns but return postage is deducted for Australia (free returns only UK/US/EU). Final Sale excluded. Free shipping over $90.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -3032,7 +3036,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 2000,
         "discounted": 1998,
         "share": 0.999,
@@ -3040,8 +3044,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 3,
@@ -3220,8 +3224,8 @@
         "summary": "Purchases 1 Nov to 29 Dec returnable until 15 Jan 2027. Free delivery, no minimum.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
-        "page_ok": true,
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
+        "page_ok": false,
         "page_changed_since_verified": [
           "returns",
           "shipping"
@@ -3234,8 +3238,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -3243,7 +3247,12 @@
         "consecutive_failures": 0,
         "discovered": [],
         "stale": false,
-        "policy_errors": []
+        "policy_errors": [
+          {
+            "url": "https://www.dell.com/en-au/shop/lp/return-policy",
+            "error": "HTTP 403 (likely bot protection)"
+          }
+        ]
       },
       "recent_changes": [
         {
@@ -3337,7 +3346,7 @@
         "summary": "45-day change-of-mind returns with free return delivery; 1 Nov to 17 Dec purchases until 31 Jan 2027. Free delivery over $89.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -3351,8 +3360,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -3488,7 +3497,7 @@
         "summary": "Online store closed for relaunch; current returns and delivery terms not available.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "unverified",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -3499,8 +3508,8 @@
         "reason": "HTTP 401 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -3634,7 +3643,7 @@
         "summary": "30-day returns at your cost to the AU warehouse. In-store returns only in Queensland. Free shipping over $110.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -3648,8 +3657,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -3788,7 +3797,7 @@
         "summary": "60-day returns for 5 Nov to 31 Dec purchases, sale items included. Postal return label costs $10; free in store. Free shipping over $200.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -3799,7 +3808,7 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -3810,7 +3819,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 37,
+        "consecutive_failures": 38,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -3919,7 +3928,7 @@
       },
       "sale": {
         "status": "NEEDS_CHECKING",
-        "basis": "stale",
+        "basis": "auto",
         "confidence": "low",
         "name": "Early Black Friday offers",
         "discount_text": "Extra 10% off with code EBF",
@@ -3939,7 +3948,23 @@
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
         "sale_type": null,
-        "auto": null,
+        "auto": {
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
+          "code": null,
+          "future_language": false,
+          "early_access": false,
+          "dates_seen": [],
+          "evidence": "& Audio Stylus Pens Cables & Dongles Webcams Accessory Offers New Accessories View All Accessories Care Pack Black Friday Sale SALES, DEALS & OFFERS All Black Friday Deals Black Friday Business Deals Black Friday Gaming Deals Black",
+          "free_shipping_threshold_hint": null,
+          "status": "NEEDS_CHECKING",
+          "confidence": "low",
+          "url": "https://www.hp.com/au-en/shop/",
+          "title": "HP® Laptops, Printers, Computers & Monitors  - Shop HP.com Australia"
+        },
         "regular_active": false
       },
       "policy": {
@@ -3966,7 +3991,7 @@
         "summary": "14-day change of mind; you pay return costs. Free delivery over $50.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -3980,40 +4005,33 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-19T20:39:50+00:00",
-        "ok": false,
-        "pages_ok": 0,
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
+        "ok": true,
+        "pages_ok": 4,
         "pages_tried": 4,
-        "errors": [
-          {
-            "url": "https://www.hp.com/au-en/shop/",
-            "error": "HTTP 403 (likely bot protection)"
-          },
-          {
-            "url": "https://www.hp.com/au-en/shop/sale-offers.html",
-            "error": "HTTP 403 (likely bot protection)"
-          },
-          {
-            "url": "https://www.hp.com/au-en/shop/sale",
-            "error": "HTTP 403 (likely bot protection)"
-          },
-          {
-            "url": "https://www.hp.com/au-en/shop/business-pc.html",
-            "error": "HTTP 403 (likely bot protection)"
-          }
-        ],
-        "consecutive_failures": 2,
+        "errors": [],
+        "consecutive_failures": 0,
         "discovered": [
           "https://www.hp.com/au-en/shop/sale",
           "https://www.hp.com/au-en/shop/sale-offers.html",
           "https://www.hp.com/au-en/shop/business-pc.html",
           "https://www.hp.com/au-en/shop/accessories/accessories-sale.html"
         ],
-        "stale": true,
+        "stale": false,
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "8ab46cfddcc8",
+          "brand": "hp",
+          "field": "scan.ok",
+          "label": "Scan health",
+          "old": false,
+          "new": true,
+          "at": "2026-11-21T07:12:17+00:00",
+          "run": "20261121T071217Z"
+        },
         {
           "id": "8b46f055fd21",
           "brand": "hp",
@@ -4083,19 +4101,9 @@
           "new": true,
           "at": "2026-11-10T19:45:34+00:00",
           "run": "20261110T194534Z"
-        },
-        {
-          "id": "378c6f9c173b",
-          "brand": "hp",
-          "field": "scan.ok",
-          "label": "Scan health",
-          "old": true,
-          "new": false,
-          "at": "2026-11-10T07:22:08+00:00",
-          "run": "20261110T072208Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "hype-dc",
@@ -4159,7 +4167,7 @@
         "summary": "30-day returns; you pay change-of-mind postage. Sale items: in-store exchange or gift card only. Free express over $160.",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -4170,7 +4178,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -4181,7 +4189,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 35,
+        "consecutive_failures": 36,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -4287,7 +4295,7 @@
         "summary": "30-day refunds; you pay postage for change-of-mind returns by post. In-store returns accepted. Free delivery over $150.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -4298,8 +4306,8 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 2,
@@ -4482,7 +4490,7 @@
         "summary": "7-day returns for PCs only with a 20% restocking fee; clearance and accessories excluded. Free shipping.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -4493,8 +4501,8 @@
         "reason": "HTTP 503"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -4621,7 +4629,7 @@
         "summary": "14-day returns with an A$28.65 return label. Sale items: e-gift card only. Free shipping over A$400.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -4631,7 +4639,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 1453,
         "discounted": 0,
         "share": 0.0,
@@ -4639,8 +4647,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -4793,9 +4801,11 @@
         "summary": "30-day change-of-mind refunds (online orders: refund, not exchange). Clearance excluded. Free delivery over $99.",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
-        "page_changed_since_verified": [],
+        "page_changed_since_verified": [
+          "shipping"
+        ],
         "free_shipping_threshold_hint": 99
       },
       "markdown": {
@@ -4804,8 +4814,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -4869,7 +4879,7 @@
         "code": null,
         "early_access": "Extra 5% off in the app (auto-applies)",
         "conditions": "Product tiles say the discount is applied automatically. One banner also mentions code 'blackfriday'; check at checkout.",
-        "evidence": "No.1 Online Sports Nutrition Brand Extra 10% off + FREE shaker for new customers Earn $10 Credit? HOW DO YOU BLACK FRIDAY? | 45% OFF + EXTRA 10% OFF EVERYTHING + $1 DELIVERY ON ORDERS +$100 | ENDS IN... Days : Hours : Minutes : Sec",
+        "evidence": "No.1 Online Sports Nutrition Brand Extra 10% off + FREE shaker for new customers Earn $10 Credit? HOW DO YOU BLACK FRIDAY? 45% OFF EVERYTHING | DISCOUNT APPLIED MORE SERVINGS, MORE SAVINGS | EXTRA 15% OFF SELECTED BIG BAGS OF PROTE",
         "source_url": "https://au.myprotein.com/",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
@@ -4884,7 +4894,7 @@
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": "No.1 Online Sports Nutrition Brand Extra 10% off + FREE shaker for new customers Earn $10 Credit? HOW DO YOU BLACK FRIDAY? | 45% OFF + EXTRA 10% OFF EVERYTHING + $1 DELIVERY ON ORDERS +$100 | ENDS IN... Days : Hours : Minutes : Sec",
+          "evidence": "No.1 Online Sports Nutrition Brand Extra 10% off + FREE shaker for new customers Earn $10 Credit? HOW DO YOU BLACK FRIDAY? 45% OFF EVERYTHING | DISCOUNT APPLIED MORE SERVINGS, MORE SAVINGS | EXTRA 15% OFF SELECTED BIG BAGS OF PROTE",
           "free_shipping_threshold_hint": 150,
           "status": "LIVE",
           "confidence": "medium",
@@ -4919,7 +4929,7 @@
         "summary": "30-day returns for a refund (no exchanges). Free delivery over $150, otherwise from $9.95.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -4933,15 +4943,15 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [
-          "https://au.myprotein.com/c/clothing/all-clothing/"
+          "https://au.myprotein.com/c/nutrition/au-best-sellers/"
         ],
         "stale": false,
         "policy_errors": []
@@ -5028,7 +5038,7 @@
           "run": "20261114T062753Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "new-balance",
@@ -5093,7 +5103,7 @@
         "summary": "Free 60-day returns by post or in store. Final sale excluded. Free shipping over $150, or free for logged-in members.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -5104,7 +5114,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -5115,7 +5125,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 39,
+        "consecutive_failures": 40,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -5241,7 +5251,7 @@
         "summary": "Free returns; purchases 21 Oct to 31 Dec get 90 days. Free standard shipping including customs.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -5252,8 +5262,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -5405,7 +5415,7 @@
         "summary": "60-day change-of-mind returns including sale items. Postal label costs $10; free in store. Free express shipping over $150.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -5416,8 +5426,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -5594,7 +5604,7 @@
         "summary": "30-day change-of-mind returns; free returns on online orders under 10kg (conditions apply). Free delivery over $150 on tagged items.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -5608,8 +5618,8 @@
         "reason": "HTTP 410"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -5718,7 +5728,7 @@
       "notes": null,
       "links": {
         "home": "https://au.representclo.com/",
-        "sale": "https://row.representclo.com/?shpxid=e1d67fdd-572b-489b-ae05-d25263500c34",
+        "sale": "https://row.representclo.com/?shpxid=4dba405e-3151-44b1-9a8c-560add19ca86",
         "returns": "https://row.representclo.com/pages/shipping-returns-product-page",
         "shipping": "https://row.representclo.com/pages/shipping-returns-product-page"
       },
@@ -5740,7 +5750,7 @@
         "early_access": null,
         "conditions": null,
         "evidence": "Skip to content Join Prestige BLACK FRIDAY NOW LIVE UP TO 70% OFF Represent 247 Luxury British Streetwear | Official Global Store® | REPRESENT Retail Bl",
-        "source_url": "https://row.representclo.com/?shpxid=e1d67fdd-572b-489b-ae05-d25263500c34",
+        "source_url": "https://row.representclo.com/?shpxid=4dba405e-3151-44b1-9a8c-560add19ca86",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
         "sale_type": "black_friday",
@@ -5758,7 +5768,7 @@
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://row.representclo.com/?shpxid=e1d67fdd-572b-489b-ae05-d25263500c34",
+          "url": "https://row.representclo.com/?shpxid=4dba405e-3151-44b1-9a8c-560add19ca86",
           "title": "Luxury British Streetwear | Official Global Store®\n        | REPRESENT"
         },
         "regular_active": false
@@ -5789,7 +5799,7 @@
         "summary": "14 days to send items back for a refund. Shipping to AU $20, free over $420.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [
           "returns"
@@ -5798,7 +5808,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 2000,
         "discounted": 1795,
         "share": 0.897,
@@ -5806,8 +5816,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -5914,7 +5924,7 @@
           "run": "20261118T203417Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "ryderwear",
@@ -5997,14 +6007,14 @@
         "summary": "Black Friday orders: 60 days for store credit or exchange, not refunds. Outlet not returnable. Free shipping over $120.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": 120
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 2000,
         "discounted": 1996,
         "share": 0.998,
@@ -6012,8 +6022,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -6164,7 +6174,7 @@
         "summary": "30-day change-of-mind returns. Free returns only for S/PLUS members, and not on sale items. Free standard delivery for S/PLUS members.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "shipping"
@@ -6173,7 +6183,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 1719,
         "discounted": 792,
         "share": 0.461,
@@ -6181,8 +6191,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -6335,7 +6345,7 @@
         "summary": "Free returns only if you pay the returns option at checkout; otherwise a handling fee applies. Full policy not visible while the store is locked.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns"
@@ -6344,7 +6354,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 74,
         "discounted": 19,
         "share": 0.257,
@@ -6352,8 +6362,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -6484,14 +6494,14 @@
         "summary": "Return requests must be emailed within 3 days of delivery. Standard shipping $12, no free-shipping threshold found.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 889,
         "discounted": 9,
         "share": 0.01,
@@ -6499,8 +6509,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -6638,7 +6648,7 @@
         "summary": "Unopened change-of-mind returns only; delivery fee not refunded; opened goods may cost a 20% restocking fee.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -6649,8 +6659,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -6754,7 +6764,7 @@
         "summary": "30-day returns. Posting a return costs $8; exchanges can be done free in an Australian store. Sale items covered. Free shipping over $75.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -6765,7 +6775,7 @@
         "reason": "TimeoutError: The read operation timed out"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -6776,7 +6786,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 39,
+        "consecutive_failures": 40,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -6878,7 +6888,7 @@
         },
         "regular": {
           "name": "Store-wide markdowns",
-          "discount_text": "Up to 99% off (44% of products)",
+          "discount_text": "Up to 99% off (41% of products)",
           "discount_max_pct": 99,
           "basis": "feed"
         },
@@ -6910,7 +6920,7 @@
         "summary": "40-day returns and Universal Store pays return shipping. Free express over $145; standard $10.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -6920,16 +6930,16 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 2000,
-        "discounted": 884,
-        "share": 0.442,
+        "discounted": 814,
+        "share": 0.407,
         "max_pct": 99,
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -7101,7 +7111,7 @@
         "summary": "60-day returns. Exchanges and store credit get a free label; refunds have a label fee. Free AU shipping over $100.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -7111,7 +7121,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 430,
         "discounted": 0,
         "share": 0.0,
@@ -7119,8 +7129,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -7280,7 +7290,7 @@
         "summary": "30-day returns, free in store; drop-point returns cost $3.95. Free shipping over $75 only on full-price items.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -7291,7 +7301,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -7302,7 +7312,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 39,
+        "consecutive_failures": 40,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -7436,7 +7446,7 @@
         "summary": "30-day change-of-mind refunds for full-price and outlet items. Free shipping over $80.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -7446,16 +7456,16 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
-        "products": 963,
-        "discounted": 899,
-        "share": 0.934,
+        "checked_at": "2026-11-21T07:12:17+00:00",
+        "products": 958,
+        "discounted": 894,
+        "share": 0.933,
         "max_pct": 71,
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -7628,7 +7638,7 @@
         "summary": "Only 3 days for change-of-mind returns; restocking fees may apply. Free delivery.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -7639,8 +7649,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -7786,7 +7796,7 @@
         "summary": "14-day change-of-mind returns for unopened goods; postage deducted from online refunds.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -7797,7 +7807,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -7812,7 +7822,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 35,
+        "consecutive_failures": 36,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -7918,7 +7928,7 @@
         "summary": "14 days for refund or exchange (28 for store credit). First return free in some cases; customs may apply from the UK.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -7928,7 +7938,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 249,
         "discounted": 60,
         "share": 0.241,
@@ -7936,8 +7946,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -8113,7 +8123,7 @@
         "summary": "120-day returns on purchases from 1 Oct. Free shipping for Bonds Rewards members, otherwise over $59.",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -8127,8 +8137,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -8224,7 +8234,7 @@
         "summary": "Free 30-day returns with a prepaid label. Free shipping over $100.",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -8235,7 +8245,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -8250,7 +8260,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 35,
+        "consecutive_failures": 36,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -8342,7 +8352,7 @@
         "summary": "30-day returns with $7.95 deducted. Online orders can't be returned in store. Free shipping over $125.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [
           "returns"
@@ -8355,7 +8365,7 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -8366,7 +8376,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 39,
+        "consecutive_failures": 40,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -8480,7 +8490,7 @@
         "summary": "Change-of-mind returns any time with proof of purchase. Free online returns within Australia, or return in store.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -8494,8 +8504,8 @@
         "reason": "HTTP 410"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -8653,7 +8663,7 @@
         "summary": "30-day returns: free in store, $9.95 by post. Free standard delivery over $100.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -8663,7 +8673,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 2000,
         "discounted": 86,
         "share": 0.043,
@@ -8671,8 +8681,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -8844,7 +8854,7 @@
         "summary": "30-day refunds or exchanges; sale items returnable. Free delivery over $100.",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -8855,8 +8865,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -8899,7 +8909,7 @@
       "notes": null,
       "links": {
         "home": "https://echt.com.au/",
-        "sale": "https://us.echt.com.au/?shpxid=9cb1ee76-d8e2-4aa2-ad0e-d04eec932758",
+        "sale": "https://us.echt.com.au/?shpxid=3d613478-35dc-440e-b632-3c369af1aca6",
         "returns": "https://echt.gorgias.help/en-US/how-do-i-return--exchange-an-item-430440",
         "shipping": "https://echt.com.au/pages/shipping-info"
       },
@@ -8921,7 +8931,7 @@
         "early_access": null,
         "conditions": "Collection is live. Extra promotions seen (extra 15% off $135+, free gift over $100) were on ECHT's US storefront and may not apply in Australia.",
         "evidence": "s Stringers & Tanks Others Others › Accessories Gift Cards Activity Activity › Weight Training Running Lounge Black Friday › Women’s Sale Men’s Sale Nothing Over $20 3 For 30% Off › Supplements › Rewards › Account Sign in Wishlist C",
-        "source_url": "https://us.echt.com.au/?shpxid=9cb1ee76-d8e2-4aa2-ad0e-d04eec932758",
+        "source_url": "https://us.echt.com.au/?shpxid=3d613478-35dc-440e-b632-3c369af1aca6",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
         "sale_type": "black_friday",
@@ -8939,7 +8949,7 @@
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://us.echt.com.au/?shpxid=9cb1ee76-d8e2-4aa2-ad0e-d04eec932758",
+          "url": "https://us.echt.com.au/?shpxid=3d613478-35dc-440e-b632-3c369af1aca6",
           "title": "Shop ECHT Gym Wear Online | Gym Clothes & Accessories\n – Echt ApparelAmerican ExpressApple PayGoogle PayMastercardPayPal"
         },
         "regular_active": false
@@ -8970,7 +8980,7 @@
         "summary": "40 days for exchange or credit, refunds only within 14 days. You pay return postage unless you bought the free-returns option. Standard AU shipping free.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "shipping"
@@ -8979,16 +8989,16 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
-        "products": 788,
-        "discounted": 524,
-        "share": 0.665,
+        "checked_at": "2026-11-21T07:12:17+00:00",
+        "products": 789,
+        "discounted": 566,
+        "share": 0.717,
         "max_pct": 88,
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -9045,7 +9055,7 @@
       "notes": null,
       "links": {
         "home": "https://www.footlocker.com.au/",
-        "sale": "https://www.footlocker.com.au/en/blackfriday.html",
+        "sale": "https://www.footlocker.com.au/",
         "returns": "https://help.footlocker.com.au/hc/en-gb/articles/34438200648219-Returns-Exchanges",
         "shipping": "https://www.footlocker.com.au/en/terms/terms.html"
       },
@@ -9067,7 +9077,7 @@
         "early_access": "FLX Rewards members get first access",
         "conditions": null,
         "evidence": "gift every year Be first in line with member-only sales Convert points into savings Sign in or join for free Black Friday Shop All Sale Deals Under $25 Deals Under $50 Deals Under $75 Deals Under $100 Deals Under $150 Deals under $",
-        "source_url": "https://www.footlocker.com.au/en/blackfriday.html",
+        "source_url": "https://www.footlocker.com.au/",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "verified",
         "sale_type": "black_friday",
@@ -9085,8 +9095,8 @@
           "free_shipping_threshold_hint": null,
           "status": "UPCOMING",
           "confidence": "low",
-          "url": "https://www.footlocker.com.au/en/blackfriday.html",
-          "title": "Black Friday Sale 2026 | Huge Deals on Sneakers, Clothing & Accessories | Foot Locker Australia"
+          "url": "https://www.footlocker.com.au/",
+          "title": "The Heart of Sneakers | Foot Locker Australia"
         },
         "regular_active": false
       },
@@ -9111,7 +9121,7 @@
         "summary": "Returns in any Foot Locker store or by mail; window and fees not verified. Free standard delivery over $150.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [
           "shipping"
@@ -9124,8 +9134,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -9300,7 +9310,7 @@
         "summary": "30-day returns with free return shipping. Free shipping over $49.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns"
@@ -9313,8 +9323,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -9404,7 +9414,7 @@
         },
         "regular": {
           "name": "Store-wide markdowns",
-          "discount_text": "Up to 83% off (95% of products)",
+          "discount_text": "Up to 83% off (94% of products)",
           "discount_max_pct": 83,
           "basis": "feed"
         },
@@ -9436,7 +9446,7 @@
         "summary": "Full-price items: 30-day returns by Refundid portal or in store. Final Sale not returnable. Free shipping over $145.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -9446,16 +9456,16 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 2000,
-        "discounted": 1891,
-        "share": 0.946,
+        "discounted": 1889,
+        "share": 0.945,
         "max_pct": 83,
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -9614,7 +9624,7 @@
         "summary": "30-day returns by post with a prepaid label; non-members pay $10.95. Online orders can't be returned in store. Free shipping over $75 for members.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -9625,7 +9635,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -9636,7 +9646,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 39,
+        "consecutive_failures": 40,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -9750,7 +9760,7 @@
         "summary": "30 days from shipping confirmation to return. Free delivery on all orders.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -9760,16 +9770,16 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 1226,
-        "discounted": 1,
-        "share": 0.001,
-        "max_pct": 2,
+        "discounted": 803,
+        "share": 0.655,
+        "max_pct": 30,
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -9861,7 +9871,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "logitech",
@@ -9939,7 +9949,7 @@
         "summary": "30-day money-back guarantee. Free shipping over $80.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -9950,8 +9960,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -10055,7 +10065,7 @@
         "summary": "Sale styles: exchange or gift card only (30 days), no refunds. Free in-store returns. Free shipping over $160.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -10065,7 +10075,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 2000,
         "discounted": 1756,
         "share": 0.878,
@@ -10073,8 +10083,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -10219,7 +10229,7 @@
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://musclenation.us/?shpxid=8d469c3e-6e32-4f11-acfa-ed3018d103f5",
+          "url": "https://musclenation.us/?shpxid=bbca1751-161d-41db-801c-4d88236e0061",
           "title": "Gym Clothes & Supplements - Shop Online | Muscle Nation\nAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPayPalSa"
         },
         "regular": {
@@ -10256,7 +10266,7 @@
         "summary": "15 days to lodge a return. Return postage free only if you chose Checkout Plus. Free AU shipping over $130.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -10266,16 +10276,16 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
-        "products": 1891,
-        "discounted": 1890,
+        "checked_at": "2026-11-21T07:12:17+00:00",
+        "products": 1886,
+        "discounted": 1885,
         "share": 0.999,
         "max_pct": 88,
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -10425,7 +10435,7 @@
         "summary": "30-day returns; refunds cost $10, exchanges and store credit free. Promo items: store credit only. Free shipping over $175.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -10435,7 +10445,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 469,
         "discounted": 395,
         "share": 0.842,
@@ -10443,8 +10453,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -10618,7 +10628,7 @@
         "summary": "30-day refunds or exchanges in store (365 days with OnePass). Free metro delivery over $65.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -10632,8 +10642,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -10758,7 +10768,7 @@
         "summary": "Free 30-day returns with a prepaid label, but discounted and outlet items cannot be returned. Free shipping over $150.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -10768,7 +10778,7 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 2000,
         "discounted": 1869,
         "share": 0.934,
@@ -10776,8 +10786,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -10956,7 +10966,7 @@
         "summary": "30-day free returns, but sale and Black Friday items are store credit or in-store exchange only; final sale not returnable. Free shipping over $150.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -10966,16 +10976,16 @@
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
+        "checked_at": "2026-11-21T07:12:17+00:00",
         "products": 1924,
-        "discounted": 1842,
-        "share": 0.957,
+        "discounted": 1843,
+        "share": 0.958,
         "max_pct": 80,
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -11155,7 +11165,7 @@
         "summary": "Free 30-day returns (one free return per order). Free shipping over $150, otherwise $10.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [
           "returns"
@@ -11168,8 +11178,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -11320,23 +11330,23 @@
         "summary": "Free 30-day returns with a prepaid slip, or in store. Final sale excluded. Free shipping over $99.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
       },
       "markdown": {
         "ok": true,
-        "checked_at": "2026-11-19T20:39:50+00:00",
-        "products": 1463,
+        "checked_at": "2026-11-21T07:12:17+00:00",
+        "products": 1462,
         "discounted": 1436,
         "share": 0.982,
         "max_pct": 82,
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -11520,7 +11530,7 @@
         "summary": "30-day money-back for My Sony members on eligible products. Free shipping over $200.",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [
           "returns",
@@ -11534,8 +11544,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -11621,7 +11631,7 @@
         "summary": "30-day returns including sale items. Free standard shipping Australia-wide.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -11632,7 +11642,7 @@
         "reason": "HTTP 429 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -11647,7 +11657,7 @@
             "error": "HTTP 429 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 37,
+        "consecutive_failures": 38,
         "discovered": [],
         "stale": true,
         "policy_errors": []
@@ -11795,7 +11805,7 @@
         "summary": "Free 30-day returns with a prepaid label. Free shipping over $129.",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -11806,8 +11816,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -11950,7 +11960,7 @@
         "summary": "60-day returns for 5 Nov to 31 Dec purchases; free in store. Free express over $150.",
         "verified_at": "2026-11-05T11:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": true,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -11961,8 +11971,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -12061,7 +12071,7 @@
         "summary": "Free express shipping and free returns on all orders (AU store). Returns window not stated.",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
-        "page_checked_at": "2026-11-19T20:39:50+00:00",
+        "page_checked_at": "2026-11-21T07:12:17+00:00",
         "page_ok": false,
         "page_changed_since_verified": [],
         "free_shipping_threshold_hint": null
@@ -12072,8 +12082,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-20T20:24:25+00:00",
-        "last_success": "2026-11-20T20:24:25+00:00",
+        "last_attempt": "2026-11-21T07:12:17+00:00",
+        "last_success": "2026-11-21T07:12:17+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
