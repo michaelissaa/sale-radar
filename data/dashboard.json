@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-21T19:18:51+00:00",
-    "run_id": "20261121T191851Z",
+    "generated_at": "2026-11-22T06:52:54+00:00",
+    "run_id": "20261122T065254Z",
     "timezone": "Australia/Sydney",
     "currency": "AUD",
     "black_friday": "2026-11-27",
@@ -9,18 +9,18 @@
     "brands_total": 77,
     "scan_ok": 62,
     "scan_failed": 15,
-    "last_successful_scan": "2026-11-21T19:18:51+00:00",
+    "last_successful_scan": "2026-11-22T06:52:54+00:00",
     "live_black_friday": 21,
     "live_regular": 8,
     "counts": {
       "LIVE": 19,
-      "UPCOMING": 14,
+      "UPCOMING": 15,
       "EARLY_ACCESS": 2,
-      "NOT_ANNOUNCED": 21,
+      "NOT_ANNOUNCED": 19,
       "ENDED": 1,
-      "NEEDS_CHECKING": 20
+      "NEEDS_CHECKING": 21
     },
-    "new_events": 0
+    "new_events": 3
   },
   "brands": [
     {
@@ -98,7 +98,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -109,7 +109,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 41,
+        "consecutive_failures": 42,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -192,7 +192,7 @@
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": "0 To change, sign in or enter a postcode All Select the department that you want to search in All Departments Black Friday Alexa Skills Amazon Devices Amazon Global Store Amazon Haul Amazon Resale Apps & Games Audible Audiobooks Aut",
+          "evidence": "ur keyboard's up or down arrows. .com.au All Select the department that you want to search in All Departments Black Friday Alexa Skills Amazon Devices Amazon Global Store Amazon Haul Amazon Resale Apps & Games Audible Audiobooks Aut",
           "free_shipping_threshold_hint": null,
           "status": "NEEDS_CHECKING",
           "confidence": "low",
@@ -239,24 +239,24 @@
         "reason": "HTTP 503"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 4,
         "errors": [
           {
-            "url": "https://www.amazon.com.au/b/",
-            "error": "HTTP 404"
+            "url": "https://www.amazon.com.au/b",
+            "error": "HTTP 503"
           }
         ],
         "consecutive_failures": 0,
         "discovered": [
           "https://www.amazon.com.au/blackfriday",
           "https://www.amazon.com.au/blackfriday/",
-          "https://www.amazon.com.au/b",
-          "https://www.amazon.com.au/dp/B0H2LFPQR8",
-          "https://www.amazon.com.au/dp/B0CW4F344C"
+          "https://www.amazon.com.au/b/",
+          "https://www.amazon.com.au/dp/B0H2LFPQR8/",
+          "https://www.amazon.com.au/dp/B0CW4F344C/"
         ],
         "stale": false,
         "policy_errors": [
@@ -392,8 +392,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -592,8 +592,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -648,12 +648,12 @@
       "notes": null,
       "links": {
         "home": "https://evdnce.com/",
-        "sale": "https://evdnce.com/products.json",
+        "sale": "https://evdnce.com/",
         "returns": "https://evdnce.com/pages/help-center",
         "shipping": "https://evdnce.com/pages/help-center"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
+        "status": "UPCOMING",
         "basis": "auto",
         "confidence": "low",
         "name": null,
@@ -669,24 +669,24 @@
         "code": null,
         "early_access": null,
         "conditions": "Corrected 5 Nov: no real sale. The banner contradicts the store's prices. A handful of items are marked down.",
-        "evidence": null,
-        "source_url": "https://evdnce.com/products.json",
+        "evidence": "Skip to content COMING THIS BLACK FRIDAY: 27.11.26 JOIN THE VIP LIST TO GET NOTIFIED FIRST Free shipping on orders over AU$250 COMING THIS BLACK FRIDA",
+        "source_url": "https://evdnce.com/",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "verified",
-        "sale_type": null,
+        "sale_type": "black_friday",
         "auto": {
-          "bf_mentioned": false,
-          "discount_text": "UP TO 50% OFF",
-          "discount_max_pct": 50,
-          "discount_kind": "up_to",
-          "sitewide_hint": true,
+          "bf_mentioned": true,
+          "discount_text": null,
+          "discount_max_pct": null,
+          "discount_kind": null,
+          "sitewide_hint": false,
           "code": null,
-          "future_language": false,
+          "future_language": true,
           "early_access": false,
           "dates_seen": [],
-          "evidence": null,
+          "evidence": "Skip to content COMING THIS BLACK FRIDAY: 27.11.26 JOIN THE VIP LIST TO GET NOTIFIED FIRST Free shipping on orders over AU$250 COMING THIS BLACK FRIDA",
           "free_shipping_threshold_hint": 250,
-          "status": "NOT_ANNOUNCED",
+          "status": "UPCOMING",
           "confidence": "low",
           "url": "https://evdnce.com/",
           "title": "EVDNCE | Premium Activewear Designed To Inspire"
@@ -736,18 +736,31 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
         "errors": [],
         "consecutive_failures": 0,
-        "discovered": [],
+        "discovered": [
+          "https://evdnce.com/collections/coming-soon",
+          "https://evdnce.com/pages/black-friday-vip"
+        ],
         "stale": false,
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "c5f06ee1c445",
+          "brand": "evdnce",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "NOT_ANNOUNCED",
+          "new": "UPCOMING",
+          "at": "2026-11-22T06:52:54+00:00",
+          "run": "20261122T065254Z"
+        },
         {
           "id": "089700e717b7",
           "brand": "evdnce",
@@ -817,19 +830,9 @@
           "new": null,
           "at": "2026-11-05T10:33:42+00:00",
           "run": "20261105T103342Z"
-        },
-        {
-          "id": "9ce227df5caf",
-          "brand": "evdnce",
-          "field": "policy.returns.free_return_postage",
-          "label": "Free return postage",
-          "old": null,
-          "new": "CONDITIONAL",
-          "at": "2026-11-05T09:45:26+00:00",
-          "run": "20261105T094526Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "gymshark",
@@ -923,8 +926,8 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -1047,8 +1050,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1174,8 +1177,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1305,8 +1308,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -1418,7 +1421,7 @@
         "reason": "TimeoutError: The read operation timed out"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -1429,7 +1432,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 41,
+        "consecutive_failures": 42,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -1573,8 +1576,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -1722,8 +1725,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1832,7 +1835,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": "2026-11-05T09:05:28+00:00",
         "ok": false,
         "pages_ok": 0,
@@ -1847,7 +1850,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 40,
+        "consecutive_failures": 41,
         "discovered": [
           "https://www.theiconic.com.au/black-friday/"
         ],
@@ -1985,8 +1988,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -2167,8 +2170,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2286,8 +2289,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2447,8 +2450,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -2625,8 +2628,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 3,
@@ -2745,7 +2748,7 @@
         "reason": "HTTP 302"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -2756,7 +2759,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 41,
+        "consecutive_failures": 42,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -2879,7 +2882,7 @@
         "reason": "TimeoutError: The read operation timed out"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -2890,7 +2893,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 41,
+        "consecutive_failures": 42,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -2985,7 +2988,7 @@
           "dates_seen": [
             "9th November"
           ],
-          "evidence": "egular price £44.00 20% OFF Essential Oversized T Shirt Black Sale price £22.40 Regular price £28.00 Shop all BLACK FRIDAY FAQs When does the sale go live? Our Black Friday sale goes live Monday 9th November at 7pm GMT / 2pm EST / 8",
+          "evidence": "00 Regular price £44.00 20% OFF Craft Oversized T Shirt Black Sale price £22.40 Regular price £28.00 Shop all BLACK FRIDAY FAQs When does the sale go live? Our Black Friday sale goes live Monday 9th November at 7pm GMT / 2pm EST / 8",
           "free_shipping_threshold_hint": null,
           "status": "UPCOMING",
           "confidence": "low",
@@ -3044,8 +3047,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 3,
@@ -3238,12 +3241,17 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
-        "pages_ok": 2,
+        "pages_ok": 1,
         "pages_tried": 2,
-        "errors": [],
+        "errors": [
+          {
+            "url": "https://www.dell.com/en-au/shop/lp/black-friday-deals",
+            "error": "HTTP 403 (likely bot protection)"
+          }
+        ],
         "consecutive_failures": 0,
         "discovered": [],
         "stale": false,
@@ -3360,8 +3368,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -3508,8 +3516,8 @@
         "reason": "HTTP 401 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -3577,7 +3585,7 @@
         "shipping": "https://www.hallensteins.com/au/faqs/shipping"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
+        "status": "UPCOMING",
         "basis": "auto",
         "confidence": "low",
         "name": null,
@@ -3593,24 +3601,24 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": null,
+        "evidence": "w in App Get App Join for 15% off AUD New Zealand Australia United States International - 00 : 00 : 00 : 00 - Black Friday Sale Hallensteins New Best Sellers Clothing Tops Bottoms Accessories Sale Sign In / Register Login Don't have",
         "source_url": "https://www.hallensteins.com/au",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
-        "sale_type": null,
+        "sale_type": "black_friday",
         "auto": {
-          "bf_mentioned": false,
-          "discount_text": "15% off",
+          "bf_mentioned": true,
+          "discount_text": "15% OFF",
           "discount_max_pct": 15,
           "discount_kind": "flat",
           "sitewide_hint": false,
           "code": null,
-          "future_language": false,
+          "future_language": true,
           "early_access": false,
           "dates_seen": [],
-          "evidence": null,
+          "evidence": "w in App Get App Join for 15% off AUD New Zealand Australia United States International - 00 : 00 : 00 : 00 - Black Friday Sale Hallensteins New Best Sellers Clothing Tops Bottoms Accessories Sale Sign In / Register Login Don't have",
           "free_shipping_threshold_hint": null,
-          "status": "NOT_ANNOUNCED",
+          "status": "UPCOMING",
           "confidence": "low",
           "url": "https://www.hallensteins.com/au",
           "title": "Black Friday Early Access | Hallensteins AU"
@@ -3657,20 +3665,30 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [
-          "https://www.hallensteins.com/au/c/clothing"
+          "https://www.hallensteins.com/au/c/black-friday"
         ],
         "stale": false,
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "253fd00b2167",
+          "brand": "hallensteins",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "NOT_ANNOUNCED",
+          "new": "UPCOMING",
+          "at": "2026-11-22T06:52:54+00:00",
+          "run": "20261122T065254Z"
+        },
         {
           "id": "745373466d8c",
           "brand": "hallensteins",
@@ -3732,7 +3750,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "hoka",
@@ -3808,7 +3826,7 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -3819,7 +3837,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 39,
+        "consecutive_failures": 40,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -4005,8 +4023,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -4178,7 +4196,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -4189,7 +4207,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 37,
+        "consecutive_failures": 38,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -4306,8 +4324,8 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 2,
@@ -4501,8 +4519,8 @@
         "reason": "HTTP 503"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -4647,8 +4665,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -4814,8 +4832,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -4943,8 +4961,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -5114,7 +5132,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -5125,7 +5143,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 41,
+        "consecutive_failures": 42,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -5262,8 +5280,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -5426,8 +5444,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -5618,8 +5636,8 @@
         "reason": "HTTP 410"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -5728,7 +5746,7 @@
       "notes": null,
       "links": {
         "home": "https://au.representclo.com/",
-        "sale": "https://row.representclo.com/?shpxid=7d463e67-8e10-4639-95e1-023c47967950",
+        "sale": "https://row.representclo.com/?shpxid=e67f46ab-b7e3-4156-bee0-7220fc973123",
         "returns": "https://row.representclo.com/pages/shipping-returns-product-page",
         "shipping": "https://row.representclo.com/pages/shipping-returns-product-page"
       },
@@ -5750,7 +5768,7 @@
         "early_access": null,
         "conditions": null,
         "evidence": "Skip to content Join Prestige BLACK FRIDAY NOW LIVE UP TO 70% OFF Represent 247 Luxury British Streetwear | Official Global Store® | REPRESENT Retail Bl",
-        "source_url": "https://row.representclo.com/?shpxid=7d463e67-8e10-4639-95e1-023c47967950",
+        "source_url": "https://row.representclo.com/?shpxid=e67f46ab-b7e3-4156-bee0-7220fc973123",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
         "sale_type": "black_friday",
@@ -5768,7 +5786,7 @@
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://row.representclo.com/?shpxid=7d463e67-8e10-4639-95e1-023c47967950",
+          "url": "https://row.representclo.com/?shpxid=e67f46ab-b7e3-4156-bee0-7220fc973123",
           "title": "Luxury British Streetwear | Official Global Store®\n        | REPRESENT"
         },
         "regular_active": false
@@ -5816,8 +5834,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -6022,8 +6040,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -6191,8 +6209,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -6362,8 +6380,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -6509,8 +6527,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -6659,8 +6677,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -6775,7 +6793,7 @@
         "reason": "TimeoutError: The read operation timed out"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -6786,7 +6804,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 41,
+        "consecutive_failures": 42,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -6938,8 +6956,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -7129,8 +7147,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -7301,7 +7319,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -7312,7 +7330,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 41,
+        "consecutive_failures": 42,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -7464,8 +7482,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -7649,8 +7667,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -7807,7 +7825,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -7822,7 +7840,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 37,
+        "consecutive_failures": 38,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -7946,8 +7964,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -8137,8 +8155,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -8245,7 +8263,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -8260,7 +8278,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 37,
+        "consecutive_failures": 38,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -8365,7 +8383,7 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -8376,7 +8394,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 41,
+        "consecutive_failures": 42,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -8504,8 +8522,8 @@
         "reason": "HTTP 410"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -8681,8 +8699,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -8865,8 +8883,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -8909,7 +8927,7 @@
       "notes": null,
       "links": {
         "home": "https://echt.com.au/",
-        "sale": "https://us.echt.com.au/?shpxid=bd6b5d97-1810-4553-8015-b52e377edb19",
+        "sale": "https://us.echt.com.au/?shpxid=d00a8aed-d518-40d0-b96b-391def3b9916",
         "returns": "https://echt.gorgias.help/en-US/how-do-i-return--exchange-an-item-430440",
         "shipping": "https://echt.com.au/pages/shipping-info"
       },
@@ -8931,7 +8949,7 @@
         "early_access": null,
         "conditions": "Collection is live. Extra promotions seen (extra 15% off $135+, free gift over $100) were on ECHT's US storefront and may not apply in Australia.",
         "evidence": "s Stringers & Tanks Others Others › Accessories Gift Cards Activity Activity › Weight Training Running Lounge Black Friday › Women’s Sale Men’s Sale Nothing Over $20 3 For 30% Off › Supplements › Rewards › Account Sign in Wishlist C",
-        "source_url": "https://us.echt.com.au/?shpxid=bd6b5d97-1810-4553-8015-b52e377edb19",
+        "source_url": "https://us.echt.com.au/?shpxid=d00a8aed-d518-40d0-b96b-391def3b9916",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
         "sale_type": "black_friday",
@@ -8949,7 +8967,7 @@
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://us.echt.com.au/?shpxid=bd6b5d97-1810-4553-8015-b52e377edb19",
+          "url": "https://us.echt.com.au/?shpxid=d00a8aed-d518-40d0-b96b-391def3b9916",
           "title": "Shop ECHT Gym Wear Online | Gym Clothes & Accessories\n – Echt ApparelAmerican ExpressApple PayGoogle PayMastercardPayPal"
         },
         "regular_active": false
@@ -8997,8 +9015,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -9060,7 +9078,7 @@
         "shipping": "https://www.footlocker.com.au/en/terms/terms.html"
       },
       "sale": {
-        "status": "UPCOMING",
+        "status": "NEEDS_CHECKING",
         "basis": "auto",
         "confidence": "low",
         "name": "Black Friday Sale 2026",
@@ -9076,11 +9094,11 @@
         "code": null,
         "early_access": "FLX Rewards members get first access",
         "conditions": null,
-        "evidence": "gift every year Be first in line with member-only sales Convert points into savings Sign in or join for free Black Friday Shop All Sale Deals Under $25 Deals Under $50 Deals Under $75 Deals Under $100 Deals Under $150 Deals under $",
+        "evidence": "Black Friday Sale YOU'RE IN Keep an eye on your inbox for first access and exclusive FLX Rewards offers. Black Friday alerts first with SMS or the app",
         "source_url": "https://www.footlocker.com.au/en/blackfriday.html",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "verified",
-        "sale_type": "black_friday",
+        "sale_type": null,
         "auto": {
           "bf_mentioned": true,
           "discount_text": null,
@@ -9089,14 +9107,14 @@
           "sitewide_hint": false,
           "code": null,
           "future_language": false,
-          "early_access": true,
+          "early_access": false,
           "dates_seen": [],
-          "evidence": "gift every year Be first in line with member-only sales Convert points into savings Sign in or join for free Black Friday Shop All Sale Deals Under $25 Deals Under $50 Deals Under $75 Deals Under $100 Deals Under $150 Deals under $",
+          "evidence": "This link will open in a new window Skip To Main Find a Store Sign In | Join FLX Black Friday Shop All Sale Deals Under $25 Deals Under $50 Deals Under $75 Deals Under $100 Deals Under $150 Deals under $",
           "free_shipping_threshold_hint": null,
-          "status": "UPCOMING",
+          "status": "NEEDS_CHECKING",
           "confidence": "low",
-          "url": "https://www.footlocker.com.au/en/blackfriday.html",
-          "title": "Black Friday Sale 2026 | Huge Deals on Sneakers, Clothing & Accessories | Foot Locker Australia"
+          "url": "https://www.footlocker.com.au/",
+          "title": "The Heart of Sneakers | Foot Locker Australia"
         },
         "regular_active": false
       },
@@ -9134,8 +9152,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -9151,6 +9169,16 @@
         ]
       },
       "recent_changes": [
+        {
+          "id": "0a851ed97348",
+          "brand": "foot-locker",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "UPCOMING",
+          "new": "NEEDS_CHECKING",
+          "at": "2026-11-22T06:52:54+00:00",
+          "run": "20261122T065254Z"
+        },
         {
           "id": "103ca8ec114e",
           "brand": "foot-locker",
@@ -9220,19 +9248,9 @@
           "new": "NEEDS_CHECKING",
           "at": "2026-11-09T22:25:00+00:00",
           "run": "20261109T222500Z"
-        },
-        {
-          "id": "d758ac825fc7",
-          "brand": "foot-locker",
-          "field": "sale.regular_active",
-          "label": "Regular sale",
-          "old": null,
-          "new": false,
-          "at": "2026-11-05T10:33:42+00:00",
-          "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "garmin",
@@ -9323,8 +9341,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -9464,8 +9482,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -9635,7 +9653,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -9646,7 +9664,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 41,
+        "consecutive_failures": 42,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -9778,8 +9796,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -9960,8 +9978,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -10083,8 +10101,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -10229,7 +10247,7 @@
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://musclenation.us/?shpxid=f45578c9-32a2-4328-bdc0-1b1a12fd1cf4",
+          "url": "https://musclenation.us/?shpxid=e8154cf3-623b-4eea-a9f0-9e02f19900a5",
           "title": "Gym Clothes & Supplements - Shop Online | Muscle Nation\nAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPayPalSa"
         },
         "regular": {
@@ -10284,8 +10302,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -10453,8 +10471,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -10642,8 +10660,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -10786,8 +10804,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -10984,8 +11002,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -11178,8 +11196,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -11345,8 +11363,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -11544,8 +11562,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -11642,7 +11660,7 @@
         "reason": "HTTP 429 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -11657,7 +11675,7 @@
             "error": "HTTP 429 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 39,
+        "consecutive_failures": 40,
         "discovered": [],
         "stale": true,
         "policy_errors": []
@@ -11816,8 +11834,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -11971,8 +11989,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -12082,8 +12100,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-21T19:18:51+00:00",
-        "last_success": "2026-11-21T19:18:51+00:00",
+        "last_attempt": "2026-11-22T06:52:54+00:00",
+        "last_success": "2026-11-22T06:52:54+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
