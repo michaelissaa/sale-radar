@@ -1,6 +1,56 @@
 {
   "events": [
     {
+      "id": "397a32386c0a",
+      "brand": "hallensteins",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "LIVE",
+      "at": "2026-11-22T19:43:10+00:00",
+      "run": "20261122T194310Z"
+    },
+    {
+      "id": "0485874c943e",
+      "brand": "hallensteins",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "15% off",
+      "at": "2026-11-22T19:43:10+00:00",
+      "run": "20261122T194310Z"
+    },
+    {
+      "id": "eda463b007c9",
+      "brand": "hp",
+      "field": "scan.ok",
+      "label": "Scan health",
+      "old": true,
+      "new": false,
+      "at": "2026-11-22T19:43:10+00:00",
+      "run": "20261122T194310Z"
+    },
+    {
+      "id": "7bc6621ab6a8",
+      "brand": "universal-store",
+      "field": "sale.regular_active",
+      "label": "Regular sale",
+      "old": true,
+      "new": false,
+      "at": "2026-11-22T19:43:10+00:00",
+      "run": "20261122T194310Z"
+    },
+    {
+      "id": "3de75f1120e2",
+      "brand": "foot-locker",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "NEEDS_CHECKING",
+      "new": "UPCOMING",
+      "at": "2026-11-22T19:43:10+00:00",
+      "run": "20261122T194310Z"
+    },
+    {
       "id": "c5f06ee1c445",
       "brand": "evdnce",
       "field": "sale.status",
