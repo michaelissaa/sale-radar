@@ -1,6 +1,106 @@
 {
   "events": [
     {
+      "id": "44817ef27c9a",
+      "brand": "nike",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "UPCOMING",
+      "new": "LIVE",
+      "at": "2026-11-23T07:42:22+00:00",
+      "run": "20261123T074222Z"
+    },
+    {
+      "id": "e4814dcc1ff9",
+      "brand": "nike",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": null,
+      "new": "Up to 30% Off",
+      "at": "2026-11-23T07:42:22+00:00",
+      "run": "20261123T074222Z"
+    },
+    {
+      "id": "a044ed1f1761",
+      "brand": "hp",
+      "field": "scan.ok",
+      "label": "Scan health",
+      "old": false,
+      "new": true,
+      "at": "2026-11-23T07:42:22+00:00",
+      "run": "20261123T074222Z"
+    },
+    {
+      "id": "c983fa5b9f01",
+      "brand": "myprotein",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "45% OFF",
+      "new": "50% OFF",
+      "at": "2026-11-23T07:42:22+00:00",
+      "run": "20261123T074222Z"
+    },
+    {
+      "id": "a2b0b7b418bf",
+      "brand": "echt",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "LIVE",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-23T07:42:22+00:00",
+      "run": "20261123T074222Z"
+    },
+    {
+      "id": "7bbd94b6f518",
+      "brand": "echt",
+      "field": "sale.regular_active",
+      "label": "Regular sale",
+      "old": false,
+      "new": true,
+      "at": "2026-11-23T07:42:22+00:00",
+      "run": "20261123T074222Z"
+    },
+    {
+      "id": "2e0071b40a58",
+      "brand": "echt",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "30% Off",
+      "new": "Up to 70% off selected items",
+      "at": "2026-11-23T07:42:22+00:00",
+      "run": "20261123T074222Z"
+    },
+    {
+      "id": "94c3084cd967",
+      "brand": "levis",
+      "field": "sale.status",
+      "label": "Black Friday status",
+      "old": "LIVE",
+      "new": "NEEDS_CHECKING",
+      "at": "2026-11-23T07:42:22+00:00",
+      "run": "20261123T074222Z"
+    },
+    {
+      "id": "a383adf3c239",
+      "brand": "levis",
+      "field": "sale.regular_active",
+      "label": "Regular sale",
+      "old": false,
+      "new": true,
+      "at": "2026-11-23T07:42:22+00:00",
+      "run": "20261123T074222Z"
+    },
+    {
+      "id": "cd3f777edb80",
+      "brand": "levis",
+      "field": "sale.discount_text",
+      "label": "Discount",
+      "old": "30% OFF",
+      "new": null,
+      "at": "2026-11-23T07:42:22+00:00",
+      "run": "20261123T074222Z"
+    },
+    {
       "id": "397a32386c0a",
       "brand": "hallensteins",
       "field": "sale.status",
