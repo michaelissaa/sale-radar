@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-23T23:55:44+00:00",
-    "run_id": "20261123T235544Z",
+    "generated_at": "2026-11-24T09:56:41+00:00",
+    "run_id": "20261124T095641Z",
     "timezone": "Australia/Sydney",
     "currency": "AUD",
     "black_friday": "2026-11-27",
@@ -9,18 +9,18 @@
     "brands_total": 77,
     "scan_ok": 62,
     "scan_failed": 15,
-    "last_successful_scan": "2026-11-23T23:55:44+00:00",
-    "live_black_friday": 26,
+    "last_successful_scan": "2026-11-24T09:56:41+00:00",
+    "live_black_friday": 27,
     "live_regular": 9,
     "counts": {
-      "LIVE": 24,
+      "LIVE": 25,
       "UPCOMING": 11,
       "EARLY_ACCESS": 2,
-      "NOT_ANNOUNCED": 16,
+      "NOT_ANNOUNCED": 15,
       "ENDED": 1,
       "NEEDS_CHECKING": 23
     },
-    "new_events": 14
+    "new_events": 3
   },
   "brands": [
     {
@@ -98,7 +98,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -109,7 +109,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 45,
+        "consecutive_failures": 46,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -239,8 +239,8 @@
         "reason": "HTTP 503"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 4,
@@ -256,7 +256,7 @@
           "https://www.amazon.com.au/blackfriday/",
           "https://www.amazon.com.au/b/",
           "https://www.amazon.com.au/dp/B0H2LFPQR8/",
-          "https://www.amazon.com.au/dp/B0GSH4JF4J/"
+          "https://www.amazon.com.au/ZICOTO-Aesthetic-Blank-Recipe-Waterproof/dp/B0C53FZN1H"
         ],
         "stale": false,
         "policy_errors": [
@@ -388,17 +388,12 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
-        "pages_ok": 3,
+        "pages_ok": 4,
         "pages_tried": 4,
-        "errors": [
-          {
-            "url": "https://www.culturekings.com.au/collections/black-friday-2-for-99",
-            "error": "HTTP 500"
-          }
-        ],
+        "errors": [],
         "consecutive_failures": 0,
         "discovered": [
           "https://www.culturekings.com.au/collections/black-friday-3-for-99",
@@ -593,8 +588,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -737,8 +732,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -866,7 +861,7 @@
         "code": null,
         "early_access": "App users and loyalty members get first notice; no 2026 member discount disclosed",
         "conditions": null,
-        "evidence": "Pause slide rotation Free returns extended until 31st January 2027 THE GYMSHARK BLACK FRIDAY SALE: UP TO 50% OFF EVERYTHING Free standard shipping on orders over $100 Students get an extra 15% off Get $",
+        "evidence": "ended until 31st January 2027 EXTRA 20% OFF GYM ESSENTIALS | ON TOP OF UP TO 50% OFF EVERYTHING! THE GYMSHARK BLACK FRIDAY SALE: UP TO 50% OFF EVERYTHING Free standard shipping on orders over $100 Students get an extra 15% off Get $",
         "source_url": "https://au.gymshark.com/",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "verified",
@@ -881,7 +876,7 @@
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": "Pause slide rotation Free returns extended until 31st January 2027 THE GYMSHARK BLACK FRIDAY SALE: UP TO 50% OFF EVERYTHING Free standard shipping on orders over $100 Students get an extra 15% off Get $",
+          "evidence": "ended until 31st January 2027 EXTRA 20% OFF GYM ESSENTIALS | ON TOP OF UP TO 50% OFF EVERYTHING! THE GYMSHARK BLACK FRIDAY SALE: UP TO 50% OFF EVERYTHING Free standard shipping on orders over $100 Students get an extra 15% off Get $",
           "free_shipping_threshold_hint": 100,
           "status": "LIVE",
           "confidence": "medium",
@@ -928,8 +923,8 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -986,7 +981,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "harvey-norman",
@@ -1072,8 +1067,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1199,8 +1194,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1330,8 +1325,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1380,7 +1375,7 @@
           "run": "20261105T090528Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "lululemon",
@@ -1455,7 +1450,7 @@
         "reason": "TimeoutError: The read operation timed out"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -1466,7 +1461,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 45,
+        "consecutive_failures": 46,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -1564,7 +1559,7 @@
           "status": "LIVE",
           "confidence": "medium",
           "url": "https://www.nike.com/au/",
-          "title": "Nike. Just Do It. Nike AU"
+          "title": "Nike Black Friday Sale. Up to 30% Off Select Styles* . Nike AU"
         },
         "regular_active": false
       },
@@ -1610,8 +1605,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -1779,8 +1774,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -1889,7 +1884,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": "2026-11-05T09:05:28+00:00",
         "ok": false,
         "pages_ok": 0,
@@ -1904,7 +1899,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 44,
+        "consecutive_failures": 45,
         "discovered": [
           "https://www.theiconic.com.au/black-friday/"
         ],
@@ -2042,8 +2037,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -2135,7 +2130,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "adanola",
@@ -2234,8 +2229,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2359,8 +2354,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -2432,7 +2427,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "alphalete",
@@ -2530,8 +2525,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -2708,8 +2703,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 3,
@@ -2722,7 +2717,7 @@
         "consecutive_failures": 0,
         "discovered": [
           "https://www.apple.com/au/shop/goto/gifts/black_friday_event",
-          "https://www.apple.com/au/shop/goto/gifts/black-friday-event/terms_conditions"
+          "https://www.apple.com/au/shop/goto/gifts/black_friday_event/terms_conditions"
         ],
         "stale": false,
         "policy_errors": []
@@ -2828,7 +2823,7 @@
         "reason": "HTTP 302"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -2839,7 +2834,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 45,
+        "consecutive_failures": 46,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -2962,7 +2957,7 @@
         "reason": "TimeoutError: The read operation timed out"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -2973,7 +2968,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 45,
+        "consecutive_failures": 46,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -3051,7 +3046,7 @@
         "code": null,
         "early_access": "Sign up to shop 1 hour before everyone else",
         "conditions": "Announced, no start date yet. AYBL serves one global store (UK-based).",
-        "evidence": "£12.60 Regular price £18.00 20% OFF Craft Oversized T Shirt Black Sale price £22.40 Regular price £28.00 Your Black Friday haul starts here The fits you wanted. The prices you waited for. SHOP NOW NEW RELEASES MEN WOMEN View all NEW",
+        "evidence": "Regular price £18.00 40% OFF Essential Oversized Hoodie Grey Marl Sale price £27.60 Regular price £46.00 Your Black Friday haul starts here The fits you wanted. The prices you waited for. SHOP NOW NEW RELEASES MEN WOMEN View all NEW",
         "source_url": "https://www.aybl.com/",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
@@ -3066,7 +3061,7 @@
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": "£12.60 Regular price £18.00 20% OFF Craft Oversized T Shirt Black Sale price £22.40 Regular price £28.00 Your Black Friday haul starts here The fits you wanted. The prices you waited for. SHOP NOW NEW RELEASES MEN WOMEN View all NEW",
+          "evidence": "Regular price £18.00 40% OFF Essential Oversized Hoodie Grey Marl Sale price £27.60 Regular price £46.00 Your Black Friday haul starts here The fits you wanted. The prices you waited for. SHOP NOW NEW RELEASES MEN WOMEN View all NEW",
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
@@ -3119,8 +3114,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 3,
@@ -3219,7 +3214,7 @@
           "run": "20261109T222500Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "dell",
@@ -3313,12 +3308,17 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
-        "pages_ok": 2,
+        "pages_ok": 1,
         "pages_tried": 2,
-        "errors": [],
+        "errors": [
+          {
+            "url": "https://www.dell.com/en-au/shop/lp/black-friday-deals",
+            "error": "HTTP 403 (likely bot protection)"
+          }
+        ],
         "consecutive_failures": 0,
         "discovered": [],
         "stale": false,
@@ -3435,8 +3435,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -3551,8 +3551,8 @@
           "free_shipping_threshold_hint": null,
           "status": "NOT_ANNOUNCED",
           "confidence": "low",
-          "url": "https://www.gluestore.com.au/password",
-          "title": "Glue Store"
+          "url": "https://www.gluestore.com.au/",
+          "title": "Glue Store | Curated Streetwear, Apparel & Footwear"
         },
         "regular_active": false
       },
@@ -3583,8 +3583,8 @@
         "reason": "HTTP 401 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -3732,8 +3732,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -3903,7 +3903,7 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -3914,7 +3914,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 43,
+        "consecutive_failures": 44,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -4100,8 +4100,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -4273,7 +4273,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -4284,7 +4284,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 41,
+        "consecutive_failures": 42,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -4401,8 +4401,8 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 2,
@@ -4596,8 +4596,8 @@
         "reason": "HTTP 503"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -4742,8 +4742,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -4909,8 +4909,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -4962,7 +4962,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "myprotein",
@@ -5058,8 +5058,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -5229,7 +5229,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -5240,7 +5240,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 45,
+        "consecutive_failures": 46,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -5377,8 +5377,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -5470,7 +5470,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     },
     {
       "id": "platypus",
@@ -5561,8 +5561,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -5753,8 +5753,8 @@
         "reason": "HTTP 410"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -5863,7 +5863,7 @@
       "notes": null,
       "links": {
         "home": "https://au.representclo.com/",
-        "sale": "https://row.representclo.com/?shpxid=940ce39b-9dd4-42ba-8034-af9180c5adc8",
+        "sale": "https://row.representclo.com/?shpxid=1ab9cef9-f1c1-4aba-9386-27f53c33ea87",
         "returns": "https://row.representclo.com/pages/shipping-returns-product-page",
         "shipping": "https://row.representclo.com/pages/shipping-returns-product-page"
       },
@@ -5885,7 +5885,7 @@
         "early_access": null,
         "conditions": null,
         "evidence": "Skip to content Join Prestige BLACK FRIDAY NOW LIVE UP TO 70% OFF Represent 247 Luxury British Streetwear | Official Global Store® | REPRESENT Retail Bl",
-        "source_url": "https://row.representclo.com/?shpxid=940ce39b-9dd4-42ba-8034-af9180c5adc8",
+        "source_url": "https://row.representclo.com/?shpxid=1ab9cef9-f1c1-4aba-9386-27f53c33ea87",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "sourced",
         "sale_type": "black_friday",
@@ -5903,7 +5903,7 @@
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://row.representclo.com/?shpxid=940ce39b-9dd4-42ba-8034-af9180c5adc8",
+          "url": "https://row.representclo.com/?shpxid=1ab9cef9-f1c1-4aba-9386-27f53c33ea87",
           "title": "Luxury British Streetwear | Official Global Store®\n        | REPRESENT"
         },
         "regular_active": false
@@ -5951,8 +5951,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -6157,8 +6157,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -6326,8 +6326,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -6497,8 +6497,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -6644,8 +6644,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -6794,8 +6794,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -6910,7 +6910,7 @@
         "reason": "TimeoutError: The read operation timed out"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -6921,7 +6921,7 @@
             "error": "TimeoutError: The read operation timed out"
           }
         ],
-        "consecutive_failures": 45,
+        "consecutive_failures": 46,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -7067,8 +7067,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -7171,7 +7171,7 @@
       "notes": null,
       "links": {
         "home": "https://au.youngla.com/",
-        "sale": "https://au.youngla.com/",
+        "sale": "https://au.youngla.com/password",
         "returns": "https://au.youngla.com/pages/returns-and-exchanges",
         "shipping": "https://au.youngla.com/"
       },
@@ -7192,8 +7192,8 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": "Skip to content 30% Black Friday Sale Starts In: 00 Day : 00 Hrs : 00 Min : 00 Sec YoungLA Australia Open navigation menu AU US Europe UK AU F",
-        "source_url": "https://au.youngla.com/",
+        "evidence": "sword below to access the store: Password Enter the store Opening soon The site will open at 12:00 PM PST for Black Friday! E-mail Notify me Account Skip For You Orders Profile",
+        "source_url": "https://au.youngla.com/password",
         "verified_at": "2026-11-05T09:00:00+00:00",
         "verification": "sourced",
         "sale_type": "black_friday",
@@ -7207,12 +7207,12 @@
           "future_language": true,
           "early_access": false,
           "dates_seen": [],
-          "evidence": "Skip to content 30% Black Friday Sale Starts In: 00 Day : 00 Hrs : 00 Min : 00 Sec YoungLA Australia Open navigation menu AU US Europe UK AU F",
+          "evidence": "sword below to access the store: Password Enter the store Opening soon The site will open at 12:00 PM PST for Black Friday! E-mail Notify me Account Skip For You Orders Profile",
           "free_shipping_threshold_hint": null,
           "status": "UPCOMING",
           "confidence": "low",
-          "url": "https://au.youngla.com/",
-          "title": "Lifestyle Clothing Brand: Youngla.comAmerican ExpressApple PayDiners ClubDiscoverGoogle PayMastercardPayPalShop PayVisa"
+          "url": "https://au.youngla.com/password",
+          "title": "YoungLA Australia"
         },
         "regular_active": false
       },
@@ -7258,8 +7258,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -7431,7 +7431,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -7442,7 +7442,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 45,
+        "consecutive_failures": 46,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -7594,8 +7594,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -7779,8 +7779,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -7937,7 +7937,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -7952,7 +7952,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 41,
+        "consecutive_failures": 42,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -8076,8 +8076,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -8267,15 +8267,15 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [
-          "https://www.bonds.com.au/media/wysiwyg/PDFs/Win_Your_Cart_-_BFCM_Final.pdf"
+          "https://www.bonds.com.au/stories/warehouse-clearance-top-50/cyber-monday.html"
         ],
         "stale": false,
         "policy_errors": []
@@ -8377,7 +8377,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -8392,7 +8392,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 41,
+        "consecutive_failures": 42,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -8497,7 +8497,7 @@
         "reason": "HTTP 403 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -8508,7 +8508,7 @@
             "error": "HTTP 403 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 45,
+        "consecutive_failures": 46,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -8636,8 +8636,8 @@
         "reason": "HTTP 410"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -8813,8 +8813,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -8997,8 +8997,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -9081,7 +9081,7 @@
           "free_shipping_threshold_hint": null,
           "status": "NEEDS_CHECKING",
           "confidence": "low",
-          "url": "https://us.echt.com.au/?shpxid=3a0f4b3d-2f97-47e7-854e-52b30c5474b3",
+          "url": "https://us.echt.com.au/?shpxid=100dcb8b-691c-4636-b8cf-1542a5160272",
           "title": "Shop ECHT Gym Wear Online | Gym Clothes & Accessories\n – Echt ApparelAmerican ExpressApple PayGoogle PayMastercardPayPal"
         },
         "regular": {
@@ -9135,8 +9135,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -9223,7 +9223,7 @@
       "notes": null,
       "links": {
         "home": "https://www.footlocker.com.au/",
-        "sale": "https://www.footlocker.com.au/en/blackfriday.html",
+        "sale": "https://www.footlocker.com.au/",
         "returns": "https://help.footlocker.com.au/hc/en-gb/articles/34438200648219-Returns-Exchanges",
         "shipping": "https://www.footlocker.com.au/en/terms/terms.html"
       },
@@ -9245,7 +9245,7 @@
         "early_access": "FLX Rewards members get first access",
         "conditions": null,
         "evidence": "gift every year Be first in line with member-only sales Convert points into savings Sign in or join for free Black Friday Shop All Sale Deals Under $25 Deals Under $50 Deals Under $75 Deals Under $100 Deals Under $150 Deals under $",
-        "source_url": "https://www.footlocker.com.au/en/blackfriday.html",
+        "source_url": "https://www.footlocker.com.au/",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "verified",
         "sale_type": "black_friday",
@@ -9263,8 +9263,8 @@
           "free_shipping_threshold_hint": null,
           "status": "UPCOMING",
           "confidence": "low",
-          "url": "https://www.footlocker.com.au/en/blackfriday.html",
-          "title": "Black Friday Sale 2026 | Huge Deals on Sneakers, Clothing & Accessories | Foot Locker Australia"
+          "url": "https://www.footlocker.com.au/",
+          "title": "The Heart of Sneakers | Foot Locker Australia"
         },
         "regular_active": false
       },
@@ -9302,8 +9302,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -9491,8 +9491,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -9632,8 +9632,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -9803,7 +9803,7 @@
         "reason": "disallowed by robots.txt"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -9814,7 +9814,7 @@
             "error": "disallowed by robots.txt"
           }
         ],
-        "consecutive_failures": 45,
+        "consecutive_failures": 46,
         "discovered": [],
         "stale": true,
         "policy_errors": [
@@ -9897,7 +9897,7 @@
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": "keep it loose shai bluetab™ jeans guide blog: off the cuff spring lookbook summer lookbook ft. kita alexander Black Friday SALE Black Friday SALE all sale women's sale men's sale women's jeans men's jeans Track Order Login/ Sign up",
+          "evidence": "summer lookbook ft. kita alexander levi’s® x sacai keep it loose rose bluetab™ jeans guide blog: off the cuff Black Friday SALE Black Friday SALE all sale women's sale men's sale women's jeans men's jeans Track Order Login/ Sign up",
           "free_shipping_threshold_hint": null,
           "status": "NEEDS_CHECKING",
           "confidence": "low",
@@ -9952,8 +9952,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -10136,8 +10136,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 2,
         "pages_tried": 2,
@@ -10179,8 +10179,8 @@
         "basis": "auto",
         "confidence": "medium",
         "name": "Black Friday",
-        "discount_text": "15% Off",
-        "discount_max_pct": 15,
+        "discount_text": "20% Off",
+        "discount_max_pct": 20,
         "discount_kind": "flat",
         "scope": "SELECTED",
         "start": null,
@@ -10191,22 +10191,22 @@
         "code": null,
         "early_access": null,
         "conditions": "Collection headline says 20% off; T&Cs say up to 40% off selected styles.",
-        "evidence": "Extra 15% Off Selected Styles · Shop Now Shop New Arrivals Best Sellers Outlet Black Friday Shop By New Arrivals Best Sellers As Seen On You All Clothing All Offers Accessories Bags Drink Bottles Caps",
+        "evidence": "t! $70 Amy Leggings · Shop Now Extra 15% Off Selected Styles · Shop Now Shop New Arrivals Best Sellers Outlet Black Friday Shop By New Arrivals Best Sellers As Seen On You All Clothing All Offers Accessories Bags Drink Bottles Caps",
         "source_url": "https://www.lornajane.com.au/",
         "verified_at": "2026-11-05T10:00:00+00:00",
         "verification": "verified",
         "sale_type": "black_friday",
         "auto": {
           "bf_mentioned": true,
-          "discount_text": "15% Off",
-          "discount_max_pct": 15,
+          "discount_text": "20% Off",
+          "discount_max_pct": 20,
           "discount_kind": "flat",
           "sitewide_hint": false,
           "code": null,
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": "Extra 15% Off Selected Styles · Shop Now Shop New Arrivals Best Sellers Outlet Black Friday Shop By New Arrivals Best Sellers As Seen On You All Clothing All Offers Accessories Bags Drink Bottles Caps",
+          "evidence": "t! $70 Amy Leggings · Shop Now Extra 15% Off Selected Styles · Shop Now Shop New Arrivals Best Sellers Outlet Black Friday Shop By New Arrivals Best Sellers As Seen On You All Clothing All Offers Accessories Bags Drink Bottles Caps",
           "free_shipping_threshold_hint": 160,
           "status": "LIVE",
           "confidence": "medium",
@@ -10259,20 +10259,31 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
         "errors": [],
         "consecutive_failures": 0,
         "discovered": [
-          "https://www.lornajane.com.au/collections/black-friday"
+          "https://www.lornajane.com.au/collections/black-friday",
+          "https://www.lornajane.com.au/collections/offers-flash-sale"
         ],
         "stale": false,
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "407ec813df43",
+          "brand": "lorna-jane",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": "15% Off",
+          "new": "20% Off",
+          "at": "2026-11-24T09:56:41+00:00",
+          "run": "20261124T095641Z"
+        },
         {
           "id": "d85840081237",
           "brand": "lorna-jane",
@@ -10342,19 +10353,9 @@
           "new": 30,
           "at": "2026-11-05T09:45:26+00:00",
           "run": "20261105T094526Z"
-        },
-        {
-          "id": "322a2beb167e",
-          "brand": "lorna-jane",
-          "field": "policy.shipping.free_threshold_aud",
-          "label": "Free shipping threshold",
-          "old": null,
-          "new": 160,
-          "at": "2026-11-05T09:45:26+00:00",
-          "run": "20261105T094526Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "muscle-nation",
@@ -10401,11 +10402,11 @@
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": "PPING ON ORDERS OVER $130* FREE SOUR SAMPLE PACK ON ORDERS $220 OR MORE FREE AU SHIPPING ON ORDERS OVER $130* BLACK FRIDAY WOMENS MENS SUPPLEMENTS ACCESSORIES Shop All Sale Womens 40% Off Leggings from $45 Bras from $30 Tees from $3",
+          "evidence": "art Continue browsing the collection 3 ORDERS REFUNDED THIS HR + FREE DUFFLE 00 Days 00 Hours 00 Mins 00 Secs BLACK FRIDAY WOMENS MENS SUPPLEMENTS ACCESSORIES Shop All Sale Womens 40% Off Leggings from $45 Bras from $30 Tees from $3",
           "free_shipping_threshold_hint": null,
           "status": "LIVE",
           "confidence": "medium",
-          "url": "https://musclenation.us/?shpxid=c6e19ebf-bc15-418b-8807-ef1d1b8bee95",
+          "url": "https://musclenation.us/?shpxid=3b4e6e71-cadc-4029-8ee7-f53f1f62f7cf",
           "title": "Gym Clothes & Supplements - Shop Online | Muscle Nation\nAmerican ExpressApple PayBizumGoogle PayMastercardMB WAYPayPalSa"
         },
         "regular": {
@@ -10460,8 +10461,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -10629,8 +10630,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -10818,8 +10819,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -10962,8 +10963,8 @@
         "capped": true
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -11160,8 +11161,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 5,
         "pages_tried": 5,
@@ -11354,8 +11355,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -11521,8 +11522,8 @@
         "capped": false
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 4,
         "pages_tried": 4,
@@ -11643,13 +11644,13 @@
         "shipping": "https://store.sony.com.au/delivery-returns.html"
       },
       "sale": {
-        "status": "NOT_ANNOUNCED",
+        "status": "LIVE",
         "basis": "auto",
-        "confidence": "low",
+        "confidence": "medium",
         "name": null,
-        "discount_text": null,
-        "discount_max_pct": null,
-        "discount_kind": null,
+        "discount_text": "10% off",
+        "discount_max_pct": 10,
+        "discount_kind": "flat",
         "scope": "UNKNOWN",
         "start": null,
         "end": null,
@@ -11659,13 +11660,13 @@
         "code": null,
         "early_access": null,
         "conditions": null,
-        "evidence": null,
+        "evidence": "uiries Sony eBay Store Shop Official Sony eBay Store Register a Product Create an Account Shop Sony on Amazon Black Friday My Account Sign In Register Product Registration Support Product Registration Support (0) My Sony Email addre",
         "source_url": "https://store.sony.com.au/",
         "verified_at": "2026-11-05T11:30:00+00:00",
         "verification": "sourced",
-        "sale_type": null,
+        "sale_type": "black_friday",
         "auto": {
-          "bf_mentioned": false,
+          "bf_mentioned": true,
           "discount_text": "10% off",
           "discount_max_pct": 10,
           "discount_kind": "flat",
@@ -11674,10 +11675,10 @@
           "future_language": false,
           "early_access": false,
           "dates_seen": [],
-          "evidence": null,
+          "evidence": "uiries Sony eBay Store Shop Official Sony eBay Store Register a Product Create an Account Shop Sony on Amazon Black Friday My Account Sign In Register Product Registration Support Product Registration Support (0) My Sony Email addre",
           "free_shipping_threshold_hint": null,
-          "status": "NOT_ANNOUNCED",
-          "confidence": "low",
+          "status": "LIVE",
+          "confidence": "medium",
           "url": "https://store.sony.com.au/",
           "title": "Sony - Online | Australia"
         },
@@ -11720,18 +11721,40 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
         "errors": [],
         "consecutive_failures": 0,
-        "discovered": [],
+        "discovered": [
+          "https://store.sony.com.au/blackfriday"
+        ],
         "stale": false,
         "policy_errors": []
       },
       "recent_changes": [
+        {
+          "id": "a2605402105a",
+          "brand": "sony",
+          "field": "sale.status",
+          "label": "Black Friday status",
+          "old": "NOT_ANNOUNCED",
+          "new": "LIVE",
+          "at": "2026-11-24T09:56:41+00:00",
+          "run": "20261124T095641Z"
+        },
+        {
+          "id": "3fd691f61c6c",
+          "brand": "sony",
+          "field": "sale.discount_text",
+          "label": "Discount",
+          "old": null,
+          "new": "10% off",
+          "at": "2026-11-24T09:56:41+00:00",
+          "run": "20261124T095641Z"
+        },
         {
           "id": "f42f17b4f278",
           "brand": "sony",
@@ -11743,7 +11766,7 @@
           "run": "20261105T103342Z"
         }
       ],
-      "changed_this_run": false
+      "changed_this_run": true
     },
     {
       "id": "the-north-face",
@@ -11818,7 +11841,7 @@
         "reason": "HTTP 429 (likely bot protection)"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
         "last_success": null,
         "ok": false,
         "pages_ok": 0,
@@ -11833,7 +11856,7 @@
             "error": "HTTP 429 (likely bot protection)"
           }
         ],
-        "consecutive_failures": 43,
+        "consecutive_failures": 44,
         "discovered": [],
         "stale": true,
         "policy_errors": []
@@ -11992,8 +12015,8 @@
         "reason": "no public product feed"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 3,
         "pages_tried": 3,
@@ -12147,8 +12170,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -12258,8 +12281,8 @@
         "reason": "HTTP 404"
       },
       "scan": {
-        "last_attempt": "2026-11-23T23:55:44+00:00",
-        "last_success": "2026-11-23T23:55:44+00:00",
+        "last_attempt": "2026-11-24T09:56:41+00:00",
+        "last_success": "2026-11-24T09:56:41+00:00",
         "ok": true,
         "pages_ok": 1,
         "pages_tried": 1,
@@ -12321,7 +12344,7 @@
           "run": "20261105T093113Z"
         }
       ],
-      "changed_this_run": true
+      "changed_this_run": false
     }
   ]
 }
